@@ -1,0 +1,1316 @@
+{
+  "nodes": [
+    {
+      "id": "introduction",
+      "label": "Introduction to electrodynamics challenge",
+      "type": "presentation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "complexity",
+      "label": "Complexities and puzzles in electromagnetic interactions",
+      "type": "challenge",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "magnet",
+      "label": "Magnet",
+      "type": "object",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "conductor",
+      "label": "Conductor",
+      "type": "object",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "electromot_force",
+      "label": "Electromotive Force",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "faraday_law",
+      "label": "Faraday's Law of Induction",
+      "type": "law",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "electromagnetic_induction",
+      "label": "Principles of Electromagnetic Induction",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "symmetry_consideration",
+      "label": "Symmetry considerations",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "unexpected_outcome",
+      "label": "Unexpected outcomes",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "phy_system",
+      "label": "physical systems",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "asymmetry_puzzle",
+      "label": "asymmetry puzzle",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "interaction",
+      "label": "Interactions",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "electromagnetic_phenomena",
+      "label": "Behavior of electromagnetic phenomena",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scene_4",
+      "label": "scene 4",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "relativity_conjecture",
+      "label": "relativity conjecture",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "phy_law",
+      "label": "Physical laws",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "conventional_view",
+      "label": "Conventional views on space and time",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "consistent_law_of_physic",
+      "label": "Consistent laws of physics",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "stationary_system",
+      "label": "Stationary system",
+      "type": "system",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "reference_frame",
+      "label": "Reference frame",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "object",
+      "label": "Objects at rest relative to each other",
+      "type": "object",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "model",
+      "label": "Framework for measurement",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "time_space_measure",
+      "label": "Time and space measurements",
+      "type": "measurement",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "definition_time",
+      "label": "definition time",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "measuring_time",
+      "label": "Measuring time within context",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "simultaneity",
+      "label": "Concept of simultaneity",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "simultane_event",
+      "label": "Concept of simultaneous events",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "condition_for_simultaneity",
+      "label": "Conditions for simultaneity",
+      "type": "condition",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "synchron_in_physic",
+      "label": "Synchronization in physics",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "understanding_synchron",
+      "label": "understanding synchronization",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "perspect",
+      "label": "Different perspectives",
+      "type": "perspective",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "foundational_idea",
+      "label": "foundational idea",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "analysi_event",
+      "label": "Analysis of events",
+      "type": "analysis",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "timing_analysi",
+      "label": "Timing analysis of light signals",
+      "type": "analysis",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "light_signal",
+      "label": "Light signal timing",
+      "type": "signal_timing",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "light_travel",
+      "label": "Travel of light",
+      "type": "light_behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "interaction_system",
+      "label": "Interaction with different systems",
+      "type": "interaction",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "equation_clock_sync",
+      "label": "equation clock sync",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "difference_in_reading",
+      "label": "Difference in clock readings",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "measured_from_different_point",
+      "label": "measured from different points",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "speed_of_light",
+      "label": "Speed of light in empty space",
+      "type": "speed",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "observer_motion",
+      "label": "Observer's motion",
+      "type": "motion",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "time_interval",
+      "label": "time interval",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "light_path",
+      "label": "light path",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "velocity_of_light",
+      "label": "velocity of light",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "constant_velocity",
+      "label": "Constant velocity of light",
+      "type": "speed",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "scene_14",
+      "label": "Scene focusing on time interval reflections",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "formula_symmetry",
+      "label": "Formula highlighting symmetry in time differences",
+      "type": "formula",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "symmetry_crusial_for_perception",
+      "label": "Crucial role of symmetry in time interval perception",
+      "type": "role",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "law_governing_electron_motion",
+      "label": "Laws governing electron motion",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "electron_behavior",
+      "label": "electron behavior",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "phy_condition",
+      "label": "physical conditions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "velocity",
+      "label": "Velocity of electrons",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "kinetic_energy",
+      "label": "Kinetic energy of an electron",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "path_curvature",
+      "label": "Path curvature of electrons",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "deflection_action",
+      "label": "Deflection action of electrons",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "external_force",
+      "label": "External force applied to electrons",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "charged_particle",
+      "label": "Charged particles' trajectory",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "trajectory_effect",
+      "label": "Effect of external forces on particle trajectories",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "electron_velocity",
+      "label": "Electron's velocity",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "potential_difference",
+      "label": "Potential difference",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "phy_scenario",
+      "label": "Physical scenarios",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "scene",
+      "label": "scene",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "velocity_change",
+      "label": "Changes in velocity",
+      "type": "change",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "fundamental_principle",
+      "label": "Fundamental principles of physics",
+      "type": "principle",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "electrodynamic_principle",
+      "label": "Principles of electrodynamics",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "curvature",
+      "label": "curvature",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "magnetic_field",
+      "label": "Magnetic field",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "deviation",
+      "label": "Deviation from straight-line trajectory",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "force_exertion",
+      "label": "Force exerted on electron",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    }
+  ],
+  "edges": [
+    {
+      "from": "symmetry_consideration",
+      "to": "unexpected_outcome",
+      "verb": "leads to",
+      "time": 11.88,
+      "cluster": 0
+    },
+    {
+      "from": "electron_behavior",
+      "to": "phy_condition",
+      "verb": "depends on",
+      "time": 8.832,
+      "cluster": 2
+    },
+    {
+      "from": "stationary_system",
+      "to": "reference_frame",
+      "verb": "consists of",
+      "time": 18.026666666666667,
+      "cluster": 1
+    },
+    {
+      "from": "reference_frame",
+      "to": "object",
+      "verb": "contains",
+      "time": 25.877333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "scene_4",
+      "to": "relativity_conjecture",
+      "verb": "focuses on",
+      "time": 32.896,
+      "cluster": 0
+    },
+    {
+      "from": "relativity_conjecture",
+      "to": "phy_law",
+      "verb": "explains",
+      "time": 40.85333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "relativity_conjecture",
+      "to": "conventional_view",
+      "verb": "challenges",
+      "time": 49.17333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "relativity_conjecture",
+      "to": "consistent_law_of_physic",
+      "verb": "suggests",
+      "time": 57.55733333333333,
+      "cluster": 0
+    },
+    {
+      "from": "speed_of_light",
+      "to": "observer_motion",
+      "verb": "independent of",
+      "time": 65.344,
+      "cluster": 5
+    },
+    {
+      "from": "electrodynamic_principle",
+      "to": "potential_difference",
+      "verb": "explains",
+      "time": 73.77066666666666,
+      "cluster": 2
+    },
+    {
+      "from": "model",
+      "to": "time_space_measure",
+      "verb": "operates on",
+      "time": 82.41066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "asymmetry_puzzle",
+      "to": "interaction",
+      "verb": "challenges understanding of",
+      "time": 90.92266666666666,
+      "cluster": 0
+    },
+    {
+      "from": "timing_analysi",
+      "to": "light_signal",
+      "verb": "consists of",
+      "time": 99.41333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "light_travel",
+      "to": "interaction_system",
+      "verb": "consists of",
+      "time": 106.04799999999999,
+      "cluster": 0
+    },
+    {
+      "from": "simultane_event",
+      "to": "stationary_system",
+      "verb": "explore",
+      "time": 112.81066666666665,
+      "cluster": 1
+    },
+    {
+      "from": "stationary_system",
+      "to": "simultane_event",
+      "verb": "delve into",
+      "time": 119.63733333333332,
+      "cluster": 1
+    },
+    {
+      "from": "velocity_of_light",
+      "to": "constant_velocity",
+      "verb": "equals",
+      "time": 128.10666666666665,
+      "cluster": 3
+    },
+    {
+      "from": "phy_scenario",
+      "to": "electron_behavior",
+      "verb": "constrains",
+      "time": 135.04,
+      "cluster": 2
+    },
+    {
+      "from": "light_path",
+      "to": "time_interval",
+      "verb": "consists of",
+      "time": 142.16533333333334,
+      "cluster": 3
+    },
+    {
+      "from": "time_interval",
+      "to": "light_path",
+      "verb": "consists of",
+      "time": 149.184,
+      "cluster": 3
+    },
+    {
+      "from": "scene_14",
+      "to": "time_interval",
+      "verb": "consists of",
+      "time": 155.52,
+      "cluster": 3
+    },
+    {
+      "from": "definition_time",
+      "to": "measuring_time",
+      "verb": "contains",
+      "time": 163.64800000000002,
+      "cluster": 1
+    },
+    {
+      "from": "simultaneity",
+      "to": "light_signal",
+      "verb": "sequence of",
+      "time": 170.06933333333336,
+      "cluster": 1
+    },
+    {
+      "from": "measuring_time",
+      "to": "simultaneity",
+      "verb": "sequence of",
+      "time": 178.04800000000003,
+      "cluster": 1
+    },
+    {
+      "from": "time_interval",
+      "to": "symmetry_crusial_for_perception",
+      "verb": "requires",
+      "time": 185.42933333333337,
+      "cluster": 3
+    },
+    {
+      "from": "foundational_idea",
+      "to": "analysi_event",
+      "verb": "underpins",
+      "time": 192.91733333333337,
+      "cluster": 1
+    },
+    {
+      "from": "time_interval",
+      "to": "velocity_of_light",
+      "verb": "consists of",
+      "time": 201.06666666666672,
+      "cluster": 3
+    },
+    {
+      "from": "scene",
+      "to": "fundamental_principle",
+      "verb": "highlights",
+      "time": 207.38133333333337,
+      "cluster": 2
+    },
+    {
+      "from": "unexpected_outcome",
+      "to": "phy_system",
+      "verb": "occurs in",
+      "time": 214.91200000000003,
+      "cluster": 0
+    },
+    {
+      "from": "equation_clock_sync",
+      "to": "difference_in_reading",
+      "verb": "contains",
+      "time": 222.29333333333338,
+      "cluster": 1
+    },
+    {
+      "from": "condition_for_simultaneity",
+      "to": "synchron_in_physic",
+      "verb": "examine",
+      "time": 229.8666666666667,
+      "cluster": 1
+    },
+    {
+      "from": "understanding_synchron",
+      "to": "condition_for_simultaneity",
+      "verb": "lay groundwork",
+      "time": 237.78133333333338,
+      "cluster": 1
+    },
+    {
+      "from": "simultaneity",
+      "to": "perspect",
+      "verb": "requires",
+      "time": 245.84533333333337,
+      "cluster": 1
+    },
+    {
+      "from": "electromagnetic_induction",
+      "to": "magnetic_field",
+      "verb": "relates",
+      "time": 254.16533333333336,
+      "cluster": 0
+    },
+    {
+      "from": "equation_clock_sync",
+      "to": "measured_from_different_point",
+      "verb": "contains",
+      "time": 262.67733333333337,
+      "cluster": 1
+    },
+    {
+      "from": "magnet",
+      "to": "conductor",
+      "verb": "relates",
+      "time": 270.10133333333334,
+      "cluster": 0
+    },
+    {
+      "from": "formula_symmetry",
+      "to": "light_path",
+      "verb": "contains",
+      "time": 277.20533333333333,
+      "cluster": 3
+    },
+    {
+      "from": "interaction",
+      "to": "electromagnetic_phenomena",
+      "verb": "involves",
+      "time": 284.5226666666667,
+      "cluster": 0
+    },
+    {
+      "from": "interaction_system",
+      "to": "electromagnetic_phenomena",
+      "verb": "produces",
+      "time": 292.75733333333335,
+      "cluster": 0
+    },
+    {
+      "from": "introduction",
+      "to": "complexity",
+      "verb": "consists of",
+      "time": 301.07733333333334,
+      "cluster": 0
+    },
+    {
+      "from": "law_governing_electron_motion",
+      "to": "electron_behavior",
+      "verb": "defines",
+      "time": 308.8426666666667,
+      "cluster": 2
+    },
+    {
+      "from": "charged_particle",
+      "to": "trajectory_effect",
+      "verb": "depends on",
+      "time": 316.45866666666666,
+      "cluster": 6
+    },
+    {
+      "from": "electron_behavior",
+      "to": "velocity",
+      "verb": "includes",
+      "time": 324.8426666666667,
+      "cluster": 2
+    },
+    {
+      "from": "electron_behavior",
+      "to": "kinetic_energy",
+      "verb": "includes",
+      "time": 332.5866666666667,
+      "cluster": 2
+    },
+    {
+      "from": "deflection_action",
+      "to": "external_force",
+      "verb": "depends on",
+      "time": 341.26933333333335,
+      "cluster": 4
+    },
+    {
+      "from": "electromot_force",
+      "to": "faraday_law",
+      "verb": "relates",
+      "time": 349.0346666666667,
+      "cluster": 0
+    },
+    {
+      "from": "deviation",
+      "to": "force_exertion",
+      "verb": "depends on",
+      "time": 358.144,
+      "cluster": 7
+    },
+    {
+      "from": "scene",
+      "to": "kinetic_energy",
+      "verb": "explores relationship between",
+      "time": 366.16533333333336,
+      "cluster": 2
+    },
+    {
+      "from": "electron_velocity",
+      "to": "kinetic_energy",
+      "verb": "depends on",
+      "time": 375.48800000000006,
+      "cluster": 2
+    },
+    {
+      "from": "electron_velocity",
+      "to": "potential_difference",
+      "verb": "depends on",
+      "time": 381.6106666666667,
+      "cluster": 2
+    },
+    {
+      "from": "velocity_change",
+      "to": "kinetic_energy",
+      "verb": "affects",
+      "time": 387.58400000000006,
+      "cluster": 2
+    },
+    {
+      "from": "electron_behavior",
+      "to": "path_curvature",
+      "verb": "includes",
+      "time": 395.6693333333334,
+      "cluster": 2
+    },
+    {
+      "from": "path_curvature",
+      "to": "deflection_action",
+      "verb": "causes",
+      "time": 401.5786666666667,
+      "cluster": 4
+    },
+    {
+      "from": "curvature",
+      "to": "magnetic_field",
+      "verb": "depends on",
+      "time": 407.40266666666673,
+      "cluster": 0
+    },
+    {
+      "from": "light_path",
+      "to": "velocity_of_light",
+      "verb": "consists of",
+      "time": 413.1413333333334,
+      "cluster": 3
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "relativity_conjecture",
+      "label": "Relativity Conjecture",
+      "children": [
+        {
+          "id": "introduction",
+          "label": "Introduction to electrodynamics challenge"
+        },
+        {
+          "id": "complexity",
+          "label": "Complexities and puzzles in electromagnetic interactions"
+        },
+        {
+          "id": "magnet",
+          "label": "Magnet"
+        },
+        {
+          "id": "conductor",
+          "label": "Conductor"
+        },
+        {
+          "id": "electromot_force",
+          "label": "Electromotive Force"
+        },
+        {
+          "id": "faraday_law",
+          "label": "Faraday's Law of Induction"
+        },
+        {
+          "id": "electromagnetic_induction",
+          "label": "Principles of Electromagnetic Induction"
+        },
+        {
+          "id": "symmetry_consideration",
+          "label": "Symmetry considerations"
+        },
+        {
+          "id": "unexpected_outcome",
+          "label": "Unexpected outcomes"
+        },
+        {
+          "id": "phy_system",
+          "label": "physical systems"
+        },
+        {
+          "id": "asymmetry_puzzle",
+          "label": "Asymmetry Puzzle"
+        },
+        {
+          "id": "interaction",
+          "label": "Interactions"
+        },
+        {
+          "id": "electromagnetic_phenomena",
+          "label": "Electromagnetic phenomena"
+        },
+        {
+          "id": "scene_4",
+          "label": "scene 4"
+        },
+        {
+          "id": "phy_law",
+          "label": "Physical laws"
+        },
+        {
+          "id": "conventional_view",
+          "label": "Conventional views on space and time"
+        },
+        {
+          "id": "consistent_law_of_physic",
+          "label": "Consistent laws of physics"
+        },
+        {
+          "id": "model",
+          "label": "Framework for measurement"
+        },
+        {
+          "id": "time_space_measure",
+          "label": "Time and space measurements"
+        },
+        {
+          "id": "light_travel",
+          "label": "Travel of light"
+        },
+        {
+          "id": "interaction_system",
+          "label": "Interaction with different systems"
+        },
+        {
+          "id": "curvature",
+          "label": "curvature"
+        },
+        {
+          "id": "magnetic_field",
+          "label": "Magnetic field"
+        }
+      ]
+    },
+    {
+      "id": "stationary_system",
+      "label": "Stationary system",
+      "children": [
+        {
+          "id": "reference_frame",
+          "label": "Reference frame",
+          "children": [
+            {
+              "id": "object",
+              "label": "Objects at rest relative to each other"
+            }
+          ]
+        },
+        {
+          "id": "definition_time",
+          "label": "Definition of time",
+          "children": [
+            {
+              "id": "measuring_time",
+              "label": "Measuring time within context"
+            }
+          ]
+        },
+        {
+          "id": "simultaneity",
+          "label": "Simultaneity discussion"
+        },
+        {
+          "id": "simultane_event",
+          "label": "Concept of simultaneous events"
+        },
+        {
+          "id": "condition_for_simultaneity",
+          "label": "Conditions for simultaneity"
+        },
+        {
+          "id": "synchron_in_physic",
+          "label": "Synchronization in physics"
+        },
+        {
+          "id": "understanding_synchron",
+          "label": "understanding synchronization"
+        },
+        {
+          "id": "perspect",
+          "label": "Different perspectives"
+        },
+        {
+          "id": "foundational_idea",
+          "label": "foundational idea"
+        },
+        {
+          "id": "analysi_event",
+          "label": "Analysis of events"
+        },
+        {
+          "id": "timing_analysi",
+          "label": "Timing analysis of light signals"
+        },
+        {
+          "id": "light_signal",
+          "label": "Light signal timing"
+        },
+        {
+          "id": "equation_clock_sync",
+          "label": "equation clock sync",
+          "children": [
+            {
+              "id": "difference_in_reading",
+              "label": "Difference in clock readings"
+            },
+            {
+              "id": "measured_from_different_point",
+              "label": "measured from different points"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electron_behavior",
+      "label": "Behavior of electrons",
+      "children": [
+        {
+          "id": "velocity",
+          "label": "Velocity of electrons"
+        },
+        {
+          "id": "kinetic_energy",
+          "label": "Kinetic energy of electrons"
+        },
+        {
+          "id": "path_curvature",
+          "label": "Path curvature of electrons"
+        },
+        {
+          "id": "law_governing_electron_motion",
+          "label": "Laws governing electron motion"
+        },
+        {
+          "id": "phy_condition",
+          "label": "physical conditions"
+        },
+        {
+          "id": "electron_velocity",
+          "label": "Velocity of an electron"
+        },
+        {
+          "id": "potential_difference",
+          "label": "Potential difference encountered by an electron"
+        },
+        {
+          "id": "phy_scenario",
+          "label": "Physical scenarios"
+        },
+        {
+          "id": "scene",
+          "label": "scene"
+        },
+        {
+          "id": "velocity_change",
+          "label": "Changes in velocity"
+        },
+        {
+          "id": "fundamental_principle",
+          "label": "Fundamental principles of physics"
+        },
+        {
+          "id": "electrodynamic_principle",
+          "label": "Principles of electrodynamics"
+        }
+      ]
+    },
+    {
+      "id": "time_interval",
+      "label": "Time interval",
+      "children": [
+        {
+          "id": "light_path",
+          "label": "Light path"
+        },
+        {
+          "id": "velocity_of_light",
+          "label": "velocity of light"
+        },
+        {
+          "id": "constant_velocity",
+          "label": "Constant velocity of light"
+        },
+        {
+          "id": "scene_14",
+          "label": "Scene focusing on time interval reflections"
+        },
+        {
+          "id": "formula_symmetry",
+          "label": "Formula highlighting symmetry in time differences"
+        },
+        {
+          "id": "symmetry_crusial_for_perception",
+          "label": "Crucial role of symmetry in time interval perception"
+        }
+      ]
+    },
+    {
+      "id": "deflection_action",
+      "label": "Deflection action of electrons",
+      "children": [
+        {
+          "id": "external_force",
+          "label": "External force applied to electrons"
+        },
+        {
+          "id": "path_curve",
+          "label": "Path curvature of electrons"
+        }
+      ]
+    },
+    {
+      "id": "speed_of_light",
+      "label": "Speed of light in empty space",
+      "children": [
+        {
+          "id": "observer_motion",
+          "label": "Observer's motion"
+        }
+      ]
+    },
+    {
+      "id": "charged_particle",
+      "label": "Charged particles' trajectory",
+      "children": [
+        {
+          "id": "trajectory_effect",
+          "label": "Effect of external forces on particle trajectories"
+        }
+      ]
+    },
+    {
+      "id": "deviation",
+      "label": "Deviation from straight-line trajectory",
+      "children": [
+        {
+          "id": "force_exertion",
+          "label": "Force exerted on electron"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Symmetry considerations lead to unexpected outcomes due to asymmetries in Maxwell’s electrodynamics when applied to moving bodies.",
+    "The behavior of electrons depends on physical conditions, as their observable phenomena vary with the relative motion of conductors and magnets.",
+    "A stationary system consists of a reference frame used to define positions through rigid standards and Euclidean geometry.",
+    "Within a reference frame, objects at rest relative to each other are contained, suggesting no absolute rest exists.",
+    "Scene four focuses on the relativity conjecture, which proposes a principle challenging conventional views on space and time.",
+    "The relativity conjecture explains physical laws by introducing principles that address the consistency of laws across different frames.",
+    "It also this conjecture challenges conventional views on space and time, proposing a principle of relativity that questions absolute rest.",
+    "And suggests consistent laws of physics, despite initial appearances of contradiction between the principles.",
+    "The speed of light in empty space remains independent of an observer's motion, a fundamental assertion within the relativity conjecture.",
+    "Principles of electrodynamics explain potential differences encountered by electrons based on their interaction with physical conditions.",
+    "A framework for measurement operates on time and space measurements, using Cartesian coordinates to define positions in a stationary system.",
+    "An asymmetry puzzle challenges our understanding of interactions, highlighting the complexities in defining time within physical descriptions.",
+    "Timing analysis of light signals involves examining how light signals are timed according to their location.",
+    "The travel of light is described through its interaction with various systems, establishing a consistent time frame.",
+    "Simultaneous events are explored within a stationary system to define \"synchronous\" in different locations.",
+    "Stationary systems investigate the concept of simultaneous events to establish a consistent time reference across locations.",
+    "The velocity of light is considered a constant velocity, crucial for defining time in a stationary system.",
+    "Physical scenarios influence the behavior of electrons, ensuring the laws governing their states remain unchanged.",
+    "The light path is defined by a time interval, reflecting the duration light takes to travel from one point to another.",
+    "Time intervals are represented by light paths, illustrating the time it takes for light to traverse distances.",
+    "Scene 14 focuses on reflections of time intervals, emphasizing the measurement of time as defined in the first definition.",
+    "The definition of time includes the context of measuring time intervals using stationary rigid rods.",
+    "Discussions about simultaneity involve sequences of light signal timings to determine events happening simultaneously.",
+    "Measuring time within a defined context follows the sequence of discussions about simultaneity and light signals.",
+    "The time interval requires considering the crucial role of symmetry in how we perceive time, ensuring balanced understanding.",
+    "The foundational idea underpins the analysis of events, guiding us through the interplay of variables like η, ζ, and τ.",
+    "Time intervals are defined by the velocity of light, illustrating how light travels in a given time frame.",
+    "Scenes highlight fundamental principles of physics, demonstrating the consistency of wave behavior in different reference frames.",
+    "Unexpected outcomes occur in physical systems, such as the differential behavior of clocks at the equator versus the poles.",
+    "Equation clock synchronization includes differences in clock readings, reflecting discrepancies observed in moving systems.",
+    "Conditions for simultaneity examine synchronization in physics, revealing how time measurement varies across different locations.",
+    "Understanding synchronization lays the groundwork for conditions of simultaneity, emphasizing the importance of accurate timing.",
+    "Simultaneity discussions require different perspectives, acknowledging the variability in observations based on relative motion.",
+    "Principles of electromagnetic induction relate to the magnetic field, underscoring the interdependence of electric and magnetic phenomena.",
+    "Equation clock synchronization includes measurements taken from different points, highlighting the variability in time measurements.",
+    "A magnet relates to a conductor, showing how their interaction can produce electrical currents due to relative motion.",
+    "The formula symmetry in time differences highlights the work done by the pressure of light on the light path within a unit of time.",
+    "Interactions involving charged particles invariably coupled to rigid bodies produce observable electromagnetic phenomena.",
+    "Interaction systems engaging with charged particles generate distinct electromagnetic phenomena due to their varied configurations.",
+    "The introduction to electrodynamics presents complexities and puzzles arising from intricate electromagnetic interactions.",
+    "Laws governing the motion of electrons define their behavior, including how they respond to external forces and environments.",
+    "Charged particles' trajectories are influenced by the effects of external forces, altering their paths in response to these influences.",
+    "The behavior of electrons encompasses their velocity, which changes as they move through various electromagnetic fields.",
+    "It also the behavior of electrons includes the kinetic energy they possess, which increases as their velocity changes due to external forces.",
+    "The deflection action of electrons is determined by the external force applied, causing them to deviate from a straight-line path.",
+    "The electromotive force conceptually ties into Faraday's Law of Induction, explaining the generation of voltage in a changing magnetic field.",
+    "Deviation from a straight-line trajectory is contingent upon the force exerted on electrons, influencing their movement direction.",
+    "The scene delves into the relationship between the potential difference traversed and the kinetic energy gained by electrons, illustrating their interdependence.",
+    "The electron velocity relies on its kinetic energy, as the potential difference affects its speed.",
+    "It also is influenced by the potential difference it encounters during its movement.",
+    "Variations in electron velocity impact their kinetic energy, illustrating the dynamic relationship between these variables.",
+    "The behavior of electrons encompasses changes in path curvature due to external forces.",
+    "The deflection action of electrons is a result of their path curvature as they move through space.",
+    "The curvature observed in the path of electrons is dependent on the strength of the magnetic field.",
+    "The trajectory of light is fundamentally defined by the velocity at which light travels."
+  ]
+}

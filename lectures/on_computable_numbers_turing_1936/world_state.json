@@ -1,0 +1,2265 @@
+{
+  "basename": "on_computable_numbers_turing_1936",
+  "version": "1.0",
+  "generated_at": "2026-04-14T08:04:43.743Z",
+  "title": "on computable numbers turing 1936",
+  "source_pdf": "source_papers/on_computable_numbers_turing_1936.pdf",
+  "voice": {
+    "name": "af_river",
+    "speed": 0.85,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 1.2,
+    "total_duration": 511.3759999999999
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 62.3,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 12.78529,
+    "rescale_factor": 1
+  },
+  "clusters": [
+    {
+      "id": "comput_number",
+      "label": "Computable numbers",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "radius": 11,
+      "node_ids": [
+        "comput_number",
+        "presentation",
+        "introduction",
+        "stage_setting",
+        "computation",
+        "representation",
+        "computing_machine",
+        "scope_limitation",
+        "computational_proce",
+        "task_achiev",
+        "computational_mean",
+        "limitation_capability",
+        "motivation_study",
+        "fundamental_limit_computation",
+        "machine_config",
+        "information_processing",
+        "result",
+        "predefined_rule",
+        "sery_step",
+        "computing_proces",
+        "automatic_machine",
+        "choice_machine",
+        "distinct_functionality",
+        "decision_making_capability",
+        "distinct_representation",
+        "machine_behavior",
+        "importance_of_understanding"
+      ]
+    },
+    {
+      "id": "scope_of_computability",
+      "label": "Scope of computability",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "radius": 11,
+      "node_ids": [
+        "scope_of_computability",
+        "machine_operation",
+        "problem_solving",
+        "boundary",
+        "computational_problem",
+        "computational_machine",
+        "computability_definition",
+        "foundational_work",
+        "computational_theory",
+        "initial_state",
+        "effect_operation",
+        "configuration_state",
+        "unique_state",
+        "internal_condition",
+        "configuration_represent",
+        "specific_point_in_time",
+        "input",
+        "output",
+        "desired_output",
+        "accurate_computation",
+        "defined_step",
+        "different_symbol",
+        "converted_symbol",
+        "conversion_of_symbol",
+        "effect_computation",
+        "finding_nth_figure",
+        "sequence_of_figure",
+        "dynamic_relationship"
+      ]
+    },
+    {
+      "id": "configuration",
+      "label": "Machine configuration",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "radius": 11,
+      "node_ids": [
+        "configuration",
+        "act_entity",
+        "data",
+        "sequence",
+        "generated_sequence",
+        "relationship",
+        "pattern_analysi",
+        "sery",
+        "identification_method",
+        "specific_output",
+        "printing_figure",
+        "proving_a_definability",
+        "computational_capability",
+        "sequence_and_configuration",
+        "rigor_demonstration",
+        "algorithmic_proces",
+        "comput_sequence",
+        "numer_data_processing"
+      ]
+    },
+    {
+      "id": "config_relationship",
+      "label": "Relationships between configurations",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "config_relationship",
+        "computational_framework",
+        "interconnection"
+      ]
+    },
+    {
+      "id": "formula_my",
+      "label": "Formula My",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "formula_my",
+        "computation_proces",
+        "machine_configuration"
+      ]
+    },
+    {
+      "id": "systematic_approach_to_computing",
+      "label": "Systematic approach to computing",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "systematic_approach_to_computing",
+        "defined_rule_and_configuration"
+      ]
+    },
+    {
+      "id": "complete_configuration",
+      "label": "Complete configuration",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "complete_configuration",
+        "computation_state"
+      ]
+    },
+    {
+      "id": "systematic_transformation",
+      "label": "Systematic transformation",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "systematic_transformation",
+        "dynamic_computational_proces"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "presentation",
+      "label": "Presentation",
+      "type": "presentation",
+      "position": [
+        33.457428,
+        -0.199063,
+        64.406314
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/presentation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "introduction",
+      "label": "Introduction to computable numbers",
+      "type": "introduction",
+      "position": [
+        28.848086,
+        -1.032486,
+        64.387132
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/introduction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "comput_number",
+      "label": "computable numbers",
+      "type": "default",
+      "position": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/comput_number.png",
+      "edge_in_count": 3,
+      "edge_out_count": 4
+    },
+    {
+      "id": "stage_setting",
+      "label": "stage setting",
+      "type": "default",
+      "position": [
+        30.484006,
+        3.634333,
+        63.915633
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/stage_setting.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computation",
+      "label": "Results of computations",
+      "type": "result",
+      "position": [
+        32.238884,
+        -1.968116,
+        60.532037
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/computation.png",
+      "edge_in_count": 3,
+      "edge_out_count": 1
+    },
+    {
+      "id": "representation",
+      "label": "representation",
+      "type": "default",
+      "position": [
+        25.323816,
+        0.58307,
+        62.505689
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/representation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "computing_machine",
+      "label": "Computing machine",
+      "type": "machine",
+      "position": [
+        36.715206,
+        4.257593,
+        61.032643
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/computing_machine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "scope_limitation",
+      "label": "Scope and limitations",
+      "type": "category",
+      "position": [
+        28.604238,
+        -6.939098,
+        60.565624
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/scope_limitation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "computational_proce",
+      "label": "computational processes",
+      "type": "default",
+      "position": [
+        26.998062,
+        4.703812,
+        56.793071
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/computational_proce.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "scope_of_computability",
+      "label": "Scope of computability",
+      "type": "architecture",
+      "position": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/scope_of_computability.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "machine_operation",
+      "label": "Configurations and operations of machines",
+      "type": "architecture",
+      "position": [
+        -31.904421,
+        -32.843237,
+        45.001908
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/machine_operation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "problem_solving",
+      "label": "Problem solving",
+      "type": "problem",
+      "position": [
+        -38.317018,
+        -35.844413,
+        45.563133
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/problem_solving.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "boundary",
+      "label": "boundaries",
+      "type": "default",
+      "position": [
+        -35.220615,
+        -27.076362,
+        45.107555
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/boundary.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "task_achiev",
+      "label": "Tasks achievable",
+      "type": "task",
+      "position": [
+        36.846582,
+        -4.31247,
+        60.534024
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/task_achiev.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computational_mean",
+      "label": "Computational means",
+      "type": "architecture",
+      "position": [
+        24.861464,
+        -4.313972,
+        59.474843
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/computational_mean.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "limitation_capability",
+      "label": "Limitations and capabilities",
+      "type": "constraint",
+      "position": [
+        34.180751,
+        7.796305,
+        57.952683
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/limitation_capability.png",
+      "edge_in_count": 0,
+      "edge_out_count": 0
+    },
+    {
+      "id": "motivation_study",
+      "label": "Motivation for this study",
+      "type": "goal",
+      "position": [
+        31.205926,
+        -7.960332,
+        57.908246
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/motivation_study.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "fundamental_limit_computation",
+      "label": "Fundamental limits of computation",
+      "type": "problem",
+      "position": [
+        23.443263,
+        1.835109,
+        57.447785
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/fundamental_limit_computation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "computational_problem",
+      "label": "Computational problems",
+      "type": "problem",
+      "position": [
+        -33.558108,
+        -37.343775,
+        45.082149
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/computational_problem.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computational_machine",
+      "label": "Computational machines",
+      "type": "solution",
+      "position": [
+        -38.854415,
+        -31.032972,
+        46.034091
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/computational_machine.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computability_definition",
+      "label": "Definition of computability",
+      "type": "rule",
+      "position": [
+        -30.184955,
+        -28.414942,
+        43.989721
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/computability_definition.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "foundational_work",
+      "label": "Foundational work",
+      "type": "architecture",
+      "position": [
+        -38.584195,
+        -38.621134,
+        43.153449
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/foundational_work.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computational_theory",
+      "label": "Computational theory",
+      "type": "world",
+      "position": [
+        -40.276077,
+        -26.721389,
+        42.323813
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/computational_theory.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "machine_config",
+      "label": "Machine configuration",
+      "type": "configuration",
+      "position": [
+        39.590943,
+        0.838905,
+        56.800569
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/machine_config.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "initial_state",
+      "label": "Initial states and conditions",
+      "type": "configuration",
+      "position": [
+        -28.952315,
+        -36.512179,
+        41.756059
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/initial_state.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "effect_operation",
+      "label": "Effective operation",
+      "type": "outcome",
+      "position": [
+        -41.439735,
+        -36.582947,
+        41.004603
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/effect_operation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "information_processing",
+      "label": "Processing of information",
+      "type": "process",
+      "position": [
+        30.045242,
+        -3.318767,
+        55.164961
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/information_processing.png",
+      "edge_in_count": 0,
+      "edge_out_count": 4
+    },
+    {
+      "id": "result",
+      "label": "Results",
+      "type": "result",
+      "position": [
+        29.030255,
+        7.461222,
+        54.539385
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/result.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "predefined_rule",
+      "label": "Predefined rules",
+      "type": "rule",
+      "position": [
+        36.567187,
+        -6.217114,
+        53.973406
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/predefined_rule.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "configuration_state",
+      "label": "Configuration states of a machine",
+      "type": "architecture",
+      "position": [
+        -30.414583,
+        -26.459201,
+        39.774923
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/configuration_state.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "unique_state",
+      "label": "Unique state of the machine's operation",
+      "type": "representation",
+      "position": [
+        -31.497784,
+        -39.106412,
+        39.504083
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/unique_state.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "internal_condition",
+      "label": "internal condition",
+      "type": "default",
+      "position": [
+        -41.319578,
+        -27.867445,
+        37.993405
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/internal_condition.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "configuration_represent",
+      "label": "Representation of the unique state",
+      "type": "representation",
+      "position": [
+        -31.90582,
+        -31.762344,
+        37.931998
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/configuration_represent.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "specific_point_in_time",
+      "label": "specific point in time",
+      "type": "default",
+      "position": [
+        -38.635949,
+        -39.478208,
+        37.118194
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/specific_point_in_time.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "input",
+      "label": "Inputs",
+      "type": "input",
+      "position": [
+        -34.495744,
+        -24.959412,
+        36.189848
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/input.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "output",
+      "label": "Outputs",
+      "type": "output",
+      "position": [
+        -28.61111,
+        -35.72007,
+        35.537361
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/output.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sery_step",
+      "label": "series steps",
+      "type": "default",
+      "position": [
+        23.405863,
+        1.227684,
+        52.570679
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/sery_step.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computing_proces",
+      "label": "Computing process",
+      "type": "process",
+      "position": [
+        34.882896,
+        6.061938,
+        52.538881
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/computing_proces.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "desired_output",
+      "label": "Desired outputs",
+      "type": "output",
+      "position": [
+        -43.137699,
+        -34.043953,
+        35.275247
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/desired_output.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accurate_computation",
+      "label": "Accurate computation",
+      "type": "computation",
+      "position": [
+        -29.354413,
+        -27.842327,
+        34.174143
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/accurate_computation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "defined_step",
+      "label": "Defined processing steps",
+      "type": "sequence",
+      "position": [
+        -35.376607,
+        -35.701725,
+        36.27394
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/defined_step.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "act_entity",
+      "label": "Active data manipulation entity",
+      "type": "entity",
+      "position": [
+        7.512857,
+        63.133349,
+        34.17906
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/act_entity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "configuration",
+      "label": "Configurations",
+      "type": "configuration",
+      "position": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/configuration.png",
+      "edge_in_count": 4,
+      "edge_out_count": 2
+    },
+    {
+      "id": "data",
+      "label": "data",
+      "type": "default",
+      "position": [
+        2.713305,
+        60.876843,
+        33.440609
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/data.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "automatic_machine",
+      "label": "Automatic machines",
+      "type": "architecture",
+      "position": [
+        29.892606,
+        -5.373238,
+        50.519894
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/automatic_machine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "choice_machine",
+      "label": "Choice machines",
+      "type": "architecture",
+      "position": [
+        26.157625,
+        2.831811,
+        51.452436
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/choice_machine.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "distinct_functionality",
+      "label": "Distinct functionalites",
+      "type": "function",
+      "position": [
+        36.590515,
+        -1.640409,
+        49.801025
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/distinct_functionality.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "decision_making_capability",
+      "label": "decision making capabilities",
+      "type": "default",
+      "position": [
+        25.25318,
+        -1.920405,
+        50.163672
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/decision_making_capability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "different_symbol",
+      "label": "Different symbols",
+      "type": "symbol",
+      "position": [
+        -38.563753,
+        -26.9066,
+        32.549572
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/different_symbol.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "converted_symbol",
+      "label": "converted symbols",
+      "type": "default",
+      "position": [
+        -29.455847,
+        -31.824149,
+        32.076741
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/converted_symbol.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "conversion_of_symbol",
+      "label": "conversion of symbols",
+      "type": "default",
+      "position": [
+        -39.950913,
+        -34.716782,
+        31.52308
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/conversion_of_symbol.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "effect_computation",
+      "label": "Effective computation",
+      "type": "effectiveness",
+      "position": [
+        -35.456323,
+        -28.023589,
+        30.920691
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/effect_computation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sequence",
+      "label": "Sequences",
+      "type": "sequence",
+      "position": [
+        8.066505,
+        68.702738,
+        31.403914
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/sequence.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "generated_sequence",
+      "label": "Generated sequences",
+      "type": "sequence",
+      "position": [
+        10.062032,
+        58.009027,
+        30.535736
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/generated_sequence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "relationship",
+      "label": "relationship",
+      "type": "default",
+      "position": [
+        -1.979738,
+        65.323512,
+        29.507755
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/relationship.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "finding_nth_figure",
+      "label": "Finding the nth figure",
+      "type": "method",
+      "position": [
+        -34.271344,
+        -36.129857,
+        30.704721
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/finding_nth_figure.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sequence_of_figure",
+      "label": "Sequence of figures",
+      "type": "sequence",
+      "position": [
+        -37.829972,
+        -32.300641,
+        30.13379
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/sequence_of_figure.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "pattern_analysi",
+      "label": "Pattern analysis",
+      "type": "method",
+      "position": [
+        9.127877,
+        66.426869,
+        28.217141
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/pattern_analysi.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "sery",
+      "label": "Figure series",
+      "type": "sequence",
+      "position": [
+        5.007869,
+        57.531457,
+        27.776385
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/sery.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "identification_method",
+      "label": "Identification method",
+      "type": "method",
+      "position": [
+        3.547195,
+        71.135905,
+        27.457334
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/identification_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "distinct_representation",
+      "label": "Distinct representations of the same computational process",
+      "type": "representation",
+      "position": [
+        32.487004,
+        4.746785,
+        49.159316
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/distinct_representation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "specific_output",
+      "label": "specific outputs",
+      "type": "default",
+      "position": [
+        13.138799,
+        62.716999,
+        27.346441
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/specific_output.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "printing_figure",
+      "label": "Printing figures",
+      "type": "process",
+      "position": [
+        -2.252765,
+        60.358475,
+        24.565943
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/printing_figure.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "machine_behavior",
+      "label": "Behavior of machines",
+      "type": "behavior",
+      "position": [
+        32.611243,
+        -3.28899,
+        48.391547
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/machine_behavior.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "proving_a_definability",
+      "label": "Proving A-definability",
+      "type": "architecture",
+      "position": [
+        7.124393,
+        68.096412,
+        22.841425
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/proving_a_definability.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "computational_capability",
+      "label": "Computational capabilities",
+      "type": "dimension",
+      "position": [
+        8.481759,
+        58.602934,
+        22.532959
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/computational_capability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sequence_and_configuration",
+      "label": "Sequences and configurations",
+      "type": "architecture",
+      "position": [
+        0.518127,
+        68.340665,
+        21.743266
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/sequence_and_configuration.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "rigor_demonstration",
+      "label": "Rigorous demonstration",
+      "type": "architecture",
+      "position": [
+        11.082436,
+        63.671358,
+        19.938929
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/rigor_demonstration.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "algorithmic_proces",
+      "label": "Algorithmic process",
+      "type": "architecture",
+      "position": [
+        3.920753,
+        59.508273,
+        19.228222
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/algorithmic_proces.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "comput_sequence",
+      "label": "Computable sequences",
+      "type": "sequence",
+      "position": [
+        5.383289,
+        67.246801,
+        18.06151
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/comput_sequence.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "numer_data_processing",
+      "label": "Numerical data processing",
+      "type": "processing",
+      "position": [
+        7.093215,
+        63.114959,
+        17.401666
+      ],
+      "cluster_id": "configuration",
+      "icon": "png_icons/numer_data_processing.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "systematic_approach_to_computing",
+      "label": "Systematic approach to computing",
+      "type": "approach",
+      "position": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "cluster_id": "systematic_approach_to_computing",
+      "icon": "png_icons/systematic_approach_to_computing.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "defined_rule_and_configuration",
+      "label": "Defined rules and configurations",
+      "type": "architecture",
+      "position": [
+        51.019168,
+        31.101345,
+        -24.849277
+      ],
+      "cluster_id": "systematic_approach_to_computing",
+      "icon": "png_icons/defined_rule_and_configuration.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "computational_framework",
+      "label": "Computational framework",
+      "type": "architecture",
+      "position": [
+        43.44413,
+        -51.467419,
+        10.466481
+      ],
+      "cluster_id": "config_relationship",
+      "icon": "png_icons/computational_framework.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "config_relationship",
+      "label": "Relationships between configurations",
+      "type": "relationship",
+      "position": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "cluster_id": "config_relationship",
+      "icon": "png_icons/config_relationship.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "interconnection",
+      "label": "Interconnection among states",
+      "type": "relationship",
+      "position": [
+        36.575788,
+        -54.137836,
+        5.901602
+      ],
+      "cluster_id": "config_relationship",
+      "icon": "png_icons/interconnection.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dynamic_relationship",
+      "label": "Dynamic relationships",
+      "type": "relationship",
+      "position": [
+        -32.712543,
+        -31.607525,
+        32.30216
+      ],
+      "cluster_id": "scope_of_computability",
+      "icon": "png_icons/dynamic_relationship.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "formula_my",
+      "label": "formula my",
+      "type": "default",
+      "position": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "cluster_id": "formula_my",
+      "icon": "png_icons/formula_my.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "computation_proces",
+      "label": "Automatic computation process",
+      "type": "process",
+      "position": [
+        -51.00794,
+        9.80004,
+        -4.745345
+      ],
+      "cluster_id": "formula_my",
+      "icon": "png_icons/computation_proces.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "machine_configuration",
+      "label": "Machine configurations",
+      "type": "architecture",
+      "position": [
+        -57.876283,
+        7.129624,
+        -9.310223
+      ],
+      "cluster_id": "formula_my",
+      "icon": "png_icons/machine_configuration.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "complete_configuration",
+      "label": "Complete configuration",
+      "type": "architecture",
+      "position": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "cluster_id": "complete_configuration",
+      "icon": "png_icons/complete_configuration.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computation_state",
+      "label": "Computation state",
+      "type": "representation",
+      "position": [
+        -9.779689,
+        -42.492569,
+        -37.292112
+      ],
+      "cluster_id": "complete_configuration",
+      "icon": "png_icons/computation_state.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "systematic_transformation",
+      "label": "Systematic transformation",
+      "type": "architecture",
+      "position": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "cluster_id": "systematic_transformation",
+      "icon": "png_icons/systematic_transformation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dynamic_computational_proces",
+      "label": "Dynamic computational process",
+      "type": "architecture",
+      "position": [
+        -15.995867,
+        27.771682,
+        -55.58216
+      ],
+      "cluster_id": "systematic_transformation",
+      "icon": "png_icons/dynamic_computational_proces.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "importance_of_understanding",
+      "label": "importance of understanding",
+      "type": "default",
+      "position": [
+        28.648852,
+        0.755231,
+        47.971014
+      ],
+      "cluster_id": "comput_number",
+      "icon": "png_icons/importance_of_understanding.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "comput_number",
+      "from_label": "computable numbers",
+      "to": "distinct_representation",
+      "to_label": "Distinct representations of the same computational process",
+      "verb": "transforms into",
+      "subtitle": "Computable numbers transform into distinct representations of the same computational process, simplifying analysis.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 9.2,
+      "image": null
+    },
+    {
+      "index": 1,
+      "from": "computational_machine",
+      "from_label": "Computational machines",
+      "to": "computability_definition",
+      "to_label": "Definition of computability",
+      "verb": "depends on",
+      "subtitle": "Computational machines hinge on the definition of computability, clarifying what numbers can be computed.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 9.2,
+      "audio_duration": 7.6,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "stage_setting",
+      "from_label": "stage setting",
+      "to": "computation",
+      "to_label": "Results of computations",
+      "verb": "requires",
+      "subtitle": "Stage setting necessitates precise calculation, emphasizing the need for clear definitions.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 16.799999999999997,
+      "audio_duration": 7.258666666666667,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "automatic_machine",
+      "from_label": "Automatic machines",
+      "to": "computational_proce",
+      "to_label": "computational processes",
+      "verb": "operates in",
+      "subtitle": "Automatic machines operate within computational processes, mimicking human computational limitations.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 24.058666666666664,
+      "audio_duration": 8.069333333333333,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "formula_my",
+      "from_label": "formula my",
+      "to": "computation_proces",
+      "to_label": "Automatic computation process",
+      "verb": "central to",
+      "subtitle": "Formula My is central to automatic computation processes, outlining essential operations.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 32.128,
+      "audio_duration": 7.621333333333333,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "automatic_machine",
+      "from_label": "Automatic machines",
+      "to": "choice_machine",
+      "to_label": "Choice machines",
+      "verb": "contrasts",
+      "subtitle": "Automatic machines contrast choice machines, where the latter includes decision-making capabilities.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 39.74933333333333,
+      "audio_duration": 7.066666666666666,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "automatic_machine",
+      "from_label": "Automatic machines",
+      "to": "distinct_functionality",
+      "to_label": "Distinct functionalites",
+      "verb": "consists of",
+      "subtitle": "It also consists of distinct functionalities, each operation contributing uniquely to computation.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 46.816,
+      "audio_duration": 7.941333333333334,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "choice_machine",
+      "from_label": "Choice machines",
+      "to": "decision_making_capability",
+      "to_label": "decision making capabilities",
+      "verb": "consists of",
+      "subtitle": "Choice machines encompass decision-making capabilities, enabling machines to choose their next action.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 54.757333333333335,
+      "audio_duration": 7.642666666666667,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "systematic_approach_to_computing",
+      "from_label": "Systematic approach to computing",
+      "to": "defined_rule_and_configuration",
+      "to_label": "Defined rules and configurations",
+      "verb": "consists of",
+      "subtitle": "A systematic approach to computing relies on defined rules and configurations, guiding machine operations.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 62.400000000000006,
+      "audio_duration": 8.069333333333333,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "introduction",
+      "from_label": "Introduction to computable numbers",
+      "to": "stage_setting",
+      "to_label": "stage setting",
+      "verb": "produces",
+      "subtitle": "Introduction to computable numbers sets the stage for understanding how they compute these numbers.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 70.46933333333334,
+      "audio_duration": 7.045333333333334,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "computing_machine",
+      "from_label": "Computing machine",
+      "to": "comput_number",
+      "to_label": "computable numbers",
+      "verb": "operates on",
+      "subtitle": "Computing machines operate on computable numbers, determining sequences through mechanical means.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 77.51466666666667,
+      "audio_duration": 7.28,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "presentation",
+      "from_label": "Presentation",
+      "to": "comput_number",
+      "to_label": "computable numbers",
+      "verb": "operates on",
+      "subtitle": "Presentation focuses on computable numbers, ensuring clarity in discussing sequences over numbers.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 84.79466666666667,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "presentation",
+      "from_label": "Presentation",
+      "to": "introduction",
+      "to_label": "Introduction to computable numbers",
+      "verb": "consists of",
+      "subtitle": "It also introduces the concept of computable numbers, focusing on their definition and properties.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 92.52266666666667,
+      "audio_duration": 7.450666666666667,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "printing_figure",
+      "from_label": "Printing figures",
+      "to": "configuration",
+      "to_label": "Configurations",
+      "verb": "focuses on",
+      "subtitle": "Printing figures emphasizes the machine's configuration, detailing its capabilities to print symbols \"0\" and \"1\".",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 99.97333333333333,
+      "audio_duration": 8.56,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "scope_of_computability",
+      "from_label": "Scope of computability",
+      "to": "machine_operation",
+      "to_label": "Configurations and operations of machines",
+      "verb": "operates on",
+      "subtitle": "The scope of computability applies to machines' operations, illustrating how they process information.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 108.53333333333333,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "machine_operation",
+      "from_label": "Configurations and operations of machines",
+      "to": "dynamic_relationship",
+      "to_label": "Dynamic relationships",
+      "verb": "requires",
+      "subtitle": "Machines' operations depend on dynamic relationships, executing a series of actions based on current configurations.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 116.26133333333333,
+      "audio_duration": 9.136,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "configuration_state",
+      "from_label": "Configuration states of a machine",
+      "to": "unique_state",
+      "to_label": "Unique state of the machine's operation",
+      "verb": "relates",
+      "subtitle": "Configuration states relate to unique states within the machine's operation, ensuring distinct outcomes.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 125.39733333333332,
+      "audio_duration": 7.856,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "configuration",
+      "from_label": "Configurations",
+      "to": "sequence",
+      "to_label": "Sequences",
+      "verb": "transforms into",
+      "subtitle": "Machine configuration leads to sequences through a transformation process, showcasing computational capabilities.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 133.25333333333333,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "configuration",
+      "from_label": "Configurations",
+      "to": "generated_sequence",
+      "to_label": "Generated sequences",
+      "verb": "sequence of",
+      "subtitle": "It also generates specific sequences, demonstrating the relationship between setup and output.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 141.856,
+      "audio_duration": 7.429333333333333,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "information_processing",
+      "from_label": "Processing of information",
+      "to": "machine_behavior",
+      "to_label": "Behavior of machines",
+      "verb": "is cause of",
+      "subtitle": "Information processing drives machine behavior, influencing how machines react and operate.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 149.28533333333334,
+      "audio_duration": 7.322666666666667,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "information_processing",
+      "from_label": "Processing of information",
+      "to": "computation",
+      "to_label": "Results of computations",
+      "verb": "is cause of",
+      "subtitle": "This through information processing, computation results in calculations, showing the practical application of processing.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 156.608,
+      "audio_duration": 8.858666666666666,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "information_processing",
+      "from_label": "Processing of information",
+      "to": "result",
+      "to_label": "Results",
+      "verb": "produces",
+      "subtitle": "This information processing yields results, emphasizing the outcome-driven nature of computational tasks.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 165.46666666666667,
+      "audio_duration": 8.154666666666667,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "information_processing",
+      "from_label": "Processing of information",
+      "to": "predefined_rule",
+      "to_label": "Predefined rules",
+      "verb": "based on",
+      "subtitle": "And information processing relies on predefined rules, guiding the execution of complex operations within machines.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 173.62133333333333,
+      "audio_duration": 8.773333333333333,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "importance_of_understanding",
+      "from_label": "importance of understanding",
+      "to": "comput_number",
+      "to_label": "computable numbers",
+      "verb": "highlight",
+      "subtitle": "Understanding the importance of computable numbers highlights their significance in defining and enumerating sequences.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 182.39466666666667,
+      "audio_duration": 8.24,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "computation",
+      "from_label": "Results of computations",
+      "to": "representation",
+      "to_label": "representation",
+      "verb": "transforms into",
+      "subtitle": "Computation transforms into representation by converting configurations into sequences of letters like \"D\" and repeated \"A\" or \"C\".",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 190.63466666666667,
+      "audio_duration": 10.053333333333333,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "computational_framework",
+      "from_label": "Computational framework",
+      "to": "config_relationship",
+      "to_label": "Relationships between configurations",
+      "verb": "consists of",
+      "subtitle": "The computational framework consists of relationships between configurations, described by sequences of letters between colons.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 200.68800000000002,
+      "audio_duration": 9.349333333333334,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "machine_config",
+      "from_label": "Machine configuration",
+      "to": "computation",
+      "to_label": "Results of computations",
+      "verb": "operates on",
+      "subtitle": "Machine configuration operates on computation through its defined set of •m-configurations from the table.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 210.03733333333335,
+      "audio_duration": 8.197333333333333,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "data",
+      "from_label": "data",
+      "to": "act_entity",
+      "to_label": "Active data manipulation entity",
+      "verb": "manipulate",
+      "subtitle": "Data manipulate active data entities through operations like \"hx R,R,P:,R,R,PD;R,R,PA\".",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 218.23466666666667,
+      "audio_duration": 8.88,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "relationship",
+      "from_label": "relationship",
+      "to": "configuration",
+      "to_label": "Configurations",
+      "verb": "highlight",
+      "subtitle": "Relationship highlights machine configuration by marking the last complete configuration with \"y\" and finding unmarked semi-colons.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 227.11466666666666,
+      "audio_duration": 9.605333333333334,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "sery_step",
+      "from_label": "series steps",
+      "to": "computing_proces",
+      "to_label": "Computing process",
+      "verb": "execute",
+      "subtitle": "Series steps execute computing processes by defining the operational sequence of a circle-free machine.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 236.72,
+      "audio_duration": 7.706666666666667,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "machine_operation",
+      "from_label": "Configurations and operations of machines",
+      "to": "defined_step",
+      "to_label": "Defined processing steps",
+      "verb": "consists of",
+      "subtitle": "Machines operation consists of defined processing steps which outline the actions taken by the machine.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 244.42666666666668,
+      "audio_duration": 7.856,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "defined_step",
+      "from_label": "Defined processing steps",
+      "to": "desired_output",
+      "to_label": "Desired outputs",
+      "verb": "produces",
+      "subtitle": "Defined processing steps produce desired outputs through systematic execution of its instructions.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 252.28266666666667,
+      "audio_duration": 7.493333333333333,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "accurate_computation",
+      "from_label": "Accurate computation",
+      "to": "defined_step",
+      "to_label": "Defined processing steps",
+      "verb": "ensure",
+      "subtitle": "Accurate computation ensures defined processing steps by verifying correct execution of its functions.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 259.776,
+      "audio_duration": 8.048,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "input",
+      "from_label": "Inputs",
+      "to": "output",
+      "to_label": "Outputs",
+      "verb": "transforms into",
+      "subtitle": "Inputs transform into outputs through the systematic movement and transformation of data within its computational framework.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 267.824,
+      "audio_duration": 8.56,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "different_symbol",
+      "from_label": "Different symbols",
+      "to": "converted_symbol",
+      "to_label": "converted symbols",
+      "verb": "transforms into",
+      "subtitle": "Different symbols transform into converted symbols by measuring the cost of changing one symbol into another.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 276.384,
+      "audio_duration": 7.429333333333333,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "systematic_transformation",
+      "from_label": "Systematic transformation",
+      "to": "dynamic_computational_proces",
+      "to_label": "Dynamic computational process",
+      "verb": "transforms into",
+      "subtitle": "Systematic transformation transforms into dynamic computational process by defining the operational costs and transitions within it.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 283.81333333333333,
+      "audio_duration": 10.181333333333333,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "effect_computation",
+      "from_label": "Effective computation",
+      "to": "conversion_of_symbol",
+      "to_label": "conversion of symbols",
+      "verb": "depends on",
+      "subtitle": "Effect computation relies on converting symbols into different states during calculations.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 293.99466666666666,
+      "audio_duration": 7.045333333333334,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "scope_of_computability",
+      "from_label": "Scope of computability",
+      "to": "boundary",
+      "to_label": "boundaries",
+      "verb": "consists of",
+      "subtitle": "The scope of what can be computed defines the operational boundaries of computational systems.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 301.04,
+      "audio_duration": 7.258666666666667,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "motivation_study",
+      "from_label": "Motivation for this study",
+      "to": "fundamental_limit_computation",
+      "to_label": "Fundamental limits of computation",
+      "verb": "depends on",
+      "subtitle": "Studying fundamental limits of computation motivates understanding its inherent constraints.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 308.2986666666667,
+      "audio_duration": 6.96,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "choice_machine",
+      "from_label": "Choice machines",
+      "to": "computational_proce",
+      "to_label": "computational processes",
+      "verb": "operates in",
+      "subtitle": "Choice machines operate within computational processes, determining outcomes based on internal states.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 315.25866666666667,
+      "audio_duration": 7.792,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "initial_state",
+      "from_label": "Initial states and conditions",
+      "to": "effect_operation",
+      "to_label": "Effective operation",
+      "verb": "enables",
+      "subtitle": "Initial states and conditions enable effective operations in computational tasks.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 323.05066666666664,
+      "audio_duration": 6.896,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "configuration_represent",
+      "from_label": "Representation of the unique state",
+      "to": "internal_condition",
+      "to_label": "internal condition",
+      "verb": "captures",
+      "subtitle": "Representation of the unique state captures the internal condition of the machine during computation.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 329.94666666666666,
+      "audio_duration": 7.28,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "config_relationship",
+      "from_label": "Relationships between configurations",
+      "to": "interconnection",
+      "to_label": "Interconnection among states",
+      "verb": "operates on",
+      "subtitle": "Relationships between configurations operate on interconnections among various states of computation.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 337.22666666666663,
+      "audio_duration": 7.642666666666667,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "complete_configuration",
+      "from_label": "Complete configuration",
+      "to": "computation_state",
+      "to_label": "Computation state",
+      "verb": "transforms into",
+      "subtitle": "Complete configurations transform into specific computation states, defining machine behavior.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 344.8693333333333,
+      "audio_duration": 7.365333333333333,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "pattern_analysi",
+      "from_label": "Pattern analysis",
+      "to": "sery",
+      "to_label": "Figure series",
+      "verb": "operates on",
+      "subtitle": "Pattern analysis operates on figure series, identifying sequences and patterns within data.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 352.23466666666667,
+      "audio_duration": 7.28,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "pattern_analysi",
+      "from_label": "Pattern analysis",
+      "to": "identification_method",
+      "to_label": "Identification method",
+      "verb": "produces",
+      "subtitle": "It also produces identification methods, allowing for systematic recognition of computational elements.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 359.51466666666664,
+      "audio_duration": 8.176,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "proving_a_definability",
+      "from_label": "Proving A-definability",
+      "to": "computational_capability",
+      "to_label": "Computational capabilities",
+      "verb": "consists of",
+      "subtitle": "Proving A-definability consists of demonstrating the computational capabilities within defined parameters.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 367.69066666666663,
+      "audio_duration": 7.8133333333333335,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "foundational_work",
+      "from_label": "Foundational work",
+      "to": "computational_theory",
+      "to_label": "Computational theory",
+      "verb": "sets the stage for",
+      "subtitle": "Foundational work sets the stage for developing comprehensive computational theories and models.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 375.50399999999996,
+      "audio_duration": 7.1946666666666665,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "comput_number",
+      "from_label": "computable numbers",
+      "to": "scope_limitation",
+      "to_label": "Scope and limitations",
+      "verb": "defines",
+      "subtitle": "Computable numbers establish scope and limitations by defining conditions under which functions are computable.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 382.6986666666666,
+      "audio_duration": 7.984,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "scope_of_computability",
+      "from_label": "Scope of computability",
+      "to": "problem_solving",
+      "to_label": "Problem solving",
+      "verb": "operates on",
+      "subtitle": "The scope of computability influences problem-solving approaches by delineating what tasks can be accomplished algorithmically.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 390.6826666666666,
+      "audio_duration": 9.029333333333334,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "comput_number",
+      "from_label": "computable numbers",
+      "to": "computational_proce",
+      "to_label": "computational processes",
+      "verb": "foundation for",
+      "subtitle": "Computable numbers provide the foundational framework for computational processes, enabling the definition of functions through these numbers.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 399.71199999999993,
+      "audio_duration": 9.669333333333332,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "task_achiev",
+      "from_label": "Tasks achievable",
+      "to": "computational_mean",
+      "to_label": "Computational means",
+      "verb": "achieves through",
+      "subtitle": "Tasks achievable through computational means rely on the properties of computable numbers to ensure process feasibility.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 409.38133333333326,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "comput_number",
+      "from_label": "computable numbers",
+      "to": "sery_step",
+      "to_label": "series steps",
+      "verb": "consists of",
+      "subtitle": "Computable numbers are characterized by their convergence through a series of steps, ensuring accuracy within specified tolerances.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 417.9839999999999,
+      "audio_duration": 9.306666666666667,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "act_entity",
+      "from_label": "Active data manipulation entity",
+      "to": "configuration",
+      "to_label": "Configurations",
+      "verb": "depends on",
+      "subtitle": "Active data manipulation entities depend on machine configurations to perform operations, influencing the outcome of computations.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 427.2906666666666,
+      "audio_duration": 9.754666666666667,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "specific_output",
+      "from_label": "specific outputs",
+      "to": "configuration",
+      "to_label": "Configurations",
+      "verb": "depends on",
+      "subtitle": "Specific outputs generated by machines are contingent upon the initial machine configuration, affecting the results produced.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 437.04533333333325,
+      "audio_duration": 9.072,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "computational_problem",
+      "from_label": "Computational problems",
+      "to": "computational_machine",
+      "to_label": "Computational machines",
+      "verb": "depends on",
+      "subtitle": "Computational problems are inherently tied to the capabilities of computational machines, dictating the types of problems solvable.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 446.11733333333325,
+      "audio_duration": 9.242666666666667,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "configuration_represent",
+      "from_label": "Representation of the unique state",
+      "to": "specific_point_in_time",
+      "to_label": "specific point in time",
+      "verb": "depends on",
+      "subtitle": "The representation of a unique state at a specific point in time reflects the machine's configuration and operation at that moment.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 455.3599999999999,
+      "audio_duration": 9.093333333333334,
+      "image": null
+    },
+    {
+      "index": 57,
+      "from": "specific_output",
+      "from_label": "specific outputs",
+      "to": "sequence",
+      "to_label": "Sequences",
+      "verb": "depends on",
+      "subtitle": "Specific outputs produced by machines are influenced by the sequences of inputs provided, shaping the final results.",
+      "audio_clip": "audio_clips/edge_057.wav",
+      "audio_start": 464.45333333333326,
+      "audio_duration": 8.730666666666666,
+      "image": null
+    },
+    {
+      "index": 58,
+      "from": "finding_nth_figure",
+      "from_label": "Finding the nth figure",
+      "to": "sequence_of_figure",
+      "to_label": "Sequence of figures",
+      "verb": "operates on",
+      "subtitle": "Finding the nth figure operates on a sequence of figures, utilizing a systematic approach to identify specific elements within sequences.",
+      "audio_clip": "audio_clips/edge_058.wav",
+      "audio_start": 473.1839999999999,
+      "audio_duration": 10.373333333333333,
+      "image": null
+    },
+    {
+      "index": 59,
+      "from": "rigor_demonstration",
+      "from_label": "Rigorous demonstration",
+      "to": "algorithmic_proces",
+      "to_label": "Algorithmic process",
+      "verb": "consists of",
+      "subtitle": "The rigorous demonstration showcases an algorithmic process designed for machine use.",
+      "audio_clip": "audio_clips/edge_059.wav",
+      "audio_start": 483.55733333333325,
+      "audio_duration": 6.810666666666667,
+      "image": null
+    },
+    {
+      "index": 60,
+      "from": "formula_my",
+      "from_label": "formula my",
+      "to": "machine_configuration",
+      "to_label": "Machine configurations",
+      "verb": "significant within",
+      "subtitle": "The formula My plays a significant role in defining specific machine configurations.",
+      "audio_clip": "audio_clips/edge_060.wav",
+      "audio_start": 490.36799999999994,
+      "audio_duration": 6.746666666666667,
+      "image": null
+    },
+    {
+      "index": 61,
+      "from": "proving_a_definability",
+      "from_label": "Proving A-definability",
+      "to": "sequence_and_configuration",
+      "to_label": "Sequences and configurations",
+      "verb": "consists of",
+      "subtitle": "Proving A-definability involves analyzing sequences and their configurations with our apparatus.",
+      "audio_clip": "audio_clips/edge_061.wav",
+      "audio_start": 497.1146666666666,
+      "audio_duration": 7.770666666666667,
+      "image": null
+    },
+    {
+      "index": 62,
+      "from": "comput_sequence",
+      "from_label": "Computable sequences",
+      "to": "numer_data_processing",
+      "to_label": "Numerical data processing",
+      "verb": "consists of",
+      "subtitle": "Computable sequences consist of numerical data processed through defined methods.",
+      "audio_clip": "audio_clips/edge_062.wav",
+      "audio_start": 504.8853333333333,
+      "audio_duration": 6.490666666666667,
+      "image": null
+    }
+  ],
+  "questions": []
+}

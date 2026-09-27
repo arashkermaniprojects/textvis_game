@@ -1,0 +1,1554 @@
+{
+  "nodes": [
+    {
+      "id": "presentation",
+      "label": "Presentation",
+      "type": "presentation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "introduction",
+      "label": "Introduction to computable numbers",
+      "type": "introduction",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "comput_number",
+      "label": "computable numbers",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "stage_setting",
+      "label": "stage setting",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computation",
+      "label": "Results of computations",
+      "type": "result",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "representation",
+      "label": "representation",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computing_machine",
+      "label": "Computing machine",
+      "type": "machine",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scope_limitation",
+      "label": "Scope and limitations",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computational_proce",
+      "label": "computational processes",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scope_of_computability",
+      "label": "Scope of computability",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "machine_operation",
+      "label": "Configurations and operations of machines",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "problem_solving",
+      "label": "Problem solving",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "boundary",
+      "label": "boundaries",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "task_achiev",
+      "label": "Tasks achievable",
+      "type": "task",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computational_mean",
+      "label": "Computational means",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "limitation_capability",
+      "label": "Limitations and capabilities",
+      "type": "constraint",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "motivation_study",
+      "label": "Motivation for this study",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "fundamental_limit_computation",
+      "label": "Fundamental limits of computation",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computational_problem",
+      "label": "Computational problems",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "computational_machine",
+      "label": "Computational machines",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "computability_definition",
+      "label": "Definition of computability",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "foundational_work",
+      "label": "Foundational work",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "computational_theory",
+      "label": "Computational theory",
+      "type": "world",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "machine_config",
+      "label": "Machine configuration",
+      "type": "configuration",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "initial_state",
+      "label": "Initial states and conditions",
+      "type": "configuration",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "effect_operation",
+      "label": "Effective operation",
+      "type": "outcome",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "information_processing",
+      "label": "Processing of information",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "result",
+      "label": "Results",
+      "type": "result",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "predefined_rule",
+      "label": "Predefined rules",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "configuration_state",
+      "label": "Configuration states of a machine",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "unique_state",
+      "label": "Unique state of the machine's operation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "internal_condition",
+      "label": "internal condition",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "configuration_represent",
+      "label": "Representation of the unique state",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "specific_point_in_time",
+      "label": "specific point in time",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "input",
+      "label": "Inputs",
+      "type": "input",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "output",
+      "label": "Outputs",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sery_step",
+      "label": "series steps",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "computing_proces",
+      "label": "Computing process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "desired_output",
+      "label": "Desired outputs",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "accurate_computation",
+      "label": "Accurate computation",
+      "type": "computation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "defined_step",
+      "label": "Defined processing steps",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "act_entity",
+      "label": "Active data manipulation entity",
+      "type": "entity",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "configuration",
+      "label": "Configurations",
+      "type": "configuration",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "data",
+      "label": "data",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "automatic_machine",
+      "label": "Automatic machines",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "choice_machine",
+      "label": "Choice machines",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "distinct_functionality",
+      "label": "Distinct functionalites",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "decision_making_capability",
+      "label": "decision making capabilities",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "different_symbol",
+      "label": "Different symbols",
+      "type": "symbol",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "converted_symbol",
+      "label": "converted symbols",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "conversion_of_symbol",
+      "label": "conversion of symbols",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "effect_computation",
+      "label": "Effective computation",
+      "type": "effectiveness",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequence",
+      "label": "Sequences",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "generated_sequence",
+      "label": "Generated sequences",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "relationship",
+      "label": "relationship",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "finding_nth_figure",
+      "label": "Finding the nth figure",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequence_of_figure",
+      "label": "Sequence of figures",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "pattern_analysi",
+      "label": "Pattern analysis",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "sery",
+      "label": "Figure series",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "identification_method",
+      "label": "Identification method",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "distinct_representation",
+      "label": "Distinct representations of the same computational process",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "specific_output",
+      "label": "specific outputs",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "printing_figure",
+      "label": "Printing figures",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "machine_behavior",
+      "label": "Behavior of machines",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "proving_a_definability",
+      "label": "Proving A-definability",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "computational_capability",
+      "label": "Computational capabilities",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "sequence_and_configuration",
+      "label": "Sequences and configurations",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "rigor_demonstration",
+      "label": "Rigorous demonstration",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "algorithmic_proces",
+      "label": "Algorithmic process",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "comput_sequence",
+      "label": "Computable sequences",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "numer_data_processing",
+      "label": "Numerical data processing",
+      "type": "processing",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "systematic_approach_to_computing",
+      "label": "Systematic approach to computing",
+      "type": "approach",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "defined_rule_and_configuration",
+      "label": "Defined rules and configurations",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "computational_framework",
+      "label": "Computational framework",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "config_relationship",
+      "label": "Relationships between configurations",
+      "type": "relationship",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "interconnection",
+      "label": "Interconnection among states",
+      "type": "relationship",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "dynamic_relationship",
+      "label": "Dynamic relationships",
+      "type": "relationship",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "formula_my",
+      "label": "formula my",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "computation_proces",
+      "label": "Automatic computation process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "machine_configuration",
+      "label": "Machine configurations",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "complete_configuration",
+      "label": "Complete configuration",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "computation_state",
+      "label": "Computation state",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "systematic_transformation",
+      "label": "Systematic transformation",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "dynamic_computational_proces",
+      "label": "Dynamic computational process",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "importance_of_understanding",
+      "label": "importance of understanding",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "comput_number",
+      "to": "distinct_representation",
+      "verb": "transforms into",
+      "time": 5.9671875000000005,
+      "cluster": 0
+    },
+    {
+      "from": "computational_machine",
+      "to": "computability_definition",
+      "verb": "depends on",
+      "time": 8.042666666666667,
+      "cluster": 1
+    },
+    {
+      "from": "stage_setting",
+      "to": "computation",
+      "verb": "requires",
+      "time": 14.528,
+      "cluster": 0
+    },
+    {
+      "from": "automatic_machine",
+      "to": "computational_proce",
+      "verb": "operates in",
+      "time": 20.16,
+      "cluster": 0
+    },
+    {
+      "from": "formula_my",
+      "to": "computation_proces",
+      "verb": "central to",
+      "time": 26.752,
+      "cluster": 4
+    },
+    {
+      "from": "automatic_machine",
+      "to": "choice_machine",
+      "verb": "contrasts",
+      "time": 32.85333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "automatic_machine",
+      "to": "distinct_functionality",
+      "verb": "consists of",
+      "time": 38.61333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "choice_machine",
+      "to": "decision_making_capability",
+      "verb": "consists of",
+      "time": 45.76,
+      "cluster": 0
+    },
+    {
+      "from": "systematic_approach_to_computing",
+      "to": "defined_rule_and_configuration",
+      "verb": "consists of",
+      "time": 51.861333333333334,
+      "cluster": 5
+    },
+    {
+      "from": "introduction",
+      "to": "stage_setting",
+      "verb": "produces",
+      "time": 58.88,
+      "cluster": 0
+    },
+    {
+      "from": "computing_machine",
+      "to": "comput_number",
+      "verb": "operates on",
+      "time": 64.87466666666667,
+      "cluster": 0
+    },
+    {
+      "from": "presentation",
+      "to": "comput_number",
+      "verb": "operates on",
+      "time": 70.93333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "presentation",
+      "to": "introduction",
+      "verb": "consists of",
+      "time": 78.16533333333334,
+      "cluster": 0
+    },
+    {
+      "from": "printing_figure",
+      "to": "configuration",
+      "verb": "focuses on",
+      "time": 84.52266666666667,
+      "cluster": 2
+    },
+    {
+      "from": "scope_of_computability",
+      "to": "machine_operation",
+      "verb": "operates on",
+      "time": 92.13866666666667,
+      "cluster": 1
+    },
+    {
+      "from": "machine_operation",
+      "to": "dynamic_relationship",
+      "verb": "requires",
+      "time": 98.24,
+      "cluster": 1
+    },
+    {
+      "from": "configuration_state",
+      "to": "unique_state",
+      "verb": "relates",
+      "time": 106.02666666666666,
+      "cluster": 1
+    },
+    {
+      "from": "configuration",
+      "to": "sequence",
+      "verb": "transforms into",
+      "time": 112.23466666666666,
+      "cluster": 2
+    },
+    {
+      "from": "configuration",
+      "to": "generated_sequence",
+      "verb": "sequence of",
+      "time": 119.76533333333332,
+      "cluster": 2
+    },
+    {
+      "from": "information_processing",
+      "to": "machine_behavior",
+      "verb": "is cause of",
+      "time": 126.93333333333332,
+      "cluster": 0
+    },
+    {
+      "from": "information_processing",
+      "to": "computation",
+      "verb": "is cause of",
+      "time": 132.97066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "information_processing",
+      "to": "result",
+      "verb": "produces",
+      "time": 140.24533333333332,
+      "cluster": 0
+    },
+    {
+      "from": "information_processing",
+      "to": "predefined_rule",
+      "verb": "based on",
+      "time": 147.07199999999997,
+      "cluster": 0
+    },
+    {
+      "from": "importance_of_understanding",
+      "to": "comput_number",
+      "verb": "highlight",
+      "time": 154.53866666666664,
+      "cluster": 0
+    },
+    {
+      "from": "computation",
+      "to": "representation",
+      "verb": "transforms into",
+      "time": 161.77066666666664,
+      "cluster": 0
+    },
+    {
+      "from": "computational_framework",
+      "to": "config_relationship",
+      "verb": "consists of",
+      "time": 171.1573333333333,
+      "cluster": 3
+    },
+    {
+      "from": "machine_config",
+      "to": "computation",
+      "verb": "operates on",
+      "time": 179.1573333333333,
+      "cluster": 0
+    },
+    {
+      "from": "data",
+      "to": "act_entity",
+      "verb": "manipulate",
+      "time": 186.23999999999995,
+      "cluster": 2
+    },
+    {
+      "from": "relationship",
+      "to": "configuration",
+      "verb": "highlight",
+      "time": 194.1333333333333,
+      "cluster": 2
+    },
+    {
+      "from": "sery_step",
+      "to": "computing_proces",
+      "verb": "execute",
+      "time": 202.87999999999997,
+      "cluster": 0
+    },
+    {
+      "from": "machine_operation",
+      "to": "defined_step",
+      "verb": "consists of",
+      "time": 209.53599999999997,
+      "cluster": 1
+    },
+    {
+      "from": "defined_step",
+      "to": "desired_output",
+      "verb": "produces",
+      "time": 216.06399999999996,
+      "cluster": 1
+    },
+    {
+      "from": "accurate_computation",
+      "to": "defined_step",
+      "verb": "ensure",
+      "time": 222.8693333333333,
+      "cluster": 1
+    },
+    {
+      "from": "input",
+      "to": "output",
+      "verb": "transforms into",
+      "time": 230.2293333333333,
+      "cluster": 1
+    },
+    {
+      "from": "different_symbol",
+      "to": "converted_symbol",
+      "verb": "transforms into",
+      "time": 237.67466666666664,
+      "cluster": 1
+    },
+    {
+      "from": "systematic_transformation",
+      "to": "dynamic_computational_proces",
+      "verb": "transforms into",
+      "time": 243.9253333333333,
+      "cluster": 7
+    },
+    {
+      "from": "effect_computation",
+      "to": "conversion_of_symbol",
+      "verb": "depends on",
+      "time": 253.43999999999997,
+      "cluster": 1
+    },
+    {
+      "from": "scope_of_computability",
+      "to": "boundary",
+      "verb": "consists of",
+      "time": 259.1573333333333,
+      "cluster": 1
+    },
+    {
+      "from": "motivation_study",
+      "to": "fundamental_limit_computation",
+      "verb": "depends on",
+      "time": 265.06666666666666,
+      "cluster": 0
+    },
+    {
+      "from": "choice_machine",
+      "to": "computational_proce",
+      "verb": "operates in",
+      "time": 270.95466666666664,
+      "cluster": 0
+    },
+    {
+      "from": "initial_state",
+      "to": "effect_operation",
+      "verb": "enables",
+      "time": 277.2693333333333,
+      "cluster": 1
+    },
+    {
+      "from": "configuration_represent",
+      "to": "internal_condition",
+      "verb": "captures",
+      "time": 282.87999999999994,
+      "cluster": 1
+    },
+    {
+      "from": "config_relationship",
+      "to": "interconnection",
+      "verb": "operates on",
+      "time": 289.10933333333327,
+      "cluster": 3
+    },
+    {
+      "from": "complete_configuration",
+      "to": "computation_state",
+      "verb": "transforms into",
+      "time": 295.38133333333326,
+      "cluster": 6
+    },
+    {
+      "from": "pattern_analysi",
+      "to": "sery",
+      "verb": "operates on",
+      "time": 301.6746666666666,
+      "cluster": 2
+    },
+    {
+      "from": "pattern_analysi",
+      "to": "identification_method",
+      "verb": "produces",
+      "time": 307.5199999999999,
+      "cluster": 2
+    },
+    {
+      "from": "proving_a_definability",
+      "to": "computational_capability",
+      "verb": "consists of",
+      "time": 314.8586666666666,
+      "cluster": 2
+    },
+    {
+      "from": "foundational_work",
+      "to": "computational_theory",
+      "verb": "sets the stage for",
+      "time": 321.8133333333332,
+      "cluster": 1
+    },
+    {
+      "from": "comput_number",
+      "to": "scope_limitation",
+      "verb": "defines",
+      "time": 328.02133333333325,
+      "cluster": 0
+    },
+    {
+      "from": "scope_of_computability",
+      "to": "problem_solving",
+      "verb": "operates on",
+      "time": 334.99733333333324,
+      "cluster": 1
+    },
+    {
+      "from": "comput_number",
+      "to": "computational_proce",
+      "verb": "foundation for",
+      "time": 342.99733333333324,
+      "cluster": 0
+    },
+    {
+      "from": "task_achiev",
+      "to": "computational_mean",
+      "verb": "achieves through",
+      "time": 351.4879999999999,
+      "cluster": 0
+    },
+    {
+      "from": "comput_number",
+      "to": "sery_step",
+      "verb": "consists of",
+      "time": 359.14666666666653,
+      "cluster": 0
+    },
+    {
+      "from": "act_entity",
+      "to": "configuration",
+      "verb": "depends on",
+      "time": 367.2959999999999,
+      "cluster": 2
+    },
+    {
+      "from": "specific_output",
+      "to": "configuration",
+      "verb": "depends on",
+      "time": 375.8933333333332,
+      "cluster": 2
+    },
+    {
+      "from": "computational_problem",
+      "to": "computational_machine",
+      "verb": "depends on",
+      "time": 383.9573333333332,
+      "cluster": 1
+    },
+    {
+      "from": "configuration_represent",
+      "to": "specific_point_in_time",
+      "verb": "depends on",
+      "time": 391.91466666666656,
+      "cluster": 1
+    },
+    {
+      "from": "specific_output",
+      "to": "sequence",
+      "verb": "depends on",
+      "time": 400.04266666666655,
+      "cluster": 2
+    },
+    {
+      "from": "finding_nth_figure",
+      "to": "sequence_of_figure",
+      "verb": "operates on",
+      "time": 415.42399999999986,
+      "cluster": 1
+    },
+    {
+      "from": "rigor_demonstration",
+      "to": "algorithmic_proces",
+      "verb": "consists of",
+      "time": 424.89599999999984,
+      "cluster": 2
+    },
+    {
+      "from": "formula_my",
+      "to": "machine_configuration",
+      "verb": "significant within",
+      "time": 430.3786666666665,
+      "cluster": 4
+    },
+    {
+      "from": "proving_a_definability",
+      "to": "sequence_and_configuration",
+      "verb": "consists of",
+      "time": 435.58399999999983,
+      "cluster": 2
+    },
+    {
+      "from": "comput_sequence",
+      "to": "numer_data_processing",
+      "verb": "consists of",
+      "time": 442.04799999999983,
+      "cluster": 2
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "comput_number",
+      "label": "Computable numbers",
+      "children": [
+        {
+          "id": "presentation",
+          "label": "Presentation"
+        },
+        {
+          "id": "introduction",
+          "label": "Introduction to computable numbers"
+        },
+        {
+          "id": "stage_setting",
+          "label": "stage setting"
+        },
+        {
+          "id": "computation",
+          "label": "calculation"
+        },
+        {
+          "id": "representation",
+          "label": "representation"
+        },
+        {
+          "id": "computing_machine",
+          "label": "Computing machine"
+        },
+        {
+          "id": "scope_limitation",
+          "label": "Scope and limitations"
+        },
+        {
+          "id": "computational_proce",
+          "label": "Computational processes"
+        },
+        {
+          "id": "task_achiev",
+          "label": "Tasks achievable"
+        },
+        {
+          "id": "computational_mean",
+          "label": "Computational means"
+        },
+        {
+          "id": "limitation_capability",
+          "label": "Limitations and capabilities"
+        },
+        {
+          "id": "limitation_and_capability",
+          "label": "limitations and capabilities"
+        },
+        {
+          "id": "motivation_study",
+          "label": "Motivation for this study"
+        },
+        {
+          "id": "fundamental_limit_computation",
+          "label": "Fundamental limits of computation"
+        },
+        {
+          "id": "machine_config",
+          "label": "Machine configuration"
+        },
+        {
+          "id": "information_processing",
+          "label": "Information processing"
+        },
+        {
+          "id": "result",
+          "label": "Results"
+        },
+        {
+          "id": "predefined_rule",
+          "label": "Predefined rules"
+        },
+        {
+          "id": "sery_step",
+          "label": "series steps"
+        },
+        {
+          "id": "computing_proces",
+          "label": "Computing process"
+        },
+        {
+          "id": "automatic_machine",
+          "label": "Automatic machines"
+        },
+        {
+          "id": "choice_machine",
+          "label": "Choice machines"
+        },
+        {
+          "id": "distinct_functionality",
+          "label": "Distinct functionalites"
+        },
+        {
+          "id": "decision_making_capability",
+          "label": "decision making capabilities"
+        },
+        {
+          "id": "distinct_representation",
+          "label": "Distinct representations of the same computational process"
+        },
+        {
+          "id": "machine_behavior",
+          "label": "Behavior of machines"
+        },
+        {
+          "id": "importance_of_understanding",
+          "label": "importance of understanding"
+        }
+      ]
+    },
+    {
+      "id": "scope_of_computability",
+      "label": "Scope of computability",
+      "children": [
+        {
+          "id": "machine_operation",
+          "label": "Machines operation"
+        },
+        {
+          "id": "problem_solving",
+          "label": "Problem solving"
+        },
+        {
+          "id": "boundary",
+          "label": "boundaries"
+        },
+        {
+          "id": "computational_problem",
+          "label": "Computational problems"
+        },
+        {
+          "id": "computational_machine",
+          "label": "Computational machines"
+        },
+        {
+          "id": "computability_definition",
+          "label": "Definition of computability"
+        },
+        {
+          "id": "foundational_work",
+          "label": "Foundational work"
+        },
+        {
+          "id": "computational_theory",
+          "label": "Computational theory"
+        },
+        {
+          "id": "initial_state",
+          "label": "Initial states and conditions"
+        },
+        {
+          "id": "effect_operation",
+          "label": "Effective operation"
+        },
+        {
+          "id": "configuration_state",
+          "label": "Configuration states of a machine"
+        },
+        {
+          "id": "unique_state",
+          "label": "Unique state of the machine's operation"
+        },
+        {
+          "id": "internal_condition",
+          "label": "Internal condition of the machine"
+        },
+        {
+          "id": "configuration_represent",
+          "label": "Representation of the unique state"
+        },
+        {
+          "id": "specific_point_in_time",
+          "label": "specific point in time"
+        },
+        {
+          "id": "input",
+          "label": "Inputs"
+        },
+        {
+          "id": "output",
+          "label": "Outputs"
+        },
+        {
+          "id": "desired_output",
+          "label": "Desired outputs"
+        },
+        {
+          "id": "accurate_computation",
+          "label": "Accurate computation"
+        },
+        {
+          "id": "defined_step",
+          "label": "Defined processing steps"
+        },
+        {
+          "id": "different_symbol",
+          "label": "Different symbols"
+        },
+        {
+          "id": "converted_symbol",
+          "label": "converted symbols"
+        },
+        {
+          "id": "conversion_of_symbol",
+          "label": "Conversion of symbols during computations"
+        },
+        {
+          "id": "effect_computation",
+          "label": "Effective computation"
+        },
+        {
+          "id": "finding_nth_figure",
+          "label": "Finding the nth figure"
+        },
+        {
+          "id": "sequence_of_figure",
+          "label": "Sequence of figures"
+        },
+        {
+          "id": "dynamic_relationship",
+          "label": "Dynamic relationships"
+        }
+      ]
+    },
+    {
+      "id": "configuration",
+      "label": "Machine configuration",
+      "children": [
+        {
+          "id": "act_entity",
+          "label": "Active data manipulation entity"
+        },
+        {
+          "id": "data",
+          "label": "data"
+        },
+        {
+          "id": "sequence",
+          "label": "Sequences"
+        },
+        {
+          "id": "generated_sequence",
+          "label": "Generated sequences"
+        },
+        {
+          "id": "relationship",
+          "label": "relationship"
+        },
+        {
+          "id": "pattern_analysi",
+          "label": "Pattern analysis"
+        },
+        {
+          "id": "sery",
+          "label": "Figure series"
+        },
+        {
+          "id": "identification_method",
+          "label": "Identification method"
+        },
+        {
+          "id": "specific_output",
+          "label": "specific outputs"
+        },
+        {
+          "id": "printing_figure",
+          "label": "Printing figures"
+        },
+        {
+          "id": "proving_a_definability",
+          "label": "Proving A-definability"
+        },
+        {
+          "id": "computational_capability",
+          "label": "Computational capabilities"
+        },
+        {
+          "id": "sequence_and_configuration",
+          "label": "Sequences and configurations"
+        },
+        {
+          "id": "rigor_demonstration",
+          "label": "Rigorous demonstration"
+        },
+        {
+          "id": "algorithmic_proces",
+          "label": "Algorithmic process"
+        },
+        {
+          "id": "comput_sequence",
+          "label": "Computable sequences"
+        },
+        {
+          "id": "numer_data_processing",
+          "label": "Numerical data processing"
+        }
+      ]
+    },
+    {
+      "id": "config_relationship",
+      "label": "Relationships between configurations",
+      "children": [
+        {
+          "id": "computational_framework",
+          "label": "Computational framework"
+        },
+        {
+          "id": "interconnection",
+          "label": "Interconnection among states"
+        }
+      ]
+    },
+    {
+      "id": "formula_my",
+      "label": "Formula My",
+      "children": [
+        {
+          "id": "computation_proces",
+          "label": "Automatic computation process"
+        },
+        {
+          "id": "machine_configuration",
+          "label": "Machine configurations"
+        }
+      ]
+    },
+    {
+      "id": "systematic_approach_to_computing",
+      "label": "Systematic approach to computing",
+      "children": [
+        {
+          "id": "defined_rule_and_configuration",
+          "label": "Defined rules and configurations"
+        }
+      ]
+    },
+    {
+      "id": "complete_configuration",
+      "label": "Complete configuration",
+      "children": [
+        {
+          "id": "computation_state",
+          "label": "Computation state"
+        }
+      ]
+    },
+    {
+      "id": "systematic_transformation",
+      "label": "Systematic transformation",
+      "children": [
+        {
+          "id": "dynamic_computational_proces",
+          "label": "Dynamic computational process"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Computable numbers transform into distinct representations of the same computational process, simplifying analysis.",
+    "Computational machines hinge on the definition of computability, clarifying what numbers can be computed.",
+    "Stage setting necessitates precise calculation, emphasizing the need for clear definitions.",
+    "Automatic machines operate within computational processes, mimicking human computational limitations.",
+    "Formula My is central to automatic computation processes, outlining essential operations.",
+    "Automatic machines contrast choice machines, where the latter includes decision-making capabilities.",
+    "It also consist of distinct functionalities, each operation contributing uniquely to computation.",
+    "Choice machines encompass decision-making capabilities, enabling machines to choose their next action.",
+    "A systematic approach to computing relies on defined rules and configurations, guiding machine operations.",
+    "Introduction to computable numbers sets the stage for understanding how machines compute these numbers.",
+    "Computing machines operate on computable numbers, determining sequences through mechanical means.",
+    "Presentation focuses on computable numbers, ensuring clarity in discussing computable sequences over numbers.",
+    "It also introduces the concept of computable numbers, focusing on their definition and properties.",
+    "Printing figures emphasizes the machine's configuration, detailing its capabilities to print symbols \"0\" and \"1\".",
+    "The scope of computability applies to machines' operations, illustrating how they process information.",
+    "Machines' operations depend on dynamic relationships, executing a series of actions based on current configurations.",
+    "Configuration states relate to unique states within the machine's operation, ensuring distinct outcomes.",
+    "Machine configuration leads to sequences through a transformation process, showcasing computational capabilities.",
+    "It also a machine's configuration generates specific sequences, demonstrating the relationship between setup and output.",
+    "Information processing drives machine behavior, influencing how machines react and operate.",
+    "It also through information processing, computation results in calculations, showing the practical application of processing.",
+    "It also information processing yields results, emphasizing the outcome-driven nature of computational tasks.",
+    "And information processing relies on predefined rules, guiding the execution of complex operations within machines.",
+    "Understanding the importance of computable numbers highlights their significance in defining and enumerating sequences.",
+    "Computation transforms into representation by converting configurations into sequences of letters like \"D\" and repeated \"A\" or \"C\".",
+    "Computational framework consists of relationships between configurations, described by sequences of letters between colons.",
+    "Machine configuration operates on computation through its defined set of •m-configurations from the table.",
+    "Data manipulate active data entities through operations like \"hx R,R,P:,R,R,PD;R,R,PA\".",
+    "Relationship highlights machine configuration by marking the last complete configuration with \"y\" and finding unmarked semi-colons.",
+    "Series steps execute computing processes by defining the operational sequence of a circle-free machine.",
+    "Machines operation consists of defined processing steps which outline the actions taken by the machine.",
+    "Defined processing steps produce desired outputs through systematic execution of the machine's instructions.",
+    "Accurate computation ensures defined processing steps by verifying correct execution of the machine's functions.",
+    "Inputs transform into outputs through the systematic movement and transformation of data within the computational framework.",
+    "Different symbols transform into converted symbols by measuring the cost of changing one symbol into another.",
+    "Systematic transformation transforms into dynamic computational process by defining the operational costs and transitions within the system.",
+    "Effect computation relies on converting symbols into different states during calculations.",
+    "The scope of what can be computed defines the operational boundaries of computational systems.",
+    "Studying fundamental limits of computation motivates understanding its inherent constraints.",
+    "Choice machines operate within computational processes, determining outcomes based on internal states.",
+    "Initial states and conditions enable effective operations in computational tasks.",
+    "Representation of the unique state captures the internal condition of the machine during computation.",
+    "Relationships between configurations operate on interconnections among various states of computation.",
+    "Complete configurations transform into specific computation states, defining machine behavior.",
+    "Pattern analysis operates on figure series, identifying sequences and patterns within data.",
+    "It also produces identification methods, allowing for systematic recognition of computational elements.",
+    "Proving A-definability consists of demonstrating the computational capabilities within defined parameters.",
+    "Foundational work sets the stage for developing comprehensive computational theories and models.",
+    "Computable numbers establish scope and limitations by defining conditions under which functions are computable.",
+    "The scope of computability influences problem-solving approaches by delineating what tasks can be accomplished algorithmically.",
+    "Computable numbers provide the foundational framework for computational processes, enabling the definition of functions through these numbers.",
+    "Tasks achievable through computational means rely on the properties of computable numbers to ensure process feasibility.",
+    "Computable numbers are characterized by their convergence through a series of steps, ensuring accuracy within specified tolerances.",
+    "Active data manipulation entities depend on machine configurations to perform operations, influencing the outcome of computations.",
+    "Specific outputs generated by machines are contingent upon the initial machine configuration, affecting the results produced.",
+    "Computational problems are inherently tied to the capabilities of computational machines, dictating the types of problems solvable.",
+    "The representation of a unique state at a specific point in time reflects the machine's configuration and operation at that moment.",
+    "Specific outputs produced by machines are influenced by the sequences of inputs provided, shaping the final results.",
+    "Finding the nth figure operates on a sequence of figures, utilizing a systematic approach to identify specific elements within sequences.",
+    "The rigorous demonstration showcases an algorithmic process designed for machine use.",
+    "The formula My plays a significant role in defining specific machine configurations.",
+    "Proving A-definability involves analyzing sequences and their configurations with our apparatus.",
+    "Computable sequences consist of numerical data processed through defined methods."
+  ]
+}

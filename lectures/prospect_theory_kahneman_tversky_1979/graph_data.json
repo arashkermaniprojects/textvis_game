@@ -1,0 +1,1454 @@
+{
+  "nodes": [
+    {
+      "id": "title_presentation",
+      "label": "Presentation title",
+      "type": "title",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "main_contribution",
+      "label": "Main contribution to behavioral economics and decision-making theory",
+      "type": "contribution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "crucial_understanding",
+      "label": "Crucial understanding",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "motivation_behind_risk_decision",
+      "label": "Motivation behind risk decisions",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "crucial",
+      "label": "crucial",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "deviation_from_economic_model",
+      "label": "Deviation from traditional economic models",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "traditional_economic_model",
+      "label": "Traditional economic models",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "complexity_of_decision_making",
+      "label": "Complexity of human decision-making processes",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "risk_context",
+      "label": "Risk context",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "behavioral_econ",
+      "label": "behavioral econ",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "psycholog_factor",
+      "label": "Psychological factors",
+      "type": "factor",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "social_factor",
+      "label": "Social factors",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "traditional_theory",
+      "label": "Traditional economic theories",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "emotional_factor",
+      "label": "Emotional factors",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "human_behavior",
+      "label": "Real-world human behaviors",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "economic_decision",
+      "label": "economic decisions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "utility_theory_limitation",
+      "label": "utility theory limitations",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "real_world_scenario",
+      "label": "Real-world scenarios",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "cognit_bia",
+      "label": "Cognitive biases",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "heuristic",
+      "label": "Heuristics",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "prospect_theory",
+      "label": "Prospect theory",
+      "type": "theory",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "nuanced_understanding",
+      "label": "Nuanced understanding of gains and losses",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "non_linear_decision",
+      "label": "Non-linear decision-making processes",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "value_function",
+      "label": "Value function concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "gain_lo",
+      "label": "Gains and losses evaluation",
+      "type": "evaluation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "gain",
+      "label": "gains",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "lo_intensely",
+      "label": "Losses felt more intensely",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "diminishing_sensitivity",
+      "label": "Diminishing sensitivity",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "magnitude",
+      "label": "Magnitude of gains or losses",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "concavity",
+      "label": "Concavity for gains and convexity for losses",
+      "type": "property",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "tendency_overweight_small",
+      "label": "Tendency to overweight small probabilities",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "tendency_underweight_large",
+      "label": "tendency underweight large",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "small_probability",
+      "label": "Small probability",
+      "type": "probability",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "large_probability",
+      "label": "Large probability",
+      "type": "probability",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "different_perception_processing",
+      "label": "Different perception and processing of probabilities",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "actual_value",
+      "label": "Actual probability values",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "psycholog_impact",
+      "label": "Psychological impact of gains and losses",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "distinct_aspect",
+      "label": "Distinct aspects of human behavior",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "weighting_function_characteristic",
+      "label": "Weighting function characteristics",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "perception_difference",
+      "label": "Individual perception differences",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "non_linear_transformation",
+      "label": "Non-linear transformation",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "subject_probability",
+      "label": "subjective probabilities",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "object_probability",
+      "label": "objective probabilities",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "cumulat_probability",
+      "label": "Cumulative probability concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "likelihood_perception",
+      "label": "Individual perception of likelihood",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "probability_weighting",
+      "label": "Probability weighting in decision-making",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "perceived_probability",
+      "label": "Perceived probabilities",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "likelihood_asses",
+      "label": "Likelihood assessment",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "experimental_design_overview",
+      "label": "experimental design overview",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "model",
+      "label": "Framework for testing hypotheses",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "participant_selection",
+      "label": "Participant selection process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "experimental_condition",
+      "label": "Experimental conditions setup",
+      "type": "procedure",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "data_collection_method",
+      "label": "Data collection methods",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "experiment",
+      "label": "Experiments designed to test hypotheses",
+      "type": "experiment",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "experimental_result_summary",
+      "label": "Experimental results summary",
+      "type": "result",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "overview_of_outcome",
+      "label": "overview of outcomes",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "implication",
+      "label": "Implications of findings",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "participant_response",
+      "label": "Participant response",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "decision_pattern",
+      "label": "Patterns in decision-making",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "traditional_utility_theory",
+      "label": "Traditional utility theory assumptions",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "individual_decision",
+      "label": "Individual decision-making",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "significant_implication",
+      "label": "significant implications",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "value_perception",
+      "label": "Value perception",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "non_linear_nature",
+      "label": "non-linear nature",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "insight",
+      "label": "Insights derived from prospect theory",
+      "type": "insight",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "field",
+      "label": "Various fields",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "future_research_direction",
+      "label": "Future research directions",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "exploration",
+      "label": "Exploration of further applications",
+      "type": "approach",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "applicability_acros_culture",
+      "label": "Applicability across different cultural contexts",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "integration_with_behavioral_model",
+      "label": "Integration with other behavioral models",
+      "type": "approach",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "conclusion",
+      "label": "Conclusion of the presentation",
+      "type": "document",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "economic_psychology",
+      "label": "economics,psychology",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "behavior_model",
+      "label": "behavior models",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "risky_situation",
+      "label": "risky situations",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    }
+  ],
+  "edges": [
+    {
+      "from": "experimental_design_overview",
+      "to": "prospect_theory",
+      "verb": "operates on",
+      "time": 0,
+      "cluster": 2
+    },
+    {
+      "from": "model",
+      "to": "experimental_design_overview",
+      "verb": "consists of",
+      "time": 3.776,
+      "cluster": 2
+    },
+    {
+      "from": "experimental_design_overview",
+      "to": "participant_selection",
+      "verb": "consists of",
+      "time": 8.832,
+      "cluster": 2
+    },
+    {
+      "from": "experimental_design_overview",
+      "to": "experimental_condition",
+      "verb": "consists of",
+      "time": 13.461333333333334,
+      "cluster": 2
+    },
+    {
+      "from": "experimental_design_overview",
+      "to": "data_collection_method",
+      "verb": "consists of",
+      "time": 17.941333333333333,
+      "cluster": 2
+    },
+    {
+      "from": "prospect_theory",
+      "to": "traditional_economic_model",
+      "verb": "challenges",
+      "time": 22.336,
+      "cluster": 1
+    },
+    {
+      "from": "deviation_from_economic_model",
+      "to": "traditional_economic_model",
+      "verb": "opposes",
+      "time": 26.474666666666664,
+      "cluster": 1
+    },
+    {
+      "from": "participant_response",
+      "to": "prospect_theory",
+      "verb": "aligns with",
+      "time": 31.232,
+      "cluster": 2
+    },
+    {
+      "from": "implication",
+      "to": "participant_response",
+      "verb": "examines",
+      "time": 35.477333333333334,
+      "cluster": 2
+    },
+    {
+      "from": "prospect_theory",
+      "to": "value_perception",
+      "verb": "describes",
+      "time": 40.128,
+      "cluster": 1
+    },
+    {
+      "from": "small_probability",
+      "to": "value_perception",
+      "verb": "overweight",
+      "time": 43.733333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "probability_weighting",
+      "to": "small_probability",
+      "verb": "relates",
+      "time": 48.98133333333333,
+      "cluster": 1
+    },
+    {
+      "from": "probability_weighting",
+      "to": "large_probability",
+      "verb": "contains",
+      "time": 53.22666666666667,
+      "cluster": 1
+    },
+    {
+      "from": "probability_weighting",
+      "to": "actual_value",
+      "verb": "captures",
+      "time": 57.57866666666666,
+      "cluster": 1
+    },
+    {
+      "from": "perception_difference",
+      "to": "actual_value",
+      "verb": "differs from",
+      "time": 61.71733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "weighting_function_characteristic",
+      "to": "perception_difference",
+      "verb": "demonstrates",
+      "time": 66.51733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "different_perception_processing",
+      "to": "actual_value",
+      "verb": "opposes",
+      "time": 71.42399999999999,
+      "cluster": 1
+    },
+    {
+      "from": "perceived_probability",
+      "to": "actual_value",
+      "verb": "opposes",
+      "time": 77.11999999999999,
+      "cluster": 1
+    },
+    {
+      "from": "likelihood_perception",
+      "to": "probability_weighting",
+      "verb": "contains",
+      "time": 82.06933333333332,
+      "cluster": 2
+    },
+    {
+      "from": "cumulat_probability",
+      "to": "likelihood_perception",
+      "verb": "contains",
+      "time": 86.33599999999998,
+      "cluster": 2
+    },
+    {
+      "from": "cumulat_probability",
+      "to": "likelihood_asses",
+      "verb": "operates on",
+      "time": 91.32799999999999,
+      "cluster": 2
+    },
+    {
+      "from": "probability_weighting",
+      "to": "tendency_overweight_small",
+      "verb": "captures",
+      "time": 95.99999999999999,
+      "cluster": 1
+    },
+    {
+      "from": "probability_weighting",
+      "to": "tendency_underweight_large",
+      "verb": "captures",
+      "time": 100.94933333333331,
+      "cluster": 1
+    },
+    {
+      "from": "non_linear_transformation",
+      "to": "small_probability",
+      "verb": "reflects",
+      "time": 106.49599999999998,
+      "cluster": 1
+    },
+    {
+      "from": "non_linear_transformation",
+      "to": "subject_probability",
+      "verb": "translates into",
+      "time": 110.82666666666665,
+      "cluster": 1
+    },
+    {
+      "from": "object_probability",
+      "to": "subject_probability",
+      "verb": "transforms into",
+      "time": 117.93066666666665,
+      "cluster": 1
+    },
+    {
+      "from": "non_linear_nature",
+      "to": "value_perception",
+      "verb": "highlight",
+      "time": 123.26399999999998,
+      "cluster": 1
+    },
+    {
+      "from": "prospect_theory",
+      "to": "nuanced_understanding",
+      "verb": "consists of",
+      "time": 128.49066666666664,
+      "cluster": 1
+    },
+    {
+      "from": "prospect_theory",
+      "to": "non_linear_decision",
+      "verb": "results in",
+      "time": 133.48266666666663,
+      "cluster": 1
+    },
+    {
+      "from": "experiment",
+      "to": "prospect_theory",
+      "verb": "tests",
+      "time": 139.11466666666664,
+      "cluster": 1
+    },
+    {
+      "from": "prospect_theory",
+      "to": "individual_decision",
+      "verb": "explains",
+      "time": 145.25866666666664,
+      "cluster": 1
+    },
+    {
+      "from": "significant_implication",
+      "to": "prospect_theory",
+      "verb": "has",
+      "time": 150.71999999999997,
+      "cluster": 1
+    },
+    {
+      "from": "conclusion",
+      "to": "prospect_theory",
+      "verb": "attends to",
+      "time": 155.88266666666664,
+      "cluster": 1
+    },
+    {
+      "from": "behavioral_econ",
+      "to": "psycholog_factor",
+      "verb": "contains",
+      "time": 162.9013333333333,
+      "cluster": 0
+    },
+    {
+      "from": "psycholog_factor",
+      "to": "diminishing_sensitivity",
+      "verb": "includes",
+      "time": 169.66399999999996,
+      "cluster": 0
+    },
+    {
+      "from": "diminishing_sensitivity",
+      "to": "magnitude",
+      "verb": "depends on",
+      "time": 176.17066666666662,
+      "cluster": 0
+    },
+    {
+      "from": "concavity",
+      "to": "diminishing_sensitivity",
+      "verb": "translates to",
+      "time": 182.07999999999996,
+      "cluster": 0
+    },
+    {
+      "from": "psycholog_factor",
+      "to": "economic_decision",
+      "verb": "operates on",
+      "time": 188.67199999999997,
+      "cluster": 0
+    },
+    {
+      "from": "utility_theory_limitation",
+      "to": "psycholog_factor",
+      "verb": "opposes",
+      "time": 194.85866666666664,
+      "cluster": 0
+    },
+    {
+      "from": "utility_theory_limitation",
+      "to": "real_world_scenario",
+      "verb": "causes",
+      "time": 202.41066666666663,
+      "cluster": 0
+    },
+    {
+      "from": "real_world_scenario",
+      "to": "cognit_bia",
+      "verb": "depends on",
+      "time": 209.91999999999996,
+      "cluster": 0
+    },
+    {
+      "from": "real_world_scenario",
+      "to": "heuristic",
+      "verb": "depends on",
+      "time": 217.19466666666662,
+      "cluster": 0
+    },
+    {
+      "from": "behavioral_econ",
+      "to": "social_factor",
+      "verb": "contains",
+      "time": 224.93866666666662,
+      "cluster": 0
+    },
+    {
+      "from": "behavioral_econ",
+      "to": "emotional_factor",
+      "verb": "contains",
+      "time": 232.25599999999994,
+      "cluster": 0
+    },
+    {
+      "from": "behavioral_econ",
+      "to": "traditional_theory",
+      "verb": "challenges",
+      "time": 240.02133333333327,
+      "cluster": 0
+    },
+    {
+      "from": "behavioral_econ",
+      "to": "human_behavior",
+      "verb": "includes",
+      "time": 248.76799999999994,
+      "cluster": 0
+    },
+    {
+      "from": "crucial_understanding",
+      "to": "motivation_behind_risk_decision",
+      "verb": "depends on",
+      "time": 257.1946666666666,
+      "cluster": 0
+    },
+    {
+      "from": "crucial",
+      "to": "motivation_behind_risk_decision",
+      "verb": "is",
+      "time": 264.72533333333325,
+      "cluster": 0
+    },
+    {
+      "from": "field",
+      "to": "economic_psychology",
+      "verb": "contains",
+      "time": 271.9359999999999,
+      "cluster": 3
+    },
+    {
+      "from": "insight",
+      "to": "field",
+      "verb": "applies to",
+      "time": 279.06133333333327,
+      "cluster": 3
+    },
+    {
+      "from": "value_function",
+      "to": "gain_lo",
+      "verb": "consists of",
+      "time": 286.1013333333333,
+      "cluster": 0
+    },
+    {
+      "from": "value_function",
+      "to": "psycholog_impact",
+      "verb": "compare",
+      "time": 291.6266666666666,
+      "cluster": 0
+    },
+    {
+      "from": "value_function",
+      "to": "distinct_aspect",
+      "verb": "highlight",
+      "time": 298.87999999999994,
+      "cluster": 0
+    },
+    {
+      "from": "title_presentation",
+      "to": "main_contribution",
+      "verb": "relates",
+      "time": 305.3866666666666,
+      "cluster": 0
+    },
+    {
+      "from": "complexity_of_decision_making",
+      "to": "risk_context",
+      "verb": "exists in",
+      "time": 313.0026666666666,
+      "cluster": 0
+    },
+    {
+      "from": "gain",
+      "to": "lo_intensely",
+      "verb": "opposes",
+      "time": 320.31999999999994,
+      "cluster": 2
+    },
+    {
+      "from": "experimental_result_summary",
+      "to": "overview_of_outcome",
+      "verb": "provides",
+      "time": 327.4239999999999,
+      "cluster": 2
+    },
+    {
+      "from": "decision_pattern",
+      "to": "traditional_utility_theory",
+      "verb": "challenges",
+      "time": 333.5039999999999,
+      "cluster": 4
+    },
+    {
+      "from": "future_research_direction",
+      "to": "exploration",
+      "verb": "relates",
+      "time": 341.35466666666656,
+      "cluster": 5
+    },
+    {
+      "from": "applicability_acros_culture",
+      "to": "integration_with_behavioral_model",
+      "verb": "relates",
+      "time": 348.24533333333324,
+      "cluster": 6
+    },
+    {
+      "from": "behavior_model",
+      "to": "risky_situation",
+      "verb": "operates on",
+      "time": 356.13866666666655,
+      "cluster": 7
+    },
+    {
+      "from": "probability_weighting",
+      "to": "small_probability",
+      "verb": "contains",
+      "time": 362.6879999999999,
+      "cluster": 1
+    },
+    {
+      "from": "psycholog_factor",
+      "to": "diminishing_sensitivity",
+      "verb": "consists of",
+      "time": 369.3653333333332,
+      "cluster": 0
+    },
+    {
+      "from": "non_linear_transformation",
+      "to": "large_probability",
+      "verb": "reflects",
+      "time": 376.8533333333332,
+      "cluster": 1
+    },
+    {
+      "from": "large_probability",
+      "to": "value_perception",
+      "verb": "underweight",
+      "time": 384.06399999999985,
+      "cluster": 1
+    },
+    {
+      "from": "social_factor",
+      "to": "economic_decision",
+      "verb": "operates on",
+      "time": 391.6159999999999,
+      "cluster": 0
+    },
+    {
+      "from": "emotional_factor",
+      "to": "economic_decision",
+      "verb": "operates on",
+      "time": 398.9546666666665,
+      "cluster": 0
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "behavioral_econ",
+      "label": "Behavioral economics",
+      "children": [
+        {
+          "id": "psycholog_factor",
+          "label": "Psychological factors",
+          "children": [
+            {
+              "id": "diminishing_sensitivity",
+              "label": "Diminishing sensitivity"
+            }
+          ]
+        },
+        {
+          "id": "social_factor",
+          "label": "Social factors"
+        },
+        {
+          "id": "emotional_factor",
+          "label": "Emotional factors"
+        },
+        {
+          "id": "human_behavior",
+          "label": "Real-world human behaviors"
+        },
+        {
+          "id": "title_presentation",
+          "label": "Presentation title"
+        },
+        {
+          "id": "main_contribution",
+          "label": "Main contribution to behavioral economics and decision-making theory"
+        },
+        {
+          "id": "crucial_understanding",
+          "label": "Crucial understanding"
+        },
+        {
+          "id": "motivation_behind_risk_decision",
+          "label": "Motivation behind risk decisions"
+        },
+        {
+          "id": "crucial",
+          "label": "crucial"
+        },
+        {
+          "id": "complexity_of_decision_making",
+          "label": "Complexity of human decision-making processes"
+        },
+        {
+          "id": "risk_context",
+          "label": "Risk context"
+        },
+        {
+          "id": "traditional_theory",
+          "label": "Traditional economic theories"
+        },
+        {
+          "id": "economic_decision",
+          "label": "economic decisions"
+        },
+        {
+          "id": "utility_theory_limitation",
+          "label": "Limitations of utility theory"
+        },
+        {
+          "id": "real_world_scenario",
+          "label": "Real-world scenarios"
+        },
+        {
+          "id": "cognit_bia",
+          "label": "Cognitive biases"
+        },
+        {
+          "id": "heuristic",
+          "label": "Heuristics"
+        },
+        {
+          "id": "value_function",
+          "label": "Value function concept"
+        },
+        {
+          "id": "gain_lo",
+          "label": "Gains and losses evaluation"
+        },
+        {
+          "id": "magnitude",
+          "label": "Magnitude of gains or losses"
+        },
+        {
+          "id": "concavity",
+          "label": "Concavity for gains and convexity for losses"
+        },
+        {
+          "id": "psycholog_impact",
+          "label": "Psychological impact of gains and losses"
+        },
+        {
+          "id": "distinct_aspect",
+          "label": "Distinct aspects of human behavior"
+        }
+      ]
+    },
+    {
+      "id": "prospect_theory",
+      "label": "Prospect Theory",
+      "children": [
+        {
+          "id": "deviation_from_economic_model",
+          "label": "Deviation from traditional economic models"
+        },
+        {
+          "id": "traditional_economic_model",
+          "label": "traditional economic models"
+        },
+        {
+          "id": "nuanced_understanding",
+          "label": "Nuanced understanding of gains and losses"
+        },
+        {
+          "id": "non_linear_decision",
+          "label": "Non-linear decision-making processes"
+        },
+        {
+          "id": "tendency_overweight_small",
+          "label": "Tendency to overweight small probabilities"
+        },
+        {
+          "id": "tendency_underweight_large",
+          "label": "tendency underweight large"
+        },
+        {
+          "id": "small_probability",
+          "label": "Small probabilities"
+        },
+        {
+          "id": "large_probability",
+          "label": "Large probabilities"
+        },
+        {
+          "id": "different_perception_processing",
+          "label": "Different perception and processing of probabilities"
+        },
+        {
+          "id": "actual_value",
+          "label": "Actual probability values"
+        },
+        {
+          "id": "weighting_function_characteristic",
+          "label": "Weighting function characteristics"
+        },
+        {
+          "id": "perception_difference",
+          "label": "Individual perception differences"
+        },
+        {
+          "id": "non_linear_transformation",
+          "label": "Non-linear transformation"
+        },
+        {
+          "id": "subject_probability",
+          "label": "subjective probabilities"
+        },
+        {
+          "id": "object_probability",
+          "label": "objective probabilities"
+        },
+        {
+          "id": "probability_weighting",
+          "label": "probability weighting"
+        },
+        {
+          "id": "perceived_probability",
+          "label": "Perceived probabilities"
+        },
+        {
+          "id": "experiment",
+          "label": "Experiments designed to test hypotheses"
+        },
+        {
+          "id": "individual_decision",
+          "label": "Individual decision-making"
+        },
+        {
+          "id": "significant_implication",
+          "label": "significant implications"
+        },
+        {
+          "id": "value_perception",
+          "label": "Value perception"
+        },
+        {
+          "id": "non_linear_nature",
+          "label": "non-linear nature"
+        },
+        {
+          "id": "conclusion",
+          "label": "Conclusion of the presentation"
+        }
+      ]
+    },
+    {
+      "id": "experimental_design_overview",
+      "label": "Experimental design overview",
+      "children": [
+        {
+          "id": "gain",
+          "label": "gains"
+        },
+        {
+          "id": "lo_intensely",
+          "label": "Losses felt more intensely"
+        },
+        {
+          "id": "cumulat_probability",
+          "label": "Cumulative probability concept",
+          "children": [
+            {
+              "id": "likelihood_perception",
+              "label": "likelihood perception"
+            }
+          ]
+        },
+        {
+          "id": "likelihood_asses",
+          "label": "Likelihood assessment"
+        },
+        {
+          "id": "model",
+          "label": "Framework for testing hypotheses"
+        },
+        {
+          "id": "participant_selection",
+          "label": "Participant selection process"
+        },
+        {
+          "id": "experimental_condition",
+          "label": "Experimental conditions setup"
+        },
+        {
+          "id": "data_collection_method",
+          "label": "Data collection methods"
+        },
+        {
+          "id": "experimental_result_summary",
+          "label": "Experimental results summary"
+        },
+        {
+          "id": "overview_of_outcome",
+          "label": "overview of outcomes"
+        },
+        {
+          "id": "implication",
+          "label": "Implications of findings"
+        },
+        {
+          "id": "participant_response",
+          "label": "Participant response"
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "label": "Fields including economics, finance, and behavioral science",
+      "children": [
+        {
+          "id": "economic_psychology",
+          "label": "economics,psychology"
+        },
+        {
+          "id": "insight",
+          "label": "Insights derived from prospect theory"
+        }
+      ]
+    },
+    {
+      "id": "decision_pattern",
+      "label": "Patterns in decision-making",
+      "children": [
+        {
+          "id": "traditional_utility_theory",
+          "label": "Traditional utility theory assumptions"
+        }
+      ]
+    },
+    {
+      "id": "future_research_direction",
+      "label": "Future research directions",
+      "children": [
+        {
+          "id": "exploration",
+          "label": "Exploration of further applications"
+        }
+      ]
+    },
+    {
+      "id": "applicability_acros_culture",
+      "label": "Applicability across different cultural contexts",
+      "children": [
+        {
+          "id": "integration_with_behavioral_model",
+          "label": "Integration with other behavioral models"
+        }
+      ]
+    },
+    {
+      "id": "behavior_model",
+      "label": "behavior models",
+      "children": [
+        {
+          "id": "risky_situation",
+          "label": "risky situations"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Prospect Theory operates through an experimental design overview.",
+    "Framework for testing hypotheses relies on the experimental design overview.",
+    "Experimental design overview incorporates a participant selection process.",
+    "It also includes setting up experimental conditions.",
+    "And integrates various data collection methods.",
+    "Prospect Theory contradicts traditional economic models fundamentally.",
+    "Deviation from traditional economic models opposes these models directly.",
+    "Participant responses conform to predictions made by Prospect Theory.",
+    "Implications of findings scrutinize the nature of participant responses.",
+    "Prospect Theory delineates how individuals perceive value.",
+    "Small probabilities significantly influence and are overweighted in value perception.",
+    "Probability weighting connects the treatment of small probabilities specifically.",
+    "It also probability weighting includes large probabilities within its analysis.",
+    "And probability weighting accurately reflects actual probability values.",
+    "Individual perception differences deviate from true actual probability values.",
+    "Characteristics of the weighting function highlight individual perception disparities.",
+    "Different perceptions and processing of probabilities contrast with actual probability values.",
+    "Perceived probabilities often conflict with the real actual probability values.",
+    "Likelihood perception encompasses the influence of probability weighting.",
+    "The cumulative probability concept integrates the idea of likelihood perception.",
+    "It also functions based on assessments of likelihood.",
+    "Probability weighting captures the tendency to overestimate small probabilities.",
+    "It also probability weighting also captures the tendency to underestimate large probabilities.",
+    "Non-linear transformations reflect the impact of small probabilities.",
+    "It also changes objective probabilities into subjective probabilities for decision-makers.",
+    "The non-linear nature emphasizes how value is perceived differently by individuals.",
+    "Prospect Theory offers a nuanced understanding of how gains and losses are valued.",
+    "This theory leads to non-linear decision-making processes due to its core principles.",
+    "It also experiments specifically designed test hypotheses related to Prospect Theory's predictions.",
+    "Prospect Theory provides explanations for individual decision-making under conditions of uncertainty.",
+    "Significant implications arise from Prospect Theory for understanding risky choices.",
+    "The conclusion of this presentation will address key findings related to Prospect Theory.",
+    "Behavioral economics incorporates psychological factors that influence economic behavior significantly.",
+    "Psychological factors within behavioral economics include diminishing sensitivity to gains or losses.",
+    "Diminishing sensitivity relies on the magnitude of gains or losses experienced by individuals.",
+    "Prospect Theory highlights how diminishing sensitivity affects perceptions of value in decisions.",
+    "Concavity for gains and convexity for losses translate to diminishing sensitivity in Prospect Theory.",
+    "Psychological factors operate on economic decisions, influencing choices under uncertainty.",
+    "Limitations of utility theory oppose psychological factors, highlighting its shortcomings in real-world applications.",
+    "It also limitations of utility theory cause real-world scenarios where traditional models fail to predict behavior accurately.",
+    "Real-world scenarios depend on cognitive biases, which affect how people perceive gains and losses differently.",
+    "It also depend on heuristics, simplifying rules that guide decision-making despite potential inaccuracies.",
+    "Behavioral economics contains social factors, acknowledging how social influences impact economic choices.",
+    "It also omics contains emotional factors, recognizing the role of emotions in shaping financial decisions.",
+    "It also omics challenges traditional economic theories, emphasizing the importance of psychological aspects in decision-making.",
+    "And omics includes real-world human behaviors, moving beyond abstract models to incorporate actual human behavior.",
+    "Crucial understanding depends on the motivation behind risk decisions, considering why individuals make certain choices.",
+    "The motivation behind risk decisions is crucial, highlighting the importance of understanding why people take risks.",
+    "Fields including economics, finance, and behavioral science incorporate insights from economics and psychology.",
+    "Insights derived from prospect theory apply to fields including economics, finance, and behavioral science.",
+    "Value function concept evaluates gains and losses within the framework of prospect theory.",
+    "It also compares the psychological impact of gains and losses experienced by individuals.",
+    "And highlights distinct aspects of human behavior in response to gains and losses.",
+    "Presentation title reflects the main contribution of prospect theory to behavioral economics and decision-making theory.",
+    "Complexity of human decision-making processes manifests in risk contexts, challenging traditional understanding.",
+    "Gains are psychologically felt less intensely compared to the intensity of losses experienced by individuals.",
+    "Experimental results summary provides an overview of the outcomes observed in prospect theory studies.",
+    "Patterns in decision-making challenge traditional utility theory assumptions about how people make choices under uncertainty.",
+    "Future research directions relate to the exploration of further applications of prospect theory in various fields.",
+    "Applicability across different cultural contexts integrates prospect theory with other behavioral models for broader understanding.",
+    "Behavior models operate on risky situations by guiding decision-making processes under uncertainty.",
+    "Probability weighting contains small probabilities by emphasizing their disproportionate impact on choices.",
+    "Psychological factors consist of diminishing sensitivity by reducing the perceived value of gains as they increase.",
+    "Non-linear transformation reflects large probabilities by altering how likely outcomes are perceived and valued.",
+    "Large probabilities underweight value perception by making people less sensitive to changes in high-probability events.",
+    "Social factors operate on economic decisions by influencing choices through community norms and expectations.",
+    "Emotional factors operate on economic decisions by affecting choices through personal feelings and reactions."
+  ]
+}

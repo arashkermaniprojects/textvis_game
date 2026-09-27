@@ -1,0 +1,2052 @@
+{
+  "basename": "alphafold_jumper_2021",
+  "version": "1.0",
+  "generated_at": "2026-04-14T08:16:27.299Z",
+  "title": "alphafold jumper 2021",
+  "source_pdf": "source_papers/alphafold_jumper_2021.pdf",
+  "voice": {
+    "name": "af_river",
+    "speed": 0.85,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 1.2,
+    "total_duration": 467.03466666666657
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 62.3,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 14.769566,
+    "rescale_factor": 1
+  },
+  "clusters": [
+    {
+      "id": "alpha_fold",
+      "label": "AlphaFold system",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "radius": 11,
+      "node_ids": [
+        "alpha_fold",
+        "predict_structure",
+        "addres_complexity",
+        "journey",
+        "protein_interaction",
+        "understanding",
+        "sophisticated_model",
+        "intricate_biolog_system",
+        "challenge",
+        "unique_obstacle",
+        "protein_structure",
+        "interaction",
+        "accurate_prediction",
+        "understanding_protein_folding",
+        "new_avenue_drug_discovery",
+        "disease_treat",
+        "multi_protein_complexe",
+        "modification",
+        "scene_11",
+        "contact_prediction",
+        "residue_pair",
+        "close_proximity",
+        "protein_function",
+        "protein_dynamic",
+        "model"
+      ]
+    },
+    {
+      "id": "dockq_score",
+      "label": "DockQ score",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "radius": 11,
+      "node_ids": [
+        "dockq_score",
+        "interaction_prediction",
+        "intricate_interaction",
+        "accuracy_comparison",
+        "model_prediction",
+        "interface_prediction",
+        "existing_method",
+        "direct_comparison",
+        "precision",
+        "reliability",
+        "component_proce",
+        "complex_input",
+        "reli_output",
+        "model_performance",
+        "adjustment",
+        "model_design",
+        "permutation_symmetry",
+        "confidence_level",
+        "correct_of_predicted_outcome",
+        "comparison_structure",
+        "accuracy_measure",
+        "known_structure_align",
+        "frame_aligned_error",
+        "align",
+        "structural_prediction"
+      ]
+    },
+    {
+      "id": "new_training_technique",
+      "label": "New training techniques",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "radius": 10.932213,
+      "node_ids": [
+        "new_training_technique",
+        "order_independence",
+        "consistent_prediction",
+        "accuracy",
+        "speed",
+        "innovat_method",
+        "learning_proces",
+        "overall_performance",
+        "dockq_metric",
+        "protein_docking_prediction",
+        "comprehen_asses",
+        "interface_similarity",
+        "model_confidence_score",
+        "accuracy_of_prediction"
+      ]
+    },
+    {
+      "id": "result_summary_slide",
+      "label": "Results summary slide",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "radius": 6.810512,
+      "node_ids": [
+        "result_summary_slide",
+        "experiment_finding",
+        "accuracy_reliability",
+        "metric_precision"
+      ]
+    },
+    {
+      "id": "model_capture",
+      "label": "Model captures effectively",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "model_capture",
+        "intricate_geometry"
+      ]
+    },
+    {
+      "id": "incorrect_geometry",
+      "label": "Incorrect geometry predictions",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "incorrect_geometry",
+        "actual_structure"
+      ]
+    },
+    {
+      "id": "experiment_overview",
+      "label": "Experiments overview slide",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "experiment_overview",
+        "experiment_conducted"
+      ]
+    },
+    {
+      "id": "method_procedure",
+      "label": "Methods and procedures",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "method_procedure",
+        "performance_acros_scenario"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "predict_structure",
+      "label": "Prediction of protein complex structure",
+      "type": "function",
+      "position": [
+        33.071002,
+        -0.189387,
+        64.508538
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/predict_structure.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "alpha_fold",
+      "label": "AlphaFold model",
+      "type": "model",
+      "position": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/alpha_fold.png",
+      "edge_in_count": 0,
+      "edge_out_count": 6
+    },
+    {
+      "id": "addres_complexity",
+      "label": "Addressing complexity and challenges",
+      "type": "solution",
+      "position": [
+        27.615915,
+        -3.167874,
+        63.35001
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/addres_complexity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "journey",
+      "label": "Journey into understanding",
+      "type": "concept",
+      "position": [
+        30.576167,
+        4.143834,
+        63.662294
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/journey.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "protein_interaction",
+      "label": "Protein interactions",
+      "type": "mechanism",
+      "position": [
+        34.97467,
+        -2.268259,
+        60.683254
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/protein_interaction.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "understanding",
+      "label": "understanding",
+      "type": "default",
+      "position": [
+        25.843225,
+        2.229142,
+        62.590008
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/understanding.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sophisticated_model",
+      "label": "Sophisticated models",
+      "type": "architecture",
+      "position": [
+        37.37665,
+        2.271516,
+        61.522647
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/sophisticated_model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "intricate_biolog_system",
+      "label": "Intricate biological systems",
+      "type": "world",
+      "position": [
+        31.089061,
+        -6.895283,
+        61.271932
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/intricate_biolog_system.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "challenge",
+      "label": "Challenges",
+      "type": "problem",
+      "position": [
+        30.317335,
+        4.698742,
+        58.527215
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/challenge.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "unique_obstacle",
+      "label": "Unique obstacles",
+      "type": "problem",
+      "position": [
+        38.639461,
+        -1.357756,
+        58.712003
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/unique_obstacle.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "protein_structure",
+      "label": "Protein structure",
+      "type": "representation",
+      "position": [
+        26.32364,
+        -1.23568,
+        54.888348
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/protein_structure.png",
+      "edge_in_count": 4,
+      "edge_out_count": 1
+    },
+    {
+      "id": "interaction",
+      "label": "interaction",
+      "type": "default",
+      "position": [
+        34.022896,
+        5.98214,
+        57.535135
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/interaction.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accurate_prediction",
+      "label": "Accurate prediction",
+      "type": "success",
+      "position": [
+        31.828541,
+        -3.238661,
+        56.483681
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/accurate_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "understanding_protein_folding",
+      "label": "understanding protein folding",
+      "type": "default",
+      "position": [
+        23.279131,
+        3.578936,
+        56.312851
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/understanding_protein_folding.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "new_avenue_drug_discovery",
+      "label": "New avenues for drug discovery",
+      "type": "success",
+      "position": [
+        39.333738,
+        1.842005,
+        54.74194
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/new_avenue_drug_discovery.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "disease_treat",
+      "label": "Disease treatment",
+      "type": "success",
+      "position": [
+        26.799924,
+        -7.254139,
+        54.519151
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/disease_treat.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "multi_protein_complexe",
+      "label": "Multi-protein complexes",
+      "type": "problem",
+      "position": [
+        30.273384,
+        8.112566,
+        53.490293
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/multi_protein_complexe.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "interaction_prediction",
+      "label": "Prediction of protein interactions",
+      "type": "solution",
+      "position": [
+        -33.70185,
+        -33.091209,
+        46.729125
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/interaction_prediction.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "intricate_interaction",
+      "label": "Intricate protein interactions",
+      "type": "problem",
+      "position": [
+        -37.388727,
+        -34.701346,
+        46.314801
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/intricate_interaction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accuracy_comparison",
+      "label": "Accuracy comparison",
+      "type": "comparison",
+      "position": [
+        -34.639702,
+        -27.480298,
+        45.372228
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/accuracy_comparison.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dockq_score",
+      "label": "DockQ score",
+      "type": "metric",
+      "position": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/dockq_score.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "model_prediction",
+      "label": "Model predictions",
+      "type": "prediction",
+      "position": [
+        -32.350909,
+        -35.921255,
+        40.479987
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/model_prediction.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "interface_prediction",
+      "label": "Interface prediction scores",
+      "type": "metric",
+      "position": [
+        -39.20178,
+        -32.26787,
+        42.547438
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/interface_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "existing_method",
+      "label": "Existing interface prediction methods",
+      "type": "architecture",
+      "position": [
+        -30.352865,
+        -28.817297,
+        44.093982
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/existing_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "direct_comparison",
+      "label": "Direct comparison of predictions",
+      "type": "method",
+      "position": [
+        -35.964475,
+        -37.154937,
+        42.846863
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/direct_comparison.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "precision",
+      "label": "precision",
+      "type": "default",
+      "position": [
+        -38.99968,
+        -26.085056,
+        41.636999
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/precision.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability of models",
+      "type": "representation",
+      "position": [
+        -28.424579,
+        -36.25393,
+        41.647233
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/reliability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "component_proce",
+      "label": "Components and processes",
+      "type": "architecture",
+      "position": [
+        -40.152069,
+        -35.237526,
+        40.137077
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/component_proce.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "complex_input",
+      "label": "Complex inputs",
+      "type": "input",
+      "position": [
+        -33.007756,
+        -25.709298,
+        39.844788
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/complex_input.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "reli_output",
+      "label": "Reliable outputs",
+      "type": "output",
+      "position": [
+        -34.796742,
+        -40.864854,
+        39.176459
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/reli_output.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "model_performance",
+      "label": "Model performance evaluation",
+      "type": "architecture",
+      "position": [
+        -38.333249,
+        -27.80266,
+        36.674128
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/model_performance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustments during training process",
+      "type": "solution",
+      "position": [
+        -28.504016,
+        -29.417887,
+        37.346383
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/adjustment.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "modification",
+      "label": "Critical modifications",
+      "type": "solution",
+      "position": [
+        35.534733,
+        -5.720132,
+        52.893079
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/modification.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "model_design",
+      "label": "Model design process",
+      "type": "process",
+      "position": [
+        -40.842864,
+        -37.149655,
+        35.884978
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/model_design.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "permutation_symmetry",
+      "label": "Permutation symmetry principle",
+      "type": "principle",
+      "position": [
+        -37.445047,
+        -25.3319,
+        34.755378
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/permutation_symmetry.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "order_independence",
+      "label": "Order independence of input proteins",
+      "type": "property",
+      "position": [
+        7.440379,
+        62.849303,
+        34.119847
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/order_independence.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "consistent_prediction",
+      "label": "Consistent and reliable predictions",
+      "type": "result",
+      "position": [
+        2.907643,
+        60.560814,
+        33.330846
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/consistent_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "new_training_technique",
+      "label": "New training techniques",
+      "type": "solution",
+      "position": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/new_training_technique.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "accuracy",
+      "label": "Accuracy of models",
+      "type": "representation",
+      "position": [
+        5.988288,
+        70.291533,
+        31.1229
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/accuracy.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "speed",
+      "label": "Efficiency enhancement",
+      "type": "success",
+      "position": [
+        10.256314,
+        57.622396,
+        29.699292
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/speed.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "innovat_method",
+      "label": "Innovative methods",
+      "type": "solution",
+      "position": [
+        1.307306,
+        63.876266,
+        28.026224
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/innovat_method.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "learning_proces",
+      "label": "Learning process refinement",
+      "type": "success",
+      "position": [
+        9.872139,
+        67.492439,
+        27.643808
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/learning_proces.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "overall_performance",
+      "label": "Overall system performance",
+      "type": "success",
+      "position": [
+        2.093003,
+        57.12799,
+        26.688231
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/overall_performance.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "scene_11",
+      "label": "Scene 11",
+      "type": "default",
+      "position": [
+        24.641686,
+        0.870681,
+        50.556812
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/scene_11.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "contact_prediction",
+      "label": "Contact prediction",
+      "type": "mechanism",
+      "position": [
+        34.11653,
+        3.03491,
+        52.867325
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/contact_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "residue_pair",
+      "label": "Residue pairs",
+      "type": "representation",
+      "position": [
+        30.524084,
+        -5.686152,
+        49.764376
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/residue_pair.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "close_proximity",
+      "label": "Close proximity",
+      "type": "representation",
+      "position": [
+        28.857839,
+        0.326986,
+        49.829344
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/close_proximity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 3
+    },
+    {
+      "id": "protein_function",
+      "label": "protein function",
+      "type": "default",
+      "position": [
+        35.196464,
+        -0.296715,
+        48.646123
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/protein_function.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "protein_dynamic",
+      "label": "protein dynamics",
+      "type": "default",
+      "position": [
+        27.954439,
+        -2.150349,
+        48.468503
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/protein_dynamic.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dockq_metric",
+      "label": "DockQ metric",
+      "type": "metric",
+      "position": [
+        4.0142,
+        69.469498,
+        24.357068
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/dockq_metric.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "protein_docking_prediction",
+      "label": "Protein docking predictions",
+      "type": "prediction",
+      "position": [
+        11.32374,
+        63.33518,
+        23.564829
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/protein_docking_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "comprehen_asses",
+      "label": "Comprehensive assessment",
+      "type": "assessment",
+      "position": [
+        -0.046885,
+        62.836369,
+        21.508012
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/comprehen_asses.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "interface_similarity",
+      "label": "Interface similarity score",
+      "type": "score",
+      "position": [
+        6.457336,
+        68.272642,
+        20.403783
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/interface_similarity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "model_confidence_score",
+      "label": "Model confidence scores",
+      "type": "score",
+      "position": [
+        6.634673,
+        59.211616,
+        18.607367
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/model_confidence_score.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "accuracy_of_prediction",
+      "label": "Accuracy of predictions",
+      "type": "accuracy",
+      "position": [
+        3.484364,
+        64.073535,
+        17.580691
+      ],
+      "cluster_id": "new_training_technique",
+      "icon": "png_icons/accuracy_of_prediction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "confidence_level",
+      "label": "Confidence levels",
+      "type": "score",
+      "position": [
+        -31.667401,
+        -37.494552,
+        35.974767
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/confidence_level.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "correct_of_predicted_outcome",
+      "label": "Correctness of predicted outcomes",
+      "type": "accuracy",
+      "position": [
+        -41.782896,
+        -34.161834,
+        33.752089
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/correct_of_predicted_outcome.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "model",
+      "label": "Model for protein structure prediction",
+      "type": "architecture",
+      "position": [
+        30.832962,
+        2.341155,
+        47.915078
+      ],
+      "cluster_id": "alpha_fold",
+      "icon": "png_icons/model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "model_capture",
+      "label": "Model captures effectively",
+      "type": "architecture",
+      "position": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "cluster_id": "model_capture",
+      "icon": "png_icons/model_capture.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "intricate_geometry",
+      "label": "Intricate geometry and spatial arrangement",
+      "type": "representation",
+      "position": [
+        -53.028136,
+        9.572145,
+        -8.328181
+      ],
+      "cluster_id": "model_capture",
+      "icon": "png_icons/intricate_geometry.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "incorrect_geometry",
+      "label": "Incorrect geometry predictions",
+      "type": "problem",
+      "position": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "cluster_id": "incorrect_geometry",
+      "icon": "png_icons/incorrect_geometry.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "actual_structure",
+      "label": "Actual geometric structures",
+      "type": "representation",
+      "position": [
+        51.105406,
+        32.523132,
+        -24.552473
+      ],
+      "cluster_id": "incorrect_geometry",
+      "icon": "png_icons/actual_structure.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "comparison_structure",
+      "label": "Comparison with other structures",
+      "type": "architecture",
+      "position": [
+        -31.804476,
+        -25.906212,
+        33.866183
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/comparison_structure.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accuracy_measure",
+      "label": "Accuracy measures",
+      "type": "metric",
+      "position": [
+        -36.915892,
+        -38.971914,
+        34.462986
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/accuracy_measure.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "known_structure_align",
+      "label": "Alignment with known structures",
+      "type": "metric",
+      "position": [
+        -38.591103,
+        -29.440927,
+        33.232789
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/known_structure_align.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "frame_aligned_error",
+      "label": "Frame Aligned Error metric",
+      "type": "metric",
+      "position": [
+        -30.916101,
+        -32.314631,
+        30.960472
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/frame_aligned_error.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "align",
+      "label": "Alignment between two structures",
+      "type": "architecture",
+      "position": [
+        -36.656802,
+        -34.040485,
+        30.032872
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/align.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "structural_prediction",
+      "label": "Structural predictions",
+      "type": "prediction",
+      "position": [
+        -35.791616,
+        -30.50114,
+        29.967348
+      ],
+      "cluster_id": "dockq_score",
+      "icon": "png_icons/structural_prediction.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "experiment_overview",
+      "label": "Experiments overview slide",
+      "type": "context",
+      "position": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "cluster_id": "experiment_overview",
+      "icon": "png_icons/experiment_overview.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "experiment_conducted",
+      "label": "Experiments conducted",
+      "type": "experiment",
+      "position": [
+        -13.340675,
+        -43.766611,
+        -35.318137
+      ],
+      "cluster_id": "experiment_overview",
+      "icon": "png_icons/experiment_conducted.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "method_procedure",
+      "label": "Methods and procedures",
+      "type": "method",
+      "position": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "cluster_id": "method_procedure",
+      "icon": "png_icons/method_procedure.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "performance_acros_scenario",
+      "label": "Model's performance across various scenarios",
+      "type": "performance",
+      "position": [
+        -13.846358,
+        25.187872,
+        -56.704477
+      ],
+      "cluster_id": "method_procedure",
+      "icon": "png_icons/performance_acros_scenario.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "result_summary_slide",
+      "label": "results summary slide",
+      "type": "default",
+      "position": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "cluster_id": "result_summary_slide",
+      "icon": "png_icons/result_summary_slide.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "experiment_finding",
+      "label": "Findings from experiments",
+      "type": "evidence",
+      "position": [
+        43.398827,
+        -51.578174,
+        11.676447
+      ],
+      "cluster_id": "result_summary_slide",
+      "icon": "png_icons/experiment_finding.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accuracy_reliability",
+      "label": "accuracy,reliability",
+      "type": "default",
+      "position": [
+        35.684741,
+        -55.067949,
+        8.184041
+      ],
+      "cluster_id": "result_summary_slide",
+      "icon": "png_icons/accuracy_reliability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "metric_precision",
+      "label": "Precision of performance metrics",
+      "type": "representation",
+      "position": [
+        39.835564,
+        -47.688496,
+        4.691635
+      ],
+      "cluster_id": "result_summary_slide",
+      "icon": "png_icons/metric_precision.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "challenge",
+      "from_label": "Challenges",
+      "to": "protein_structure",
+      "to_label": "Protein structure",
+      "verb": "requires",
+      "subtitle": "The challenge focuses on predicting the intricate protein structure accurately.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 6.042666666666666,
+      "image": null
+    },
+    {
+      "index": 1,
+      "from": "challenge",
+      "from_label": "Challenges",
+      "to": "unique_obstacle",
+      "to_label": "Unique obstacles",
+      "verb": "depends on",
+      "subtitle": "This unique obstacle arises because multi-chain complexes complicate the challenge.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 6.042666666666666,
+      "audio_duration": 6.512,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "addres_complexity",
+      "to_label": "Addressing complexity and challenges",
+      "verb": "extends capabilities",
+      "subtitle": "AlphaFold addresses the complexity and challenges by improving prediction accuracy.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 12.554666666666666,
+      "audio_duration": 6.512,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "multi_protein_complexe",
+      "to_label": "Multi-protein complexes",
+      "verb": "depends on",
+      "subtitle": "Its system faces difficulties due to the inherent complexity of multi-protein complexes.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 19.066666666666666,
+      "audio_duration": 7.173333333333333,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "contact_prediction",
+      "from_label": "Contact prediction",
+      "to": "protein_interaction",
+      "to_label": "Protein interactions",
+      "verb": "predicts",
+      "subtitle": "Contact prediction helps understand complex protein interactions by predicting contacts.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 26.24,
+      "audio_duration": 6.917333333333334,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "accuracy_measure",
+      "from_label": "Accuracy measures",
+      "to": "interface_prediction",
+      "to_label": "Interface prediction scores",
+      "verb": "consists of",
+      "subtitle": "Accuracy measures include interface prediction models that assess prediction quality.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 33.157333333333334,
+      "audio_duration": 6.234666666666667,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "reli_output",
+      "from_label": "Reliable outputs",
+      "to": "component_proce",
+      "to_label": "Components and processes",
+      "verb": "produce",
+      "subtitle": "Reliable outputs from the process generate components necessary for further analysis.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 39.392,
+      "audio_duration": 6.8533333333333335,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "model_capture",
+      "from_label": "Model captures effectively",
+      "to": "intricate_geometry",
+      "to_label": "Intricate geometry and spatial arrangement",
+      "verb": "produces",
+      "subtitle": "The model captures the intricate geometry and spatial arrangement of proteins effectively.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 46.245333333333335,
+      "audio_duration": 6.874666666666666,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "close_proximity",
+      "from_label": "Close proximity",
+      "to": "protein_function",
+      "to_label": "protein function",
+      "verb": "essential for",
+      "subtitle": "Close proximity among proteins is essential for their proper function and interaction.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 53.120000000000005,
+      "audio_duration": 6.512,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "component_proce",
+      "from_label": "Components and processes",
+      "to": "complex_input",
+      "to_label": "Complex inputs",
+      "verb": "enable",
+      "subtitle": "Components and processes together enable the handling of complex input data.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 59.632000000000005,
+      "audio_duration": 6.1706666666666665,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "journey",
+      "from_label": "Journey into understanding",
+      "to": "protein_interaction",
+      "to_label": "Protein interactions",
+      "verb": "consists of",
+      "subtitle": "This journey into understanding complex protein interactions reveals their significance.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 65.80266666666667,
+      "audio_duration": 6.533333333333333,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "model",
+      "from_label": "Model for protein structure prediction",
+      "to": "protein_structure",
+      "to_label": "Protein structure",
+      "verb": "design",
+      "subtitle": "A model designed for predicting protein structures improves our understanding of proteins.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 72.336,
+      "audio_duration": 6.917333333333334,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "sophisticated_model",
+      "from_label": "Sophisticated models",
+      "to": "intricate_biolog_system",
+      "to_label": "Intricate biological systems",
+      "verb": "operates on",
+      "subtitle": "Sophisticated models operate on intricate biological systems, advancing the role of in silico protein structure prediction in biological research.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 79.25333333333333,
+      "audio_duration": 11.184,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "model",
+      "from_label": "Model for protein structure prediction",
+      "to": "protein_structure",
+      "to_label": "Protein structure",
+      "verb": "produces",
+      "subtitle": "Its predictions of protein structures with increasing accuracy approach the level achieved through experimental methods.",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 90.43733333333333,
+      "audio_duration": 8.432,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "predict_structure",
+      "to_label": "Prediction of protein complex structure",
+      "verb": "achieves",
+      "subtitle": "AlphaFold system predicts protein complex structures accurately, even when proteins stabilize through multimeric interactions.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 98.86933333333333,
+      "audio_duration": 9.029333333333334,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "new_avenue_drug_discovery",
+      "to_label": "New avenues for drug discovery",
+      "verb": "opens",
+      "subtitle": "It also opens new avenues for drug discovery by successfully predicting protein interactions in various configurations.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 107.89866666666666,
+      "audio_duration": 8.837333333333333,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "protein_structure",
+      "from_label": "Protein structure",
+      "to": "modification",
+      "to_label": "Critical modifications",
+      "verb": "depends on",
+      "subtitle": "Protein structures depend critically on modifications, such as residue gaps and flexible linkers, affecting predictions.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 116.73599999999999,
+      "audio_duration": 8.944,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "close_proximity",
+      "from_label": "Close proximity",
+      "to": "protein_dynamic",
+      "to_label": "protein dynamics",
+      "verb": "essential for",
+      "subtitle": "Close proximity among amino acids is essential for understanding protein dynamics and interactions within the chain.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 125.67999999999999,
+      "audio_duration": 8.389333333333333,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "method_procedure",
+      "from_label": "Methods and procedures",
+      "to": "performance_acros_scenario",
+      "to_label": "Model's performance across various scenarios",
+      "verb": "contains",
+      "subtitle": "Methods and procedures detail the model's performance across various scenarios, enhancing its applicability.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 134.06933333333333,
+      "audio_duration": 8.005333333333333,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "result_summary_slide",
+      "from_label": "results summary slide",
+      "to": "metric_precision",
+      "to_label": "Precision of performance metrics",
+      "verb": "showcases",
+      "subtitle": "Results summary slide showcases the precision of performance metrics, highlighting improvements in structure prediction.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 142.07466666666667,
+      "audio_duration": 8.325333333333333,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "new_training_technique",
+      "from_label": "New training techniques",
+      "to": "speed",
+      "to_label": "Efficiency enhancement",
+      "verb": "improves",
+      "subtitle": "New training techniques improve efficiency, allowing faster computation while maintaining high accuracy in predictions.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 150.4,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "model_design",
+      "from_label": "Model design process",
+      "to": "permutation_symmetry",
+      "to_label": "Permutation symmetry principle",
+      "verb": "consists of",
+      "subtitle": "Model design incorporates permutation symmetry principles, ensuring accurate predictions for homomeric protein components.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 159.00266666666667,
+      "audio_duration": 9.093333333333334,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "result_summary_slide",
+      "from_label": "results summary slide",
+      "to": "experiment_finding",
+      "to_label": "Findings from experiments",
+      "verb": "encapsulates",
+      "subtitle": "Its summary slide encapsulates findings from experiments, detailing advancements in protein structure prediction.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 168.096,
+      "audio_duration": 8.176,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "challenge",
+      "from_label": "Challenges",
+      "to": "interaction",
+      "to_label": "interaction",
+      "verb": "requires",
+      "subtitle": "Challenges require interactions between researchers and computational tools, addressing ambiguities in protein interaction prediction.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 176.272,
+      "audio_duration": 9.498666666666667,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "frame_aligned_error",
+      "from_label": "Frame Aligned Error metric",
+      "to": "align",
+      "to_label": "Alignment between two structures",
+      "verb": "measures",
+      "subtitle": "The frame aligned error metric measures alignment between two structures by assessing the distances in their local reference frames.",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 185.77066666666667,
+      "audio_duration": 8.88,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "result_summary_slide",
+      "from_label": "results summary slide",
+      "to": "accuracy_reliability",
+      "to_label": "accuracy,reliability",
+      "verb": "highlights",
+      "subtitle": "This result summary slide highlights the accuracy and reliability of the model's predictions.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 194.65066666666667,
+      "audio_duration": 7.002666666666666,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "accuracy_comparison",
+      "from_label": "Accuracy comparison",
+      "to": "dockq_score",
+      "to_label": "DockQ score",
+      "verb": "consists of",
+      "subtitle": "Accuracy comparisons consist of DockQ scores, which evaluate the structural similarity between predicted and actual protein structures.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 201.65333333333334,
+      "audio_duration": 9.776,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "model_prediction",
+      "from_label": "Model predictions",
+      "to": "known_structure_align",
+      "to_label": "Alignment with known structures",
+      "verb": "consists of",
+      "subtitle": "Model predictions include alignments with known structures, ensuring this matches accurately with existing data.",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 211.42933333333335,
+      "audio_duration": 7.8773333333333335,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "residue_pair",
+      "from_label": "Residue pairs",
+      "to": "close_proximity",
+      "to_label": "Close proximity",
+      "verb": "identifies",
+      "subtitle": "Residue pairs identify close proximity within proteins, crucial for understanding protein interactions and stability.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 219.30666666666667,
+      "audio_duration": 8.773333333333333,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "innovat_method",
+      "from_label": "Innovative methods",
+      "to": "learning_proces",
+      "to_label": "Learning process refinement",
+      "verb": "refines",
+      "subtitle": "Innovative methods refine the learning process, allowing the model to more effectively identify residue conservation and co-evolution.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 228.08,
+      "audio_duration": 9.584,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "scene_11",
+      "from_label": "Scene 11",
+      "to": "contact_prediction",
+      "to_label": "Contact prediction",
+      "verb": "focuses on",
+      "subtitle": "Scene 11 focuses on contact prediction, analyzing how closely residues interact within a protein structure.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 237.66400000000002,
+      "audio_duration": 8.581333333333333,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "accuracy_measure",
+      "from_label": "Accuracy measures",
+      "to": "dockq_score",
+      "to_label": "DockQ score",
+      "verb": "consists of",
+      "subtitle": "Accuracy measures consist of DockQ scores, providing a quantitative assessment of the interface quality between protein structures.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 246.24533333333335,
+      "audio_duration": 9.242666666666667,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "dockq_score",
+      "from_label": "DockQ score",
+      "to": "model_prediction",
+      "to_label": "Model predictions",
+      "verb": "operates on",
+      "subtitle": "DockQ scores also evaluate the precision and correctness of the predicted protein structures.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 255.48800000000003,
+      "audio_duration": 7.002666666666666,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "interface_prediction",
+      "from_label": "Interface prediction scores",
+      "to": "existing_method",
+      "to_label": "Existing interface prediction methods",
+      "verb": "better than",
+      "subtitle": "Interface prediction models perform better than existing interface prediction methods, offering more accurate predictions of protein interactions.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 262.4906666666667,
+      "audio_duration": 9.52,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "frame_aligned_error",
+      "from_label": "Frame Aligned Error metric",
+      "to": "precision",
+      "to_label": "precision",
+      "verb": "emphasizes",
+      "subtitle": "The frame aligned error metric emphasizes the precision of predictions by focusing on the alignment of structures in local frames.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 272.0106666666667,
+      "audio_duration": 9.328,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "model_performance",
+      "from_label": "Model performance evaluation",
+      "to": "adjustment",
+      "to_label": "Adjustments during training process",
+      "verb": "depends on",
+      "subtitle": "Its performance improvement depends on adjustments made during the training process, enhancing its predictive capabilities.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 281.33866666666665,
+      "audio_duration": 8.453333333333333,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "innovat_method",
+      "from_label": "Innovative methods",
+      "to": "overall_performance",
+      "to_label": "Overall system performance",
+      "verb": "improves",
+      "subtitle": "Innovating methods enhance overall system performance when applied to complex datasets like Recent-PDB-Multimers.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 289.792,
+      "audio_duration": 9.029333333333334,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "confidence_level",
+      "from_label": "Confidence levels",
+      "to": "model_prediction",
+      "to_label": "Model predictions",
+      "verb": "highlights",
+      "subtitle": "Confidence levels highlight the reliability and precision of its predictions in assessing protein structures.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 298.8213333333333,
+      "audio_duration": 7.8133333333333335,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "direct_comparison",
+      "from_label": "Direct comparison of predictions",
+      "to": "precision",
+      "to_label": "precision",
+      "verb": "contains",
+      "subtitle": "Direct comparisons of predictions include precision measures, validating the accuracy of the AlphaFold system.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 306.63466666666665,
+      "audio_duration": 8.176,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "understanding",
+      "from_label": "understanding",
+      "to": "journey",
+      "to_label": "Journey into understanding",
+      "verb": "frustrate",
+      "subtitle": "Understanding the journey into predicting errors can be frustrating, especially when dealing with incorrect coordinates.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 314.81066666666663,
+      "audio_duration": 7.898666666666666,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "accurate_prediction",
+      "to_label": "Accurate prediction",
+      "verb": "achieves",
+      "subtitle": "The AlphaFold system achieves accurate predictions, showcasing its capability in predicting intricate protein structures.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 322.7093333333333,
+      "audio_duration": 8.986666666666666,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "new_training_technique",
+      "from_label": "New training techniques",
+      "to": "accuracy",
+      "to_label": "Accuracy of models",
+      "verb": "improves",
+      "subtitle": "New training techniques improve accuracy by modifying its architecture to handle multimers effectively.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 331.69599999999997,
+      "audio_duration": 7.8133333333333335,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "structural_prediction",
+      "from_label": "Structural predictions",
+      "to": "align",
+      "to_label": "Alignment between two structures",
+      "verb": "predicts",
+      "subtitle": "Structural predictions predict alignment between two structures, demonstrating its ability to compare protein conformations.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 339.5093333333333,
+      "audio_duration": 8.730666666666666,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "direct_comparison",
+      "from_label": "Direct comparison of predictions",
+      "to": "reliability",
+      "to_label": "Reliability of models",
+      "verb": "contains",
+      "subtitle": "Direct comparisons of predictions contain reliability assessments, ensuring the trustworthiness of its predictions.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 348.23999999999995,
+      "audio_duration": 8.154666666666667,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "dockq_metric",
+      "from_label": "DockQ metric",
+      "to": "protein_docking_prediction",
+      "to_label": "Protein docking predictions",
+      "verb": "evaluates",
+      "subtitle": "DockQ metric evaluates protein docking predictions, offering a quantitative measure of interaction accuracy.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 356.39466666666664,
+      "audio_duration": 8.154666666666667,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "model_confidence_score",
+      "from_label": "Model confidence scores",
+      "to": "accuracy_of_prediction",
+      "to_label": "Accuracy of predictions",
+      "verb": "correlation",
+      "subtitle": "Model confidence scores correlate with the accuracy of predictions, providing a reliable indicator of prediction quality.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 364.5493333333333,
+      "audio_duration": 8.432,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "incorrect_geometry",
+      "from_label": "Incorrect geometry predictions",
+      "to": "actual_structure",
+      "to_label": "Actual geometric structures",
+      "verb": "opposes",
+      "subtitle": "Incorrect geometry predictions oppose actual geometric structures, highlighting areas where the model needs improvement.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 372.98133333333334,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "accurate_prediction",
+      "from_label": "Accurate prediction",
+      "to": "interaction",
+      "to_label": "interaction",
+      "verb": "enables",
+      "subtitle": "Accurate prediction enables interactions within protein complexes, facilitating advancements in structural bioinformatics research.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 381.584,
+      "audio_duration": 9.754666666666667,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "accurate_prediction",
+      "from_label": "Accurate prediction",
+      "to": "understanding_protein_folding",
+      "to_label": "understanding protein folding",
+      "verb": "improves",
+      "subtitle": "It also enhances understanding of protein folding, aiding researchers in advancing structural bioinformatics.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 391.33866666666665,
+      "audio_duration": 8.432,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "alpha_fold",
+      "from_label": "AlphaFold model",
+      "to": "disease_treat",
+      "to_label": "Disease treatment",
+      "verb": "enables",
+      "subtitle": "AlphaFold system contributes to disease treatment by predicting protein interactions more accurately.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 399.77066666666667,
+      "audio_duration": 7.237333333333333,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "interaction_prediction",
+      "from_label": "Prediction of protein interactions",
+      "to": "intricate_interaction",
+      "to_label": "Intricate protein interactions",
+      "verb": "depends on",
+      "subtitle": "Prediction of intricate interactions relies on it, facilitating deeper biological insights.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 407.008,
+      "audio_duration": 7.152,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "order_independence",
+      "from_label": "Order independence of input proteins",
+      "to": "consistent_prediction",
+      "to_label": "Consistent and reliable predictions",
+      "verb": "produces",
+      "subtitle": "Order independence in input proteins leads to consistent and reliable predictions, enhancing the reliability of its results.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 414.15999999999997,
+      "audio_duration": 9.2,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "close_proximity",
+      "from_label": "Close proximity",
+      "to": "protein_structure",
+      "to_label": "Protein structure",
+      "verb": "within",
+      "subtitle": "Close proximity within protein structures is highlighted through the analysis of 4,433 non-redundant complexes.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 423.35999999999996,
+      "audio_duration": 9.477333333333334,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "model_performance",
+      "from_label": "Model performance evaluation",
+      "to": "comparison_structure",
+      "to_label": "Comparison with other structures",
+      "verb": "compares",
+      "subtitle": "Model performance shows improvement when compared to other structures, indicating superior predictive capabilities of it.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 432.8373333333333,
+      "audio_duration": 8.218666666666667,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "comprehen_asses",
+      "from_label": "Comprehensive assessment",
+      "to": "interface_similarity",
+      "to_label": "Interface similarity score",
+      "verb": "consists of",
+      "subtitle": "Comprehensive assessment includes an interface similarity score, measuring the accuracy of its model predictions.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 441.0559999999999,
+      "audio_duration": 8.026666666666667,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "confidence_level",
+      "from_label": "Confidence levels",
+      "to": "correct_of_predicted_outcome",
+      "to_label": "Correctness of predicted outcomes",
+      "verb": "aligns with",
+      "subtitle": "Confidence levels correlate with the correctness of predicted outcomes, ensuring reliable predictions in structural biology.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 449.08266666666657,
+      "audio_duration": 9.072,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "experiment_overview",
+      "from_label": "Experiments overview slide",
+      "to": "experiment_conducted",
+      "to_label": "Experiments conducted",
+      "verb": "relates",
+      "subtitle": "An experiments overview slide reflects the experiments conducted, visualizing both ground truth and its predicted structures.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 458.15466666666657,
+      "audio_duration": 8.88,
+      "image": null
+    }
+  ],
+  "questions": []
+}

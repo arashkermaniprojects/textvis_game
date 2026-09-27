@@ -1,0 +1,1314 @@
+{
+  "nodes": [
+    {
+      "id": "presentation_title",
+      "label": "Document Title",
+      "type": "title",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "histor_contemporary_analysi",
+      "label": "Comprehensive analysis of historical and contemporary uses",
+      "type": "analysis",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "specific_medium",
+      "label": "Specific medium in various contexts",
+      "type": "medium",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "educational_toy",
+      "label": "educational toy",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "military_application",
+      "label": "military applications",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation focus",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "toy_induction",
+      "label": "Toys induction into Toy Hall of Fame",
+      "type": "event",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "cultural_significance",
+      "label": "Cultural significance",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "impact_generation",
+      "label": "impact generations",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "adult_perception",
+      "label": "Adult perception of toy significance",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "toy_play_material",
+      "label": "Toys and play materials",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "perspect_influence",
+      "label": "Perspective influence on design and education",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "design_production_education",
+      "label": "Design, production, and educational use",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "children_perspect",
+      "label": "Children's perspective",
+      "type": "perspective",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "interaction_with_toy",
+      "label": "Interaction with toys",
+      "type": "interaction",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "childhood_experience",
+      "label": "Childhood experiences",
+      "type": "experience",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "play_cognit_develop",
+      "label": "Play and cognitive development",
+      "type": "development",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "play_emotional_develop",
+      "label": "Play and emotional development",
+      "type": "development",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "creat_medium_aspect",
+      "label": "Creative medium aspect",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "material_and_tool",
+      "label": "Materials and tools",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "creativity",
+      "label": "Creativity",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "innovation",
+      "label": "innovation",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "educational_philosophy",
+      "label": "educational philosophy",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sensory_exploration",
+      "label": "sensory exploration",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "learning_aspect",
+      "label": "learning aspect",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sandgarten",
+      "label": "Froebel's Sandgarten concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "friedrich_froebel",
+      "label": "Friedrich Froebel",
+      "type": "person",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "domesticating_sand_title",
+      "label": "Domesticating Sand",
+      "type": "title",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "adaptation_and_util",
+      "label": "Adaptation and Utilization",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "manipulation_and_application",
+      "label": "Manipulation and Application",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "educational_use",
+      "label": "Educational Use",
+      "type": "use",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "educational_tool",
+      "label": "Educational tools",
+      "type": "tool",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "unexpected_way",
+      "label": "Unexpected ways",
+      "type": "way",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "strategic_context",
+      "label": "strategic contexts",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scenario",
+      "label": "scenario",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "sandgarden_concept",
+      "label": "Sandgarden concepts",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "military_context",
+      "label": "Military context",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "vietnam_war",
+      "label": "Vietnam War",
+      "type": "world",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "white_house_briefing",
+      "label": "White House briefings",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "previously_discussed_concept",
+      "label": "Previously discussed concepts",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "strategic_decision",
+      "label": "Strategic decisions",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "thorough_analysi",
+      "label": "Thorough analysis",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "planning",
+      "label": "Planning",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "histor_context",
+      "label": "Historical context",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "president_obama",
+      "label": "President Obama",
+      "type": "person",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "official_setting",
+      "label": "official settings",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "pete_souza_photo",
+      "label": "Pete Souza photo",
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "president_lyndon_b_johnson",
+      "label": "President Lyndon B. Johnson",
+      "type": "person",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "image_taken_by_president_lyndon_b_johnson",
+      "label": "image taken by president lyndon b johnson",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "briefing",
+      "label": "Briefing",
+      "type": "event",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "posture_analysi",
+      "label": "posture analysis",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "body_language",
+      "label": "Body language",
+      "type": "non_verbal_communication",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "non_verbal_communication",
+      "label": "Non-verbal communication",
+      "type": "communication",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "distinct_message",
+      "label": "Distinct messages",
+      "type": "message",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "type": "emotion",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "vari_context",
+      "label": "Various contexts",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "gorgon_stare_drone",
+      "label": "gorgon stare drone",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "surveillance_technology",
+      "label": "Surveillance technology",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "wide_area_persistent_surveillance",
+      "label": "Wide-area persistent surveillance",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "real_time_data",
+      "label": "Real-time data",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "imagery",
+      "label": "Imagery",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "continu_monitoring",
+      "label": "Continuous monitoring",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "large_geographic_area",
+      "label": "large geographic areas",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "military_operation",
+      "label": "military operations",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "security",
+      "label": "security",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "key_insight",
+      "label": "Key insights and implications",
+      "type": "idea",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "multifaceted_role",
+      "label": "Multifaceted roles of toys and educational tools",
+      "type": "idea",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "childhood_develop",
+      "label": "Childhood development",
+      "type": "world",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "military_strategy",
+      "label": "military strategy",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "presentation",
+      "to": "toy_induction",
+      "verb": "highlights",
+      "time": 14.589473684210526,
+      "cluster": 1
+    },
+    {
+      "from": "toy_induction",
+      "to": "impact_generation",
+      "verb": "results in",
+      "time": 4.757333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "specific_medium",
+      "to": "educational_toy",
+      "verb": "includes",
+      "time": 9.194666666666667,
+      "cluster": 0
+    },
+    {
+      "from": "childhood_experience",
+      "to": "play_cognit_develop",
+      "verb": "aims to capture",
+      "time": 14.421333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "childhood_experience",
+      "to": "play_emotional_develop",
+      "verb": "aims to capture",
+      "time": 20.373333333333335,
+      "cluster": 1
+    },
+    {
+      "from": "presentation",
+      "to": "sandgarten",
+      "verb": "focuses on",
+      "time": 25.173333333333336,
+      "cluster": 1
+    },
+    {
+      "from": "sandgarten",
+      "to": "friedrich_froebel",
+      "verb": "relates to",
+      "time": 29.333333333333336,
+      "cluster": 1
+    },
+    {
+      "from": "sandgarten",
+      "to": "sensory_exploration",
+      "verb": "contains",
+      "time": 35.776,
+      "cluster": 1
+    },
+    {
+      "from": "sandgarten",
+      "to": "learning_aspect",
+      "verb": "contains",
+      "time": 40.49066666666667,
+      "cluster": 1
+    },
+    {
+      "from": "military_application",
+      "to": "strategic_context",
+      "verb": "operates in",
+      "time": 44.181333333333335,
+      "cluster": 0
+    },
+    {
+      "from": "sandgarden_concept",
+      "to": "military_application",
+      "verb": "application in",
+      "time": 50.24,
+      "cluster": 0
+    },
+    {
+      "from": "presentation_title",
+      "to": "histor_contemporary_analysi",
+      "verb": "introduces",
+      "time": 55.95733333333334,
+      "cluster": 0
+    },
+    {
+      "from": "educational_tool",
+      "to": "military_application",
+      "verb": "transforms into",
+      "time": 62.912000000000006,
+      "cluster": 0
+    },
+    {
+      "from": "multifaceted_role",
+      "to": "military_strategy",
+      "verb": "connection",
+      "time": 71.38133333333334,
+      "cluster": 3
+    },
+    {
+      "from": "specific_medium",
+      "to": "military_application",
+      "verb": "includes",
+      "time": 80.04266666666668,
+      "cluster": 0
+    },
+    {
+      "from": "histor_contemporary_analysi",
+      "to": "specific_medium",
+      "verb": "consists of",
+      "time": 88.10666666666668,
+      "cluster": 0
+    },
+    {
+      "from": "histor_context",
+      "to": "sandgarden_concept",
+      "verb": "focuses on",
+      "time": 95.29600000000002,
+      "cluster": 0
+    },
+    {
+      "from": "sandgarden_concept",
+      "to": "military_context",
+      "verb": "applied in",
+      "time": 103.08266666666668,
+      "cluster": 0
+    },
+    {
+      "from": "posture_analysi",
+      "to": "body_language",
+      "verb": "consists of",
+      "time": 111.18933333333335,
+      "cluster": 4
+    },
+    {
+      "from": "sandgarden_concept",
+      "to": "official_setting",
+      "verb": "portrayed in",
+      "time": 119.18933333333335,
+      "cluster": 0
+    },
+    {
+      "from": "body_language",
+      "to": "non_verbal_communication",
+      "verb": "is a form of",
+      "time": 126.27200000000002,
+      "cluster": 4
+    },
+    {
+      "from": "histor_context",
+      "to": "president_obama",
+      "verb": "comparison to",
+      "time": 134.336,
+      "cluster": 0
+    },
+    {
+      "from": "presentation",
+      "to": "cultural_significance",
+      "verb": "emphasizes",
+      "time": 142.16533333333334,
+      "cluster": 1
+    },
+    {
+      "from": "posture_analysi",
+      "to": "distinct_message",
+      "verb": "conveys",
+      "time": 150.208,
+      "cluster": 4
+    },
+    {
+      "from": "posture_analysi",
+      "to": "emotion",
+      "verb": "conveys",
+      "time": 159.44533333333334,
+      "cluster": 4
+    },
+    {
+      "from": "strategic_decision",
+      "to": "thorough_analysi",
+      "verb": "depends on",
+      "time": 168.04266666666666,
+      "cluster": 5
+    },
+    {
+      "from": "strategic_decision",
+      "to": "planning",
+      "verb": "depends on",
+      "time": 175.68,
+      "cluster": 5
+    },
+    {
+      "from": "educational_philosophy",
+      "to": "sensory_exploration",
+      "verb": "consists of",
+      "time": 182.80533333333335,
+      "cluster": 1
+    },
+    {
+      "from": "creat_medium_aspect",
+      "to": "material_and_tool",
+      "verb": "contains",
+      "time": 190.57066666666668,
+      "cluster": 1
+    },
+    {
+      "from": "creativity",
+      "to": "innovation",
+      "verb": "produces",
+      "time": 198.78400000000002,
+      "cluster": 1
+    },
+    {
+      "from": "multifaceted_role",
+      "to": "childhood_develop",
+      "verb": "connection",
+      "time": 209.15200000000002,
+      "cluster": 3
+    },
+    {
+      "from": "adult_perception",
+      "to": "toy_play_material",
+      "verb": "focuses on",
+      "time": 218.58133333333336,
+      "cluster": 0
+    },
+    {
+      "from": "sandgarden_concept",
+      "to": "vietnam_war",
+      "verb": "during",
+      "time": 227.3706666666667,
+      "cluster": 0
+    },
+    {
+      "from": "military_application",
+      "to": "unexpected_way",
+      "verb": "contains",
+      "time": 236.60800000000003,
+      "cluster": 0
+    },
+    {
+      "from": "material_and_tool",
+      "to": "creativity",
+      "verb": "produces",
+      "time": 245.4186666666667,
+      "cluster": 1
+    },
+    {
+      "from": "scenario",
+      "to": "sandgarden_concept",
+      "verb": "consists of",
+      "time": 253.84533333333337,
+      "cluster": 0
+    },
+    {
+      "from": "posture_analysi",
+      "to": "vari_context",
+      "verb": "exists in",
+      "time": 262.37866666666673,
+      "cluster": 4
+    },
+    {
+      "from": "key_insight",
+      "to": "multifaceted_role",
+      "verb": "consists of",
+      "time": 268.58666666666676,
+      "cluster": 3
+    },
+    {
+      "from": "educational_philosophy",
+      "to": "learning_aspect",
+      "verb": "consists of",
+      "time": 274.2613333333334,
+      "cluster": 1
+    },
+    {
+      "from": "domesticating_sand_title",
+      "to": "adaptation_and_util",
+      "verb": "relates",
+      "time": 280.2346666666668,
+      "cluster": 6
+    },
+    {
+      "from": "manipulation_and_application",
+      "to": "educational_use",
+      "verb": "relates",
+      "time": 285.5466666666668,
+      "cluster": 7
+    },
+    {
+      "from": "perspect_influence",
+      "to": "design_production_education",
+      "verb": "influences",
+      "time": 291.54133333333345,
+      "cluster": 0
+    },
+    {
+      "from": "white_house_briefing",
+      "to": "military_application",
+      "verb": "consists of",
+      "time": 297.3226666666668,
+      "cluster": 0
+    },
+    {
+      "from": "white_house_briefing",
+      "to": "previously_discussed_concept",
+      "verb": "consists of",
+      "time": 302.8906666666668,
+      "cluster": 0
+    },
+    {
+      "from": "image_taken_by_president_lyndon_b_johnson",
+      "to": "briefing",
+      "verb": "captures",
+      "time": 309.3120000000001,
+      "cluster": 3
+    },
+    {
+      "from": "children_perspect",
+      "to": "interaction_with_toy",
+      "verb": "captures",
+      "time": 315.6266666666668,
+      "cluster": 0
+    },
+    {
+      "from": "president_lyndon_b_johnson",
+      "to": "image_taken_by_president_lyndon_b_johnson",
+      "verb": "relates",
+      "time": 321.49333333333345,
+      "cluster": 3
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "surveillance_technology",
+      "verb": "consists of",
+      "time": 327.76533333333344,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "wide_area_persistent_surveillance",
+      "verb": "achieves",
+      "time": 334.3786666666668,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "real_time_data",
+      "verb": "provides",
+      "time": 340.5866666666668,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "imagery",
+      "verb": "provides",
+      "time": 347.4773333333335,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "continu_monitoring",
+      "verb": "requires",
+      "time": 354.4533333333335,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "large_geographic_area",
+      "verb": "operates on",
+      "time": 360.96000000000015,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "military_operation",
+      "verb": "supports",
+      "time": 368.1066666666668,
+      "cluster": 2
+    },
+    {
+      "from": "gorgon_stare_drone",
+      "to": "security",
+      "verb": "supports",
+      "time": 375.2960000000001,
+      "cluster": 2
+    },
+    {
+      "from": "image_taken_by_president_lyndon_b_johnson",
+      "to": "military_strategy",
+      "verb": "captures",
+      "time": 382.93333333333345,
+      "cluster": 3
+    },
+    {
+      "from": "pete_souza_photo",
+      "to": "military_strategy",
+      "verb": "captures",
+      "time": 391.5093333333335,
+      "cluster": 3
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "military_application",
+      "label": "military application",
+      "children": [
+        {
+          "id": "unexpected_way",
+          "label": "Unexpected ways"
+        },
+        {
+          "id": "presentation_title",
+          "label": "Document Title"
+        },
+        {
+          "id": "histor_contemporary_analysi",
+          "label": "Comprehensive analysis of historical and contemporary uses"
+        },
+        {
+          "id": "specific_medium",
+          "label": "Specific medium in various contexts",
+          "children": [
+            {
+              "id": "educational_toy",
+              "label": "educational toy"
+            }
+          ]
+        },
+        {
+          "id": "adult_perception",
+          "label": "Adult perception of toy significance"
+        },
+        {
+          "id": "toy_play_material",
+          "label": "Toys and play materials"
+        },
+        {
+          "id": "perspect_influence",
+          "label": "Perspective influence on design and education"
+        },
+        {
+          "id": "design_production_education",
+          "label": "Design, production, and educational use"
+        },
+        {
+          "id": "children_perspect",
+          "label": "Children's perspective"
+        },
+        {
+          "id": "interaction_with_toy",
+          "label": "Interaction with toys"
+        },
+        {
+          "id": "educational_tool",
+          "label": "Educational tools"
+        },
+        {
+          "id": "strategic_context",
+          "label": "strategic contexts"
+        },
+        {
+          "id": "scenario",
+          "label": "scenario"
+        },
+        {
+          "id": "sandgarden_concept",
+          "label": "Sandgarden concepts"
+        },
+        {
+          "id": "military_context",
+          "label": "Military context"
+        },
+        {
+          "id": "vietnam_war",
+          "label": "Vietnam War"
+        },
+        {
+          "id": "white_house_briefing",
+          "label": "White House briefings"
+        },
+        {
+          "id": "previously_discussed_concept",
+          "label": "Previously discussed concepts"
+        },
+        {
+          "id": "histor_context",
+          "label": "Historical context"
+        },
+        {
+          "id": "president_obama",
+          "label": "President Obama"
+        },
+        {
+          "id": "official_setting",
+          "label": "official settings"
+        }
+      ]
+    },
+    {
+      "id": "sandgarten",
+      "label": "Froebel's Sandgarten concept",
+      "children": [
+        {
+          "id": "sensory_exploration",
+          "label": "sensory exploration"
+        },
+        {
+          "id": "learning_aspect",
+          "label": "learning aspect"
+        },
+        {
+          "id": "presentation",
+          "label": "Presentation"
+        },
+        {
+          "id": "toy_induction",
+          "label": "Toys induction into Toy Hall of Fame"
+        },
+        {
+          "id": "cultural_significance",
+          "label": "Cultural significance"
+        },
+        {
+          "id": "impact_generation",
+          "label": "impact generations"
+        },
+        {
+          "id": "childhood_experience",
+          "label": "Childhood experiences"
+        },
+        {
+          "id": "play_cognit_develop",
+          "label": "Play and cognitive development"
+        },
+        {
+          "id": "play_emotional_develop",
+          "label": "Play and emotional development"
+        },
+        {
+          "id": "creat_medium_aspect",
+          "label": "Creative medium aspect",
+          "children": [
+            {
+              "id": "material_and_tool",
+              "label": "Materials and tools"
+            }
+          ]
+        },
+        {
+          "id": "creativity",
+          "label": "Creativity"
+        },
+        {
+          "id": "innovation",
+          "label": "innovation"
+        },
+        {
+          "id": "educational_philosophy",
+          "label": "educational philosophy"
+        },
+        {
+          "id": "friedrich_froebel",
+          "label": "Friedrich Froebel"
+        }
+      ]
+    },
+    {
+      "id": "gorgon_stare_drone",
+      "label": "Gorgon Stare Drone",
+      "children": [
+        {
+          "id": "surveillance_technology",
+          "label": "Surveillance technology"
+        },
+        {
+          "id": "wide_area_persistent_surveillance",
+          "label": "Wide-area persistent surveillance"
+        },
+        {
+          "id": "real_time_data",
+          "label": "Real-time data"
+        },
+        {
+          "id": "imagery",
+          "label": "Imagery"
+        },
+        {
+          "id": "continu_monitoring",
+          "label": "Continuous monitoring"
+        },
+        {
+          "id": "large_geographic_area",
+          "label": "large geographic areas"
+        },
+        {
+          "id": "military_operation",
+          "label": "military operations"
+        },
+        {
+          "id": "security",
+          "label": "security"
+        }
+      ]
+    },
+    {
+      "id": "image_taken_by_president_lyndon_b_johnson",
+      "label": "Image taken by President Lyndon B. Johnson",
+      "children": [
+        {
+          "id": "pete_souza_photo",
+          "label": "Pete Souza photo"
+        },
+        {
+          "id": "president_lyndon_b_johnson",
+          "label": "President Lyndon B. Johnson"
+        },
+        {
+          "id": "briefing",
+          "label": "Briefing"
+        },
+        {
+          "id": "key_insight",
+          "label": "Key insights and implications"
+        },
+        {
+          "id": "multifaceted_role",
+          "label": "Multifaceted roles of toys and educational tools"
+        },
+        {
+          "id": "childhood_develop",
+          "label": "Childhood development"
+        },
+        {
+          "id": "military_strategy",
+          "label": "military strategy"
+        }
+      ]
+    },
+    {
+      "id": "posture_analysi",
+      "label": "Posture analysis",
+      "children": [
+        {
+          "id": "body_language",
+          "label": "Body language"
+        },
+        {
+          "id": "non_verbal_communication",
+          "label": "Non-verbal communication"
+        },
+        {
+          "id": "distinct_message",
+          "label": "Distinct messages"
+        },
+        {
+          "id": "emotion",
+          "label": "Emotions"
+        },
+        {
+          "id": "vari_context",
+          "label": "Various contexts"
+        }
+      ]
+    },
+    {
+      "id": "strategic_decision",
+      "label": "Strategic decisions",
+      "children": [
+        {
+          "id": "thorough_analysi",
+          "label": "Thorough analysis"
+        },
+        {
+          "id": "planning",
+          "label": "Planning"
+        }
+      ]
+    },
+    {
+      "id": "domesticating_sand_title",
+      "label": "Domesticating Sand",
+      "children": [
+        {
+          "id": "adaptation_and_util",
+          "label": "Adaptation and Utilization"
+        }
+      ]
+    },
+    {
+      "id": "manipulation_and_application",
+      "label": "Manipulation and Application",
+      "children": [
+        {
+          "id": "educational_use",
+          "label": "Educational Use"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Presentation highlights how toys like sand are inducted into the Toy Hall of Fame.",
+    "Induction of toys into the Toy Hall of Fame generates significant impact.",
+    "Specific mediums in various contexts include educational toys such as sand.",
+    "Childhood experiences aim to capture play and cognitive development through mediums like sand.",
+    "and playing with sand captures emotional development in childhood experiences.",
+    "Presentation focuses on Froebel's innovative Sandgarten concept.",
+    "Froebel's Sandgarten concept is closely related to the educational philosophy of Friedrich Froebel.",
+    "It also incorporates sensory exploration for children.",
+    "And learning aspects are integral to Froebel's Sandgarten concept.",
+    "Military applications operate within strategic contexts requiring careful consideration.",
+    "Concepts derived from Froebel's Sandgarten find applications in modern military strategies.",
+    "The presentation title introduces a comprehensive analysis of historical and contemporary uses of sand.",
+    "Educational tools transform into military applications through their adoption in Western institutions during the nineteenth century.",
+    "Toys and educational tools have multifaceted roles that connect them to military strategies through their use in institutional settings.",
+    "Specific mediums, including various technological advancements, incorporate military applications within diverse contexts.",
+    "Comprehensive analyses of historical and contemporary uses highlight specific media's role in modern society.",
+    "Historical context centers on the sandgarden concept, emphasizing its foundational elements and material improvisation.",
+    "Sandgarden concepts find application in military contexts, exemplified by the use of sand tables in strategic planning.",
+    "Posture analysis involves studying body language, focusing on how physical positioning influences interaction with surroundings.",
+    "Sandgarden concepts are represented in official settings, where they facilitate an embodied encounter with the landscape.",
+    "Body language serves as a form of non-verbal communication, influencing interactions and conveying messages without speech.",
+    "Historical context compares the sandgarden concept to President Obama's actions, highlighting its relevance in leadership.",
+    "Presentations emphasize cultural significance by showcasing the dynamics and engagement methods in games and simulations.",
+    "Posture analysis conveys distinct messages by examining how physical stance influences interpretation and interaction with environments.",
+    "and conveys emotions, as seen in how the sand table expresses intentional manipulation of perspective and haptics.",
+    "Strategic decisions depend on thorough analysis, which is evident in the careful study of granular materials' behavior.",
+    "and hinge on planning, reflecting the adaptive nature of granular materials in various states.",
+    "Educational philosophy includes sensory exploration, emphasizing the experiential learning through material interaction.",
+    "Creative medium aspects encompass materials and tools, illustrating the intrinsic relationship between sand and its environment.",
+    "Creativity fosters innovation, exemplified by Friedrich Kittler's attribution of the sand table's innovation to Friedrich Karl Ferdinand von Müffling.",
+    "Toys and educational tools play multifaceted roles in childhood development, migrating directly from wartime use to educational settings.",
+    "Adult perception highlights the significance of toys and play materials, elevating children's activities to an adult level of respectability.",
+    "Sandgarden concepts emerged during the Vietnam War, facilitated by magazines like the War Game Digest that featured such tables prominently.",
+    "Military applications include unexpected ways, as seen in Kittler's innovative use of technology to manipulate historical narratives.",
+    "Materials and tools stimulate creativity, as demonstrated in Kittler's work on cryptographic methods during the Cold War era.",
+    "Scenarios incorporate sandgarden concepts, showcasing the diverse applications and interpretations of these interactive environments.",
+    "Posture analysis exists across various contexts, reflecting its multifaceted applications.",
+    "Key insights into toys highlight their multifaceted roles in both play and education.",
+    "Educational philosophies encompass learning aspects, shaping how students interact with materials.",
+    "Domesticating the sand table involves adapting and utilizing it for different purposes.",
+    "Manipulation and application of toys relate directly to their educational use and benefits.",
+    "Perspectives influence design and education, affecting how these areas are approached and taught.",
+    "White House briefings include military applications, showcasing strategic planning tools.",
+    "and incorporate previously discussed concepts, emphasizing continuity in strategy.",
+    "An image captured by President Lyndon B. Johnson shows a briefing session involving a sand table.",
+    "Children’s perspectives capture their interactions with toys, illustrating play dynamics and learning.",
+    "President Lyndon B. Johnson relates to an image taken during a briefing, highlighting his involvement.",
+    "The Gorgon Stare Drone embodies advanced surveillance technology, representing modern military capabilities.",
+    "It also achieves wide-area persistent surveillance through its advanced imaging capabilities.",
+    "It also provides real-time data, enhancing situational awareness in military operations.",
+    "It also offers imagery, capturing detailed views over large geographic areas continuously.",
+    "It also requires continuous monitoring to ensure effective surveillance and data accuracy.",
+    "It also operates on large geographic areas, providing comprehensive coverage for military needs.",
+    "It also supports military operations by offering persistent surveillance over strategic locations.",
+    "And supports security efforts through its capability to monitor large geographic areas in real-time.",
+    "An image taken by President Lyndon B. Johnson captures military strategy, highlighting the importance of visual representation.",
+    "Pete Souza's photo captures military strategy, illustrating the role of imagery in understanding complex operations."
+  ]
+}

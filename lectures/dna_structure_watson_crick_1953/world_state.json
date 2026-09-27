@@ -1,0 +1,2188 @@
+{
+  "basename": "dna_structure_watson_crick_1953",
+  "version": "1.0",
+  "generated_at": "2026-04-14T07:59:15.700Z",
+  "title": "dna structure watson crick 1953",
+  "source_pdf": "source_papers/dna_structure_watson_crick_1953.pdf",
+  "voice": {
+    "name": "af_river",
+    "speed": 0.85,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 1.2,
+    "total_duration": 456.17066666666665
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 62.3,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 13.890109,
+    "rescale_factor": 1
+  },
+  "clusters": [
+    {
+      "id": "hel_structure",
+      "label": "Helical structure",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "radius": 11,
+      "node_ids": [
+        "hel_structure",
+        "10",
+        "dna_component",
+        "salt_environ",
+        "crit_examination",
+        "previ_model",
+        "foundational_insight",
+        "room_for_improve",
+        "accurate_representation",
+        "dna_organ",
+        "salt_structure",
+        "fresh_perspect",
+        "previ_critique",
+        "hel_nature",
+        "hel_chain_overview",
+        "dna_model",
+        "sugar_phosphate_backbone",
+        "stability_and_function",
+        "repeating_pattern",
+        "same_chain_residue",
+        "angle_value",
+        "consistent_value",
+        "phosphoru_distance",
+        "analysi_layer_line",
+        "distance_and_angle",
+        "spacing_between_spot"
+      ]
+    },
+    {
+      "id": "dna_structure",
+      "label": "Structural framework for DNA",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "radius": 11,
+      "node_ids": [
+        "dna_structure",
+        "base_pairing",
+        "adenine_thymine",
+        "cytosine_guanine",
+        "stability",
+        "genetic_information_transfer",
+        "dna_overview",
+        "stability_function",
+        "adenine",
+        "hydrogen_bond",
+        "cytosine",
+        "dna_molecule",
+        "specificity",
+        "sequence_determination",
+        "identification_order",
+        "sequencing_technique",
+        "genetic_information_understanding",
+        "hel_distance",
+        "structural_integrity",
+        "fundamental_characteristic",
+        "angle_crusial",
+        "spatial_organ",
+        "fiber_diagram",
+        "diffraction_pattern",
+        "crit_insight",
+        "intricate_interaction"
+      ]
+    },
+    {
+      "id": "compatibility",
+      "label": "Compatibility",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "radius": 9.6,
+      "node_ids": [
+        "compatibility",
+        "new_model",
+        "experimental_data",
+        "reliability",
+        "accuracy",
+        "distance_between_residue",
+        "measure_value",
+        "hel_config",
+        "understanding",
+        "layer_line_analysi"
+      ]
+    },
+    {
+      "id": "hel_configuration",
+      "label": "Helical configuration",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "radius": 6.810512,
+      "node_ids": [
+        "hel_configuration",
+        "functional_effect",
+        "structural_stability",
+        "functionality"
+      ]
+    },
+    {
+      "id": "base_pair_interaction",
+      "label": "Interactions between base pairs",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "radius": 6.810512,
+      "node_ids": [
+        "base_pair_interaction",
+        "packing_density",
+        "genetic_expression",
+        "replication_mechanism"
+      ]
+    },
+    {
+      "id": "pitch_and_radiu",
+      "label": "Pitch and radius of helix",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "pitch_and_radiu",
+        "spacing_between_line",
+        "three_dimensional_arrange"
+      ]
+    },
+    {
+      "id": "multiple_dna_strand",
+      "label": "Multiple DNA strands",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "multiple_dna_strand",
+        "system_of_helice",
+        "organized_align"
+      ]
+    },
+    {
+      "id": "dna_replication",
+      "label": "DNA replication mechanism",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "dna_replication",
+        "structural_component",
+        "interaction"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "10",
+      "label": "10 Å",
+      "type": "default",
+      "position": [
+        32.850938,
+        0.862376,
+        63.073966
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/10.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dna_component",
+      "label": "Components of DNA",
+      "type": "representation",
+      "position": [
+        27.641825,
+        -2.208152,
+        63.712393
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/dna_component.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "salt_environ",
+      "label": "Salt environment",
+      "type": "context",
+      "position": [
+        30.094278,
+        3.818066,
+        63.786663
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/salt_environ.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "crit_examination",
+      "label": "Critical examination",
+      "type": "procedure",
+      "position": [
+        33.165219,
+        -4.529099,
+        63.147147
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/crit_examination.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "previ_model",
+      "label": "previous models",
+      "type": "default",
+      "position": [
+        28.472382,
+        -0.332221,
+        62.23058
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/previ_model.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "foundational_insight",
+      "label": "Foundational insights",
+      "type": "insight",
+      "position": [
+        36.003208,
+        3.314596,
+        62.358601
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/foundational_insight.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "room_for_improve",
+      "label": "Room for improvement",
+      "type": "problem",
+      "position": [
+        28.282536,
+        -6.664125,
+        60.792397
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/room_for_improve.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accurate_representation",
+      "label": "Accurate representation of DNA organization",
+      "type": "representation",
+      "position": [
+        28.440617,
+        3.660046,
+        59.17665
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/accurate_representation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dna_organ",
+      "label": "dna organization",
+      "type": "default",
+      "position": [
+        34.303274,
+        -1.748902,
+        59.583251
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/dna_organ.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "salt_structure",
+      "label": "Salt structure",
+      "type": "structure",
+      "position": [
+        25.255089,
+        -3.615108,
+        59.947391
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/salt_structure.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "fresh_perspect",
+      "label": "Fresh perspective on DNA helical nature",
+      "type": "solution",
+      "position": [
+        34.274811,
+        7.861138,
+        57.424656
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/fresh_perspect.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "previ_critique",
+      "label": "Previous critiques of DNA models",
+      "type": "evidence",
+      "position": [
+        34.273625,
+        -6.028412,
+        57.30013
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/previ_critique.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "hel_nature",
+      "label": "Helical nature of DNA structure",
+      "type": "representation",
+      "position": [
+        25.667869,
+        5.984646,
+        54.696918
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/hel_nature.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hel_chain_overview",
+      "label": "Overview of helical chains",
+      "type": "architecture",
+      "position": [
+        38.638733,
+        0.63922,
+        55.782882
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/hel_chain_overview.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dna_model",
+      "label": "DNA model",
+      "type": "model",
+      "position": [
+        29.194181,
+        -0.706154,
+        55.451537
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/dna_model.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "sugar_phosphate_backbone",
+      "label": "Sugar-phosphate backbone orientation",
+      "type": "representation",
+      "position": [
+        28.837653,
+        7.713333,
+        53.706494
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/sugar_phosphate_backbone.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hel_structure",
+      "label": "Helical structure of DNA",
+      "type": "architecture",
+      "position": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/hel_structure.png",
+      "edge_in_count": 2,
+      "edge_out_count": 3
+    },
+    {
+      "id": "stability_and_function",
+      "label": "Overall stability and function",
+      "type": "goal",
+      "position": [
+        37.210321,
+        -5.514579,
+        53.805443
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/stability_and_function.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dna_structure",
+      "label": "DNA structure",
+      "type": "representation",
+      "position": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/dna_structure.png",
+      "edge_in_count": 3,
+      "edge_out_count": 5
+    },
+    {
+      "id": "stability",
+      "label": "Stability of DNA",
+      "type": "architecture",
+      "position": [
+        -29.729698,
+        -36.417249,
+        43.062914
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/stability.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "genetic_information_transfer",
+      "label": "Transfer of genetic information",
+      "type": "mechanism",
+      "position": [
+        -41.901795,
+        -30.695723,
+        43.565915
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/genetic_information_transfer.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dna_overview",
+      "label": "DNA base pairing overview",
+      "type": "document",
+      "position": [
+        -29.557951,
+        -28.61982,
+        43.505272
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/dna_overview.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "base_pairing",
+      "label": "Base pairing in DNA",
+      "type": "mechanism",
+      "position": [
+        -31.00706,
+        -30.196764,
+        45.443469
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/base_pairing.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "adenine_thymine",
+      "label": "adenine thymine",
+      "type": "default",
+      "position": [
+        -38.334839,
+        -34.758791,
+        45.987719
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/adenine_thymine.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "cytosine_guanine",
+      "label": "cytosine guanine",
+      "type": "default",
+      "position": [
+        -36.064585,
+        -29.309814,
+        46.323916
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/cytosine_guanine.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "stability_function",
+      "label": "Stability and function of DNA",
+      "type": "function",
+      "position": [
+        -37.277436,
+        -38.253773,
+        44.229811
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/stability_function.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "adenine",
+      "label": "Adenine",
+      "type": "token",
+      "position": [
+        -37.230728,
+        -25.727653,
+        42.37418
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/adenine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hydrogen_bond",
+      "label": "Hydrogen bonds",
+      "type": "bond",
+      "position": [
+        -32.494808,
+        -33.086114,
+        41.354388
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/hydrogen_bond.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "cytosine",
+      "label": "cytosine",
+      "type": "default",
+      "position": [
+        -41.713094,
+        -35.401211,
+        40.88758
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/cytosine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dna_molecule",
+      "label": "DNA molecule",
+      "type": "entity",
+      "position": [
+        -31.052089,
+        -29.817903,
+        40.210939
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/dna_molecule.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "specificity",
+      "label": "Specificity",
+      "type": "dimension",
+      "position": [
+        -32.261718,
+        -39.240899,
+        39.774275
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/specificity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sequence_determination",
+      "label": "Sequence determination process",
+      "type": "process",
+      "position": [
+        -40.646327,
+        -27.390775,
+        38.30004
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/sequence_determination.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "identification_order",
+      "label": "identification order",
+      "type": "default",
+      "position": [
+        -29.161958,
+        -28.913759,
+        37.801452
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/identification_order.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sequencing_technique",
+      "label": "Sequencing experimental techniques",
+      "type": "method",
+      "position": [
+        -40.876911,
+        -36.979909,
+        36.29657
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/sequencing_technique.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "genetic_information_understanding",
+      "label": "Understanding of genetic information",
+      "type": "goal",
+      "position": [
+        -37.520727,
+        -25.777422,
+        35.810192
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/genetic_information_understanding.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "new_model",
+      "label": "New model",
+      "type": "model",
+      "position": [
+        7.635506,
+        62.741035,
+        32.651097
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/new_model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "experimental_data",
+      "label": "Existing experimental data",
+      "type": "data",
+      "position": [
+        3.057213,
+        60.269508,
+        31.717612
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/experimental_data.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "compatibility",
+      "label": "Compatibility",
+      "type": "relationship",
+      "position": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/compatibility.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability",
+      "type": "property",
+      "position": [
+        6.242577,
+        70.257822,
+        29.227124
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/reliability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "accuracy",
+      "label": "accuracy",
+      "type": "default",
+      "position": [
+        10.12246,
+        57.863953,
+        27.374943
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/accuracy.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "distance_between_residue",
+      "label": "Distance between residues along the helix axis",
+      "type": "dimension",
+      "position": [
+        -0.463918,
+        66.036724,
+        25.652097
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/distance_between_residue.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "measure_value",
+      "label": "measurement value",
+      "type": "default",
+      "position": [
+        8.967736,
+        67.248761,
+        24.591725
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/measure_value.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "hel_distance",
+      "label": "helical distance",
+      "type": "default",
+      "position": [
+        -29.76202,
+        -38.346828,
+        35.718675
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/hel_distance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "structural_integrity",
+      "label": "Structural integrity of the DNA molecule",
+      "type": "architecture",
+      "position": [
+        -39.756715,
+        -33.996276,
+        33.945136
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/structural_integrity.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "repeating_pattern",
+      "label": "Repeating pattern of DNA",
+      "type": "pattern",
+      "position": [
+        23.083013,
+        -0.428964,
+        53.075649
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/repeating_pattern.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "fundamental_characteristic",
+      "label": "Fundamental characteristic of double helix structure",
+      "type": "characteristic",
+      "position": [
+        -29.772954,
+        -26.221109,
+        35.974628
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/fundamental_characteristic.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "same_chain_residue",
+      "label": "Residues within the same chain",
+      "type": "chain",
+      "position": [
+        36.357834,
+        4.122826,
+        50.912031
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/same_chain_residue.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "angle_value",
+      "label": "angle value",
+      "type": "default",
+      "position": [
+        32.061987,
+        -6.039209,
+        50.414873
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/angle_value.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "angle_crusial",
+      "label": "Crucial angle for DNA structural integrity",
+      "type": "crucial_angle",
+      "position": [
+        -37.20663,
+        -38.872811,
+        33.104877
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/angle_crusial.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "consistent_value",
+      "label": "Consistent value of phosphorus distance",
+      "type": "value",
+      "position": [
+        29.606989,
+        3.108041,
+        52.533824
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/consistent_value.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "phosphoru_distance",
+      "label": "Phosphorus distance from the fiber axis",
+      "type": "dimension",
+      "position": [
+        36.373379,
+        -0.185674,
+        49.419355
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/phosphoru_distance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "spatial_organ",
+      "label": "Spatial organization of the DNA molecule",
+      "type": "architecture",
+      "position": [
+        -40.553906,
+        -28.445433,
+        32.776759
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/spatial_organ.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "fiber_diagram",
+      "label": "Fiber diagram interpretation",
+      "type": "representation",
+      "position": [
+        -29.364261,
+        -32.510581,
+        32.144282
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/fiber_diagram.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hel_config",
+      "label": "Helical configuration of DNA",
+      "type": "representation",
+      "position": [
+        3.713569,
+        59.039,
+        21.738539
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/hel_config.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "understanding",
+      "label": "understanding",
+      "type": "default",
+      "position": [
+        4.313299,
+        65.28408,
+        20.15866
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/understanding.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "layer_line_analysi",
+      "label": "Layer line analysis of DNA",
+      "type": "representation",
+      "position": [
+        8.07935,
+        63.293422,
+        18.942907
+      ],
+      "cluster_id": "compatibility",
+      "icon": "png_icons/layer_line_analysi.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "analysi_layer_line",
+      "label": "Analysis of layer lines",
+      "type": "architecture",
+      "position": [
+        26.490076,
+        -3.157321,
+        49.637522
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/analysi_layer_line.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "pitch_and_radiu",
+      "label": "Pitch and radius of helix",
+      "type": "architecture",
+      "position": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "cluster_id": "pitch_and_radiu",
+      "icon": "png_icons/pitch_and_radiu.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "spacing_between_line",
+      "label": "Spacing between layer lines",
+      "type": "architecture",
+      "position": [
+        53.039364,
+        31.32924,
+        -21.266441
+      ],
+      "cluster_id": "pitch_and_radiu",
+      "icon": "png_icons/spacing_between_line.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "three_dimensional_arrange",
+      "label": "Three-dimensional arrangement of DNA molecules",
+      "type": "architecture",
+      "position": [
+        46.171022,
+        28.658823,
+        -25.83132
+      ],
+      "cluster_id": "pitch_and_radiu",
+      "icon": "png_icons/three_dimensional_arrange.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "diffraction_pattern",
+      "label": "Diffraction pattern",
+      "type": "representation",
+      "position": [
+        -38.629065,
+        -33.512455,
+        30.511078
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/diffraction_pattern.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "crit_insight",
+      "label": "critical insights",
+      "type": "default",
+      "position": [
+        -35.480595,
+        -29.271498,
+        30.323437
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/crit_insight.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "distance_and_angle",
+      "label": "Distances and angles within DNA molecule",
+      "type": "representation",
+      "position": [
+        29.973729,
+        3.746662,
+        48.526249
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/distance_and_angle.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "spacing_between_spot",
+      "label": "Spacing between spots",
+      "type": "representation",
+      "position": [
+        31.11969,
+        -0.978706,
+        47.642042
+      ],
+      "cluster_id": "hel_structure",
+      "icon": "png_icons/spacing_between_spot.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "system_of_helice",
+      "label": "System of helices",
+      "type": "system",
+      "position": [
+        -7.845732,
+        -43.686461,
+        -34.00608
+      ],
+      "cluster_id": "multiple_dna_strand",
+      "icon": "png_icons/system_of_helice.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "multiple_dna_strand",
+      "label": "Multiple DNA strands",
+      "type": "representation",
+      "position": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "cluster_id": "multiple_dna_strand",
+      "icon": "png_icons/multiple_dna_strand.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "organized_align",
+      "label": "Organized alignment",
+      "type": "architecture",
+      "position": [
+        -14.714074,
+        -46.356878,
+        -38.570959
+      ],
+      "cluster_id": "multiple_dna_strand",
+      "icon": "png_icons/organized_align.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "intricate_interaction",
+      "label": "Intricate interactions",
+      "type": "interaction",
+      "position": [
+        -33.985907,
+        -34.352214,
+        30.097233
+      ],
+      "cluster_id": "dna_structure",
+      "icon": "png_icons/intricate_interaction.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hel_configuration",
+      "label": "Helical configuration",
+      "type": "configuration",
+      "position": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "cluster_id": "hel_configuration",
+      "icon": "png_icons/hel_configuration.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "functional_effect",
+      "label": "functional effects",
+      "type": "default",
+      "position": [
+        43.398827,
+        -51.578174,
+        11.676447
+      ],
+      "cluster_id": "hel_configuration",
+      "icon": "png_icons/functional_effect.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "structural_stability",
+      "label": "Structural stability",
+      "type": "architecture",
+      "position": [
+        35.684741,
+        -55.067949,
+        8.184041
+      ],
+      "cluster_id": "hel_configuration",
+      "icon": "png_icons/structural_stability.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "functionality",
+      "label": "Functionality",
+      "type": "function",
+      "position": [
+        39.835564,
+        -47.688496,
+        4.691635
+      ],
+      "cluster_id": "hel_configuration",
+      "icon": "png_icons/functionality.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "packing_density",
+      "label": "Packing densities",
+      "type": "architecture",
+      "position": [
+        -51.059674,
+        9.536588,
+        -3.392043
+      ],
+      "cluster_id": "base_pair_interaction",
+      "icon": "png_icons/packing_density.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "base_pair_interaction",
+      "label": "Interactions between base pairs",
+      "type": "interaction",
+      "position": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "cluster_id": "base_pair_interaction",
+      "icon": "png_icons/base_pair_interaction.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "genetic_expression",
+      "label": "Genetic expression",
+      "type": "function",
+      "position": [
+        -58.781593,
+        6.061106,
+        -6.905409
+      ],
+      "cluster_id": "base_pair_interaction",
+      "icon": "png_icons/genetic_expression.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "replication_mechanism",
+      "label": "replication mechanisms",
+      "type": "default",
+      "position": [
+        -54.639164,
+        13.638488,
+        -10.598573
+      ],
+      "cluster_id": "base_pair_interaction",
+      "icon": "png_icons/replication_mechanism.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dna_replication",
+      "label": "DNA replication mechanism",
+      "type": "mechanism",
+      "position": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "cluster_id": "dna_replication",
+      "icon": "png_icons/dna_replication.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "structural_component",
+      "label": "Structural components of DNA replication",
+      "type": "structure",
+      "position": [
+        -10.500923,
+        27.851832,
+        -54.270103
+      ],
+      "cluster_id": "dna_replication",
+      "icon": "png_icons/structural_component.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "interaction",
+      "label": "Interactions involved in DNA replication",
+      "type": "interaction",
+      "position": [
+        -17.369265,
+        25.181415,
+        -58.834982
+      ],
+      "cluster_id": "dna_replication",
+      "icon": "png_icons/interaction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "dna_structure",
+      "from_label": "DNA structure",
+      "to": "stability",
+      "to_label": "Stability of DNA",
+      "verb": "provides",
+      "subtitle": "The structural framework for DNA's stability is highlighted by its novel features.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 6.448,
+      "image": null
+    },
+    {
+      "index": 1,
+      "from": "dna_overview",
+      "from_label": "DNA base pairing overview",
+      "to": "base_pairing",
+      "to_label": "Base pairing in DNA",
+      "verb": "consists of",
+      "subtitle": "DNA base pairing overview includes the three intertwined chains, with bases on the exterior.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 6.448,
+      "audio_duration": 7.429333333333333,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "sequence_determination",
+      "from_label": "Sequence determination process",
+      "to": "identification_order",
+      "to_label": "identification order",
+      "verb": "consists of",
+      "subtitle": "Sequence determination involves identifying the order of components in DNA.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 13.877333333333333,
+      "audio_duration": 6.490666666666667,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "sugar_phosphate_backbone",
+      "from_label": "Sugar-phosphate backbone orientation",
+      "to": "hel_structure",
+      "to_label": "Helical structure of DNA",
+      "verb": "contains",
+      "subtitle": "The sugar-phosphate backbone contains a helical structure essential for its shape.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 20.368,
+      "audio_duration": 6.1066666666666665,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "hel_distance",
+      "from_label": "helical distance",
+      "to": "stability",
+      "to_label": "Stability of DNA",
+      "verb": "requires",
+      "subtitle": "Helical distance formula relies on the stability provided by its structure.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 26.474666666666664,
+      "audio_duration": 6.064,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "hel_distance",
+      "from_label": "helical distance",
+      "to": "structural_integrity",
+      "to_label": "Structural integrity of the DNA molecule",
+      "verb": "requires",
+      "subtitle": "This formula also ensures the structural integrity necessary for its form.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 32.538666666666664,
+      "audio_duration": 6.064,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "dna_organ",
+      "from_label": "dna organization",
+      "to": "salt_structure",
+      "to_label": "Salt structure",
+      "verb": "within",
+      "subtitle": "DNA organization within a salt structure is proposed due to unclear previous definitions.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 38.602666666666664,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "salt_structure",
+      "from_label": "Salt structure",
+      "to": "dna_component",
+      "to_label": "Components of DNA",
+      "verb": "consists of",
+      "subtitle": "Salt structure consists of the components of DNA, redefining its known composition.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 45.818666666666665,
+      "audio_duration": 6.64,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "dna_component",
+      "from_label": "Components of DNA",
+      "to": "salt_environ",
+      "to_label": "Salt environment",
+      "verb": "operates on",
+      "subtitle": "DNA components operate within a salt environment, influencing the molecule's behavior.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 52.458666666666666,
+      "audio_duration": 6.981333333333334,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "hel_chain_overview",
+      "from_label": "Overview of helical chains",
+      "to": "dna_model",
+      "to_label": "DNA model",
+      "verb": "delve into",
+      "subtitle": "An overview of helical chains delves into the DNA model, showcasing its complexity.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 59.44,
+      "audio_duration": 6.768,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "hel_structure",
+      "from_label": "Helical structure of DNA",
+      "to": "stability_and_function",
+      "to_label": "Overall stability and function",
+      "verb": "produces",
+      "subtitle": "The helical structure produces overall stability and function within the DNA molecule.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 66.208,
+      "audio_duration": 6.746666666666667,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "spatial_organ",
+      "from_label": "Spatial organization of the DNA molecule",
+      "to": "structural_integrity",
+      "to_label": "Structural integrity of the DNA molecule",
+      "verb": "helps understand",
+      "subtitle": "Spatial organization of the DNA molecule aids in understanding its structural integrity.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 72.95466666666667,
+      "audio_duration": 7.173333333333333,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "accurate_representation",
+      "from_label": "Accurate representation of DNA organization",
+      "to": "dna_organ",
+      "to_label": "dna organization",
+      "verb": "consists of",
+      "subtitle": "An accurate representation captures the DNA organization with two helical chains sharing the same axis.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 80.128,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "dna_model",
+      "from_label": "DNA model",
+      "to": "sugar_phosphate_backbone",
+      "to_label": "Sugar-phosphate backbone orientation",
+      "verb": "focuses on",
+      "subtitle": "The DNA model emphasizes the sugar-phosphate backbone as a central component of its structure.",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 88.47466666666666,
+      "audio_duration": 7.429333333333333,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "intricate_interaction",
+      "from_label": "Intricate interactions",
+      "to": "dna_structure",
+      "to_label": "DNA structure",
+      "verb": "operates on",
+      "subtitle": "Intricate interactions govern the structural framework supporting the stability of DNA.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 95.904,
+      "audio_duration": 6.512,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "structural_integrity",
+      "from_label": "Structural integrity of the DNA molecule",
+      "to": "angle_crusial",
+      "to_label": "Crucial angle for DNA structural integrity",
+      "verb": "requires",
+      "subtitle": "Structural integrity relies on maintaining a crucial angle of thirty-six degrees between residues.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 102.416,
+      "audio_duration": 7.408,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "hel_structure",
+      "from_label": "Helical structure of DNA",
+      "to": "same_chain_residue",
+      "to_label": "Residues within the same chain",
+      "verb": "consists of",
+      "subtitle": "The helical structure is defined by residues situated along the same chain.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 109.824,
+      "audio_duration": 6.128,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "same_chain_residue",
+      "from_label": "Residues within the same chain",
+      "to": "angle_value",
+      "to_label": "angle value",
+      "verb": "produces",
+      "subtitle": "Residues within the same chain create a consistent angle value of thirty-six degrees.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 115.952,
+      "audio_duration": 6.533333333333333,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "consistent_value",
+      "from_label": "Consistent value of phosphorus distance",
+      "to": "10",
+      "to_label": "10 Å",
+      "verb": "equals",
+      "subtitle": "The consistent value of ten angstroms measures the phosphorus distance from the fiber axis accurately.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 122.48533333333333,
+      "audio_duration": 7.514666666666667,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "phosphoru_distance",
+      "from_label": "Phosphorus distance from the fiber axis",
+      "to": "consistent_value",
+      "to_label": "Consistent value of phosphorus distance",
+      "verb": "is consistently measured",
+      "subtitle": "Phosphorus atoms maintain a consistent ten angstroms distance from the fiber axis, ensuring structural stability.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 130,
+      "audio_duration": 8.56,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "dna_model",
+      "from_label": "DNA model",
+      "to": "accurate_representation",
+      "to_label": "Accurate representation of DNA organization",
+      "verb": "provides",
+      "subtitle": "This DNA model offers an accurate representation of how the two chains interact through their bases.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 138.56,
+      "audio_duration": 7.322666666666667,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "adenine",
+      "from_label": "Adenine",
+      "to": "hydrogen_bond",
+      "to_label": "Hydrogen bonds",
+      "verb": "contains",
+      "subtitle": "Adenine molecules contain hydrogen bonds that connect to complementary positions in other bases.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 145.88266666666667,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "cytosine",
+      "from_label": "cytosine",
+      "to": "hydrogen_bond",
+      "to_label": "Hydrogen bonds",
+      "verb": "contains",
+      "subtitle": "Cytosine also participates in hydrogen bonding, facilitating the formation of stable base pairs.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 153.09866666666667,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "fundamental_characteristic",
+      "from_label": "Fundamental characteristic of double helix structure",
+      "to": "base_pairing",
+      "to_label": "Base pairing in DNA",
+      "verb": "relates",
+      "subtitle": "The fundamental characteristic of the double helix structure lies in the specific base pairing mechanism.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 160.82666666666668,
+      "audio_duration": 7.6,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "dna_structure",
+      "from_label": "DNA structure",
+      "to": "adenine_thymine",
+      "to_label": "adenine thymine",
+      "verb": "contains",
+      "subtitle": "The structural framework for DNA includes adenine-thymine pairing as essential components.",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 168.42666666666668,
+      "audio_duration": 6.96,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "stability_function",
+      "from_label": "Stability and function of DNA",
+      "to": "adenine_thymine",
+      "to_label": "adenine thymine",
+      "verb": "requires",
+      "subtitle": "Adenine-thymine pairing plays a critical role in ensuring the stability and function of DNA.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 175.38666666666668,
+      "audio_duration": 6.8533333333333335,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "dna_structure",
+      "from_label": "DNA structure",
+      "to": "cytosine_guanine",
+      "to_label": "cytosine guanine",
+      "verb": "contains",
+      "subtitle": "Similarly, DNA's structural framework incorporates cytosine-guanine pairing as fundamental elements.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 182.24,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "stability_function",
+      "from_label": "Stability and function of DNA",
+      "to": "cytosine_guanine",
+      "to_label": "cytosine guanine",
+      "verb": "requires",
+      "subtitle": "Cytosine-guanine pairing is indispensable for maintaining the stability and function of DNA.",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 189.96800000000002,
+      "audio_duration": 6.96,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "crit_examination",
+      "from_label": "Critical examination",
+      "to": "previ_model",
+      "to_label": "previous models",
+      "verb": "depends on",
+      "subtitle": "A critical examination of DNA relies heavily on previous models to establish its foundation.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 196.92800000000003,
+      "audio_duration": 7.578666666666667,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "dna_structure",
+      "from_label": "DNA structure",
+      "to": "genetic_information_transfer",
+      "to_label": "Transfer of genetic information",
+      "verb": "facilitates",
+      "subtitle": "The structural framework of DNA is crucial for facilitating the transfer of genetic information.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 204.5066666666667,
+      "audio_duration": 7.258666666666667,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "genetic_expression",
+      "from_label": "Genetic expression",
+      "to": "base_pair_interaction",
+      "to_label": "Interactions between base pairs",
+      "verb": "depends on",
+      "subtitle": "Genetic expression is contingent upon the interactions between base pairs within DNA.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 211.76533333333336,
+      "audio_duration": 6.618666666666667,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "replication_mechanism",
+      "from_label": "replication mechanisms",
+      "to": "base_pair_interaction",
+      "to_label": "Interactions between base pairs",
+      "verb": "depends on",
+      "subtitle": "Replication mechanisms depend on the interactions between base pairs for accurate duplication.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 218.38400000000001,
+      "audio_duration": 6.938666666666666,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "fresh_perspect",
+      "from_label": "Fresh perspective on DNA helical nature",
+      "to": "previ_critique",
+      "to_label": "Previous critiques of DNA models",
+      "verb": "builds upon",
+      "subtitle": "Fresh perspectives on the helical nature of DNA build upon earlier critiques of DNA models.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 225.3226666666667,
+      "audio_duration": 7.152,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "hel_nature",
+      "from_label": "Helical nature of DNA structure",
+      "to": "distance_and_angle",
+      "to_label": "Distances and angles within DNA molecule",
+      "verb": "depends on",
+      "subtitle": "The helical nature of DNA is determined by precise distances and angles within the molecule.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 232.47466666666668,
+      "audio_duration": 7.28,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "dna_structure",
+      "from_label": "DNA structure",
+      "to": "base_pairing",
+      "to_label": "Base pairing in DNA",
+      "verb": "contains",
+      "subtitle": "Base pairing is an integral part of the structural framework that defines the DNA molecule.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 239.75466666666668,
+      "audio_duration": 7.024,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "dna_molecule",
+      "from_label": "DNA molecule",
+      "to": "stability",
+      "to_label": "Stability of DNA",
+      "verb": "contains",
+      "subtitle": "This molecule inherently contains stability, which is vital for its overall structure and function.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 246.77866666666668,
+      "audio_duration": 7.301333333333333,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "dna_molecule",
+      "from_label": "DNA molecule",
+      "to": "specificity",
+      "to_label": "Specificity",
+      "verb": "contains",
+      "subtitle": "It also contains specificity due to its complex molecular structure.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 254.08,
+      "audio_duration": 5.808,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "fiber_diagram",
+      "from_label": "Fiber diagram interpretation",
+      "to": "dna_structure",
+      "to_label": "DNA structure",
+      "verb": "contains",
+      "subtitle": "Fiber diagram interpretations contain structural frameworks essential for understanding DNA structure.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 259.88800000000003,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "previ_model",
+      "from_label": "previous models",
+      "to": "foundational_insight",
+      "to_label": "Foundational insights",
+      "verb": "contains",
+      "subtitle": "Previous models of DNA structure contain foundational insights into molecular organization.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 267.61600000000004,
+      "audio_duration": 7.578666666666667,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "previ_model",
+      "from_label": "previous models",
+      "to": "room_for_improve",
+      "to_label": "Room for improvement",
+      "verb": "contains",
+      "subtitle": "These models also contain room for improvement in accuracy.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 275.1946666666667,
+      "audio_duration": 5.1466666666666665,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "packing_density",
+      "from_label": "Packing densities",
+      "to": "base_pair_interaction",
+      "to_label": "Interactions between base pairs",
+      "verb": "contains",
+      "subtitle": "Packing densities contain interactions between base pairs, influencing DNA's physical properties.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 280.34133333333335,
+      "audio_duration": 7.386666666666667,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "compatibility",
+      "from_label": "Compatibility",
+      "to": "reliability",
+      "to_label": "Reliability",
+      "verb": "confirms",
+      "subtitle": "Compatibility among experimental data confirms reliability in DNA structure determination.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 287.728,
+      "audio_duration": 7.664,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "structural_stability",
+      "from_label": "Structural stability",
+      "to": "hel_configuration",
+      "to_label": "Helical configuration",
+      "verb": "influence",
+      "subtitle": "Structural stability influences the helical configuration of DNA molecules significantly.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 295.392,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "functionality",
+      "from_label": "Functionality",
+      "to": "hel_configuration",
+      "to_label": "Helical configuration",
+      "verb": "influence",
+      "subtitle": "Functionality considerations also influence the helical configuration necessary for DNA's role.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 302.608,
+      "audio_duration": 7.706666666666667,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "compatibility",
+      "from_label": "Compatibility",
+      "to": "accuracy",
+      "to_label": "accuracy",
+      "verb": "confirms",
+      "subtitle": "Compatibility across different experiments confirms the accuracy of DNA structural models.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 310.31466666666665,
+      "audio_duration": 7.152,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "sequencing_technique",
+      "from_label": "Sequencing experimental techniques",
+      "to": "genetic_information_understanding",
+      "to_label": "Understanding of genetic information",
+      "verb": "achieves",
+      "subtitle": "Sequencing experimental techniques achieve a deeper understanding of genetic information.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 317.46666666666664,
+      "audio_duration": 6.8533333333333335,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "new_model",
+      "from_label": "New model",
+      "to": "experimental_data",
+      "to_label": "Existing experimental data",
+      "verb": "aligns with",
+      "subtitle": "New models align well with existing experimental data on DNA structure.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 324.32,
+      "audio_duration": 6.298666666666667,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "dna_replication",
+      "from_label": "DNA replication mechanism",
+      "to": "structural_component",
+      "to_label": "Structural components of DNA replication",
+      "verb": "consists of",
+      "subtitle": "The DNA replication mechanism consists of structural components crucial for replication processes.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 330.6186666666667,
+      "audio_duration": 7.749333333333333,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "distance_and_angle",
+      "from_label": "Distances and angles within DNA molecule",
+      "to": "spacing_between_spot",
+      "to_label": "Spacing between spots",
+      "verb": "depends on",
+      "subtitle": "Distance and angle within the DNA molecule depend on the spacing between spots, affecting its structure.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 338.368,
+      "audio_duration": 7.856,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "distance_between_residue",
+      "from_label": "Distance between residues along the helix axis",
+      "to": "measure_value",
+      "to_label": "measurement value",
+      "verb": "equals",
+      "subtitle": "The distance between residues along the helix axis matches the measure value, defining molecular organization.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 346.224,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "analysi_layer_line",
+      "from_label": "Analysis of layer lines",
+      "to": "hel_structure",
+      "to_label": "Helical structure of DNA",
+      "verb": "produces",
+      "subtitle": "Analyzing layer lines reveals the helical structure of DNA, offering insights into its composition.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 354.5706666666667,
+      "audio_duration": 7.856,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "hel_configuration",
+      "from_label": "Helical configuration",
+      "to": "functional_effect",
+      "to_label": "functional effects",
+      "verb": "transforms into",
+      "subtitle": "The helical configuration of DNA leads to functional effects observable in its behavior.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 362.4266666666667,
+      "audio_duration": 7.024,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "hel_config",
+      "from_label": "Helical configuration of DNA",
+      "to": "understanding",
+      "to_label": "understanding",
+      "verb": "produces",
+      "subtitle": "Understanding arises from the helical configuration of DNA, providing clarity on its structure.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 369.4506666666667,
+      "audio_duration": 7.258666666666667,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "layer_line_analysi",
+      "from_label": "Layer line analysis of DNA",
+      "to": "understanding",
+      "to_label": "understanding",
+      "verb": "produces",
+      "subtitle": "Layer line analysis contributes to a deeper understanding of DNA's complex structure and function.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 376.70933333333335,
+      "audio_duration": 7.344,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "multiple_dna_strand",
+      "from_label": "Multiple DNA strands",
+      "to": "organized_align",
+      "to_label": "Organized alignment",
+      "verb": "produces",
+      "subtitle": "Multiple DNA strands organize themselves into an aligned structure, enhancing stability and function.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 384.05333333333334,
+      "audio_duration": 7.792,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "fresh_perspect",
+      "from_label": "Fresh perspective on DNA helical nature",
+      "to": "hel_nature",
+      "to_label": "Helical nature of DNA structure",
+      "verb": "focuses on",
+      "subtitle": "Fresh perspectives focus on the helical nature of DNA, highlighting its unique structural characteristics.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 391.8453333333333,
+      "audio_duration": 7.792,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "diffraction_pattern",
+      "from_label": "Diffraction pattern",
+      "to": "dna_structure",
+      "to_label": "DNA structure",
+      "verb": "produces",
+      "subtitle": "Diffraction patterns provide the structural framework necessary to understand its organization.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 399.6373333333333,
+      "audio_duration": 6.981333333333334,
+      "image": null
+    },
+    {
+      "index": 57,
+      "from": "crit_insight",
+      "from_label": "critical insights",
+      "to": "diffraction_pattern",
+      "to_label": "Diffraction pattern",
+      "verb": "provides",
+      "subtitle": "Critical insights reveal the diffraction patterns that define the structure of these molecules.",
+      "audio_clip": "audio_clips/edge_057.wav",
+      "audio_start": 406.6186666666666,
+      "audio_duration": 6.704,
+      "image": null
+    },
+    {
+      "index": 58,
+      "from": "dna_replication",
+      "from_label": "DNA replication mechanism",
+      "to": "interaction",
+      "to_label": "Interactions involved in DNA replication",
+      "verb": "consists of",
+      "subtitle": "The DNA replication mechanism involves interactions crucial to the process of duplicating genetic information.",
+      "audio_clip": "audio_clips/edge_058.wav",
+      "audio_start": 413.32266666666663,
+      "audio_duration": 8.453333333333333,
+      "image": null
+    },
+    {
+      "index": 59,
+      "from": "three_dimensional_arrange",
+      "from_label": "Three-dimensional arrangement of DNA molecules",
+      "to": "pitch_and_radiu",
+      "to_label": "Pitch and radius of helix",
+      "verb": "requires",
+      "subtitle": "A three-dimensional arrangement of these molecules requires precise pitch and radius measurements for accurate modeling.",
+      "audio_clip": "audio_clips/edge_059.wav",
+      "audio_start": 421.77599999999995,
+      "audio_duration": 8.282666666666668,
+      "image": null
+    },
+    {
+      "index": 60,
+      "from": "system_of_helice",
+      "from_label": "System of helices",
+      "to": "multiple_dna_strand",
+      "to_label": "Multiple DNA strands",
+      "verb": "consists of",
+      "subtitle": "The system of helices involves multiple strands intertwining in a complex structure.",
+      "audio_clip": "audio_clips/edge_060.wav",
+      "audio_start": 430.0586666666666,
+      "audio_duration": 6.426666666666667,
+      "image": null
+    },
+    {
+      "index": 61,
+      "from": "identification_order",
+      "from_label": "identification order",
+      "to": "dna_molecule",
+      "to_label": "DNA molecule",
+      "verb": "operates on",
+      "subtitle": "Identification order influences how the molecule is analyzed and understood.",
+      "audio_clip": "audio_clips/edge_061.wav",
+      "audio_start": 436.4853333333333,
+      "audio_duration": 6.1706666666666665,
+      "image": null
+    },
+    {
+      "index": 62,
+      "from": "pitch_and_radiu",
+      "from_label": "Pitch and radius of helix",
+      "to": "spacing_between_line",
+      "to_label": "Spacing between layer lines",
+      "verb": "depends on",
+      "subtitle": "Its pitch and radius dictate the spacing between layer lines observed in diffraction patterns.",
+      "audio_clip": "audio_clips/edge_062.wav",
+      "audio_start": 442.65599999999995,
+      "audio_duration": 6.896,
+      "image": null
+    },
+    {
+      "index": 63,
+      "from": "hel_structure",
+      "from_label": "Helical structure of DNA",
+      "to": "repeating_pattern",
+      "to_label": "Repeating pattern of DNA",
+      "verb": "relates",
+      "subtitle": "This helical structure correlates with the repeating pattern found within DNA molecules.",
+      "audio_clip": "audio_clips/edge_063.wav",
+      "audio_start": 449.55199999999996,
+      "audio_duration": 6.618666666666667,
+      "image": null
+    }
+  ],
+  "questions": []
+}

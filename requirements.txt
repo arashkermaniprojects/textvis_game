@@ -1,0 +1,14 @@
+# Python dependencies (install into <repo>/.venv-kokoro, Python 3.12).
+# Kokoro TTS (agents/kokoro-tts-agent.mjs, tools/regen-from-state.mjs,
+# tools/post-process-narration.mjs)
+kokoro-onnx>=0.4.0
+soundfile>=0.12
+numpy>=1.26
+# Formula cards (pipeline/render-formula-pngs.py)
+matplotlib>=3.8
+# Node icons (pipeline/svgs-to-pngs.py)
+cairosvg>=2.7
+# Optional ffmpeg fallback used when no system ffmpeg is on PATH
+imageio-ffmpeg>=0.5
+# tools/render-from-world.py runs inside Blender (bpy, mathutils) and is not
+# installed via pip.

@@ -1,0 +1,1820 @@
+{
+  "nodes": [
+    {
+      "id": "algorithmic_pricing",
+      "label": "Algorithmic pricing",
+      "type": "pricing_strategy",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "real_time_data",
+      "label": "Real-time data",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "market_condition",
+      "label": "market conditions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "busine",
+      "label": "Businesses",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "price",
+      "label": "prices",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "how_busine_set_price",
+      "label": "how businesses set prices",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "advanced_algorithm",
+      "label": "Advanced algorithms",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "vari_factor",
+      "label": "Various factors",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "optimized_revenue_stream",
+      "label": "Optimized revenue streams",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "motivation_adoption",
+      "label": "Motivation for adopting algorithmic pricing",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "revenue_optim",
+      "label": "Revenue optimization",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "enhanced_customer_experience",
+      "label": "Enhanced customer experience",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dynamic_price_adjustment",
+      "label": "dynamic price adjustments",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "information_technology",
+      "label": "Information technology advances",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "data_manage",
+      "label": "Data management improvements",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "real_time_processing",
+      "label": "Real-time data processing",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dynamic_pricing",
+      "label": "Dynamic pricing",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "strategic_decision",
+      "label": "Strategic decision",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "busi_strategy",
+      "label": "Business strategy",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "revenue_model",
+      "label": "Revenue model",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "organizational_goal",
+      "label": "Organizational goals",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "governance_structure",
+      "label": "Governance structures",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "effect_implementation",
+      "label": "Effective implementation",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "manage",
+      "label": "management",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "regulatory_concern",
+      "label": "Regulatory concerns",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transparency_fair_consumer_protection",
+      "label": "transparency,fairness,consumer protection",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "automated_pricing",
+      "label": "Automated pricing",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "discriminatory_practice",
+      "label": "Discriminatory practices",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "implementation_context",
+      "label": "Implementation context",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "software_tool",
+      "label": "Software tools",
+      "type": "tool",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "hospitality_industry",
+      "label": "Hospitality industry",
+      "type": "industry",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "retail_industry",
+      "label": "Retail industry",
+      "type": "industry",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "transportation_industry",
+      "label": "transportation industry",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "yield_manage_system",
+      "label": "Yield management systems",
+      "type": "system",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "demand_supply_dynamic",
+      "label": "demand supply dynamics",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "profit_maxim",
+      "label": "Profit maximization",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "customer_satisfaction",
+      "label": "Customer satisfaction",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "airbnb_pricing_tool",
+      "label": "Airbnb's pricing tool",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "demand_factor",
+      "label": "Demand factor",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "sophisticated_system",
+      "label": "Sophisticated system",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "retail_pricing",
+      "label": "Retail medication pricing",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "supply_demand",
+      "label": "Supply and demand factors",
+      "type": "factor",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "competit_pricing",
+      "label": "Competitive pricing factors",
+      "type": "factor",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "optimizing_profit",
+      "label": "Optimizing profits",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "customer_acces",
+      "label": "customer access",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "rent_optim_software",
+      "label": "Rent optimization software",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "optim_goal",
+      "label": "Optimization goals",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "supply_and_demand",
+      "label": "supply and demand",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "regulatory_environ",
+      "label": "Regulatory environment",
+      "type": "world",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "legal_framework",
+      "label": "Legal frameworks and guidelines",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "impact_use",
+      "label": "Impact on the use of algorithms",
+      "type": "effect",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "vari_industry",
+      "label": "Across various industries",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "managerial_challenge",
+      "label": "managerial challenges",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "managing_complex_algorithm",
+      "label": "Managing complex algorithms",
+      "type": "challenge",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "fair_pricing_practice",
+      "label": "Ensuring fair pricing practices",
+      "type": "challenge",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "maintaining_transparency",
+      "label": "Maintaining transparency with customers",
+      "type": "challenge",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "investigation",
+      "label": "Algorithmic pricing investigation",
+      "type": "investigation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "research_question",
+      "label": "research questions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "strategic_consideration",
+      "label": "Strategic considerations in implementation",
+      "type": "strategy",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "traditional_pricing",
+      "label": "Traditional pricing methods",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "unique_advantage",
+      "label": "Unique advantages",
+      "type": "advantage",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "potential_drawback",
+      "label": "Potential drawbacks",
+      "type": "drawback",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "difference_highlighted",
+      "label": "Highlighted differences",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "managerial_input_level",
+      "label": "managerial input levels",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "human_overview",
+      "label": "Human oversight and decision-making",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "pricing_algorithm",
+      "label": "Pricing algorithms",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "minimal_involve",
+      "label": "Minimal manager involvement",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "significant_input",
+      "label": "significant input",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "fully_automated_system",
+      "label": "Fully automated systems",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "interact_model",
+      "label": "Interactive models",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "organizational_governance",
+      "label": "Organizational governance",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "crit_role",
+      "label": "critical role",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "effect_governance",
+      "label": "Effective governance",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "decision_making_proce",
+      "label": "decision making processes",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "align",
+      "label": "alignment",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "operational_practice",
+      "label": "Operational practices",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "vast_data",
+      "label": "Vast amounts of data",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "real_time_price",
+      "label": "Real-time price adjustments",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "competit",
+      "label": "Competitiveness",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "maximized_profit",
+      "label": "Maximized profits",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "profit",
+      "label": "profits",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "pricing_strategy",
+      "label": "Pricing strategies",
+      "type": "strategy",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "regulatory_compliance",
+      "label": "regulatory compliance",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "strategic_pricing_consideration",
+      "label": "Strategic pricing considerations",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "consideration",
+      "label": "considerations",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "optimizing_revenue",
+      "label": "Optimizing revenue",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "managing_risk",
+      "label": "Managing risk",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "compliance_with_regulatory_framework",
+      "label": "Compliance with regulatory frameworks",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "long_term_succes",
+      "label": "Long-term success",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    }
+  ],
+  "edges": [
+    {
+      "from": "implementation_context",
+      "to": "algorithmic_pricing",
+      "verb": "consists of",
+      "time": 14.238888888888889,
+      "cluster": 0
+    },
+    {
+      "from": "data_manage",
+      "to": "algorithmic_pricing",
+      "verb": "enables",
+      "time": 7.957333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "yield_manage_system",
+      "to": "revenue_optim",
+      "verb": "achieves",
+      "time": 14.101333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "information_technology",
+      "to": "algorithmic_pricing",
+      "verb": "enables",
+      "time": 20.010666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "strategic_decision",
+      "to": "algorithmic_pricing",
+      "verb": "depends on",
+      "time": 26.197333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "strategic_decision",
+      "to": "busi_strategy",
+      "verb": "depends on",
+      "time": 32.064,
+      "cluster": 0
+    },
+    {
+      "from": "consideration",
+      "to": "compliance_with_regulatory_framework",
+      "verb": "consists of",
+      "time": 37.93066666666667,
+      "cluster": 2
+    },
+    {
+      "from": "managerial_challenge",
+      "to": "algorithmic_pricing",
+      "verb": "highlights",
+      "time": 44.117333333333335,
+      "cluster": 3
+    },
+    {
+      "from": "managerial_challenge",
+      "to": "fair_pricing_practice",
+      "verb": "consists of",
+      "time": 50.112,
+      "cluster": 3
+    },
+    {
+      "from": "dynamic_price_adjustment",
+      "to": "customer_satisfaction",
+      "verb": "achieves",
+      "time": 56.768,
+      "cluster": 1
+    },
+    {
+      "from": "dynamic_pricing",
+      "to": "customer_satisfaction",
+      "verb": "achieves",
+      "time": 62.86933333333334,
+      "cluster": 0
+    },
+    {
+      "from": "vast_data",
+      "to": "real_time_processing",
+      "verb": "requires",
+      "time": 68.8,
+      "cluster": 1
+    },
+    {
+      "from": "vast_data",
+      "to": "real_time_price",
+      "verb": "produces",
+      "time": 74.92266666666666,
+      "cluster": 1
+    },
+    {
+      "from": "pricing_algorithm",
+      "to": "real_time_price",
+      "verb": "contains",
+      "time": 80.53333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "real_time_price",
+      "to": "competit",
+      "verb": "depends on",
+      "time": 86.848,
+      "cluster": 1
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "traditional_pricing",
+      "verb": "relates",
+      "time": 92.288,
+      "cluster": 0
+    },
+    {
+      "from": "pricing_strategy",
+      "to": "regulatory_compliance",
+      "verb": "requires",
+      "time": 99.24266666666666,
+      "cluster": 1
+    },
+    {
+      "from": "managerial_challenge",
+      "to": "managing_complex_algorithm",
+      "verb": "consists of",
+      "time": 105.024,
+      "cluster": 3
+    },
+    {
+      "from": "pricing_strategy",
+      "to": "maximized_profit",
+      "verb": "requires",
+      "time": 112.768,
+      "cluster": 1
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "market_condition",
+      "verb": "depends on",
+      "time": 119.14666666666666,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "market_condition",
+      "verb": "consists of",
+      "time": 124.928,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "effect_implementation",
+      "verb": "results in",
+      "time": 131.49866666666665,
+      "cluster": 0
+    },
+    {
+      "from": "long_term_succes",
+      "to": "effect_implementation",
+      "verb": "ensure",
+      "time": 138.60266666666666,
+      "cluster": 2
+    },
+    {
+      "from": "how_busine_set_price",
+      "to": "algorithmic_pricing",
+      "verb": "transform",
+      "time": 146.112,
+      "cluster": 0
+    },
+    {
+      "from": "managerial_challenge",
+      "to": "maintaining_transparency",
+      "verb": "consists of",
+      "time": 153.728,
+      "cluster": 3
+    },
+    {
+      "from": "managerial_input_level",
+      "to": "human_overview",
+      "verb": "consists of",
+      "time": 160.59733333333335,
+      "cluster": 1
+    },
+    {
+      "from": "managerial_input_level",
+      "to": "minimal_involve",
+      "verb": "consists of",
+      "time": 166.89066666666668,
+      "cluster": 1
+    },
+    {
+      "from": "pricing_strategy",
+      "to": "customer_satisfaction",
+      "verb": "requires",
+      "time": 173.568,
+      "cluster": 1
+    },
+    {
+      "from": "organizational_governance",
+      "to": "algorithmic_pricing",
+      "verb": "plays a critical role in",
+      "time": 180.18133333333336,
+      "cluster": 7
+    },
+    {
+      "from": "crit_role",
+      "to": "organizational_governance",
+      "verb": "play",
+      "time": 185.89866666666668,
+      "cluster": 7
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "organizational_goal",
+      "verb": "aligns with",
+      "time": 192.38400000000001,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "governance_structure",
+      "verb": "aligns with",
+      "time": 198.08,
+      "cluster": 0
+    },
+    {
+      "from": "optimized_revenue_stream",
+      "to": "real_time_data",
+      "verb": "requires",
+      "time": 204.52266666666668,
+      "cluster": 0
+    },
+    {
+      "from": "interact_model",
+      "to": "significant_input",
+      "verb": "depends on",
+      "time": 210.90133333333335,
+      "cluster": 1
+    },
+    {
+      "from": "software_tool",
+      "to": "hospitality_industry",
+      "verb": "targets",
+      "time": 216.7466666666667,
+      "cluster": 2
+    },
+    {
+      "from": "difference_highlighted",
+      "to": "potential_drawback",
+      "verb": "contains",
+      "time": 223.18933333333337,
+      "cluster": 0
+    },
+    {
+      "from": "sophisticated_system",
+      "to": "customer_satisfaction",
+      "verb": "achieves",
+      "time": 229.12000000000003,
+      "cluster": 1
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "manage",
+      "verb": "results in",
+      "time": 237.52533333333338,
+      "cluster": 0
+    },
+    {
+      "from": "optim_goal",
+      "to": "customer_satisfaction",
+      "verb": "consists of",
+      "time": 244.99200000000005,
+      "cluster": 1
+    },
+    {
+      "from": "difference_highlighted",
+      "to": "unique_advantage",
+      "verb": "contains",
+      "time": 253.24800000000005,
+      "cluster": 0
+    },
+    {
+      "from": "consideration",
+      "to": "optimizing_revenue",
+      "verb": "consists of",
+      "time": 260.9920000000001,
+      "cluster": 2
+    },
+    {
+      "from": "consideration",
+      "to": "managing_risk",
+      "verb": "consists of",
+      "time": 268.4586666666667,
+      "cluster": 2
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "busine",
+      "verb": "depends on",
+      "time": 275.4560000000001,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "vari_factor",
+      "verb": "depends on",
+      "time": 282.34666666666675,
+      "cluster": 0
+    },
+    {
+      "from": "motivation_adoption",
+      "to": "enhanced_customer_experience",
+      "verb": "produces",
+      "time": 292.33066666666673,
+      "cluster": 1
+    },
+    {
+      "from": "fully_automated_system",
+      "to": "minimal_involve",
+      "verb": "depends on",
+      "time": 300.90666666666675,
+      "cluster": 1
+    },
+    {
+      "from": "consideration",
+      "to": "effect_implementation",
+      "verb": "understand",
+      "time": 308.52266666666674,
+      "cluster": 2
+    },
+    {
+      "from": "profit",
+      "to": "vast_data",
+      "verb": "maximize",
+      "time": 316.6506666666667,
+      "cluster": 1
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "revenue_model",
+      "verb": "aims to",
+      "time": 326.46400000000006,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "potential_drawback",
+      "verb": "produces",
+      "time": 332.86400000000003,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "revenue_model",
+      "verb": "aligns with",
+      "time": 339.9893333333334,
+      "cluster": 0
+    },
+    {
+      "from": "strategic_decision",
+      "to": "revenue_model",
+      "verb": "depends on",
+      "time": 346.2186666666667,
+      "cluster": 0
+    },
+    {
+      "from": "advanced_algorithm",
+      "to": "algorithmic_pricing",
+      "verb": "leverage",
+      "time": 352.14933333333335,
+      "cluster": 1
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "unique_advantage",
+      "verb": "produces",
+      "time": 358.16533333333336,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "price",
+      "verb": "produces",
+      "time": 365.26933333333335,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "optimizing_profit",
+      "verb": "consists of",
+      "time": 371.584,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "customer_acces",
+      "verb": "consists of",
+      "time": 379.2,
+      "cluster": 0
+    },
+    {
+      "from": "regulatory_environ",
+      "to": "algorithmic_pricing",
+      "verb": "consists of",
+      "time": 386.4533333333333,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "supply_demand",
+      "verb": "operates on",
+      "time": 393.70666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "competit_pricing",
+      "verb": "consists of",
+      "time": 399.616,
+      "cluster": 0
+    },
+    {
+      "from": "rent_optim_software",
+      "to": "advanced_algorithm",
+      "verb": "relates",
+      "time": 407.46666666666664,
+      "cluster": 1
+    },
+    {
+      "from": "retail_pricing",
+      "to": "algorithmic_pricing",
+      "verb": "consists of",
+      "time": 414.6133333333333,
+      "cluster": 0
+    },
+    {
+      "from": "legal_framework",
+      "to": "impact_use",
+      "verb": "contains",
+      "time": 422.27199999999993,
+      "cluster": 5
+    },
+    {
+      "from": "software_tool",
+      "to": "retail_industry",
+      "verb": "targets",
+      "time": 429.24799999999993,
+      "cluster": 2
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "real_time_data",
+      "verb": "depends on",
+      "time": 435.5626666666666,
+      "cluster": 0
+    },
+    {
+      "from": "dynamic_price_adjustment",
+      "to": "real_time_data",
+      "verb": "operates on",
+      "time": 441.87733333333324,
+      "cluster": 1
+    },
+    {
+      "from": "real_time_processing",
+      "to": "dynamic_pricing",
+      "verb": "results in",
+      "time": 449.15199999999993,
+      "cluster": 1
+    },
+    {
+      "from": "dynamic_price_adjustment",
+      "to": "supply_and_demand",
+      "verb": "depends on",
+      "time": 457.1946666666666,
+      "cluster": 1
+    },
+    {
+      "from": "real_time_data",
+      "to": "algorithmic_pricing",
+      "verb": "based on",
+      "time": 465.42933333333326,
+      "cluster": 0
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "supply_demand",
+      "verb": "consists of",
+      "time": 472.4906666666666,
+      "cluster": 0
+    },
+    {
+      "from": "yield_manage_system",
+      "to": "demand_supply_dynamic",
+      "verb": "operates on",
+      "time": 480.0426666666666,
+      "cluster": 1
+    },
+    {
+      "from": "dynamic_pricing",
+      "to": "profit_maxim",
+      "verb": "achieves",
+      "time": 486.9546666666666,
+      "cluster": 0
+    },
+    {
+      "from": "competit",
+      "to": "maximized_profit",
+      "verb": "improves",
+      "time": 495.31733333333324,
+      "cluster": 1
+    },
+    {
+      "from": "regulatory_concern",
+      "to": "transparency_fair_consumer_protection",
+      "verb": "contains",
+      "time": 504.53333333333325,
+      "cluster": 1
+    },
+    {
+      "from": "busine",
+      "to": "dynamic_pricing",
+      "verb": "contains",
+      "time": 515.8186666666666,
+      "cluster": 0
+    },
+    {
+      "from": "software_tool",
+      "to": "transportation_industry",
+      "verb": "targets",
+      "time": 523.1146666666666,
+      "cluster": 2
+    },
+    {
+      "from": "effect_governance",
+      "to": "operational_practice",
+      "verb": "ensures alignment between",
+      "time": 530.7306666666666,
+      "cluster": 4
+    },
+    {
+      "from": "automated_pricing",
+      "to": "discriminatory_practice",
+      "verb": "opposes",
+      "time": 537.5146666666666,
+      "cluster": 2
+    },
+    {
+      "from": "investigation",
+      "to": "research_question",
+      "verb": "guide",
+      "time": 544.7253333333332,
+      "cluster": 6
+    },
+    {
+      "from": "legal_framework",
+      "to": "vari_industry",
+      "verb": "applies to",
+      "time": 553.0453333333332,
+      "cluster": 5
+    },
+    {
+      "from": "airbnb_pricing_tool",
+      "to": "demand_factor",
+      "verb": "consists of",
+      "time": 561.3013333333332,
+      "cluster": 2
+    },
+    {
+      "from": "managerial_input_level",
+      "to": "significant_input",
+      "verb": "consists of",
+      "time": 569.3866666666665,
+      "cluster": 1
+    },
+    {
+      "from": "human_overview",
+      "to": "pricing_algorithm",
+      "verb": "operates on",
+      "time": 577.5999999999999,
+      "cluster": 1
+    },
+    {
+      "from": "effect_governance",
+      "to": "decision_making_proce",
+      "verb": "facilitates",
+      "time": 584.5333333333332,
+      "cluster": 4
+    },
+    {
+      "from": "decision_making_proce",
+      "to": "effect_governance",
+      "verb": "facilitate",
+      "time": 593.3439999999998,
+      "cluster": 4
+    },
+    {
+      "from": "algorithmic_pricing",
+      "to": "optimized_revenue_stream",
+      "verb": "enables",
+      "time": 601.8346666666665,
+      "cluster": 0
+    },
+    {
+      "from": "motivation_adoption",
+      "to": "revenue_optim",
+      "verb": "produces",
+      "time": 608.8533333333332,
+      "cluster": 1
+    },
+    {
+      "from": "strategic_pricing_consideration",
+      "to": "algorithmic_pricing",
+      "verb": "explore",
+      "time": 616.3839999999999,
+      "cluster": 0
+    },
+    {
+      "from": "research_question",
+      "to": "strategic_consideration",
+      "verb": "consists of",
+      "time": 624.2773333333332,
+      "cluster": 6
+    },
+    {
+      "from": "align",
+      "to": "effect_governance",
+      "verb": "ensure",
+      "time": 631.5519999999999,
+      "cluster": 4
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "algorithmic_pricing",
+      "label": "algorithmic pricing",
+      "children": [
+        {
+          "id": "real_time_data",
+          "label": "Real-time data"
+        },
+        {
+          "id": "market_condition",
+          "label": "market conditions"
+        },
+        {
+          "id": "busine",
+          "label": "businesses",
+          "children": [
+            {
+              "id": "dynamic_pricing",
+              "label": "Dynamic and personalized pricing strategies"
+            }
+          ]
+        },
+        {
+          "id": "price",
+          "label": "prices"
+        },
+        {
+          "id": "how_busine_set_price",
+          "label": "how businesses set prices"
+        },
+        {
+          "id": "vari_factor",
+          "label": "Various factors"
+        },
+        {
+          "id": "optimized_revenue_stream",
+          "label": "Optimized revenue streams"
+        },
+        {
+          "id": "information_technology",
+          "label": "Information technology advances"
+        },
+        {
+          "id": "data_manage",
+          "label": "Data management improvements"
+        },
+        {
+          "id": "strategic_decision",
+          "label": "Strategic decision"
+        },
+        {
+          "id": "busi_strategy",
+          "label": "Business strategy"
+        },
+        {
+          "id": "revenue_model",
+          "label": "revenue model"
+        },
+        {
+          "id": "organizational_goal",
+          "label": "Organizational goals"
+        },
+        {
+          "id": "governance_structure",
+          "label": "Governance structures"
+        },
+        {
+          "id": "manage",
+          "label": "management"
+        },
+        {
+          "id": "implementation_context",
+          "label": "Implementation context"
+        },
+        {
+          "id": "profit_maxim",
+          "label": "Profit maximization"
+        },
+        {
+          "id": "retail_pricing",
+          "label": "Retail medication pricing"
+        },
+        {
+          "id": "supply_demand",
+          "label": "Supply and demand factors"
+        },
+        {
+          "id": "competit_pricing",
+          "label": "Competitive pricing factors"
+        },
+        {
+          "id": "optimizing_profit",
+          "label": "Optimizing profits"
+        },
+        {
+          "id": "customer_acces",
+          "label": "customer access"
+        },
+        {
+          "id": "regulatory_environ",
+          "label": "Regulatory environment"
+        },
+        {
+          "id": "traditional_pricing",
+          "label": "Traditional pricing methods"
+        },
+        {
+          "id": "unique_advantage",
+          "label": "Unique advantages"
+        },
+        {
+          "id": "potential_drawback",
+          "label": "Potential drawbacks"
+        },
+        {
+          "id": "difference_highlighted",
+          "label": "Highlighted differences"
+        },
+        {
+          "id": "strategic_pricing_consideration",
+          "label": "Strategic pricing considerations"
+        }
+      ]
+    },
+    {
+      "id": "customer_satisfaction",
+      "label": "Customer satisfaction",
+      "children": [
+        {
+          "id": "advanced_algorithm",
+          "label": "advanced algorithms"
+        },
+        {
+          "id": "motivation_adoption",
+          "label": "Motivation for adopting algorithmic pricing"
+        },
+        {
+          "id": "revenue_optim",
+          "label": "Revenue optimization"
+        },
+        {
+          "id": "enhanced_customer_experience",
+          "label": "Enhanced customer experience"
+        },
+        {
+          "id": "dynamic_price_adjustment",
+          "label": "dynamic price adjustments"
+        },
+        {
+          "id": "real_time_processing",
+          "label": "Real-time data processing"
+        },
+        {
+          "id": "regulatory_concern",
+          "label": "Regulatory concerns",
+          "children": [
+            {
+              "id": "transparency_fair_consumer_protection",
+              "label": "transparency,fairness,consumer protection"
+            }
+          ]
+        },
+        {
+          "id": "yield_manage_system",
+          "label": "Yield management systems"
+        },
+        {
+          "id": "demand_supply_dynamic",
+          "label": "demand supply dynamics"
+        },
+        {
+          "id": "sophisticated_system",
+          "label": "Sophisticated system"
+        },
+        {
+          "id": "rent_optim_software",
+          "label": "Rent optimization software"
+        },
+        {
+          "id": "optim_goal",
+          "label": "Optimization goals"
+        },
+        {
+          "id": "supply_and_demand",
+          "label": "supply and demand"
+        },
+        {
+          "id": "managerial_input_level",
+          "label": "Managerial input levels"
+        },
+        {
+          "id": "human_overview",
+          "label": "Human oversight and decision-making"
+        },
+        {
+          "id": "pricing_algorithm",
+          "label": "Pricing algorithms",
+          "children": [
+            {
+              "id": "real_time_price",
+              "label": "Real-time price adjustments"
+            }
+          ]
+        },
+        {
+          "id": "minimal_involve",
+          "label": "Minimal manager involvement"
+        },
+        {
+          "id": "significant_input",
+          "label": "significant input"
+        },
+        {
+          "id": "fully_automated_system",
+          "label": "Fully automated systems"
+        },
+        {
+          "id": "interact_model",
+          "label": "Interactive models"
+        },
+        {
+          "id": "vast_data",
+          "label": "Vast amounts of data"
+        },
+        {
+          "id": "competit",
+          "label": "Competitiveness"
+        },
+        {
+          "id": "maximized_profit",
+          "label": "maximized profits"
+        },
+        {
+          "id": "profit",
+          "label": "profits"
+        },
+        {
+          "id": "pricing_strategy",
+          "label": "Pricing strategies"
+        },
+        {
+          "id": "regulatory_compliance",
+          "label": "regulatory compliance"
+        }
+      ]
+    },
+    {
+      "id": "consideration",
+      "label": "considerations",
+      "children": [
+        {
+          "id": "effect_implementation",
+          "label": "Effective implementation"
+        },
+        {
+          "id": "automated_pricing",
+          "label": "Automated pricing"
+        },
+        {
+          "id": "discriminatory_practice",
+          "label": "Discriminatory practices"
+        },
+        {
+          "id": "software_tool",
+          "label": "Software tools"
+        },
+        {
+          "id": "hospitality_industry",
+          "label": "Hospitality industry"
+        },
+        {
+          "id": "retail_industry",
+          "label": "Retail industry"
+        },
+        {
+          "id": "transportation_industry",
+          "label": "transportation industry"
+        },
+        {
+          "id": "airbnb_pricing_tool",
+          "label": "Airbnb's pricing tool"
+        },
+        {
+          "id": "demand_factor",
+          "label": "Demand factor"
+        },
+        {
+          "id": "optimizing_revenue",
+          "label": "Optimizing revenue"
+        },
+        {
+          "id": "managing_risk",
+          "label": "Managing risk"
+        },
+        {
+          "id": "compliance_with_regulatory_framework",
+          "label": "Compliance with regulatory frameworks"
+        },
+        {
+          "id": "long_term_succes",
+          "label": "Long-term success"
+        }
+      ]
+    },
+    {
+      "id": "managerial_challenge",
+      "label": "Managerial challenges",
+      "children": [
+        {
+          "id": "managing_complex_algorithm",
+          "label": "Managing complex algorithms"
+        },
+        {
+          "id": "fair_pricing_practice",
+          "label": "Ensuring fair pricing practices"
+        },
+        {
+          "id": "maintaining_transparency",
+          "label": "Maintaining transparency with customers"
+        }
+      ]
+    },
+    {
+      "id": "effect_governance",
+      "label": "Effective governance",
+      "children": [
+        {
+          "id": "decision_making_proce",
+          "label": "decision making processes"
+        },
+        {
+          "id": "align",
+          "label": "alignment"
+        },
+        {
+          "id": "operational_practice",
+          "label": "Operational practices"
+        }
+      ]
+    },
+    {
+      "id": "legal_framework",
+      "label": "Legal frameworks and guidelines",
+      "children": [
+        {
+          "id": "impact_use",
+          "label": "Impact on the use of algorithms"
+        },
+        {
+          "id": "vari_industry",
+          "label": "Across various industries"
+        }
+      ]
+    },
+    {
+      "id": "research_question",
+      "label": "Research questions",
+      "children": [
+        {
+          "id": "investigation",
+          "label": "Algorithmic pricing investigation"
+        },
+        {
+          "id": "strategic_consideration",
+          "label": "Strategic considerations in implementation"
+        }
+      ]
+    },
+    {
+      "id": "organizational_governance",
+      "label": "Organizational governance",
+      "children": [
+        {
+          "id": "crit_role",
+          "label": "critical role"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "The implementation context of algorithmic pricing includes regulatory concerns about competition and price discrimination.",
+    "Data management improvements enable the adoption of algorithmic pricing in property management.",
+    "Yield management systems achieve revenue optimization through advanced pricing algorithms.",
+    "Advances in information technology enable the use of sophisticated algorithmic pricing methods.",
+    "Strategic decisions regarding algorithmic pricing depend on a company’s marketing strategies.",
+    "and s related to business strategy guide the adoption of algorithmic pricing.",
+    "Considerations for implementing algorithmic pricing consist of compliance with regulatory frameworks.",
+    "Managerial challenges highlight the difficulties in implementing algorithmic pricing effectively.",
+    "and ensuring fair pricing practices is part of the managerial challenges faced in algorithmic pricing.",
+    "Dynamic price adjustments aim to achieve customer satisfaction through automated pricing changes.",
+    "Both dynamic and personalized pricing strategies are used to achieve customer satisfaction.",
+    "Vast amounts of data require real-time processing to support algorithmic pricing systems.",
+    "and produce real-time price adjustments, enabling dynamic pricing.",
+    "Pricing algorithms contain real-time price adjustments, automating the process of setting prices.",
+    "Real-time price adjustments depend on competitiveness, ensuring prices stay relevant.",
+    "Algorithmic pricing relates to traditional pricing methods, differing in automation and real-time adjustments.",
+    "Pricing strategies require regulatory compliance, ensuring adherence to legal standards.",
+    "Managerial challenges consist of managing complex algorithms, necessitating expertise in algorithmic pricing.",
+    "Pricing strategies require maximized profits, driving the adoption of efficient pricing models.",
+    "Algorithmic pricing depends on market conditions, allowing for dynamic price adjustments.",
+    "It also incorporates various market conditions, personalizing prices for different customers.",
+    "And results in effective implementation, considering consumer reactions to pricing changes.",
+    "Long-term success ensures effective implementation of algorithmic pricing, supporting sustainable business practices.",
+    "How businesses set prices transforms into algorithmic pricing, integrating advanced data analytics for decision-making.",
+    "Managers face the challenge of maintaining transparency with customers when implementing pricing algorithms.",
+    "Human oversight is part of managerial input levels to ensure proper decision-making in pricing.",
+    "and minimal manager involvement is another level of managerial input when relying on pricing algorithms.",
+    "Pricing strategies require consideration of customer satisfaction to ensure effective implementation.",
+    "Organizational governance plays a crucial role in overseeing algorithmic pricing processes.",
+    "Organizational governance fulfills a critical role in ensuring the ethical use of algorithmic pricing.",
+    "Algorithmic pricing aligns with organizational goals to optimize business outcomes.",
+    "and aligns with governance structures to maintain compliance and regulatory standards.",
+    "Optimized revenue streams require real-time data to adjust pricing dynamically and effectively.",
+    "Interactive models depend on significant input from various sources to function accurately.",
+    "Software tools target the hospitality industry to provide tailored solutions for price optimization.",
+    "Highlighted differences in pricing approaches contain potential drawbacks for businesses to consider.",
+    "A sophisticated system aims to achieve customer satisfaction, despite potential dissatisfaction caused by price uncertainty.",
+    "Algorithmic pricing results in better management when integrated with a company's customer relationship management systems.",
+    "Optimization goals consist of customer satisfaction, taking into account customer purchase history and CRM system goals.",
+    "Highlighted differences contain unique advantages, emphasizing the risks of focusing too heavily on competitor prices.",
+    "Considerations include optimizing revenue, ensuring that algorithmic pricing impacts competition positively.",
+    "and also involve managing risk, particularly regarding the negative effects of price competition.",
+    "Algorithmic pricing depends on businesses adopting new tools across all relevant functions effectively.",
+    "and relies on various factors, including the transparency of the decision-making process and the willingness to modify imperfect algorithms.",
+    "The motivation for adopting algorithmic pricing produces an enhanced customer experience, addressing issues like algorithm aversion.",
+    "Fully automated systems depend on minimal manager involvement, adjusting algorithms based on uncovered concerns.",
+    "Considerations help understand effective implementation, adding constraints to the price optimization process for better outcomes.",
+    "Profits maximize vast amounts of data, allowing sellers to make informed decisions about maximizing either platform revenue or individual profit.",
+    "Algorithmic pricing aims to support the revenue model, focusing on the company's financial objectives.",
+    "It also introduces potential drawbacks, especially concerning alignment with seller goals.",
+    "And aligns with the revenue model, ensuring consistency in pricing strategies.",
+    "Strategic pricing decisions depend on the revenue model, guiding optimal pricing choices.",
+    "Advanced algorithms leverage algorithmic pricing, aiding in promotional discount determination.",
+    "Algorithmic pricing produces unique advantages, though it presents distinct challenges for multi-channel sellers.",
+    "It also generates prices, often increasing the frequency of price adjustments in stores.",
+    "It also involves optimizing profits, considering the maximum price differential customers will accept.",
+    "And includes elements of customer access, utilizing customer data for personalized pricing.",
+    "The regulatory environment encompasses considerations of algorithmic pricing, addressing its opportunities and risks.",
+    "Algorithmic pricing operates based on supply and demand factors, enhancing market efficiencies.",
+    "and incorporates competitive pricing factors, balancing pro-competitive effects and regulatory concerns.",
+    "Rent optimization software employs advanced algorithms that could potentially facilitate collusion among firms.",
+    "Retail medication pricing increasingly relies on algorithmic pricing mechanisms to adjust prices dynamically.",
+    "Legal frameworks and guidelines address the impact of algorithms on pricing decisions and potential collusion.",
+    "Software tools specifically target the retail industry to automate and optimize pricing strategies.",
+    "Algorithmic pricing heavily depends on real-time data to make quick and accurate price adjustments.",
+    "Dynamic price adjustments utilize real-time data to reflect current supply and demand conditions accurately.",
+    "Real-time data processing enables dynamic and personalized pricing strategies that cater to individual consumer behavior.",
+    "Dynamic price adjustments consider fluctuations in supply and demand to ensure prices remain competitive and profitable.",
+    "Real-time data informs algorithmic pricing decisions, allowing for immediate responses to market changes.",
+    "Algorithmic pricing integrates supply and demand factors to determine optimal prices in real-time scenarios.",
+    "Yield management systems operate on the dynamics of supply and demand to maximize revenue and efficiency.",
+    "Dynamic and personalized pricing strategies aim to achieve profit maximization by closely aligning with consumer preferences.",
+    "Competitiveness improves maximized profits through the use of personalized pricing strategies in field experiments conducted on ZipRecruiter.",
+    "Regulatory concerns include ensuring transparency, fairness, and consumer protection against harmful business practices enabled by personalized algorithmic pricing.",
+    "Businesses adopt dynamic and personalized pricing strategies to address competitive pressures and consumer behavior.",
+    "Software tools designed for personalized pricing target the transportation industry to better manage customer segments.",
+    "Effective governance ensures alignment between operational practices and ethical standards within businesses.",
+    "Automated pricing systems aim to prevent discriminatory practices by ensuring fair treatment of all consumers.",
+    "Algorithmic pricing investigations guide the formulation of research questions aimed at understanding complex pricing dynamics.",
+    "Legal frameworks and guidelines apply to various industries to regulate and standardize the use of automated pricing algorithms.",
+    "Airbnb's pricing tool incorporates demand factors to dynamically adjust pricing based on supply and demand fluctuations.",
+    "Managerial input levels consist of significant contributions necessary for the effective implementation of pricing algorithms.",
+    "Human oversight operates on pricing algorithms to ensure they align with business goals and ethical standards.",
+    "Effective governance facilitates decision-making processes by ensuring accountability and internal oversight mechanisms are in place.",
+    "Decision-making processes facilitate effective governance as pricing shifts to algorithms, emphasizing accountability and oversight.",
+    "Algorithmic pricing enables optimized revenue streams, particularly in subscription-based digital products.",
+    "The motivation for adopting algorithmic pricing aims to produce revenue optimization through various business models.",
+    "Strategic pricing considerations explore the impact of algorithmic pricing, such as the implementation of skimming strategies.",
+    "Research questions consist of strategic considerations in the implementation of algorithmic pricing strategies.",
+    "Aligning pricing algorithms ensures effective governance across different product lines and maintains brand consistency."
+  ]
+}

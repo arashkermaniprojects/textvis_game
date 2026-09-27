@@ -1,0 +1,18 @@
+{
+  "name": "textvis",
+  "version": "1.0.0",
+  "description": "TextVis: turns a research paper PDF into a knowledge graph, a narrated 3D lecture video and an interactive Godot scene.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "for f in agents/*.mjs llm/*.mjs visual/*.mjs tools/*.mjs pipeline/*.mjs; do node --check \"$f\" || exit 1; done",
+    "metrics": "node tools/metric-noun-repetition.mjs --all --json results/noun_repetition.json && node tools/metric-label-proximity.mjs --all --json results/label_proximity.json"
+  },
+  "dependencies": {
+    "openai": "^4.77.0"
+  }
+}

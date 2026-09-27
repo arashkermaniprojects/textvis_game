@@ -1,0 +1,1750 @@
+{
+  "nodes": [
+    {
+      "id": "title_attention_i_all_you_need",
+      "label": "Attention Is All You Need",
+      "type": "title",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "central_theme",
+      "label": "Central theme",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "innovat_nature",
+      "label": "Innovative nature",
+      "type": "attribute",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "attention",
+      "label": "scaled dot product attention",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "processing_sequence",
+      "label": "processing sequences",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "recurrent_neural_network",
+      "label": "recurrent neural networks",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "sequence_step",
+      "label": "Sequence processing step-by-step",
+      "type": "recurrence",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "dependency",
+      "label": "Dependency on previous step",
+      "type": "dependency",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "parallel_computation",
+      "label": "Parallel computation",
+      "type": "parallelization",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequential_computation",
+      "label": "Sequential computation",
+      "type": "recurrence",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "computation_speed",
+      "label": "Computation speed",
+      "type": "speed",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "model",
+      "label": "model",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "focu",
+      "label": "Focus on specific parts",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "enhanced_ability",
+      "label": "Enhanced ability to handle complex tasks",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "recurrent_connection",
+      "label": "recurrent connections",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "transformer",
+      "label": "Transformer model",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequential_data",
+      "label": "Sequential data processing",
+      "type": "recurrence",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "parallel_processing",
+      "label": "Parallel processing",
+      "type": "parallelization",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequential_processing",
+      "label": "sequential processing",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "computational_efficiency",
+      "label": "Computational efficiency",
+      "type": "faster",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "model_part",
+      "label": "Model parts",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "independent_functioning",
+      "label": "Independent functioning",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "training_time",
+      "label": "Training time",
+      "type": "time",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "inference_time",
+      "label": "inference time",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "query_matrix",
+      "label": "Query matrix Q",
+      "type": "matrix",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "key_matrix",
+      "label": "Key matrix K",
+      "type": "matrix",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "value_matrix",
+      "label": "Value matrix V",
+      "type": "matrix",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "attention_output",
+      "label": "Attention output",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "focu_on_part",
+      "label": "Focusing on different parts of the input sequence",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "query_key_value_matrice",
+      "label": "Query, Key, Value matrices",
+      "type": "matrix",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "split_into_head",
+      "label": "Splitting into multiple heads",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "concatenate",
+      "label": "concatenate",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "context_vector",
+      "label": "Context vector",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "ffn",
+      "label": "ffn",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "position_output",
+      "label": "position output",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "relu_activation",
+      "label": "ReLU activation function",
+      "type": "activation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "enhanced_complex_feature",
+      "label": "Enhanced ability to learn complex features",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "linear_transformation",
+      "label": "Linear transformation",
+      "type": "transformation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "po_enc",
+      "label": "Positional encoding method",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "information",
+      "label": "Relative positions of tokens",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sine_cosine",
+      "label": "Sine and cosine functions",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "po_info",
+      "label": "Captured positional information",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dim",
+      "label": "Dimensionality of embeddings",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "encoder_decoder_framework",
+      "label": "Encoder-decoder framework",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "encoder",
+      "label": "Encoder",
+      "type": "layer",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "input_sequence",
+      "label": "Input sequence",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "decoder",
+      "label": "Decoder",
+      "type": "layer",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "output_sequence",
+      "label": "output sequence",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "transformer_training",
+      "label": "Transformer model training process",
+      "type": "training",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "wsj_dataset",
+      "label": "WSJ dataset",
+      "type": "dataset",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "language_modeling",
+      "label": "Language modeling task",
+      "type": "task",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "machine_translation",
+      "label": "Machine translation task",
+      "type": "task",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "human_like_text",
+      "label": "Human-like text generation",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "on_wsj_data",
+      "label": "Training on WSJ data",
+      "type": "training",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "beam_search_decoding",
+      "label": "beam search decoding",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "generated_sequence",
+      "label": "Generated sequences",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "promising_sequence_set",
+      "label": "Set of promising sequences",
+      "type": "set",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "multiple_hypothe",
+      "label": "Multiple hypotheses",
+      "type": "hypotheses",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "optimal_sequence",
+      "label": "Optimal sequence",
+      "type": "sequence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "rnn_model",
+      "label": "RNN models",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transformer_parallel",
+      "label": "Transformer operates in parallel",
+      "type": "parallelization",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "rnn_sequential",
+      "label": "RNN requires sequential processing",
+      "type": "recurrence",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "information_flow",
+      "label": "Information flow",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "input",
+      "label": "Inputs",
+      "type": "input",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "hidden_state",
+      "label": "Hidden states",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "traditional_rnn",
+      "label": "Traditional RNN models",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "superior_performance",
+      "label": "Superior performance",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "accurate_fluent_translation",
+      "label": "More accurate and fluent translations",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "future_work",
+      "label": "Future work discussion",
+      "type": "section",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "other_task",
+      "label": "Other tasks beyond machine translation",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "concurrent_processing",
+      "label": "Concurrent processing",
+      "type": "parallelization",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "byte_net_architecture",
+      "label": "ByteNet architecture",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "dilated_convolutional_network",
+      "label": "dilated convolutional network",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "long_sequence_processing",
+      "label": "Processing of long sequences",
+      "type": "processing",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "parameter",
+      "label": "parameters",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "efficient_processing",
+      "label": "efficient processing",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "multiple_layer",
+      "label": "Multiple layers",
+      "type": "layers",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "different_dilation_rate",
+      "label": "Different dilation rates",
+      "type": "rates",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "varying_scale",
+      "label": "Varying scales",
+      "type": "scales",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "convolutional_layer",
+      "label": "Convolutional layers for encoding",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "seq_to_seq_learning",
+      "label": "Sequence-to-sequence learning for decoding",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "convs2_architecture",
+      "label": "ConvS2S Architecture",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "performance_metric",
+      "label": "Performance metrics",
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "processing_task",
+      "label": "processing tasks",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "efficiency_effect",
+      "label": "efficiency effectiveness",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transformer_efficiency",
+      "label": "Transformer model efficiency",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "previ_model",
+      "label": "Previous state-of-the-art models",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transformer_time",
+      "label": "Three days of training time",
+      "type": "time",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "compar_result",
+      "label": "comparable results",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "general_ability",
+      "label": "Generalization abilities",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "unseen_data",
+      "label": "Unseen data",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "vari_metric",
+      "label": "Various metrics",
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "robust",
+      "label": "Robustness",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "different_task_dataset",
+      "label": "Different tasks and datasets",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    }
+  ],
+  "edges": [
+    {
+      "from": "dilated_convolutional_network",
+      "to": "long_sequence_processing",
+      "verb": "operates on",
+      "time": 17.905405405405407,
+      "cluster": 3
+    },
+    {
+      "from": "decoder",
+      "to": "context_vector",
+      "verb": "operates on",
+      "time": 7.552,
+      "cluster": 0
+    },
+    {
+      "from": "language_modeling",
+      "to": "machine_translation",
+      "verb": "relates",
+      "time": 15.082666666666666,
+      "cluster": 2
+    },
+    {
+      "from": "concurrent_processing",
+      "to": "input_sequence",
+      "verb": "operates on",
+      "time": 22.869333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "input",
+      "to": "hidden_state",
+      "verb": "connects",
+      "time": 30.229333333333333,
+      "cluster": 4
+    },
+    {
+      "from": "sequence_step",
+      "to": "dependency",
+      "verb": "depends on",
+      "time": 37.589333333333336,
+      "cluster": 0
+    },
+    {
+      "from": "performance_metric",
+      "to": "efficiency_effect",
+      "verb": "consists of",
+      "time": 44.778666666666666,
+      "cluster": 1
+    },
+    {
+      "from": "computational_efficiency",
+      "to": "transformer",
+      "verb": "enhances",
+      "time": 51.967999999999996,
+      "cluster": 1
+    },
+    {
+      "from": "attention",
+      "to": "concatenate",
+      "verb": "sequence of",
+      "time": 59.946666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "attention",
+      "to": "focu_on_part",
+      "verb": "produces",
+      "time": 68.11733333333333,
+      "cluster": 0
+    },
+    {
+      "from": "computation_speed",
+      "to": "parallel_processing",
+      "verb": "increase",
+      "time": 76.01066666666667,
+      "cluster": 1
+    },
+    {
+      "from": "sequential_computation",
+      "to": "computation_speed",
+      "verb": "depends on",
+      "time": 84.13866666666667,
+      "cluster": 1
+    },
+    {
+      "from": "parallel_computation",
+      "to": "sequential_computation",
+      "verb": "better than",
+      "time": 91.69066666666666,
+      "cluster": 1
+    },
+    {
+      "from": "convs2_architecture",
+      "to": "parallel_computation",
+      "verb": "maintains",
+      "time": 98.752,
+      "cluster": 1
+    },
+    {
+      "from": "parallel_processing",
+      "to": "sequential_processing",
+      "verb": "better than",
+      "time": 105.472,
+      "cluster": 1
+    },
+    {
+      "from": "byte_net_architecture",
+      "to": "dilated_convolutional_network",
+      "verb": "consists of",
+      "time": 112.23466666666666,
+      "cluster": 3
+    },
+    {
+      "from": "transformer_parallel",
+      "to": "rnn_sequential",
+      "verb": "opposes",
+      "time": 119.55199999999999,
+      "cluster": 2
+    },
+    {
+      "from": "innovat_nature",
+      "to": "attention",
+      "verb": "emphasizes",
+      "time": 126.27199999999999,
+      "cluster": 0
+    },
+    {
+      "from": "attention",
+      "to": "processing_sequence",
+      "verb": "requires",
+      "time": 131.86133333333333,
+      "cluster": 0
+    },
+    {
+      "from": "attention",
+      "to": "recurrent_neural_network",
+      "verb": "eliminates",
+      "time": 137.64266666666666,
+      "cluster": 0
+    },
+    {
+      "from": "model",
+      "to": "attention",
+      "verb": "consists of",
+      "time": 144.7253333333333,
+      "cluster": 0
+    },
+    {
+      "from": "attention",
+      "to": "recurrent_connection",
+      "verb": "replaces",
+      "time": 149.99466666666663,
+      "cluster": 0
+    },
+    {
+      "from": "transformer",
+      "to": "rnn_model",
+      "verb": "compares with",
+      "time": 156.30933333333329,
+      "cluster": 1
+    },
+    {
+      "from": "transformer",
+      "to": "traditional_rnn",
+      "verb": "better than",
+      "time": 162.51733333333328,
+      "cluster": 1
+    },
+    {
+      "from": "encoder",
+      "to": "input_sequence",
+      "verb": "operates on",
+      "time": 170.26133333333328,
+      "cluster": 0
+    },
+    {
+      "from": "decoder",
+      "to": "output_sequence",
+      "verb": "produces",
+      "time": 176.0853333333333,
+      "cluster": 0
+    },
+    {
+      "from": "convs2_architecture",
+      "to": "sequential_data",
+      "verb": "enables",
+      "time": 182.50666666666663,
+      "cluster": 1
+    },
+    {
+      "from": "split_into_head",
+      "to": "attention",
+      "verb": "sequence of",
+      "time": 189.3973333333333,
+      "cluster": 0
+    },
+    {
+      "from": "encoder",
+      "to": "context_vector",
+      "verb": "produces",
+      "time": 197.61066666666665,
+      "cluster": 0
+    },
+    {
+      "from": "transformer",
+      "to": "general_ability",
+      "verb": "produces",
+      "time": 203.15733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "attention",
+      "to": "query_key_value_matrice",
+      "verb": "consists of",
+      "time": 211.51999999999998,
+      "cluster": 0
+    },
+    {
+      "from": "independent_functioning",
+      "to": "training_time",
+      "verb": "reduces",
+      "time": 219.47733333333332,
+      "cluster": 1
+    },
+    {
+      "from": "independent_functioning",
+      "to": "inference_time",
+      "verb": "reduces",
+      "time": 226.34666666666666,
+      "cluster": 1
+    },
+    {
+      "from": "transformer",
+      "to": "encoder_decoder_framework",
+      "verb": "consists of",
+      "time": 233.62133333333333,
+      "cluster": 1
+    },
+    {
+      "from": "transformer",
+      "to": "parallel_processing",
+      "verb": "contains",
+      "time": 241.49333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "value_matrix",
+      "to": "attention_output",
+      "verb": "relates",
+      "time": 250.13333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "query_matrix",
+      "to": "key_matrix",
+      "verb": "relates",
+      "time": 256.832,
+      "cluster": 0
+    },
+    {
+      "from": "information_flow",
+      "to": "hidden_state",
+      "verb": "consists of",
+      "time": 262.6773333333333,
+      "cluster": 4
+    },
+    {
+      "from": "ffn",
+      "to": "position_output",
+      "verb": "applied independently to",
+      "time": 268.65066666666667,
+      "cluster": 0
+    },
+    {
+      "from": "concatenate",
+      "to": "linear_transformation",
+      "verb": "sequence of",
+      "time": 274.944,
+      "cluster": 0
+    },
+    {
+      "from": "linear_transformation",
+      "to": "context_vector",
+      "verb": "produces",
+      "time": 280.72533333333337,
+      "cluster": 0
+    },
+    {
+      "from": "ffn",
+      "to": "linear_transformation",
+      "verb": "consists of",
+      "time": 286.656,
+      "cluster": 0
+    },
+    {
+      "from": "title_attention_i_all_you_need",
+      "to": "central_theme",
+      "verb": "introduces",
+      "time": 292.992,
+      "cluster": 0
+    },
+    {
+      "from": "sine_cosine",
+      "to": "po_info",
+      "verb": "produces",
+      "time": 299.11466666666666,
+      "cluster": 1
+    },
+    {
+      "from": "sine_cosine",
+      "to": "dim",
+      "verb": "opposes",
+      "time": 307.1786666666667,
+      "cluster": 1
+    },
+    {
+      "from": "relu_activation",
+      "to": "enhanced_complex_feature",
+      "verb": "enables",
+      "time": 315.776,
+      "cluster": 0
+    },
+    {
+      "from": "efficient_processing",
+      "to": "byte_net_architecture",
+      "verb": "allows for",
+      "time": 323.22133333333335,
+      "cluster": 3
+    },
+    {
+      "from": "convolutional_layer",
+      "to": "seq_to_seq_learning",
+      "verb": "relates",
+      "time": 329.728,
+      "cluster": 7
+    },
+    {
+      "from": "general_ability",
+      "to": "unseen_data",
+      "verb": "operates on",
+      "time": 338.60266666666666,
+      "cluster": 1
+    },
+    {
+      "from": "multiple_layer",
+      "to": "different_dilation_rate",
+      "verb": "contains",
+      "time": 344.9173333333333,
+      "cluster": 3
+    },
+    {
+      "from": "beam_search_decoding",
+      "to": "generated_sequence",
+      "verb": "improves",
+      "time": 351.76533333333333,
+      "cluster": 2
+    },
+    {
+      "from": "dilated_convolutional_network",
+      "to": "multiple_layer",
+      "verb": "consists of",
+      "time": 359.33866666666665,
+      "cluster": 3
+    },
+    {
+      "from": "dilated_convolutional_network",
+      "to": "varying_scale",
+      "verb": "captures",
+      "time": 366.71999999999997,
+      "cluster": 3
+    },
+    {
+      "from": "dilated_convolutional_network",
+      "to": "parameter",
+      "verb": "does not increase",
+      "time": 374.71999999999997,
+      "cluster": 3
+    },
+    {
+      "from": "robust",
+      "to": "different_task_dataset",
+      "verb": "operates across",
+      "time": 382.5706666666666,
+      "cluster": 5
+    },
+    {
+      "from": "po_enc",
+      "to": "information",
+      "verb": "produces",
+      "time": 390.08,
+      "cluster": 1
+    },
+    {
+      "from": "model_part",
+      "to": "independent_functioning",
+      "verb": "contains",
+      "time": 397.50399999999996,
+      "cluster": 1
+    },
+    {
+      "from": "transformer",
+      "to": "efficiency_effect",
+      "verb": "achieves",
+      "time": 404.3733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "transformer_efficiency",
+      "to": "previ_model",
+      "verb": "better than",
+      "time": 411.96799999999996,
+      "cluster": 1
+    },
+    {
+      "from": "transformer_time",
+      "to": "previ_model",
+      "verb": "better than",
+      "time": 419.17866666666663,
+      "cluster": 1
+    },
+    {
+      "from": "training_time",
+      "to": "transformer_efficiency",
+      "verb": "requires",
+      "time": 426.1546666666666,
+      "cluster": 1
+    },
+    {
+      "from": "human_like_text",
+      "to": "on_wsj_data",
+      "verb": "improve",
+      "time": 433.34399999999994,
+      "cluster": 2
+    },
+    {
+      "from": "other_task",
+      "to": "transformer",
+      "verb": "includes",
+      "time": 442.3039999999999,
+      "cluster": 1
+    },
+    {
+      "from": "transformer",
+      "to": "processing_task",
+      "verb": "operates on",
+      "time": 450.96533333333326,
+      "cluster": 1
+    },
+    {
+      "from": "beam_search_decoding",
+      "to": "optimal_sequence",
+      "verb": "achieves",
+      "time": 459.26399999999995,
+      "cluster": 2
+    },
+    {
+      "from": "superior_performance",
+      "to": "accurate_fluent_translation",
+      "verb": "produces",
+      "time": 466.3893333333333,
+      "cluster": 6
+    },
+    {
+      "from": "vari_metric",
+      "to": "robust",
+      "verb": "captures",
+      "time": 475.0293333333333,
+      "cluster": 5
+    },
+    {
+      "from": "focu",
+      "to": "enhanced_ability",
+      "verb": "transforms into",
+      "time": 482.8373333333333,
+      "cluster": 0
+    },
+    {
+      "from": "compar_result",
+      "to": "previ_model",
+      "verb": "achieves",
+      "time": 490.66666666666663,
+      "cluster": 1
+    },
+    {
+      "from": "transformer_training",
+      "to": "wsj_dataset",
+      "verb": "relates",
+      "time": 498.7093333333333,
+      "cluster": 2
+    },
+    {
+      "from": "beam_search_decoding",
+      "to": "promising_sequence_set",
+      "verb": "operates on",
+      "time": 507.6053333333333,
+      "cluster": 2
+    },
+    {
+      "from": "promising_sequence_set",
+      "to": "multiple_hypothe",
+      "verb": "consists of",
+      "time": 516.1386666666666,
+      "cluster": 2
+    },
+    {
+      "from": "varying_scale",
+      "to": "multiple_layer",
+      "verb": "enable",
+      "time": 524.6506666666667,
+      "cluster": 3
+    },
+    {
+      "from": "future_work",
+      "to": "other_task",
+      "verb": "focuses on",
+      "time": 535.9786666666666,
+      "cluster": 1
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "attention",
+      "label": "attention mechanism",
+      "children": [
+        {
+          "id": "title_attention_i_all_you_need",
+          "label": "Attention Is All You Need"
+        },
+        {
+          "id": "central_theme",
+          "label": "Central theme"
+        },
+        {
+          "id": "innovat_nature",
+          "label": "Innovative nature"
+        },
+        {
+          "id": "processing_sequence",
+          "label": "processing sequences"
+        },
+        {
+          "id": "recurrent_neural_network",
+          "label": "recurrent neural networks"
+        },
+        {
+          "id": "sequence_step",
+          "label": "Sequence processing step-by-step"
+        },
+        {
+          "id": "dependency",
+          "label": "Dependency on previous step"
+        },
+        {
+          "id": "model",
+          "label": "model"
+        },
+        {
+          "id": "focu",
+          "label": "Focus on specific parts"
+        },
+        {
+          "id": "enhanced_ability",
+          "label": "Enhanced ability to handle complex tasks"
+        },
+        {
+          "id": "recurrent_connection",
+          "label": "recurrent connections"
+        },
+        {
+          "id": "query_matrix",
+          "label": "Query matrix Q"
+        },
+        {
+          "id": "key_matrix",
+          "label": "Key matrix K"
+        },
+        {
+          "id": "value_matrix",
+          "label": "Value matrix V"
+        },
+        {
+          "id": "attention_output",
+          "label": "Attention output"
+        },
+        {
+          "id": "focu_on_part",
+          "label": "Focusing on different parts of the input sequence"
+        },
+        {
+          "id": "query_key_value_matrice",
+          "label": "Query, Key, Value matrices"
+        },
+        {
+          "id": "split_into_head",
+          "label": "Splitting into multiple heads"
+        },
+        {
+          "id": "concatenate",
+          "label": "concatenate"
+        },
+        {
+          "id": "context_vector",
+          "label": "Context vectors"
+        },
+        {
+          "id": "ffn",
+          "label": "Feed-Forward Network"
+        },
+        {
+          "id": "position_output",
+          "label": "position output"
+        },
+        {
+          "id": "relu_activation",
+          "label": "ReLU activation function"
+        },
+        {
+          "id": "enhanced_complex_feature",
+          "label": "Enhanced ability to learn complex features"
+        },
+        {
+          "id": "linear_transformation",
+          "label": "Linear transformation"
+        },
+        {
+          "id": "encoder",
+          "label": "Encoder"
+        },
+        {
+          "id": "input_sequence",
+          "label": "input sequence"
+        },
+        {
+          "id": "decoder",
+          "label": "Decoder"
+        },
+        {
+          "id": "output_sequence",
+          "label": "output sequence"
+        },
+        {
+          "id": "concurrent_processing",
+          "label": "Concurrent processing"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "label": "Transformer model concept",
+      "children": [
+        {
+          "id": "parallel_processing",
+          "label": "Parallel processing"
+        },
+        {
+          "id": "parallel_computation",
+          "label": "Parallel computation"
+        },
+        {
+          "id": "sequential_computation",
+          "label": "Sequential computation"
+        },
+        {
+          "id": "computation_speed",
+          "label": "Computation speed"
+        },
+        {
+          "id": "sequential_data",
+          "label": "Sequential data processing"
+        },
+        {
+          "id": "sequential_processing",
+          "label": "sequential processing"
+        },
+        {
+          "id": "computational_efficiency",
+          "label": "Computational efficiency"
+        },
+        {
+          "id": "model_part",
+          "label": "Model parts",
+          "children": [
+            {
+              "id": "independent_functioning",
+              "label": "Independent functioning"
+            }
+          ]
+        },
+        {
+          "id": "training_time",
+          "label": "Training time"
+        },
+        {
+          "id": "inference_time",
+          "label": "inference time"
+        },
+        {
+          "id": "po_enc",
+          "label": "Positional encoding method"
+        },
+        {
+          "id": "information",
+          "label": "Relative positions of tokens"
+        },
+        {
+          "id": "sine_cosine",
+          "label": "Sine and cosine functions"
+        },
+        {
+          "id": "po_info",
+          "label": "Captured positional information"
+        },
+        {
+          "id": "dim",
+          "label": "Dimensionality of embeddings"
+        },
+        {
+          "id": "encoder_decoder_framework",
+          "label": "Encoder-decoder framework"
+        },
+        {
+          "id": "rnn_model",
+          "label": "RNN models"
+        },
+        {
+          "id": "traditional_rnn",
+          "label": "Traditional RNN models"
+        },
+        {
+          "id": "future_work",
+          "label": "Future work discussion"
+        },
+        {
+          "id": "other_task",
+          "label": "Other tasks beyond machine translation"
+        },
+        {
+          "id": "convs2_architecture",
+          "label": "ConvS2S Architecture"
+        },
+        {
+          "id": "performance_metric",
+          "label": "Performance metrics"
+        },
+        {
+          "id": "processing_task",
+          "label": "processing tasks"
+        },
+        {
+          "id": "efficiency_effect",
+          "label": "efficiency effectiveness"
+        },
+        {
+          "id": "transformer_efficiency",
+          "label": "Transformer model efficiency"
+        },
+        {
+          "id": "previ_model",
+          "label": "Previous state-of-the-art models"
+        },
+        {
+          "id": "transformer_time",
+          "label": "Three days of training time"
+        },
+        {
+          "id": "compar_result",
+          "label": "comparable results"
+        },
+        {
+          "id": "general_ability",
+          "label": "Generalization abilities"
+        },
+        {
+          "id": "unseen_data",
+          "label": "Unseen data"
+        }
+      ]
+    },
+    {
+      "id": "beam_search_decoding",
+      "label": "Beam search decoding technique",
+      "children": [
+        {
+          "id": "transformer_training",
+          "label": "Transformer model training process"
+        },
+        {
+          "id": "wsj_dataset",
+          "label": "WSJ dataset"
+        },
+        {
+          "id": "language_modeling",
+          "label": "Language modeling task"
+        },
+        {
+          "id": "machine_translation",
+          "label": "Machine translation task"
+        },
+        {
+          "id": "human_like_text",
+          "label": "Human-like text generation"
+        },
+        {
+          "id": "on_wsj_data",
+          "label": "Training on WSJ data"
+        },
+        {
+          "id": "generated_sequence",
+          "label": "Generated sequences"
+        },
+        {
+          "id": "promising_sequence_set",
+          "label": "Set of promising sequences"
+        },
+        {
+          "id": "multiple_hypothe",
+          "label": "Multiple hypotheses"
+        },
+        {
+          "id": "optimal_sequence",
+          "label": "Optimal sequence"
+        },
+        {
+          "id": "transformer_parallel",
+          "label": "Transformer operates in parallel"
+        },
+        {
+          "id": "rnn_sequential",
+          "label": "RNN requires sequential processing"
+        }
+      ]
+    },
+    {
+      "id": "dilated_convolutional_network",
+      "label": "Dilated convolutional network",
+      "children": [
+        {
+          "id": "byte_net_architecture",
+          "label": "ByteNet architecture"
+        },
+        {
+          "id": "long_sequence_processing",
+          "label": "Processing of long sequences"
+        },
+        {
+          "id": "parameter",
+          "label": "parameters"
+        },
+        {
+          "id": "efficient_processing",
+          "label": "efficient processing"
+        },
+        {
+          "id": "multiple_layer",
+          "label": "Multiple layers",
+          "children": [
+            {
+              "id": "different_dilation_rate",
+              "label": "Different dilation rates"
+            }
+          ]
+        },
+        {
+          "id": "varying_scale",
+          "label": "Varying scales"
+        }
+      ]
+    },
+    {
+      "id": "hidden_state",
+      "label": "Hidden states",
+      "children": [
+        {
+          "id": "information_flow",
+          "label": "Information flow"
+        },
+        {
+          "id": "input",
+          "label": "Inputs"
+        }
+      ]
+    },
+    {
+      "id": "robust",
+      "label": "Robustness",
+      "children": [
+        {
+          "id": "vari_metric",
+          "label": "Various metrics"
+        },
+        {
+          "id": "different_task_dataset",
+          "label": "Different tasks and datasets"
+        }
+      ]
+    },
+    {
+      "id": "superior_performance",
+      "label": "Superior performance",
+      "children": [
+        {
+          "id": "accurate_fluent_translation",
+          "label": "More accurate and fluent translations"
+        }
+      ]
+    },
+    {
+      "id": "convolutional_layer",
+      "label": "Convolutional layers for encoding",
+      "children": [
+        {
+          "id": "seq_to_seq_learning",
+          "label": "Sequence-to-sequence learning for decoding"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Dilated convolutional network operates on long sequence processing for efficient handling of extensive data streams.",
+    "Decoder operates on context vectors generated from the encoder to facilitate better understanding of input sequences.",
+    "Language modeling task relates to machine translation as both rely on sequence modeling techniques for accurate predictions.",
+    "Concurrent processing operates on input sequence to generate hidden states efficiently in real-time applications.",
+    "Inputs connect hidden states through successive computations, forming the basis of recurrent neural network operations.",
+    "Sequence processing step-by-step depends on dependency on the previous step, ensuring coherent information flow.",
+    "Performance metrics consist of efficiency effectiveness, measuring how well a model can perform its designated task.",
+    "Computational efficiency enhances transformer model concept, making it more adaptable for various natural language tasks.",
+    "Attention mechanism sequence of concatenate allows for the integration of multiple inputs into a cohesive representation.",
+    "It also attention mechanism produces focusing on different parts of the input sequence, enhancing the model's interpretative capabilities.",
+    "Computation speed increases with parallel processing, enabling faster generation of hidden states across the entire sequence.",
+    "Sequential computation depends on computation speed, impacting the overall efficiency and performance of the model.",
+    "Parallel computation is preferred over sequential computation to enhance efficiency in processing tasks.",
+    "The convs2 architecture supports parallel computation, contrasting with traditional sequential methods.",
+    "Parallel processing is favored over sequential processing for its ability to handle tasks more efficiently.",
+    "The byte net architecture incorporates dilated convolutional networks, facilitating efficient parallel processing.",
+    "The transformer model utilizes parallel processing, unlike RNNs which require sequential steps.",
+    "The innovative nature of the transformer emphasizes the use of the attention mechanism.",
+    "Attention mechanisms require processing sequences to compute representations effectively.",
+    "It also by employing the attention mechanism, recurrent neural networks can be eliminated in favor of more efficient processing.",
+    "The model's design includes an attention mechanism, which is central to its functionality.",
+    "The attention mechanism replaces traditional recurrent connections, offering a more streamlined approach.",
+    "The concept of the transformer model is designed to compare favorably with traditional RNN models.",
+    "It also concept surpasses traditional RNN models by relying entirely on self-attention mechanisms.",
+    "The encoder processes the input sequence by converting symbols into continuous representations.",
+    "The decoder generates the output sequence based on the continuous representations received from the encoder.",
+    "The ConvS2S architecture enables sequential data processing through stacked self-attention mechanisms.",
+    "Splitting into multiple heads enhances the attention mechanism by distributing the computation across several smaller matrices.",
+    "The encoder produces context vectors which serve as inputs for subsequent layers within the model.",
+    "The transformer model concept yields generalization abilities due to its innovative use of self-attention and feed-forward networks.",
+    "The attention mechanism comprises Query, Key, and Value matrices, facilitating the mapping of input sequences to outputs.",
+    "Independent functioning of the model components reduces training time by allowing parallel processing of tasks.",
+    "It also of the model also reduces inference time, enabling faster processing of input sequences.",
+    "The transformer model concept integrates an encoder-decoder framework to facilitate sequence transduction tasks efficiently.",
+    "It also includes parallel processing capabilities, allowing simultaneous attention to all positions in the input sequence.",
+    "The value matrix in the attention mechanism directly influences the final output of the attention process.",
+    "The query matrix relates to the key matrix by coming from the same source in a self-attention layer.",
+    "Information flow consists of hidden states that are processed through the decoder's self-attention layers.",
+    "Feed-Forward Networks are applied independently to each position output within the encoder and decoder.",
+    "A sequence of linear transformations is concatenated after applying the Feed-Forward Network.",
+    "Linear transformations produce context vectors which are crucial for understanding the input data.",
+    "The Feed-Forward Network consists of linear transformations with a ReLU activation in between them.",
+    "Attention Is All You Need introduces the central theme of utilizing self-attention mechanisms.",
+    "Sine and cosine functions capture positional information by calculating PE values based on position and dimension.",
+    "It also oppose the dimensionality of embeddings by assigning sine to even dimensions and cosine to odd ones.",
+    "ReLU activation function enables the model to learn enhanced complex features through its non-linear properties.",
+    "Efficient processing allows for the ByteNet architecture to handle variable-length sequences effectively.",
+    "Convolutional layers for encoding relate to sequence-to-sequence learning for decoding, facilitating the processing of symbolic representations.",
+    "Generalization abilities operate on unseen data, enhancing the model's performance on new information.",
+    "Multiple layers contain different dilation rates, allowing for varied signal propagation lengths within the network.",
+    "Beam search decoding technique improves generated sequences by optimizing the selection process for longer sequences.",
+    "Dilated convolutional network consists of multiple layers, enabling efficient processing of large-scale data.",
+    "It also captures varying scales through its hierarchical structure, adapting to diverse input sizes.",
+    "And does not increase parameters despite adding layers, maintaining computational efficiency.",
+    "Robustness operates across different tasks and datasets, ensuring consistent performance across various applications.",
+    "Positional encoding method produces relative positions of tokens, facilitating the understanding of sentence structure.",
+    "Model parts contain independent functioning, allowing each component to operate effectively without interference.",
+    "Transformer model concept achieves efficiency effectiveness by streamlining the training process while improving performance.",
+    "Transformer model efficiency is better than previous state-of-the-art models, offering superior results with less training.",
+    "Three days of training time for the transformer model are more efficient than previous models, achieving better results.",
+    "Training time requires Transformer model efficiency, as the model achieves better performance with reduced training costs.",
+    "Human-like text generation improves training on WSJ data, enhancing the model's ability to produce fluent and accurate translations.",
+    "Other tasks beyond machine translation include the Transformer model concept, demonstrating its versatility across different applications.",
+    "The Transformer model concept operates on processing tasks, showing its effectiveness in handling various computational challenges.",
+    "Beam search decoding technique achieves optimal sequence through systematic evaluation of potential outputs.",
+    "Superior performance produces more accurate and fluent translations, highlighting the model’s capability in improving translation quality.",
+    "Various metrics capture robustness, indicating the stability and reliability of the Transformer model under different conditions.",
+    "Focus on specific parts transforms into enhanced ability to handle complex tasks, showcasing the model’s adaptability.",
+    "Comparable results achieve previous state-of-the-art models, suggesting the Transformer can match or surpass established benchmarks.",
+    "Transformer model training process relates WSJ dataset, indicating the use of this dataset in refining the model's performance.",
+    "Beam search decoding technique operates on a set of promising sequences, enabling the selection of the most likely correct translations.",
+    "A set of promising sequences consists of multiple hypotheses, allowing the model to consider various possibilities during translation.",
+    "Varying scales enable multiple layers, allowing the Transformer to be trained much faster for translation tasks compared to recurrent or convolutional layer-based architectures.",
+    "Future work discussion focuses on other tasks beyond machine translation, with plans to apply attention-based models to a variety of new challenges."
+  ]
+}

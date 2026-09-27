@@ -1,0 +1,1772 @@
+{
+  "nodes": [
+    {
+      "id": "retail_strategy",
+      "label": "Retail strategies",
+      "type": "strategy",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "candy_place",
+      "label": "Placement of candy near checkout counters",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "strategy_effect",
+      "label": "Strategy leveraging shoppers' impulse control challenges",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "impulse_control",
+      "label": "Shoppers' impulse control challenges",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "marketing_strategy",
+      "label": "marketing strategies",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "nudging_technique",
+      "label": "nudging techniques",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "persua_advertising",
+      "label": "Persuasive advertising",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "product_place",
+      "label": "Product placement",
+      "type": "placement",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "subtle_guidance",
+      "label": "Subtle guidance",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "psycholog_aspect",
+      "label": "psychological aspects",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "choice_framing",
+      "label": "Choice framing",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "decision_making",
+      "label": "Decision making process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "highlighted_aspect",
+      "label": "Highlighted aspects of choices",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "consumer_behavior",
+      "label": "Consumer behavior towards purchasing",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "consumer_influence",
+      "label": "Consumer influence concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "psycholog_mechanism",
+      "label": "Psychological mechanisms",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "subtle_cue",
+      "label": "Subtle cues used by companies",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "purchasing_behavior",
+      "label": "Purchasing behavior",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "preference",
+      "label": "Preferences",
+      "type": "preference",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "nudge_overview",
+      "label": "Overview of nudges",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "behavior_change",
+      "label": "Specific behaviors",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "environ_change",
+      "label": "Changes in the environment",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "beneficial_choice",
+      "label": "Beneficial choices",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "microdonation_nudge",
+      "label": "Microdonation nudge",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "prosocial_behavior",
+      "label": "prosocial behavior",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "minimal_effort",
+      "label": "Minimal effort requirement",
+      "type": "bottleneck",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "nudge_effect",
+      "label": "Effectiveness of nudges",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "psycholog_principle",
+      "label": "Psychological principles",
+      "type": "principle",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "benefit_other",
+      "label": "Benefit others or society",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "effect_nudge",
+      "label": "Effective nudges",
+      "type": "effectiveness",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "posit_social_outcome",
+      "label": "positive social outcomes",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "charit_donation",
+      "label": "Charitable donations",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "benefit_individual",
+      "label": "Benefit the individual",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "social_good",
+      "label": "Social good",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "advantage_behavior",
+      "label": "Advantageous behavior",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "checkout_display",
+      "label": "Checkout displays",
+      "type": "display",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "choice_presentation",
+      "label": "Choice presentation concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "structured_choice",
+      "label": "Structured choices presentation",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "posit_guidance",
+      "label": "Positive guidance of consumer behavior",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "economic_perspective",
+      "label": "Economic perspectives",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "nudge",
+      "label": "Behavioral nudges",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "broader_implication",
+      "label": "Broader economic implications",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "nudging_strategy",
+      "label": "nudging strategies",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "individual",
+      "label": "Individuals",
+      "type": "person",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "market",
+      "label": "markets",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "scene_13",
+      "label": "Scene 13",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "posit_reputation",
+      "label": "Positive reputation",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "company",
+      "label": "Companies",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "posit_image",
+      "label": "Positive image",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "good_reputation",
+      "label": "Good reputation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "customer_looyalty",
+      "label": "Customer loyalty",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "trust",
+      "label": "Trust",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "consumer_resistance",
+      "label": "Consumer Resistance Tactics",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "high_margin_item",
+      "label": "High-Margin Items",
+      "type": "product",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "recycling_program",
+      "label": "Recycling program",
+      "type": "program",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "scene_15",
+      "label": "Scene 15",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "nudging",
+      "label": "Nudging behavior",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "sustain_behavior",
+      "label": "sustainable behavior",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "prominent_recycling_option",
+      "label": "Prominent recycling options",
+      "type": "option",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "convenient_proces",
+      "label": "Convenient recycling process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "participation_rate",
+      "label": "Participation rates",
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "scene_16",
+      "label": "Scene 16",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "promotion",
+      "label": "Promotion of smartwatches",
+      "type": "promotion",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "scenario",
+      "label": "Scenario illustrating company practices",
+      "type": "scenario",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "user_goal",
+      "label": "User goals such as health tracking or convenience",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "subtle_intervention",
+      "label": "Subtle interventions",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "significant_shift",
+      "label": "significant shifts",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "consumer_action_choice",
+      "label": "consumer actions choices",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "seg",
+      "label": "segment",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "desir_behavior_outcome",
+      "label": "Desirable behavior outcomes",
+      "type": "outcome",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "energy_saving_nudge",
+      "label": "Energy savings nudge concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "energy_efficient_behavior",
+      "label": "Energy-efficient behaviors",
+      "type": "behavior",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "reduce_energy_consumption",
+      "label": "Reducing energy consumption",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "environmental_sustainability",
+      "label": "Environmental sustainability",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "reflect_preference",
+      "label": "reflective preferences",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "care_consideration",
+      "label": "Careful consideration of long-term consequences",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "impul_decision",
+      "label": "Impulsive decisions",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "immediate_desire",
+      "label": "Immediate desires",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "beneficial_outcome",
+      "label": "Beneficial outcomes in the long run",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "influence",
+      "label": "Influence on decision-making",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "thorough_consideration",
+      "label": "Thorough consideration",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "immediate_gratification",
+      "label": "Immediate gratification",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "long_term_benefit",
+      "label": "Long-term benefits",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "saving_retire",
+      "label": "Saving for retirement",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "financial_planning",
+      "label": "Financial planning",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "regular_saving",
+      "label": "Regular savings",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "comfort_retire",
+      "label": "Comfortable retirement",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "asian_disease_experi",
+      "label": "Asian Disease Experiment",
+      "type": "experiment",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "framing_influence",
+      "label": "Framing influence on decision-making",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "choice_variability",
+      "label": "Variability in people's choices",
+      "type": "observation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "presentation_method",
+      "label": "Presentation method of options",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "psycholog_nudge",
+      "label": "Psychological nudges",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "alteration_of_behavior",
+      "label": "alteration of behavior",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "transactional_utility",
+      "label": "Transactional utility concept",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "value_derived",
+      "label": "value derived",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "consumer_busi",
+      "label": "consumer,business",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "economic_exchange",
+      "label": "Economic exchange from business perspective",
+      "type": "exchange",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "retail_strategy",
+      "to": "candy_place",
+      "verb": "contains",
+      "time": 3.0830985915492954,
+      "cluster": 0
+    },
+    {
+      "from": "marketing_strategy",
+      "to": "persua_advertising",
+      "verb": "consists of",
+      "time": 6.1866666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "significant_shift",
+      "to": "consumer_action_choice",
+      "verb": "towards",
+      "time": 12.736,
+      "cluster": 0
+    },
+    {
+      "from": "subtle_cue",
+      "to": "consumer_behavior",
+      "verb": "influence",
+      "time": 17.984,
+      "cluster": 0
+    },
+    {
+      "from": "subtle_cue",
+      "to": "purchasing_behavior",
+      "verb": "alters",
+      "time": 23.061333333333337,
+      "cluster": 0
+    },
+    {
+      "from": "nudging_technique",
+      "to": "subtle_guidance",
+      "verb": "consists of",
+      "time": 28.288000000000004,
+      "cluster": 0
+    },
+    {
+      "from": "subtle_intervention",
+      "to": "energy_saving_nudge",
+      "verb": "utilize",
+      "time": 33.45066666666667,
+      "cluster": 2
+    },
+    {
+      "from": "behavior_change",
+      "to": "subtle_intervention",
+      "verb": "focuses on",
+      "time": 40.14933333333334,
+      "cluster": 0
+    },
+    {
+      "from": "subtle_intervention",
+      "to": "significant_shift",
+      "verb": "leads to",
+      "time": 46.61333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "economic_perspective",
+      "to": "nudge",
+      "verb": "depends on",
+      "time": 52.309333333333335,
+      "cluster": 0
+    },
+    {
+      "from": "good_reputation",
+      "to": "nudging_strategy",
+      "verb": "makes it easier to implement",
+      "time": 58.858666666666664,
+      "cluster": 1
+    },
+    {
+      "from": "choice_presentation",
+      "to": "decision_making",
+      "verb": "operates on",
+      "time": 64.064,
+      "cluster": 0
+    },
+    {
+      "from": "prominent_recycling_option",
+      "to": "convenient_proces",
+      "verb": "present",
+      "time": 70.65599999999999,
+      "cluster": 1
+    },
+    {
+      "from": "environ_change",
+      "to": "beneficial_choice",
+      "verb": "guides towards",
+      "time": 79.76533333333333,
+      "cluster": 1
+    },
+    {
+      "from": "nudge_effect",
+      "to": "psycholog_principle",
+      "verb": "depends on",
+      "time": 86.57066666666667,
+      "cluster": 1
+    },
+    {
+      "from": "nudge",
+      "to": "consumer_behavior",
+      "verb": "produces",
+      "time": 93.26933333333334,
+      "cluster": 0
+    },
+    {
+      "from": "prosocial_behavior",
+      "to": "charit_donation",
+      "verb": "contains",
+      "time": 100.24533333333333,
+      "cluster": 1
+    },
+    {
+      "from": "microdonation_nudge",
+      "to": "prosocial_behavior",
+      "verb": "produces",
+      "time": 107.81866666666667,
+      "cluster": 1
+    },
+    {
+      "from": "nudging_strategy",
+      "to": "individual",
+      "verb": "affects",
+      "time": 115.54133333333334,
+      "cluster": 1
+    },
+    {
+      "from": "effect_nudge",
+      "to": "posit_social_outcome",
+      "verb": "requires",
+      "time": 122.47466666666668,
+      "cluster": 1
+    },
+    {
+      "from": "scene_13",
+      "to": "posit_reputation",
+      "verb": "focuses on",
+      "time": 129.92000000000002,
+      "cluster": 1
+    },
+    {
+      "from": "nudging_strategy",
+      "to": "market",
+      "verb": "affects",
+      "time": 137.55733333333336,
+      "cluster": 1
+    },
+    {
+      "from": "good_reputation",
+      "to": "trust",
+      "verb": "leads to",
+      "time": 144.57600000000002,
+      "cluster": 1
+    },
+    {
+      "from": "benefit_individual",
+      "to": "social_good",
+      "verb": "opposes",
+      "time": 151.616,
+      "cluster": 1
+    },
+    {
+      "from": "marketing_strategy",
+      "to": "nudging_technique",
+      "verb": "opposes",
+      "time": 161.55733333333336,
+      "cluster": 0
+    },
+    {
+      "from": "retail_strategy",
+      "to": "consumer_behavior",
+      "verb": "relates",
+      "time": 168.96000000000004,
+      "cluster": 0
+    },
+    {
+      "from": "marketing_strategy",
+      "to": "product_place",
+      "verb": "consists of",
+      "time": 178.2186666666667,
+      "cluster": 0
+    },
+    {
+      "from": "structured_choice",
+      "to": "posit_guidance",
+      "verb": "achieves",
+      "time": 184.64000000000004,
+      "cluster": 1
+    },
+    {
+      "from": "posit_image",
+      "to": "consumer_behavior",
+      "verb": "influence",
+      "time": 192.1706666666667,
+      "cluster": 0
+    },
+    {
+      "from": "posit_image",
+      "to": "consumer_behavior",
+      "verb": "positively",
+      "time": 199.2106666666667,
+      "cluster": 0
+    },
+    {
+      "from": "subtle_cue",
+      "to": "preference",
+      "verb": "alters",
+      "time": 206.7626666666667,
+      "cluster": 0
+    },
+    {
+      "from": "seg",
+      "to": "nudge",
+      "verb": "highlights",
+      "time": 213.37600000000003,
+      "cluster": 0
+    },
+    {
+      "from": "impul_decision",
+      "to": "immediate_desire",
+      "verb": "consists of",
+      "time": 219.09333333333336,
+      "cluster": 2
+    },
+    {
+      "from": "good_reputation",
+      "to": "customer_looyalty",
+      "verb": "leads to",
+      "time": 227.79733333333337,
+      "cluster": 1
+    },
+    {
+      "from": "participation_rate",
+      "to": "prominent_recycling_option",
+      "verb": "increase",
+      "time": 234.68800000000005,
+      "cluster": 1
+    },
+    {
+      "from": "recycling_program",
+      "to": "scene_15",
+      "verb": "focuses on",
+      "time": 240.85333333333338,
+      "cluster": 2
+    },
+    {
+      "from": "nudging_technique",
+      "to": "psycholog_aspect",
+      "verb": "focuses on",
+      "time": 248.34133333333338,
+      "cluster": 0
+    },
+    {
+      "from": "scene_16",
+      "to": "promotion",
+      "verb": "focuses on",
+      "time": 255.97866666666673,
+      "cluster": 2
+    },
+    {
+      "from": "nudge",
+      "to": "user_goal",
+      "verb": "align with",
+      "time": 263.3173333333334,
+      "cluster": 0
+    },
+    {
+      "from": "highlighted_aspect",
+      "to": "consumer_behavior",
+      "verb": "guides",
+      "time": 270.54933333333344,
+      "cluster": 0
+    },
+    {
+      "from": "effect_nudge",
+      "to": "desir_behavior_outcome",
+      "verb": "result in",
+      "time": 277.73866666666675,
+      "cluster": 1
+    },
+    {
+      "from": "broader_implication",
+      "to": "nudging_strategy",
+      "verb": "depends on",
+      "time": 284.3520000000001,
+      "cluster": 1
+    },
+    {
+      "from": "choice_variability",
+      "to": "presentation_method",
+      "verb": "depends on",
+      "time": 291.77600000000007,
+      "cluster": 6
+    },
+    {
+      "from": "choice_framing",
+      "to": "decision_making",
+      "verb": "influences",
+      "time": 297.9840000000001,
+      "cluster": 0
+    },
+    {
+      "from": "asian_disease_experi",
+      "to": "framing_influence",
+      "verb": "demonstrates",
+      "time": 304.46933333333345,
+      "cluster": 5
+    },
+    {
+      "from": "prosocial_behavior",
+      "to": "benefit_other",
+      "verb": "consists of",
+      "time": 310.7626666666668,
+      "cluster": 1
+    },
+    {
+      "from": "nudging",
+      "to": "scene_15",
+      "verb": "illustrates how",
+      "time": 317.99466666666683,
+      "cluster": 2
+    },
+    {
+      "from": "promotion",
+      "to": "nudge",
+      "verb": "contains",
+      "time": 325.8453333333335,
+      "cluster": 2
+    },
+    {
+      "from": "consumer_resistance",
+      "to": "high_margin_item",
+      "verb": "relates",
+      "time": 333.46133333333347,
+      "cluster": 1
+    },
+    {
+      "from": "product_place",
+      "to": "checkout_display",
+      "verb": "relates",
+      "time": 342.2506666666668,
+      "cluster": 0
+    },
+    {
+      "from": "consumer_influence",
+      "to": "psycholog_mechanism",
+      "verb": "consists of",
+      "time": 350.52800000000013,
+      "cluster": 0
+    },
+    {
+      "from": "minimal_effort",
+      "to": "microdonation_nudge",
+      "verb": "leverages",
+      "time": 359.31733333333347,
+      "cluster": 1
+    },
+    {
+      "from": "psycholog_principle",
+      "to": "reduce_energy_consumption",
+      "verb": "leverages",
+      "time": 367.4666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "reduce_energy_consumption",
+      "to": "environmental_sustainability",
+      "verb": "contributes to",
+      "time": 375.6800000000001,
+      "cluster": 1
+    },
+    {
+      "from": "scenario",
+      "to": "subtle_cue",
+      "verb": "illustrates",
+      "time": 384.2133333333335,
+      "cluster": 0
+    },
+    {
+      "from": "energy_saving_nudge",
+      "to": "energy_efficient_behavior",
+      "verb": "enables",
+      "time": 392.2986666666668,
+      "cluster": 2
+    },
+    {
+      "from": "nudge_overview",
+      "to": "behavior_change",
+      "verb": "produces",
+      "time": 400.83200000000016,
+      "cluster": 0
+    },
+    {
+      "from": "sustain_behavior",
+      "to": "scene_15",
+      "verb": "encourage",
+      "time": 408.93866666666685,
+      "cluster": 2
+    },
+    {
+      "from": "value_derived",
+      "to": "economic_exchange",
+      "verb": "consists of",
+      "time": 417.6213333333335,
+      "cluster": 3
+    },
+    {
+      "from": "strategy_effect",
+      "to": "impulse_control",
+      "verb": "leverages",
+      "time": 426.9653333333335,
+      "cluster": 0
+    },
+    {
+      "from": "transactional_utility",
+      "to": "value_derived",
+      "verb": "consists of",
+      "time": 436.45866666666683,
+      "cluster": 3
+    },
+    {
+      "from": "company",
+      "to": "posit_image",
+      "verb": "strives to maintain",
+      "time": 445.76000000000016,
+      "cluster": 0
+    },
+    {
+      "from": "influence",
+      "to": "thorough_consideration",
+      "verb": "opposes",
+      "time": 452.5866666666668,
+      "cluster": 2
+    },
+    {
+      "from": "psycholog_principle",
+      "to": "advantage_behavior",
+      "verb": "enables",
+      "time": 460.41600000000017,
+      "cluster": 1
+    },
+    {
+      "from": "immediate_gratification",
+      "to": "long_term_benefit",
+      "verb": "opposes",
+      "time": 468.6080000000002,
+      "cluster": 2
+    },
+    {
+      "from": "reflect_preference",
+      "to": "care_consideration",
+      "verb": "consists of",
+      "time": 476.7786666666668,
+      "cluster": 2
+    },
+    {
+      "from": "saving_retire",
+      "to": "financial_planning",
+      "verb": "consists of",
+      "time": 485.48266666666683,
+      "cluster": 2
+    },
+    {
+      "from": "regular_saving",
+      "to": "comfort_retire",
+      "verb": "produces",
+      "time": 492.3946666666668,
+      "cluster": 4
+    },
+    {
+      "from": "psycholog_nudge",
+      "to": "alteration_of_behavior",
+      "verb": "enables",
+      "time": 498.2826666666668,
+      "cluster": 7
+    },
+    {
+      "from": "reflect_preference",
+      "to": "beneficial_outcome",
+      "verb": "results in",
+      "time": 505.7493333333334,
+      "cluster": 2
+    },
+    {
+      "from": "value_derived",
+      "to": "consumer_busi",
+      "verb": "contains",
+      "time": 513.2160000000001,
+      "cluster": 3
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "consumer_behavior",
+      "label": "Consumer behavior",
+      "children": [
+        {
+          "id": "retail_strategy",
+          "label": "Retailers' strategy to influence consumer behavior",
+          "children": [
+            {
+              "id": "candy_place",
+              "label": "Placement of candy near checkout counters"
+            }
+          ]
+        },
+        {
+          "id": "strategy_effect",
+          "label": "Strategy leveraging shoppers' impulse control challenges"
+        },
+        {
+          "id": "impulse_control",
+          "label": "Shoppers' impulse control challenges"
+        },
+        {
+          "id": "marketing_strategy",
+          "label": "Marketing strategies"
+        },
+        {
+          "id": "nudging_technique",
+          "label": "Nudging techniques"
+        },
+        {
+          "id": "persua_advertising",
+          "label": "Persuasive advertising"
+        },
+        {
+          "id": "product_place",
+          "label": "Product placement"
+        },
+        {
+          "id": "subtle_guidance",
+          "label": "Subtle guidance"
+        },
+        {
+          "id": "psycholog_aspect",
+          "label": "psychological aspects"
+        },
+        {
+          "id": "choice_framing",
+          "label": "Choice framing"
+        },
+        {
+          "id": "decision_making",
+          "label": "Decision-making process"
+        },
+        {
+          "id": "highlighted_aspect",
+          "label": "Highlighted aspects of choices"
+        },
+        {
+          "id": "consumer_influence",
+          "label": "Consumer influence concept"
+        },
+        {
+          "id": "psycholog_mechanism",
+          "label": "Psychological mechanisms"
+        },
+        {
+          "id": "subtle_cue",
+          "label": "Subtle cues"
+        },
+        {
+          "id": "purchasing_behavior",
+          "label": "Purchasing behavior"
+        },
+        {
+          "id": "preference",
+          "label": "Preferences"
+        },
+        {
+          "id": "nudge_overview",
+          "label": "Overview of nudges"
+        },
+        {
+          "id": "behavior_change",
+          "label": "Specific behaviors"
+        },
+        {
+          "id": "checkout_display",
+          "label": "Checkout displays"
+        },
+        {
+          "id": "choice_presentation",
+          "label": "Choice presentation concept"
+        },
+        {
+          "id": "economic_perspective",
+          "label": "Economic perspectives"
+        },
+        {
+          "id": "nudge",
+          "label": "Nudges"
+        },
+        {
+          "id": "company",
+          "label": "Companies"
+        },
+        {
+          "id": "posit_image",
+          "label": "Positive image"
+        },
+        {
+          "id": "scenario",
+          "label": "Scenario illustrating company practices"
+        },
+        {
+          "id": "user_goal",
+          "label": "User goals such as health tracking or convenience"
+        },
+        {
+          "id": "subtle_intervention",
+          "label": "Subtle interventions"
+        },
+        {
+          "id": "significant_shift",
+          "label": "significant shifts"
+        },
+        {
+          "id": "consumer_action_choice",
+          "label": "consumer actions choices"
+        },
+        {
+          "id": "seg",
+          "label": "segment"
+        }
+      ]
+    },
+    {
+      "id": "nudging_strategy",
+      "label": "Nudging strategies",
+      "children": [
+        {
+          "id": "environ_change",
+          "label": "Changes in the environment"
+        },
+        {
+          "id": "beneficial_choice",
+          "label": "Beneficial choices"
+        },
+        {
+          "id": "microdonation_nudge",
+          "label": "Microdonation nudge"
+        },
+        {
+          "id": "prosocial_behavior",
+          "label": "Prosocial behavior engagement",
+          "children": [
+            {
+              "id": "charit_donation",
+              "label": "Charitable donations"
+            }
+          ]
+        },
+        {
+          "id": "minimal_effort",
+          "label": "Minimal effort requirement"
+        },
+        {
+          "id": "nudge_effect",
+          "label": "Effectiveness of nudges"
+        },
+        {
+          "id": "psycholog_principle",
+          "label": "Psychological principle of minimal effort"
+        },
+        {
+          "id": "benefit_other",
+          "label": "Benefit others or society"
+        },
+        {
+          "id": "effect_nudge",
+          "label": "Effective nudges"
+        },
+        {
+          "id": "posit_social_outcome",
+          "label": "positive social outcomes"
+        },
+        {
+          "id": "benefit_individual",
+          "label": "Benefit the individual"
+        },
+        {
+          "id": "social_good",
+          "label": "Social good"
+        },
+        {
+          "id": "advantage_behavior",
+          "label": "Advantageous behavior"
+        },
+        {
+          "id": "structured_choice",
+          "label": "Structured choices presentation"
+        },
+        {
+          "id": "posit_guidance",
+          "label": "Positive guidance of consumer behavior"
+        },
+        {
+          "id": "broader_implication",
+          "label": "Broader economic implications"
+        },
+        {
+          "id": "individual",
+          "label": "Individuals"
+        },
+        {
+          "id": "market",
+          "label": "markets"
+        },
+        {
+          "id": "scene_13",
+          "label": "Scene 13"
+        },
+        {
+          "id": "posit_reputation",
+          "label": "Positive reputation"
+        },
+        {
+          "id": "good_reputation",
+          "label": "Good reputation"
+        },
+        {
+          "id": "customer_looyalty",
+          "label": "Customer loyalty"
+        },
+        {
+          "id": "trust",
+          "label": "Trust"
+        },
+        {
+          "id": "consumer_resistance",
+          "label": "Consumer Resistance Tactics"
+        },
+        {
+          "id": "high_margin_item",
+          "label": "High-Margin Items"
+        },
+        {
+          "id": "prominent_recycling_option",
+          "label": "Prominent recycling options"
+        },
+        {
+          "id": "convenient_proces",
+          "label": "Convenient recycling process"
+        },
+        {
+          "id": "participation_rate",
+          "label": "Participation rates"
+        },
+        {
+          "id": "desir_behavior_outcome",
+          "label": "Desirable behavior outcomes"
+        },
+        {
+          "id": "reduce_energy_consumption",
+          "label": "Reducing energy consumption"
+        },
+        {
+          "id": "environmental_sustainability",
+          "label": "Environmental sustainability"
+        }
+      ]
+    },
+    {
+      "id": "scene_15",
+      "label": "Scene 15",
+      "children": [
+        {
+          "id": "recycling_program",
+          "label": "Recycling program"
+        },
+        {
+          "id": "nudging",
+          "label": "Nudging behavior"
+        },
+        {
+          "id": "sustain_behavior",
+          "label": "sustainable behavior"
+        },
+        {
+          "id": "scene_16",
+          "label": "Scene 16"
+        },
+        {
+          "id": "promotion",
+          "label": "Promotion of smartwatches",
+          "children": [
+            {
+              "id": "behavioral_nudge",
+              "label": "Behavioral nudges"
+            }
+          ]
+        },
+        {
+          "id": "energy_saving_nudge",
+          "label": "Energy savings nudge concept"
+        },
+        {
+          "id": "energy_efficient_behavior",
+          "label": "Energy-efficient behaviors"
+        },
+        {
+          "id": "intervention",
+          "label": "Subtle interventions"
+        },
+        {
+          "id": "reflect_preference",
+          "label": "Reflective preferences"
+        },
+        {
+          "id": "care_consideration",
+          "label": "Careful consideration of long-term consequences"
+        },
+        {
+          "id": "impul_decision",
+          "label": "Impulsive decisions"
+        },
+        {
+          "id": "immediate_desire",
+          "label": "Immediate desires"
+        },
+        {
+          "id": "beneficial_outcome",
+          "label": "Beneficial outcomes in the long run"
+        },
+        {
+          "id": "influence",
+          "label": "Influence on decision-making"
+        },
+        {
+          "id": "thorough_consideration",
+          "label": "Thorough consideration"
+        },
+        {
+          "id": "immediate_gratification",
+          "label": "Immediate gratification"
+        },
+        {
+          "id": "long_term_benefit",
+          "label": "Long-term benefits"
+        },
+        {
+          "id": "saving_retire",
+          "label": "Saving for retirement"
+        },
+        {
+          "id": "financial_planning",
+          "label": "Financial planning"
+        }
+      ]
+    },
+    {
+      "id": "value_derived",
+      "label": "Value derived from transaction",
+      "children": [
+        {
+          "id": "consumer_busi",
+          "label": "consumer,business"
+        },
+        {
+          "id": "transactional_utility",
+          "label": "Transactional utility concept"
+        },
+        {
+          "id": "economic_exchange",
+          "label": "Economic exchange from business perspective"
+        }
+      ]
+    },
+    {
+      "id": "regular_saving",
+      "label": "Regular savings",
+      "children": [
+        {
+          "id": "comfort_retire",
+          "label": "Comfortable retirement"
+        }
+      ]
+    },
+    {
+      "id": "asian_disease_experi",
+      "label": "Asian Disease Experiment",
+      "children": [
+        {
+          "id": "framing_influence",
+          "label": "Framing influence on decision-making"
+        }
+      ]
+    },
+    {
+      "id": "choice_variability",
+      "label": "Variability in people's choices",
+      "children": [
+        {
+          "id": "presentation_method",
+          "label": "Presentation method of options"
+        }
+      ]
+    },
+    {
+      "id": "psycholog_nudge",
+      "label": "Psychological nudges",
+      "children": [
+        {
+          "id": "alteration_of_behavior",
+          "label": "alteration of behavior"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Retailers' strategy to influence consumer behavior includes placing candy near checkout counters.",
+    "Marketing strategies consist of persuasive advertising aimed at influencing consumer choices.",
+    "Significant shifts occur in consumer action choices based on how options are framed.",
+    "Subtle cues influence consumer behavior by guiding them towards certain decisions.",
+    "and subtle cues alter purchasing behavior through strategic placement and presentation.",
+    "Nudging techniques consist of providing subtle guidance to shape consumer behavior.",
+    "Interventions utilize the energy-saving nudge concept to encourage environmentally friendly choices.",
+    "Specific behaviors focus on subtle interventions designed to modify consumer habits predictably.",
+    "Subtle interventions lead to significant shifts in consumer behavior when applied effectively.",
+    "Economic perspectives depend on the use of nudges to leverage cognitive biases and heuristics.",
+    "A good reputation makes it easier to implement nudging strategies without resistance.",
+    "The choice presentation concept operates on the decision-making process to make certain options more appealing.",
+    "Prominent recycling options present a convenient process by leveraging psychological principles to make recycling more appealing and accessible.",
+    "Changes in the environment guide people toward beneficial choices by influencing how options are presented.",
+    "The effectiveness of nudges depends on the psychological principle that people tend to exert minimal effort.",
+    "Nudges produce consumer behavior that aligns with the nudges' design, often encouraging prosocial actions.",
+    "Prosocial behavior engagement includes charitable donations, reflecting the impact of nudges on consumer behavior.",
+    "The microdonation nudge produces engagement in prosocial behavior by encouraging small, effortless contributions.",
+    "Nudging strategies affect individuals by shaping their choices in ways that prioritize their best interests.",
+    "Effective nudges require positive social outcomes to maintain their reputation as catalysts for virtuous actions.",
+    "Scene 13 focuses on the positive reputation of nudges, emphasizing their role in fostering virtuous behaviors.",
+    "Nudging strategies affect markets by influencing consumer behavior, which can either benefit or harm companies.",
+    "A good reputation leads to increased trust in the nudge concept, enhancing its effectiveness in public policy.",
+    "Actions benefiting the individual may sometimes oppose the broader social good if they are perceived as prioritizing personal gain over communal welfare.",
+    "Marketing strategies use a wider array of tools compared to nudging techniques, which primarily focus on choice framing.",
+    "Retailers employ strategies to subtly alter consumer behavior through environmental changes, aligning closely with consumer psychology.",
+    "Marketing strategies often incorporate product placement, subtly guiding consumers towards certain products.",
+    "Structured choices provide positive guidance by framing options in a way that promotes beneficial consumer actions.",
+    "Creating a positive image for products can significantly influence how consumers perceive and interact with them.",
+    "and a positive brand image can positively impact consumer behavior, encouraging repeat purchases and brand loyalty.",
+    "Subtle cues in marketing can alter consumer preferences, guiding them towards preferred products or services.",
+    "Segmentation within marketing helps highlight specific nudges aimed at different customer groups.",
+    "Impulsive decisions are driven by immediate desires, often bypassing rational thought processes in favor of instant gratification.",
+    "A good reputation can lead to increased customer loyalty, fostering stronger relationships and repeat business.",
+    "Making prominent recycling options available can increase participation rates in recycling programs.",
+    "Recycling programs often focus on specific scenes or areas where waste management can be most effective and visible.",
+    "Nudging techniques focus on the psychological aspect of consumer behavior, emphasizing the impact of immediate decisions.",
+    "Scene 16 highlights the promotion of smartwatches, aiming to align with user goals such as convenience and health.",
+    "Nudges are designed to align with user goals, promoting behaviors that enhance long-term well-being or convenience.",
+    "Highlighting certain aspects of choices can guide consumer behavior by emphasizing potential negative outcomes.",
+    "Effective nudges result in desirable behavior outcomes by focusing on the consequences of actions.",
+    "Broader economic implications depend on the effectiveness of nudging strategies in influencing consumer choices.",
+    "Variability in people's choices often stems from different presentation methods of available options.",
+    "Choice framing significantly influences the decision-making process by shaping how values are perceived.",
+    "The Asian Disease experiment illustrates the powerful framing influence on decision-making processes.",
+    "Prosocial behavior engagement involves actions that benefit others or society, promoting collective well-being.",
+    "Nudging behavior in scene 15 illustrates how marketing and behavioral tools can be used to influence consumer choices.",
+    "Promotion of smartwatches incorporates behavioral nudges to encourage the adoption of new technology among consumers.",
+    "Consumer resistance tactics relate to high-margin items by making consumers feel pleasure through higher reference prices and discounts.",
+    "Product placement strategies relate to checkout displays by positioning healthier options at checkouts traditionally reserved for sweets.",
+    "Consumer influence concepts consist of psychological mechanisms by utilizing prospect framing to shift perceptions towards a standard.",
+    "Minimal effort requirements leverage microdonation nudges by focusing on immediate actions and reducing the perceived effort.",
+    "Psychological principles of minimal effort leverage reducing energy consumption by encouraging ongoing efforts post-intervention.",
+    "Reducing energy consumption contributes to environmental sustainability by promoting long-term behaviors that conserve resources.",
+    "Scenarios illustrating company practices illustrate subtle cues by designing tasks that encourage short-term thinking and action.",
+    "Energy-saving nudges enable energy-efficient behaviors by creating contexts where individuals adopt behaviors that save energy.",
+    "An overview of nudges produces specific behaviors by guiding individuals toward particular actions through strategic design.",
+    "Sustainable behaviors encourage scene 15 by reinforcing positive behaviors over time through continuous feedback and rewards.",
+    "Value derived from transactions consists of economic exchanges from a business perspective by emphasizing benefits and facilitating acceptance.",
+    "Strategy leveraging shoppers' impulse control challenges shoppers by exploiting their tendency to make quick decisions without thorough consideration.",
+    "The concept of transactional utility focuses on the value derived from a transaction, emphasizing the importance of deriving positive outcomes.",
+    "Companies strive to maintain a positive image by ensuring their actions reflect well on them in the public eye.",
+    "Influence on decision-making often opposes thorough consideration, leading individuals to make choices without careful thought.",
+    "A psychological principle of minimal effort facilitates advantageous behavior by reducing barriers to desirable actions.",
+    "Immediate gratification contrasts with long-term benefits, highlighting the tension between short-term desires and future well-being.",
+    "Reflective preferences consist of careful consideration of long-term consequences, such as saving for retirement or maintaining health.",
+    "Saving for retirement involves financial planning, which helps ensure a secure future through consistent savings.",
+    "Regular savings produce a comfortable retirement, providing financial security in later life.",
+    "Psychological nudges enable alterations in behavior, guiding individuals towards better decision-making habits.",
+    "Reflective preferences result in beneficial outcomes in the long run, showing the positive impact of thoughtful choices.",
+    "The value derived from a transaction includes both consumer satisfaction and business profit, highlighting mutual benefit."
+  ]
+}

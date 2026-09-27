@@ -1,0 +1,62 @@
+{
+  "alphafold_jumper_2021": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 14.769566
+  },
+  "attention_is_all_you_need_vaswani_2017": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 13.497514
+  },
+  "ayurvedic_medicine_epma_journal_2014": {
+    "rescale_factor": 0.318188,
+    "max_edge_len_before_rescale": 78.569859
+  },
+  "dna_structure_watson_crick_1953": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 13.890109
+  },
+  "english_literature_critical_inquiry_2023": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 11.874888
+  },
+  "fuzzy_logic_zadeh_1965_information_control": {
+    "rescale_factor": 0.233283,
+    "max_edge_len_before_rescale": 107.166145
+  },
+  "game_dev_pcg_survey_aiide_2024": {
+    "rescale_factor": 0.311365,
+    "max_edge_len_before_rescale": 80.29161
+  },
+  "gravitational_waves_ligo_2016": {
+    "rescale_factor": 0.301464,
+    "max_edge_len_before_rescale": 82.92873
+  },
+  "marketing_generative_ai_future_2024": {
+    "rescale_factor": 0.233283,
+    "max_edge_len_before_rescale": 107.166145
+  },
+  "mathematical_theory_communication_shannon_1948": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 12.57185
+  },
+  "on_computable_numbers_turing_1936": {
+    "rescale_factor": 1,
+    "max_edge_len_before_rescale": 12.78529
+  },
+  "price_optimization_algorithmic_pricing_nber_2024": {
+    "rescale_factor": 0.200504,
+    "max_edge_len_before_rescale": 124.685641
+  },
+  "prospect_theory_kahneman_tversky_1979": {
+    "rescale_factor": 0.236574,
+    "max_edge_len_before_rescale": 105.675087
+  },
+  "psychology_marketing_nudges_nature_2023": {
+    "rescale_factor": 0.354764,
+    "max_edge_len_before_rescale": 70.4693
+  },
+  "special_relativity_einstein_1905": {
+    "rescale_factor": 0.265972,
+    "max_edge_len_before_rescale": 93.994911
+  }
+}

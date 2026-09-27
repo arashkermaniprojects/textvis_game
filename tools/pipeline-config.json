@@ -1,0 +1,88 @@
+{
+  "voices": {
+    "technical": {
+      "name": "af_river",
+      "speed": 0.85,
+      "lang": "en-us",
+      "description": "American female, calm, warm — used for every lecture regardless of domain (unified after user preferred warmth over British formality)"
+    },
+    "non_technical": {
+      "name": "af_river",
+      "speed": 0.82,
+      "lang": "en-us",
+      "description": "American female, calm, slower — for medicine, literature, psychology, social sciences, humanities"
+    }
+  },
+  "voice_classifier": {
+    "description": "Keyword-based article domain classification. First match wins; default is non_technical.",
+    "technical_keywords": [
+      "algorithm", "algorithmic", "fuzzy", "logic", "neural", "network", "deep learning",
+      "machine learning", "computation", "computer science", "code", "program",
+      "procedural", "game", "gaming", "rendering", "simulation", "physics",
+      "mathematics", "theorem", "proof", "equation", "formula", "vector", "matrix",
+      "optimization", "regression", "classification", "clustering",
+      "transformer", "attention", "embedding", "token",
+      "generative ai", "artificial intelligence", "llm", "nlp",
+      "pcg", "reinforcement learning", "dqn", "gpt",
+      "database", "query", "sql", "engineering", "system architecture",
+      "price optimization", "pricing", "algorithmic pricing"
+    ]
+  },
+  "abbreviations": {
+    "description": "Phrase ↔ abbreviation pairs. First mention uses full form; subsequent mentions alternate toward abbreviation.",
+    "pairs": [
+      {"pattern": "generative artificial intelligence", "abbrev": "generative AI"},
+      {"pattern": "generative ai", "abbrev": "GenAI"},
+      {"pattern": "artificial intelligence", "abbrev": "AI"},
+      {"pattern": "machine learning", "abbrev": "ML"},
+      {"pattern": "deep learning", "abbrev": "DL"},
+      {"pattern": "natural language processing", "abbrev": "NLP"},
+      {"pattern": "natural language understanding", "abbrev": "NLU"},
+      {"pattern": "large language models", "abbrev": "LLMs"},
+      {"pattern": "large language model", "abbrev": "LLM"},
+      {"pattern": "reinforcement learning", "abbrev": "RL"},
+      {"pattern": "convolutional neural networks", "abbrev": "CNNs"},
+      {"pattern": "convolutional neural network", "abbrev": "CNN"},
+      {"pattern": "recurrent neural networks", "abbrev": "RNNs"},
+      {"pattern": "recurrent neural network", "abbrev": "RNN"},
+      {"pattern": "procedural content generation", "abbrev": "PCG"},
+      {"pattern": "evidence-based medicine", "abbrev": "EBM"},
+      {"pattern": "predictive preventive and personalized medicine", "abbrev": "PPPM"},
+      {"pattern": "person-centered medicine", "abbrev": "PCM"},
+      {"pattern": "traditional complementary and integrative medicine", "abbrev": "TCIM"}
+    ]
+  },
+  "audio": {
+    "sentence_gap_seconds": 0.4,
+    "description": "Silence appended after each audio clip for natural listener digest."
+  },
+  "narration": {
+    "description": "Pronoun substitution for consecutive same-subject edges.",
+    "connectors": {
+      "middle": "It also",
+      "last_in_run": "And",
+      "two_only_second": "It also"
+    }
+  },
+  "camera": {
+    "description": "Shared camera choreography constants — read by BOTH tools/render-from-world.py (Blender reference renderer) AND godot/scripts/lecture_mode.gd. Single source of truth. Research references: Heer&Robertson 2007 (animated transitions), Bartram&Ware 2002 (3D viewpoint changes 1.5-2.5s), Shneiderman overview-first (1996), film editing convention (2-4s per shot). See docs/CAMERA_AND_LABEL_IMPROVEMENTS.md.",
+    "hold_fraction": 0.75,
+    "transition_fraction": 0.25,
+    "zoom_out_factor": 1.8,
+    "min_distance": 12.0,
+    "max_distance": 75.0,
+    "edge_length_margin": 6.0,
+    "vertical_margin": 5.0,
+    "safety_multiplier": 1.12,
+    "fov_horizontal_deg": 65.0,
+    "fov_vertical_deg": 37.0,
+    "global_center_bias": 0.4,
+    "overview_yaw_twist_deg": 11.25,
+    "overview_pitch_lift_deg": 8.0,
+    "overview_pitch_cap_deg": 42.0,
+    "lift_pitch_base_deg": 20.0,
+    "lift_pitch_amp_deg": 10.0,
+    "tilt_amp_deg": 15.0,
+    "perp_outward_blend": 0.7
+  }
+}

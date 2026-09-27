@@ -1,0 +1,1562 @@
+"""
+TextVis — Glass Sphere Constellation (legacy Blender renderer, reference only)
+Containers = large transparent glass spheres
+Children = solid spheres orbiting inside
+Edges = glowing curves through 3D space
+"""
+import bpy, json, math, os, random, mathutils
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# DATA_DIR lets two parallel runs point at different graph/audio/icon
+# directories without clobbering each other's intermediates. Defaults to
+# SCRIPT_DIR for backward compatibility.
+DATA_DIR = os.environ.get("TEXTVIS_DATA_DIR") or SCRIPT_DIR
+FPS = 24
+random.seed(42)  # deterministic layout
+USE_LLM_CONTAINER_SHAPES = False
+
+# Camera choreography constants — used in both label visibility logic and
+# the camera pass. Defined here so both sections can access them.
+HOLD_FRACTION = 0.75    # 75% of each edge is close-in hold on the SPO
+TRANSITION_FRACTION = 0.25  # last 25% of current + first 25% of next = transition
+ZOOM_OUT_FACTOR = 1.8   # soft camera pull-back for overview shots
+
+with open(os.path.join(DATA_DIR, "graph_data.json")) as f:
+    data = json.load(f)
+with open(os.path.join(DATA_DIR, "audio_clips/durations.json")) as f:
+    durations = json.load(f)
+
+nodes = data["nodes"]
+edges = data["edges"]
+hierarchy = data["hierarchy"]
+subtitles = data.get("subtitles", [])
+node_map = {n["id"]: n for n in nodes}
+
+# Optional overlay timeline: each entry binds a PDF asset (formula / figure /
+# table) to a graph node and a time window. When present, we render the asset
+# as an in-scene billboard plane (size ~4× a normal node), positioned just
+# outside its parent node, visible only during the entry's window.
+overlay_entries = []
+_overlay_path = os.environ.get("TEXTVIS_OVERLAY_TIMELINE") or os.path.join(DATA_DIR, "overlay_assets/overlay_timeline.json")
+if os.path.exists(_overlay_path):
+    try:
+        with open(_overlay_path) as f:
+            overlay_entries = json.load(f).get("entries", [])
+        print(f"Overlay timeline: {len(overlay_entries)} entries from {_overlay_path}")
+    except Exception as ex:
+        print(f"Overlay timeline load failed: {ex}")
+asset_host_nodes = set(e["node_id"] for e in overlay_entries if e.get("node_id"))
+
+# ─── Clear ───
+bpy.ops.object.select_all(action='SELECT')
+bpy.ops.object.delete()
+for o in list(bpy.data.objects): bpy.data.objects.remove(o)
+for m in list(bpy.data.materials): bpy.data.materials.remove(m)
+for c in list(bpy.data.curves): bpy.data.curves.remove(c)
+for m in list(bpy.data.meshes): bpy.data.meshes.remove(m)
+
+# ─── Colors ───
+CC = [
+    (0.3,0.7,0.9), (0.3,0.5,0.9), (0.65,0.4,0.85), (0.9,0.65,0.2),
+    (0.3,0.8,0.4), (0.9,0.8,0.2), (0.9,0.4,0.4), (0.6,0.6,0.65),
+]
+ACCENT = (1.0, 0.55, 0.0)
+NODE_COL = (0.75, 0.85, 0.95)
+DIM_COL = (0.4, 0.45, 0.5)
+
+def make_mat(name, color, emission=0.0, alpha=1.0):
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    nodes = nt.nodes
+    links = nt.links
+    b = nodes["Principled BSDF"]
+    shell_color = color if alpha >= 1.0 else (0.96, 0.98, 1.0)
+    b.inputs["Base Color"].default_value = (*shell_color, 1)
+    b.inputs["Roughness"].default_value = 0.3 if alpha >= 1.0 else 0.2
+    b.inputs["Specular IOR Level"].default_value = 0.5
+    b.inputs["Emission Color"].default_value = (*shell_color, 1)
+    b.inputs["Emission Strength"].default_value = emission
+    if alpha < 1.0:
+        b.inputs["Alpha"].default_value = alpha
+        m.use_backface_culling = False
+        m.surface_render_method = 'BLENDED'
+        if hasattr(m, "blend_method"):
+            m.blend_method = 'BLEND'
+        if hasattr(m, "shadow_method"):
+            m.shadow_method = 'NONE'
+        if "Transmission Weight" in b.inputs:
+            b.inputs["Transmission Weight"].default_value = 0.0
+        elif "Transmission" in b.inputs:
+            b.inputs["Transmission"].default_value = 0.0
+        if "IOR" in b.inputs:
+            b.inputs["IOR"].default_value = 1.0
+        out = nodes["Material Output"]
+        transparent = nodes.new("ShaderNodeBsdfTransparent")
+        transparent.inputs["Color"].default_value = (1.0, 1.0, 1.0, 1.0)
+        mix = nodes.new("ShaderNodeMixShader")
+        shell_strength = max(0.003, min(0.015, alpha))
+        mix.inputs[0].default_value = shell_strength
+        links.new(transparent.outputs["BSDF"], mix.inputs[1])
+        links.new(b.outputs["BSDF"], mix.inputs[2])
+        links.new(mix.outputs["Shader"], out.inputs["Surface"])
+    return m
+
+# ─── Layout: spheres in 3D space ───
+def count_d(c): return 1 + sum(count_d(ch) for ch in c.get("children",[]))
+
+positions = {}  # node_id → (x,y,z)
+container_centers = {}  # container_id → (x,y,z,radius)
+
+sorted_h = sorted(hierarchy, key=count_d, reverse=True)
+n_cont = len(sorted_h)
+
+# Compute container radii first. Bigger floor + steeper growth so multi-node
+# clusters have room to breathe and labels stop overlapping in dense regions.
+cont_radii = {}
+for cont in sorted_h:
+    n_children = count_d(cont) - 1
+    cont_radii[cont["id"]] = max(5.0, min(3.0 + math.sqrt(max(n_children, 1)) * 2.2, 11.0))
+
+# Arrange containers via a Fibonacci sphere — gives genuine 3D depth instead
+# of two flat rings. Spacing scales with cluster count and the largest cluster
+# radius so the layout never collapses to a tight clump for sparse graphs.
+max_r = max(cont_radii.values())
+n_total = len(sorted_h)
+SPHERE_R = max(12.0, max_r * 4.5 + n_total * 1.6)  # bigger sphere for more clusters
+
+for ci, cont in enumerate(sorted_h):
+    # Fibonacci-sphere distribution: even angular coverage in 3D
+    phi = math.acos(1 - 2 * (ci + 0.5) / n_total)
+    th  = math.pi * (1 + math.sqrt(5)) * ci
+    # Per-cluster jitter so neighbours don't read as a perfect lattice
+    rj  = SPHERE_R + random.uniform(-SPHERE_R * 0.15, SPHERE_R * 0.15)
+    cx = rj * math.sin(phi) * math.cos(th)
+    cy = rj * math.sin(phi) * math.sin(th)
+    cz = rj * math.cos(phi)
+    container_centers[cont["id"]] = (cx, cy, cz, cont_radii[cont["id"]])
+
+# Place nodes via force-directed layout inside each container
+# Connected nodes attract, all nodes repel → max spacing + connected nodes nearby
+def force_layout(nids, center, radius, edge_list, iters=80, host_set=None):
+    host_set = host_set or set()
+    pos = {}
+    cx, cy, cz = center
+    n = len(nids)
+    if n == 0: return pos
+    if n == 1:
+        # Jitter singleton off-center so neighboring singleton clusters don't
+        # visually merge. Stay well within the container radius so it still
+        # reads as belonging to its cluster.
+        jx = random.uniform(-radius * 0.5, radius * 0.5)
+        jy = random.uniform(-radius * 0.5, radius * 0.5)
+        jz = random.uniform(-radius * 0.5, radius * 0.5)
+        pos[nids[0]] = (cx + jx, cy + jy, cz + jz)
+        return pos
+    # Init: fibonacci sphere
+    for ki, nid in enumerate(nids):
+        phi = math.acos(1 - 2*(ki+0.5)/n)
+        th = math.pi*(1+math.sqrt(5))*ki
+        r = radius * 0.7
+        pos[nid] = [cx+r*math.sin(phi)*math.cos(th), cy+r*math.sin(phi)*math.sin(th), cz+r*math.cos(phi)]
+    # Adjacency
+    nset = set(nids)
+    adj = {nid: set() for nid in nids}
+    for e in edge_list:
+        if e["from"] in nset and e["to"] in nset:
+            adj[e["from"]].add(e["to"])
+            adj[e["to"]].add(e["from"])
+    # Iterate
+    for _ in range(iters):
+        forces = {nid: [0,0,0] for nid in nids}
+        for i in range(n):
+            a = nids[i]
+            for j in range(i+1, n):
+                b = nids[j]
+                dx = pos[b][0]-pos[a][0]; dy = pos[b][1]-pos[a][1]; dz = pos[b][2]-pos[a][2]
+                d = math.sqrt(dx*dx+dy*dy+dz*dz) or 0.01
+                # Nodes hosting a large image plane get extra repulsion so
+                # neighbors don't collide with the asset card.
+                host_scale = 2.4 if (a in host_set or b in host_set) else 1.0
+                rep = (3.0 / (d*d)) * host_scale
+                for k in range(3):
+                    v = [dx,dy,dz][k]/d * rep
+                    forces[a][k] -= v; forces[b][k] += v
+            for b in adj[a]:
+                dx = pos[b][0]-pos[a][0]; dy = pos[b][1]-pos[a][1]; dz = pos[b][2]-pos[a][2]
+                d = math.sqrt(dx*dx+dy*dy+dz*dz) or 0.01
+                att = d * 0.05  # attraction
+                for k in range(3):
+                    forces[a][k] += [dx,dy,dz][k]/d * att
+        for nid in nids:
+            for k in range(3):
+                pos[nid][k] += forces[nid][k] * 0.08
+            # Constrain to sphere
+            dx,dy,dz = pos[nid][0]-cx, pos[nid][1]-cy, pos[nid][2]-cz
+            d = math.sqrt(dx*dx+dy*dy+dz*dz) or 0.01
+            mr = radius * 0.78
+            if d > mr:
+                pos[nid] = [cx+dx/d*mr, cy+dy/d*mr, cz+dz/d*mr]
+    return {nid: tuple(pos[nid]) for nid in nids}
+
+for cont in sorted_h:
+    cid = cont["id"]
+    cx, cy, cz, cr = container_centers[cid]
+    if cid in node_map:
+        positions[cid] = (cx, cy, cz)
+    all_kids = []
+    for child in cont.get("children", []):
+        all_kids.append(child["id"])
+        for gc in child.get("children", []):
+            all_kids.append(gc["id"])
+    valid_kids = [k for k in all_kids if k in node_map]
+    kid_pos = force_layout(valid_kids, (cx, cy, cz), cr, edges, host_set=asset_host_nodes)
+    positions.update(kid_pos)
+
+# Verify no overlaps
+cids = list(container_centers.keys())
+overlaps = 0
+for i in range(len(cids)):
+    for j in range(i+1, len(cids)):
+        ax,ay,az,ar = container_centers[cids[i]]
+        bx,by,bz,br = container_centers[cids[j]]
+        dist = math.sqrt((bx-ax)**2+(by-ay)**2+(bz-az)**2)
+        if dist < ar + br + 1.0:
+            overlaps += 1
+print(f"Layout: {len(positions)} nodes, {len(container_centers)} containers, {overlaps} overlaps")
+
+# ─── World ───
+world = bpy.data.worlds.new("W")
+bpy.context.scene.world = world
+world.use_nodes = True
+bg = world.node_tree.nodes["Background"]
+bg.inputs["Color"].default_value = (0.02, 0.02, 0.04, 1)  # very dark blue-black
+bg.inputs["Strength"].default_value = 1.0
+
+# ─── Camera ───
+cam = bpy.data.cameras.new("Cam")
+cam.lens = 28
+cam_obj = bpy.data.objects.new("Camera", cam)
+bpy.context.collection.objects.link(cam_obj)
+bpy.context.scene.camera = cam_obj
+
+# ─── Lights ───
+for lname, energy, loc in [("Key", 5.0, (15,10,20)), ("Fill", 2.0, (-10,-15,10)), ("Rim", 3.0, (0,5,-15))]:
+    ld = bpy.data.lights.new(lname, 'POINT')
+    ld.energy = energy * 100
+    ld.color = (0.95, 0.95, 1.0)
+    lo = bpy.data.objects.new(lname, ld)
+    bpy.context.collection.objects.link(lo)
+    lo.location = loc
+
+# ─── Container shapes (LLM-generated meaningful 3D objects) ───
+import importlib.util
+shape_spec = importlib.util.spec_from_file_location("shapes", os.path.join(SCRIPT_DIR, "container_shapes.py"))
+shape_mod = importlib.util.module_from_spec(shape_spec)
+shape_spec.loader.exec_module(shape_mod)
+
+# Map container IDs to shape functions
+shape_funcs = {}
+for cid_key in dir(shape_mod):
+    if cid_key.startswith('create_'):
+        shape_funcs[cid_key[7:]] = getattr(shape_mod, cid_key)
+
+NO_CONTAINERS = os.environ.get("TEXTVIS_NO_CONTAINERS", "").strip() in ("1", "true", "yes")
+cont_objs = {}
+for ci, cont in enumerate(sorted_h):
+    cid = cont["id"]
+    if cid not in container_centers: continue
+    cx, cy, cz, cr = container_centers[cid]
+    col = CC[ci % len(CC)]
+
+    if NO_CONTAINERS:
+        # Skip the transparent sphere/shape shell, but STILL create the cluster
+        # label text so viewers can see what each group represents.
+        # Place it at the cluster's NORTH POLE with a distinctive cyan color.
+        bpy.ops.object.text_add(location=(cx, cy, cz + cr + 1.2))
+        t = bpy.context.active_object
+        t.data.body = cont.get("label", cid).upper()
+        t.data.size = 0.7
+        t.data.extrude = 0.015
+        t.data.align_x = 'CENTER'
+        t.name = f"CL_{cid}"
+        # Distinctive cyan — NOT yellow or red
+        t.data.materials.append(make_mat(f"mcl_{cid}", (0.3, 0.9, 1.0), emission=2.5))
+        tc = t.constraints.new('TRACK_TO')
+        tc.target = cam_obj
+        tc.track_axis = 'TRACK_Z'
+        tc.up_axis = 'UP_Y'
+        # HIDE cluster labels by default — they clutter the close-in SPO shots.
+        # Visibility is keyframed so they appear ONLY during zoom-out overview
+        # moments (between edges).
+        t.hide_render = True
+        t.hide_viewport = True
+        t.keyframe_insert(data_path="hide_render", frame=1)
+        t.keyframe_insert(data_path="hide_viewport", frame=1)
+        cont_objs[cid] = {"label": t, "pos": (cx, cy, cz), "r": cr, "mat": None, "col": col, "obj": None}
+        continue
+
+    # Optional LLM-generated shapes; disabled when we want the original transparent sphere look.
+    clean_id = cid.replace('-','_').replace(' ','_')
+    shape_fn = shape_funcs.get(clean_id) if USE_LLM_CONTAINER_SHAPES else None
+    if shape_fn:
+        try:
+            obj = shape_fn(f"C_{cid}", (cx, cy, cz), cr, col)
+            cont_objs[cid] = {"obj": obj, "mat": obj.data.materials[0] if obj.data.materials else None, "col": col, "pos": (cx,cy,cz), "r": cr}
+            print(f"  Shape: {cid} → {clean_id}")
+        except Exception as ex:
+            print(f"  Shape failed for {cid}: {ex}, using sphere")
+            shape_fn = None
+
+    if not shape_fn:
+        bpy.ops.mesh.primitive_uv_sphere_add(radius=cr, location=(cx, cy, cz), segments=48, ring_count=24)
+        sph = bpy.context.active_object
+        sph.name = f"C_{cid}"
+        bpy.ops.object.shade_smooth()
+        mat = make_mat(f"mc_{cid}", col, emission=0.0, alpha=0.01)
+        sph.data.materials.append(mat)
+        cont_objs[cid] = {"obj": sph, "mat": mat, "col": col, "pos": (cx,cy,cz), "r": cr}
+
+    # Container label
+    bpy.ops.object.text_add(location=(cx, cy, cz + cr + 0.8))
+    t = bpy.context.active_object
+    t.data.body = cont.get("label", cid).upper()
+    t.data.size = 0.5; t.data.extrude = 0.01; t.data.align_x = 'CENTER'
+    t.name = f"CL_{cid}"
+    t.data.materials.append(make_mat(f"mcl_{cid}", (1.0, 1.0, 1.0), emission=2.0))  # white outside
+    tc = t.constraints.new('TRACK_TO')
+    tc.target = cam_obj; tc.track_axis = 'TRACK_Z'; tc.up_axis = 'UP_Y'
+
+# ─── Nodes ───
+node_objs = {}
+for n in nodes:
+    nid = n["id"]
+    if nid not in positions: continue
+    x, y, z = positions[nid]
+    # Use PNG icon as textured plane, or sphere fallback
+    png_path = os.path.join(DATA_DIR, "png_icons", f"{nid}.png")
+    if os.path.exists(png_path):
+        bpy.ops.mesh.primitive_plane_add(size=0.7, location=(x,y,z))
+        sp = bpy.context.active_object
+        sp.name = f"N_{nid}"
+        # Billboard: always face camera
+        tc = sp.constraints.new('TRACK_TO')
+        tc.target = cam_obj; tc.track_axis = 'TRACK_Z'; tc.up_axis = 'UP_Y'
+        # Image texture material
+        mat = bpy.data.materials.new(f"mn_{nid}")
+        mat.use_nodes = True
+        mat.surface_render_method = 'BLENDED'
+        if hasattr(mat, "blend_method"):
+            mat.blend_method = 'BLEND'
+        if hasattr(mat, "shadow_method"):
+            mat.shadow_method = 'NONE'
+        tree = mat.node_tree
+        nodes = tree.nodes
+        links = tree.links
+        bsdf = nodes["Principled BSDF"]
+        out = nodes["Material Output"]
+        emission_node = nodes.new('ShaderNodeEmission')
+        transparent_node = nodes.new('ShaderNodeBsdfTransparent')
+        mix = nodes.new('ShaderNodeMixShader')
+        # Load image
+        img = bpy.data.images.load(png_path)
+        if hasattr(img, "alpha_mode"):
+            img.alpha_mode = 'STRAIGHT'
+        tex_node = tree.nodes.new('ShaderNodeTexImage')
+        tex_node.image = img
+        links.new(tex_node.outputs['Color'], emission_node.inputs['Color'])
+        emission_node.inputs['Strength'].default_value = 1.6
+        links.new(tex_node.outputs['Alpha'], mix.inputs['Fac'])
+        links.new(transparent_node.outputs['BSDF'], mix.inputs[1])
+        links.new(emission_node.outputs['Emission'], mix.inputs[2])
+        links.new(mix.outputs['Shader'], out.inputs['Surface'])
+        nodes.remove(bsdf)
+        sp.data.materials.append(mat)
+    else:
+        bpy.ops.mesh.primitive_uv_sphere_add(radius=0.3, location=(x,y,z), segments=16, ring_count=8)
+        sp = bpy.context.active_object
+        sp.name = f"N_{nid}"
+        bpy.ops.object.shade_smooth()
+        mat = make_mat(f"mn_{nid}", NODE_COL, emission=0.8)
+        sp.data.materials.append(mat)
+
+    # Label — FULL text, no truncation. Starts HIDDEN; made visible only
+    # during edges where this node is the subject or object. This prevents
+    # the cluttered-overlap problem where every node's label is drawn at
+    # once and they collide into unreadable spaghetti.
+    bpy.ops.object.text_add(location=(x, y, z + 0.6))
+    t = bpy.context.active_object
+    lbl = n.get("label", nid)
+    t.data.body = lbl  # FULL label, no truncation
+    t.data.size = 0.38  # slightly bigger for prominence when shown
+    t.data.extrude = 0.02
+    t.data.align_x = 'CENTER'
+    t.name = f"NL_{nid}"
+    label_mat = make_mat(f"mnl_{nid}", (1.0, 1.0, 1.0), emission=3.0)
+    t.data.materials.append(label_mat)
+    tc = t.constraints.new('TRACK_TO')
+    tc.target = cam_obj; tc.track_axis = 'TRACK_Z'; tc.up_axis = 'UP_Y'
+    # Dark backdrop plane behind text — width scales with label length
+    bpy.ops.mesh.primitive_plane_add(size=1.0, location=(x, y, z + 0.58))
+    bp = bpy.context.active_object
+    bp.name = f"NLB_{nid}"
+    bp.scale = (max(len(lbl) * 0.14, 0.6), 0.30, 1)
+    bp.data.materials.append(make_mat(f"mnlb_{nid}", (0.0, 0.0, 0.02), emission=0.0, alpha=0.85))
+    bpc = bp.constraints.new('TRACK_TO')
+    bpc.target = cam_obj; bpc.track_axis = 'TRACK_Z'; bpc.up_axis = 'UP_Y'
+    # HIDE by default — visibility is keyframed to appear only during the
+    # edges where this node is subject or object.
+    t.hide_render = True; t.hide_viewport = True
+    bp.hide_render = True; bp.hide_viewport = True
+    t.keyframe_insert(data_path="hide_render", frame=1)
+    t.keyframe_insert(data_path="hide_viewport", frame=1)
+    bp.keyframe_insert(data_path="hide_render", frame=1)
+    bp.keyframe_insert(data_path="hide_viewport", frame=1)
+
+    node_objs[nid] = {"obj": sp, "mat": mat, "label": t, "label_mat": label_mat, "label_bg": bp, "pos": (x,y,z)}
+
+# ─── Edges ───
+edge_objs = []
+for i, e in enumerate(edges):
+    if e["from"] not in positions or e["to"] not in positions:
+        edge_objs.append(None); continue
+    x1,y1,z1 = positions[e["from"]]
+    x2,y2,z2 = positions[e["to"]]
+    # Control point: offset perpendicular to the edge in 3D
+    mx, my, mz = (x1+x2)*0.5, (y1+y2)*0.5, (z1+z2)*0.5
+    # Add some perpendicular offset for visual curve
+    dx, dy, dz = x2-x1, y2-y1, z2-z1
+    length = math.sqrt(dx*dx + dy*dy + dz*dz) or 1
+    mx += (dz * 0.3); my += (-dx * 0.15); mz += (dy * 0.3)
+
+    cd = bpy.data.curves.new(f"EC{i}", 'CURVE')
+    cd.dimensions = '3D'; cd.bevel_depth = 0.03; cd.bevel_resolution = 2
+    sp = cd.splines.new('BEZIER')
+    sp.bezier_points.add(1)
+    sp.bezier_points[0].co = (x1,y1,z1)
+    sp.bezier_points[0].handle_right = (mx,my,mz)
+    sp.bezier_points[0].handle_left = (x1,y1,z1)
+    sp.bezier_points[0].handle_right_type = 'FREE'
+    sp.bezier_points[0].handle_left_type = 'FREE'
+    sp.bezier_points[1].co = (x2,y2,z2)
+    sp.bezier_points[1].handle_left = (mx,my,mz)
+    sp.bezier_points[1].handle_right = (x2,y2,z2)
+    sp.bezier_points[1].handle_right_type = 'FREE'
+    sp.bezier_points[1].handle_left_type = 'FREE'
+
+    emat = make_mat(f"me_{i}", (0.5,0.5,0.6), emission=0.2)
+    cd.materials.append(emat)
+    obj = bpy.data.objects.new(f"E_{i}", cd)
+    bpy.context.collection.objects.link(obj)
+    obj.hide_render = True; obj.hide_viewport = True
+
+    # Trail curve — a twin of the edge curve with a bright emissive material.
+    # The traveling-light verb animation pulses a short segment along this
+    # curve via bevel_factor_start/bevel_factor_end. Because it follows the
+    # existing Bezier geometry exactly, the motion tracks the edge's actual
+    # curved path instead of cutting through 3D space in a straight line.
+    tcd = bpy.data.curves.new(f"ECT{i}", 'CURVE')
+    tcd.dimensions = '3D'; tcd.bevel_depth = 0.08; tcd.bevel_resolution = 3
+    tsp = tcd.splines.new('BEZIER')
+    tsp.bezier_points.add(1)
+    tsp.bezier_points[0].co = (x1,y1,z1)
+    tsp.bezier_points[0].handle_right = (mx,my,mz)
+    tsp.bezier_points[0].handle_left = (x1,y1,z1)
+    tsp.bezier_points[0].handle_right_type = 'FREE'
+    tsp.bezier_points[0].handle_left_type = 'FREE'
+    tsp.bezier_points[1].co = (x2,y2,z2)
+    tsp.bezier_points[1].handle_left = (mx,my,mz)
+    tsp.bezier_points[1].handle_right = (x2,y2,z2)
+    tsp.bezier_points[1].handle_right_type = 'FREE'
+    tsp.bezier_points[1].handle_left_type = 'FREE'
+    # Start invisible (zero-length segment)
+    tcd.bevel_factor_start = 1.0
+    tcd.bevel_factor_end = 1.0
+    tmat = make_mat(f"met_{i}", ACCENT, emission=18.0)
+    tcd.materials.append(tmat)
+    tobj = bpy.data.objects.new(f"ET_{i}", tcd)
+    bpy.context.collection.objects.link(tobj)
+
+    # Verb label — HIDDEN by default, visible ONLY during its edge window.
+    # Same rationale as node labels: showing all verb labels at once creates
+    # unreadable clutter. Full verb text, no truncation.
+    verb = e.get("verb", "")
+    vlabel = None
+    vlabel_mat = None
+    vbp = None
+    if verb:
+        bpy.ops.object.text_add(location=(mx, my, mz + 0.4))
+        vlabel = bpy.context.active_object
+        vlabel.data.body = verb  # full verb text, no truncation
+        vlabel.data.size = 0.38
+        vlabel.data.align_x = 'CENTER'
+        vlabel.name = f"VL_{i}"
+        vlabel_mat = make_mat(f"mvl_{i}", (1.0, 0.95, 0.7), emission=2.5)
+        vlabel.data.materials.append(vlabel_mat)
+        vlabel.data.extrude = 0.02
+        vc = vlabel.constraints.new('TRACK_TO')
+        vc.target = cam_obj; vc.track_axis = 'TRACK_Z'; vc.up_axis = 'UP_Y'
+        bpy.ops.mesh.primitive_plane_add(size=1.0, location=(mx, my, mz + 0.38))
+        vbp = bpy.context.active_object
+        vbp.name = f"VLB_{i}"
+        vbp.scale = (max(len(verb) * 0.14, 0.6), 0.30, 1)
+        vbp.data.materials.append(make_mat(f"mvlb_{i}", (0.0, 0.0, 0.02), emission=0.0, alpha=0.85))
+        vbc = vbp.constraints.new('TRACK_TO')
+        vbc.target = cam_obj; vbc.track_axis = 'TRACK_Z'; vbc.up_axis = 'UP_Y'
+        # HIDE by default
+        vlabel.hide_render = True; vlabel.hide_viewport = True
+        vbp.hide_render = True; vbp.hide_viewport = True
+        vlabel.keyframe_insert(data_path="hide_render", frame=1)
+        vlabel.keyframe_insert(data_path="hide_viewport", frame=1)
+        vbp.keyframe_insert(data_path="hide_render", frame=1)
+        vbp.keyframe_insert(data_path="hide_viewport", frame=1)
+
+    edge_objs.append({
+        "obj": obj, "mat": emat,
+        "trail_obj": tobj, "trail_curve": tcd, "trail_mat": tmat,
+        "vlabel": vlabel, "vlabel_mat": vlabel_mat, "vlabel_bg": vbp if vlabel else None,
+    })
+
+# ─── Node → container ───
+n2c = {}
+for cont in hierarchy:
+    cid = cont["id"]; n2c[cid] = cid
+    for ch in cont.get("children",[]):
+        n2c[ch["id"]] = cid
+        for gc in ch.get("children",[]): n2c[gc["id"]] = cid
+
+# ─── Asset planes (in-scene image nodes) ───
+# For each overlay timeline entry, create a large billboard plane textured
+# with the asset PNG, positioned just outside its parent node in the
+# direction pointing away from the container center. The plane is hidden
+# by default and toggled visible during the entry's [start, end] window.
+asset_plane_objs = []  # list of {obj, backing, entry, edge_idx}
+ASSET_PLANE_SIZE = 14.0  # square plane side length — large enough that the
+                         # pre-padded source PNG fills roughly half the
+                         # frame even when the host sub-network is spread
+                         # out. Images with fine-print captions (Fig. 1,
+                         # 7, 11) need this to stay legible.
+
+# Pre-compute each node's first-degree neighborhood for asset placement.
+node_neighbors = {}
+for _e in edges:
+    node_neighbors.setdefault(_e["from"], set()).add(_e["to"])
+    node_neighbors.setdefault(_e["to"], set()).add(_e["from"])
+# Build a clip-start → edge index map so we can find the edge that each
+# overlay entry corresponds to.
+clip_start_to_edge_idx = {}
+for i, d in enumerate(durations):
+    if i >= len(edges): break
+    clip_start_to_edge_idx[round(d["start"], 3)] = i
+
+for ei, entry in enumerate(overlay_entries):
+    host_id = entry.get("node_id")
+    png_path = entry.get("png")
+    if not host_id or not png_path or host_id not in positions:
+        continue
+    if not os.path.exists(png_path):
+        print(f"  asset plane skip: PNG missing {png_path}")
+        continue
+    hx, hy, hz = positions[host_id]
+
+    # Find the edge that corresponds to this overlay entry (by clip start).
+    edge_idx = clip_start_to_edge_idx.get(round(entry["start"], 3))
+    if edge_idx is None:
+        mx, my, mz = hx, hy, hz
+        elen = 0.0
+    else:
+        edge = edges[edge_idx]
+        from_pos = positions.get(edge["from"])
+        to_pos   = positions.get(edge["to"])
+        if not from_pos or not to_pos:
+            mx, my, mz = hx, hy, hz
+            elen = 0.0
+        else:
+            mx = (from_pos[0] + to_pos[0]) * 0.5
+            my = (from_pos[1] + to_pos[1]) * 0.5
+            mz = (from_pos[2] + to_pos[2]) * 0.5
+            edx = to_pos[0] - from_pos[0]
+            edy = to_pos[1] - from_pos[1]
+            elen = math.sqrt(edx*edx + edy*edy) or 0.01
+
+    # Compute the host's sub-network bounding sphere: the set of positions
+    # of the host plus its immediate neighbors. This is usually much tighter
+    # than the full cluster — it's the local area the viewer cares about.
+    subnet_ids = [host_id] + [n for n in node_neighbors.get(host_id, ()) if n in positions]
+    subnet_positions = [positions[n] for n in subnet_ids]
+    sub_cx = sum(p[0] for p in subnet_positions) / len(subnet_positions)
+    sub_cy = sum(p[1] for p in subnet_positions) / len(subnet_positions)
+    sub_cz = sum(p[2] for p in subnet_positions) / len(subnet_positions)
+    sub_r = 0.0
+    for p in subnet_positions:
+        d = math.sqrt((p[0]-sub_cx)**2 + (p[1]-sub_cy)**2 + (p[2]-sub_cz)**2)
+        if d > sub_r:
+            sub_r = d
+    sub_r = max(sub_r + 1.0, 3.0)  # margin + floor so the math is stable
+
+    # Direction from sub-network center to host node (in XY)
+    dir_x = hx - sub_cx
+    dir_y = hy - sub_cy
+    dir_len = math.sqrt(dir_x * dir_x + dir_y * dir_y)
+    if dir_len < 0.1:
+        # If the host coincides with the sub-network center (e.g., degree 0
+        # fallback), pick the direction that points outward from the full
+        # cluster center instead.
+        cid = n2c.get(host_id)
+        if cid and cid in container_centers:
+            ccx_, ccy_, _, _ = container_centers[cid]
+            dir_x = hx - ccx_
+            dir_y = hy - ccy_
+            dir_len = math.sqrt(dir_x * dir_x + dir_y * dir_y) or 1.0
+        else:
+            dir_x, dir_y, dir_len = 1.0, 0.0, 1.0
+    dir_x /= dir_len
+    dir_y /= dir_len
+
+    # Plane position: outside the sub-network sphere in the host's direction.
+    offset_from_subcenter = sub_r + ASSET_PLANE_SIZE * 0.55 + 2.0
+    ax = sub_cx + dir_x * offset_from_subcenter
+    ay = sub_cy + dir_y * offset_from_subcenter
+    az = sub_cz
+
+    # Use these for the camera override too — record sub-network info.
+    ccx, ccy, ccz, cluster_radius = sub_cx, sub_cy, sub_cz, sub_r
+
+    # No backing plane: a TRACK_TO'd plane a tiny z behind the image plane
+    # causes the image to render only its upper portion (confirmed via
+    # isolated repro). The padded PNGs have dark bars matching the world
+    # background, so no frame is needed — the plane sits on the dark
+    # background directly.
+    backing = None
+
+    # Foreground asset plane — square primitive. Source PNG has been padded
+    # to square so it fills the plane cleanly via UV 0..1.
+    bpy.ops.mesh.primitive_plane_add(size=ASSET_PLANE_SIZE, location=(ax, ay, az))
+    ap = bpy.context.active_object
+    ap.name = f"AP_{ei}_{entry.get('asset_id','')}"
+    tc = ap.constraints.new('TRACK_TO')
+    tc.target = cam_obj; tc.track_axis = 'TRACK_Z'; tc.up_axis = 'UP_Y'
+    img = bpy.data.images.load(png_path, check_existing=False)
+    img.reload()
+    # Diagnostic: print mesh vertex bounds and UVs to verify they cover 0..1
+    vs = [(v.co.x, v.co.y, v.co.z) for v in ap.data.vertices]
+    xs = [v[0] for v in vs]
+    ys = [v[1] for v in vs]
+    uvs = [(uv.uv[0], uv.uv[1]) for uv in ap.data.uv_layers.active.data] if ap.data.uv_layers.active else []
+    print(f"  asset[{ei}] {os.path.basename(png_path)}  img={img.size[0]}x{img.size[1]}")
+    print(f"    verts x=[{min(xs):.2f},{max(xs):.2f}] y=[{min(ys):.2f},{max(ys):.2f}]  count={len(vs)}")
+    print(f"    uvs={uvs}")
+
+    # Pure Emission shader bypasses Principled BSDF's tonemap and gives
+    # the image texture directly as screen-visible color — preserves
+    # saturation and sharpness. Strength 1.0 = display image 1:1.
+    mat = bpy.data.materials.new(f"map_{ei}")
+    mat.use_nodes = True
+    if hasattr(mat, "blend_method"):
+        mat.blend_method = 'OPAQUE'
+    tree = mat.node_tree
+    mnodes = tree.nodes
+    mlinks = tree.links
+    # Drop the default Principled BSDF, add an Emission shader.
+    for n in list(mnodes):
+        if n.type in ('BSDF_PRINCIPLED',):
+            mnodes.remove(n)
+    out = next((n for n in mnodes if n.type == 'OUTPUT_MATERIAL'), None)
+    if out is None:
+        out = mnodes.new('ShaderNodeOutputMaterial')
+    emission = mnodes.new('ShaderNodeEmission')
+    if hasattr(img, "alpha_mode"):
+        img.alpha_mode = 'NONE'
+    tex_node = mnodes.new('ShaderNodeTexImage')
+    tex_node.image = img
+    tex_node.interpolation = 'Linear'
+    mlinks.new(tex_node.outputs['Color'], emission.inputs['Color'])
+    emission.inputs['Strength'].default_value = 1.0
+    mlinks.new(emission.outputs['Emission'], out.inputs['Surface'])
+    ap.data.materials.append(mat)
+
+    # Plane starts hidden
+    ap.hide_render = True
+    ap.hide_viewport = True
+    ap.keyframe_insert(data_path="hide_render", frame=1)
+    ap.keyframe_insert(data_path="hide_viewport", frame=1)
+
+    asset_plane_objs.append({
+        "obj": ap, "backing": backing, "entry": entry,
+        "center": (ax, ay, az),
+        "plane_w": ASSET_PLANE_SIZE, "plane_h": ASSET_PLANE_SIZE,
+        "host_pos": (hx, hy, hz),
+        "edge_midpoint": (mx, my, mz),
+        "edge_length": elen,
+        "edge_idx": edge_idx,
+        "cluster_center": (ccx, ccy, ccz),
+        "cluster_radius": cluster_radius,
+    })
+
+print(f"Asset planes: {len(asset_plane_objs)} in-scene image nodes")
+
+# ─── Animation ───
+total_dur = sum(d["duration"] for d in durations)
+total_frames = int(total_dur * FPS) + FPS
+bpy.context.scene.frame_end = total_frames
+bpy.context.scene.render.fps = FPS
+print(f"Animation: {total_frames} frames ({total_dur:.0f}s)")
+
+def key_emit(mat, frame, strength, color=None):
+    nodes = mat.node_tree.nodes
+    if "Principled BSDF" in nodes:
+        b = nodes["Principled BSDF"]
+        b.inputs["Emission Strength"].default_value = strength
+        b.inputs["Emission Strength"].keyframe_insert(data_path="default_value", frame=frame)
+        if color:
+            b.inputs["Emission Color"].default_value = (*color,1)
+            b.inputs["Emission Color"].keyframe_insert(data_path="default_value", frame=frame)
+            b.inputs["Base Color"].default_value = (*color,1)
+            b.inputs["Base Color"].keyframe_insert(data_path="default_value", frame=frame)
+        return
+    emission_node = next((n for n in nodes if n.type == 'EMISSION'), None)
+    if emission_node:
+        emission_node.inputs["Strength"].default_value = strength
+        emission_node.inputs["Strength"].keyframe_insert(data_path="default_value", frame=frame)
+
+def key_vis(obj, frame, vis):
+    obj.hide_render = not vis; obj.hide_viewport = not vis
+    obj.keyframe_insert(data_path="hide_render", frame=frame)
+    obj.keyframe_insert(data_path="hide_viewport", frame=frame)
+
+def key_scale(obj, frame, s):
+    obj.scale = (s,s,s)
+    obj.keyframe_insert(data_path="scale", frame=frame)
+
+def key_location(obj, frame, loc):
+    obj.location = (loc[0], loc[1], loc[2])
+    obj.keyframe_insert(data_path="location", frame=frame)
+
+# ═══════════════════════════════════════════════════════════════════════
+# VERB ANIMATION LIBRARY v3 — traveling-light pulse along the edge curve
+#
+# Every verb gets the same base motion: a lit segment travels along the
+# edge's actual Bezier curve by animating bevel_factor_start and
+# bevel_factor_end on a twin "trail" curve. Because it follows the real
+# curve geometry, the motion stays on the visible line instead of cutting
+# straight through 3D space.
+#
+# Per-verb differences are four parameters ONLY:
+#   color         — rgb of the traveling pulse
+#   direction     — 'forward' (S→O), 'reverse' (O→S), 'bidirectional',
+#                   or 'middle_out' (emanate from midpoint)
+#   speed_profile — 'steady', 'burst' (fast early), 'pulse' (short pulses),
+#                   'slow' (long), 'trail_length' (0.05..0.4 segment length)
+#   subj_react / obj_react — how strongly the endpoint nodes glow+scale
+#
+# No node location changes. Nodes stay where they are; the action is
+# read from the traveling pulse + the endpoint pulsing. Combined with the
+# visible verb text label above the edge, this encodes the verb redundantly
+# across three channels: motion direction, color, and text.
+# ═══════════════════════════════════════════════════════════════════════
+
+def key_bevel(curve, frame, start_f, end_f):
+    """Keyframe bevel_factor_start / bevel_factor_end on a Bezier curve.
+    Clamps to [0,1] and ensures start <= end (swapping if needed)."""
+    start_f = max(0.0, min(1.0, start_f))
+    end_f   = max(0.0, min(1.0, end_f))
+    if start_f > end_f: start_f, end_f = end_f, start_f
+    curve.bevel_factor_start = start_f
+    curve.bevel_factor_end   = end_f
+    curve.keyframe_insert(data_path="bevel_factor_start", frame=frame)
+    curve.keyframe_insert(data_path="bevel_factor_end",   frame=frame)
+
+def key_mat_color(mat, frame, color):
+    """Keyframe the Principled BSDF base color + emission color of a
+    material so the traveling pulse changes color per verb class."""
+    nodes = mat.node_tree.nodes
+    if "Principled BSDF" in nodes:
+        b = nodes["Principled BSDF"]
+        b.inputs["Base Color"].default_value = (*color, 1)
+        b.inputs["Emission Color"].default_value = (*color, 1)
+        b.inputs["Base Color"].keyframe_insert(data_path="default_value", frame=frame)
+        b.inputs["Emission Color"].keyframe_insert(data_path="default_value", frame=frame)
+
+def animate_trail(trail_curve, trail_mat, sf, ef, color, direction,
+                  trail_length=0.18):
+    """Animate a traveling-light pulse along a Bezier curve by keyframing
+    bevel_factor_start/bevel_factor_end over the edge window.
+
+    direction:
+      'forward'       — segment slides from curve start (0) to end (1)
+      'reverse'       — segment slides from end (1) to start (0)
+      'bidirectional' — TWO segments, start-inward + end-inward, meeting in middle
+      'middle_out'    — segment expands symmetrically from 0.5
+    """
+    n = max(12, ef - sf - 1)  # sample this many intermediate frames
+    L = trail_length
+    half = L / 2
+    # Set color at sf-1 so the whole animation inherits it
+    key_mat_color(trail_mat, sf-1, color)
+    key_mat_color(trail_mat, ef, color)
+
+    # Off before the window starts (zero-length segment at start)
+    key_bevel(trail_curve, sf-1, 1.0, 1.0)
+
+    for step in range(n + 1):
+        frame = sf + int((ef - sf) * step / n)
+        t = step / n  # 0..1
+
+        if direction == 'forward':
+            # Segment centered at t slides from 0 to 1
+            start_f = t - half
+            end_f   = t + half
+        elif direction == 'reverse':
+            # Segment slides from 1 to 0
+            start_f = (1 - t) - half
+            end_f   = (1 - t) + half
+        elif direction == 'middle_out':
+            # Segment expands from center outward
+            start_f = 0.5 - (t * 0.5)
+            end_f   = 0.5 + (t * 0.5)
+        else:  # 'bidirectional' — single wider segment that grows then shrinks
+            width = L + t * 0.5  # grows
+            center = 0.5
+            start_f = center - width / 2
+            end_f   = center + width / 2
+
+        key_bevel(trail_curve, frame, start_f, end_f)
+
+    # Off after the window (zero-length at end)
+    key_bevel(trail_curve, ef + 1, 1.0, 1.0)
+
+def animate_endpoints(s, o, sf, ef, subj_react=1.0, obj_react=1.0,
+                      obj_delay=0.0):
+    """Keyframe endpoint nodes' emission + scale. No location keyframes —
+    the visual action is on the trail, not on the nodes.
+
+    subj_react / obj_react: 0..2 amplitude multiplier for glow + scale.
+    obj_delay: 0..1, fraction of the window to delay the object's reaction
+    (used for 'enables', 'produces' where the effect arrives after a beat).
+    """
+    s_peak = sf + int((ef - sf) * 0.25)
+    o_peak = sf + int((ef - sf) * (0.4 + obj_delay * 0.4))
+    key_emit(s["mat"], sf-1, 0.5, NODE_COL); key_scale(s["obj"], sf-1, 1.0)
+    key_emit(s["mat"], s_peak, 6.0 + 8.0*subj_react, ACCENT)
+    key_scale(s["obj"], s_peak, 1.0 + 0.6*subj_react)
+    key_emit(s["mat"], ef-3, 4.0, ACCENT); key_scale(s["obj"], ef-3, 1.2)
+    key_emit(s["mat"], ef, 1.0, NODE_COL); key_scale(s["obj"], ef, 1.0)
+    key_emit(o["mat"], sf-1, 0.5, NODE_COL); key_scale(o["obj"], sf-1, 1.0)
+    key_emit(o["mat"], o_peak, 6.0 + 8.0*obj_react, ACCENT)
+    key_scale(o["obj"], o_peak, 1.0 + 0.6*obj_react)
+    key_emit(o["mat"], ef-3, 4.0, ACCENT); key_scale(o["obj"], ef-3, 1.2)
+    key_emit(o["mat"], ef, 1.0, NODE_COL); key_scale(o["obj"], ef, 1.0)
+
+# Verb spec palette — every verb class reduces to these colors so the viewer
+# learns to read the color channel as verb-polarity.
+C_DEFAULT    = (1.0, 0.55, 0.1)   # orange — neutral action
+C_CONTAINS   = (1.0, 0.75, 0.2)   # warm yellow — structural / inclusion
+C_PRODUCES   = (1.0, 0.95, 0.4)   # bright gold — creation / output
+C_TRANSFORM  = (0.7, 0.5, 1.0)    # violet — change of kind
+C_FLOW       = (0.2, 0.8, 1.0)    # cyan — data / flow / feeds_into
+C_ENABLE     = (1.0, 0.65, 0.2)   # amber — enablement / trigger
+C_REQUIRE    = (0.6, 0.6, 0.9)    # muted blue-grey — dependency
+C_BETTER     = (0.3, 1.0, 0.4)    # green — improvement / outperforms
+C_ATTEND     = (1.0, 0.3, 0.9)    # magenta — attention / focus
+C_USE        = (1.0, 0.5, 0.3)    # coral — usage / operation
+C_OPPOSE     = (1.0, 0.25, 0.2)   # red — conflict / opposition
+C_RELATE     = (0.9, 0.9, 0.9)    # white — symmetric relation
+
+# Per verb class: (color, direction, trail_length, subj_react, obj_react, obj_delay).
+# direction: 'forward' (S→O), 'reverse' (O→S), 'bidirectional', 'middle_out'.
+# A sensible default is 'forward'.
+VS = {
+    # containment / composition — warm yellow forward pulse, long segment
+    'contains':       (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'consists_of':    (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'has':            (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'composed_of':    (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'includes':       (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'part_of':        (C_CONTAINS, 'reverse', 0.22, 0.8, 1.2, 0.0),
+    'comprises':      (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'made_of':        (C_CONTAINS, 'forward', 0.22, 1.2, 0.8, 0.0),
+    'built_from':     (C_CONTAINS, 'reverse', 0.22, 0.8, 1.2, 0.0),
+
+    # substitution / elimination — red reverse pulse (new replaces old)
+    'replaces':       (C_OPPOSE, 'forward', 0.15, 1.3, 0.6, 0.0),
+    'eliminates':     (C_OPPOSE, 'forward', 0.12, 1.4, 0.4, 0.0),
+    'supersedes':     (C_OPPOSE, 'forward', 0.15, 1.3, 0.6, 0.0),
+    'substitutes':    (C_OPPOSE, 'forward', 0.15, 1.3, 0.6, 0.0),
+    'removes':        (C_OPPOSE, 'forward', 0.12, 1.4, 0.4, 0.0),
+    'avoids':         (C_OPPOSE, 'forward', 0.12, 1.4, 0.4, 0.0),
+
+    # production / creation — bright gold forward pulse, short burst
+    'produces':       (C_PRODUCES, 'forward', 0.12, 1.5, 1.2, 0.3),
+    'generates':      (C_PRODUCES, 'forward', 0.12, 1.5, 1.2, 0.3),
+    'creates':        (C_PRODUCES, 'forward', 0.12, 1.5, 1.2, 0.3),
+    'emits':          (C_PRODUCES, 'forward', 0.10, 1.5, 1.0, 0.3),
+    'outputs':        (C_PRODUCES, 'forward', 0.12, 1.3, 1.2, 0.3),
+    'yields':         (C_PRODUCES, 'forward', 0.12, 1.3, 1.2, 0.3),
+    'introduces':     (C_PRODUCES, 'forward', 0.15, 1.3, 1.3, 0.3),
+    'presents':       (C_PRODUCES, 'forward', 0.15, 1.3, 1.3, 0.3),
+    'achieves':       (C_PRODUCES, 'forward', 0.12, 1.5, 1.2, 0.3),
+    'delivers':       (C_PRODUCES, 'forward', 0.12, 1.5, 1.2, 0.3),
+    'provides':       (C_PRODUCES, 'forward', 0.12, 1.3, 1.2, 0.3),
+    'gives':          (C_PRODUCES, 'forward', 0.12, 1.3, 1.2, 0.3),
+    'showcases':      (C_PRODUCES, 'forward', 0.15, 1.3, 1.3, 0.2),
+    'showcase':       (C_PRODUCES, 'forward', 0.15, 1.3, 1.3, 0.2),
+    'demonstrates':   (C_PRODUCES, 'forward', 0.15, 1.3, 1.3, 0.2),
+
+    # transformation — violet forward pulse, medium segment
+    'transforms_into':(C_TRANSFORM, 'forward', 0.2, 1.2, 1.2, 0.2),
+    'transforms':     (C_TRANSFORM, 'forward', 0.2, 1.2, 1.2, 0.2),
+    'becomes':        (C_TRANSFORM, 'forward', 0.2, 1.0, 1.4, 0.3),
+    'converts_to':    (C_TRANSFORM, 'forward', 0.2, 1.2, 1.2, 0.2),
+    'converts':       (C_TRANSFORM, 'forward', 0.2, 1.2, 1.2, 0.2),
+    'maps_to':        (C_TRANSFORM, 'forward', 0.2, 1.0, 1.2, 0.2),
+    'projects_into':  (C_TRANSFORM, 'forward', 0.2, 1.2, 1.0, 0.2),
+    'translates_to':  (C_TRANSFORM, 'forward', 0.2, 1.2, 1.0, 0.2),
+    'turns_into':     (C_TRANSFORM, 'forward', 0.2, 1.2, 1.2, 0.2),
+
+    # data flow / feeds — cyan, slow steady forward pulse (long segment)
+    'feeds_into':     (C_FLOW, 'forward', 0.28, 1.0, 1.2, 0.2),
+    'flows_to':       (C_FLOW, 'forward', 0.28, 1.0, 1.2, 0.2),
+    'passes_to':      (C_FLOW, 'forward', 0.28, 1.0, 1.2, 0.2),
+    'streams_to':     (C_FLOW, 'forward', 0.28, 1.0, 1.2, 0.2),
+    'propagates_to':  (C_FLOW, 'forward', 0.28, 1.0, 1.2, 0.2),
+    'connects_to':    (C_FLOW, 'bidirectional', 0.3, 1.0, 1.0, 0.0),
+    'links_to':       (C_FLOW, 'bidirectional', 0.3, 1.0, 1.0, 0.0),
+    'sends_to':       (C_FLOW, 'forward', 0.2, 1.0, 1.2, 0.2),
+
+    # enablement — amber forward pulse, object reacts after a delay
+    'enables':        (C_ENABLE, 'forward', 0.18, 1.3, 1.5, 0.4),
+    'enable':         (C_ENABLE, 'forward', 0.18, 1.3, 1.5, 0.4),
+    'allows':         (C_ENABLE, 'forward', 0.18, 1.3, 1.5, 0.4),
+    'allow':          (C_ENABLE, 'forward', 0.18, 1.3, 1.5, 0.4),
+    'makes_possible': (C_ENABLE, 'forward', 0.18, 1.3, 1.5, 0.4),
+    'triggers':       (C_ENABLE, 'forward', 0.12, 1.5, 1.5, 0.4),
+    'activates':      (C_ENABLE, 'forward', 0.12, 1.5, 1.5, 0.4),
+    'supports':       (C_ENABLE, 'forward', 0.22, 1.2, 1.2, 0.3),
+    'facilitates':    (C_ENABLE, 'forward', 0.22, 1.2, 1.2, 0.3),
+
+    # dependency — muted blue-grey REVERSE pulse (object depends on subject)
+    'requires':       (C_REQUIRE, 'reverse', 0.2, 1.4, 0.8, 0.0),
+    'depends_on':     (C_REQUIRE, 'reverse', 0.2, 1.4, 0.8, 0.0),
+    'needs':          (C_REQUIRE, 'reverse', 0.2, 1.4, 0.8, 0.0),
+    'required_for':   (C_REQUIRE, 'forward', 0.2, 1.0, 1.4, 0.0),
+    'relies_on':      (C_REQUIRE, 'reverse', 0.2, 1.4, 0.8, 0.0),
+
+    # comparison / superiority — green forward pulse with big subject reaction
+    'outperforms':    (C_BETTER, 'forward', 0.14, 1.7, 0.6, 0.0),
+    'better_than':    (C_BETTER, 'forward', 0.14, 1.7, 0.6, 0.0),
+    'surpasses':      (C_BETTER, 'forward', 0.14, 1.7, 0.6, 0.0),
+    'beats':          (C_BETTER, 'forward', 0.12, 1.7, 0.5, 0.0),
+    'exceeds':        (C_BETTER, 'forward', 0.14, 1.7, 0.6, 0.0),
+    'improves':       (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+    'enhances':       (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+    'refines':        (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+    'optimizes':      (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+    'boosts':         (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+    'strengthens':    (C_BETTER, 'forward', 0.18, 1.0, 1.5, 0.3),
+
+    # attention / focus — magenta forward pulse, sharp subject reaction
+    'attends_to':     (C_ATTEND, 'forward', 0.1, 1.8, 0.8, 0.3),
+    'focuses_on':     (C_ATTEND, 'forward', 0.1, 1.8, 0.8, 0.3),
+    'attends':        (C_ATTEND, 'forward', 0.1, 1.8, 0.8, 0.3),
+    'queries':        (C_ATTEND, 'forward', 0.1, 1.8, 0.8, 0.3),
+    'caters_to':      (C_ATTEND, 'forward', 0.12, 1.3, 1.2, 0.2),
+    'addresses':      (C_ATTEND, 'forward', 0.12, 1.3, 1.2, 0.2),
+    'targets':        (C_ATTEND, 'forward', 0.1, 1.6, 1.0, 0.2),
+
+    # usage / operation — coral REVERSE pulse (subject uses the object)
+    'uses':           (C_USE, 'reverse', 0.18, 1.4, 1.0, 0.0),
+    'operates_on':    (C_USE, 'reverse', 0.18, 1.4, 1.0, 0.0),
+    'works_on':       (C_USE, 'reverse', 0.18, 1.4, 1.0, 0.0),
+    'processes':      (C_USE, 'reverse', 0.18, 1.4, 1.0, 0.0),
+    'applies_to':     (C_USE, 'forward', 0.18, 1.2, 1.2, 0.2),
+    'handles':        (C_USE, 'reverse', 0.18, 1.4, 1.0, 0.0),
+
+    # opposition / conflict — red BIDIRECTIONAL pulse, both nodes push back
+    'opposes':        (C_OPPOSE, 'bidirectional', 0.25, 1.4, 1.4, 0.0),
+    'conflicts_with': (C_OPPOSE, 'bidirectional', 0.25, 1.4, 1.4, 0.0),
+    'contradicts':    (C_OPPOSE, 'bidirectional', 0.25, 1.4, 1.4, 0.0),
+    'differs_from':   (C_OPPOSE, 'bidirectional', 0.25, 1.2, 1.2, 0.0),
+    'prevents':       (C_OPPOSE, 'forward', 0.15, 1.5, 0.4, 0.0),
+    'blocks':         (C_OPPOSE, 'forward', 0.15, 1.5, 0.4, 0.0),
+
+    # relation (symmetric) — white bidirectional pulse
+    'relates':        (C_RELATE, 'bidirectional', 0.25, 1.0, 1.0, 0.0),
+    'relates_to':     (C_RELATE, 'bidirectional', 0.25, 1.0, 1.0, 0.0),
+    'associated_with':(C_RELATE, 'bidirectional', 0.25, 1.0, 1.0, 0.0),
+    'linked_with':    (C_RELATE, 'bidirectional', 0.25, 1.0, 1.0, 0.0),
+    'corresponds_to': (C_RELATE, 'bidirectional', 0.25, 1.0, 1.0, 0.0),
+}
+
+# Default spec for unknown verbs — a neutral orange forward pulse so every
+# edge still gets SOMETHING visible, regardless of whether we recognize the verb.
+VS_DEFAULT = (C_DEFAULT, 'forward', 0.18, 1.0, 1.0, 0.0)
+
+def dispatch_verb_animation(verb, s, o, trail_curve, trail_mat, sf, ef):
+    """Pick the verb spec, animate the traveling-light pulse along the edge
+    curve, pulse the endpoint nodes. Unknown verbs use VS_DEFAULT so every
+    edge gets SOME animation — no silent fall-through."""
+    key = (verb or '').strip().lower().replace(' ', '_').replace('-', '_')
+    color, direction, trail_length, subj_r, obj_r, obj_delay = VS.get(key, VS_DEFAULT)
+    animate_trail(trail_curve, trail_mat, sf, ef, color, direction, trail_length)
+    animate_endpoints(s, o, sf, ef, subj_react=subj_r, obj_react=obj_r, obj_delay=obj_delay)
+
+# ─── Keyframe each edge ───
+for i, di in enumerate(durations):
+    if i >= len(edges): break
+    e = edges[i]
+    sf = int(di["start"] * FPS)
+    ef = int((di["start"] + di["duration"]) * FPS)
+
+    # Verb-driven traveling-light animation (v3). A lit segment pulses along
+    # the edge's actual Bezier curve via bevel_factor_start/end keyframes on
+    # a twin "trail" curve — motion follows the visible line exactly.
+    # Unknown verbs use VS_DEFAULT, so every edge animates.
+    subj_no = node_objs.get(e["from"])
+    obj_no  = node_objs.get(e["to"])
+    if subj_no and obj_no and i < len(edge_objs) and edge_objs[i]:
+        eo = edge_objs[i]
+        dispatch_verb_animation(
+            e.get("verb", ""),
+            subj_no, obj_no,
+            eo["trail_curve"], eo["trail_mat"],
+            sf, ef,
+        )
+    for nid in [e["from"], e["to"]]:
+        if nid not in node_objs: continue
+        no = node_objs[nid]
+        # Show the label + backdrop throughout this edge's window.
+        # This is the ONLY time this node's label is visible (unless it's
+        # an endpoint of another edge too). Crosses stay hidden.
+        lbl_obj = no.get("label")
+        bg_obj = no.get("label_bg")
+        if lbl_obj is not None:
+            key_vis(lbl_obj, max(1, sf - 2), False)  # hide just before
+            key_vis(lbl_obj, sf, True)               # show at start
+            key_vis(lbl_obj, ef, True)               # still shown at end
+            key_vis(lbl_obj, ef + 2, False)          # hide just after
+        if bg_obj is not None:
+            key_vis(bg_obj, max(1, sf - 2), False)
+            key_vis(bg_obj, sf, True)
+            key_vis(bg_obj, ef, True)
+            key_vis(bg_obj, ef + 2, False)
+        if no.get("label_mat"):
+            lm = no["label_mat"]
+            key_emit(lm, sf-1, 2.5, (1.0, 1.0, 1.0))
+            key_emit(lm, sf+3, 12.0, ACCENT)
+            key_emit(lm, ef-3, 12.0, ACCENT)
+            key_emit(lm, ef, 2.5, (1.0, 1.0, 1.0))
+
+    # Show edge + verb
+    if i < len(edge_objs) and edge_objs[i]:
+        eo = edge_objs[i]
+        key_vis(eo["obj"], sf-1, False)
+        key_vis(eo["obj"], sf, True)
+        key_emit(eo["mat"], sf, 4.0, ACCENT)
+        key_emit(eo["mat"], ef, 0.5, (0.4,0.4,0.5))
+        # Verb text label — show ONLY during edge window (hidden otherwise)
+        if eo.get("vlabel"):
+            vl = eo["vlabel"]
+            key_vis(vl, max(1, sf - 2), False)
+            key_vis(vl, sf, True)
+            key_vis(vl, ef, True)
+            key_vis(vl, ef + 2, False)
+        if eo.get("vlabel_bg"):
+            vbg = eo["vlabel_bg"]
+            key_vis(vbg, max(1, sf - 2), False)
+            key_vis(vbg, sf, True)
+            key_vis(vbg, ef, True)
+            key_vis(vbg, ef + 2, False)
+        if eo.get("vlabel_mat"):
+            vlm = eo["vlabel_mat"]
+            key_emit(vlm, sf-1, 2.0, (1.0, 0.95, 0.7))
+            key_emit(vlm, sf+3, 15.0, ACCENT)
+            key_emit(vlm, ef-3, 15.0, ACCENT)
+            key_emit(vlm, ef, 2.0, (1.0, 0.95, 0.7))
+
+    # Cluster labels: show during the TAIL of this edge (zoom-out phase) and
+    # into the silence gap so the viewer sees the cluster context during the
+    # overview moment. Hide again at the next edge's zoom-in end.
+    zoom_out_start = sf + int((ef - sf) * HOLD_FRACTION)  # same as hold_end
+    next_zoom_in_end = ef  # default; overwritten below if there's a next edge
+    if i + 1 < len(durations) and i + 1 < len(edges):
+        next_sf = int(durations[i + 1]["start"] * FPS)
+        next_ef = int((durations[i + 1]["start"] + durations[i + 1]["duration"]) * FPS)
+        next_zoom_in_end = next_sf + max(1, int((next_ef - next_sf) * TRANSITION_FRACTION))
+    # Show the clusters that contain the subject and object for this edge
+    active_cluster_ids = set(filter(None, [n2c.get(e["from"]), n2c.get(e["to"])]))
+    for cid in active_cluster_ids:
+        if cid in cont_objs and cont_objs[cid].get("label") is not None:
+            cl = cont_objs[cid]["label"]
+            key_vis(cl, max(1, zoom_out_start - 2), False)  # still hidden
+            key_vis(cl, zoom_out_start, True)                # appear as zoom-out begins
+            key_vis(cl, next_zoom_in_end, True)              # still visible at zoom-in end
+            key_vis(cl, next_zoom_in_end + 2, False)         # hide as we close in on next
+
+    # Container glow (only when there's an actual shell material — skipped
+    # in NO_CONTAINERS mode where cont_objs[cid]["mat"] is None)
+    for cid in set(filter(None, [n2c.get(e["from"]), n2c.get(e["to"])])):
+        if cid in cont_objs:
+            co = cont_objs[cid]
+            if co.get("mat") is not None:
+                key_emit(co["mat"], sf-1, 0.3, co["col"])
+                key_emit(co["mat"], sf+3, 2.0, ACCENT)
+                key_emit(co["mat"], ef-3, 2.0, ACCENT)
+                key_emit(co["mat"], ef, 0.3, co["col"])
+
+# ─── Asset plane visibility keyframes ───
+# Each plane pops on at its entry.start and off at entry.end. Constant
+# interpolation is enforced by Blender for hide_* keyframes so the toggle
+# is instantaneous — no fade (hide_* is a boolean). Both the foreground
+# image plane and the dark backing plane toggle together.
+for ap_info in asset_plane_objs:
+    entry = ap_info["entry"]
+    sf = max(2, int(entry["start"] * FPS))
+    ef = int(entry["end"] * FPS)
+    obj = ap_info["obj"]
+    obj.hide_render = True
+    obj.hide_viewport = True
+    obj.keyframe_insert(data_path="hide_render", frame=sf - 1)
+    obj.keyframe_insert(data_path="hide_viewport", frame=sf - 1)
+    obj.hide_render = False
+    obj.hide_viewport = False
+    obj.keyframe_insert(data_path="hide_render", frame=sf)
+    obj.keyframe_insert(data_path="hide_viewport", frame=sf)
+    obj.keyframe_insert(data_path="hide_render", frame=ef)
+    obj.keyframe_insert(data_path="hide_viewport", frame=ef)
+    obj.hide_render = True
+    obj.hide_viewport = True
+    obj.keyframe_insert(data_path="hide_render", frame=ef + 1)
+    obj.keyframe_insert(data_path="hide_viewport", frame=ef + 1)
+
+# ─── Camera: orbit around the constellation, tracking active edges ───
+# Opening: far enough to see all containers, looking at origin.
+# Scale with the actual layout size so sparse graphs don't appear as a tiny clump.
+_cam_open_dist = SPHERE_R * 2.6
+cam_obj.location = (0, -_cam_open_dist, _cam_open_dist * 0.55)
+dir_vec = mathutils.Vector((0,0,0)) - mathutils.Vector(cam_obj.location)
+cam_obj.rotation_euler = dir_vec.to_track_quat('-Z', 'Y').to_euler()
+cam_obj.keyframe_insert(data_path="location", frame=1)
+cam_obj.keyframe_insert(data_path="rotation_euler", frame=1)
+# NOTE: dropped the 3-second opening hold that used to live here — the
+# first overlay-window camera override (at frame 2) should own the view
+# for the entirety of the first asset window, not fight with an opening
+# hold keyframe at frame 72.
+
+# Camera tracks each active edge
+for i, di in enumerate(durations):
+    if i >= len(edges): break
+    e = edges[i]
+    xs, ys, zs = [], [], []
+    for nid in [e["from"], e["to"]]:
+        if nid in positions:
+            xs.append(positions[nid][0]); ys.append(positions[nid][1]); zs.append(positions[nid][2])
+    if not xs: continue
+    tx, ty, tz = sum(xs)/len(xs), sum(ys)/len(ys), sum(zs)/len(zs)
+    # Camera orbits: position on a sphere around the target
+    dist = 18.0
+    angle = (i / len(edges)) * math.pi * 2  # slowly orbit
+    cx = tx + dist * math.cos(angle) * 0.3
+    cy = ty - dist * 0.8
+    cz = tz + dist * math.sin(angle) * 0.3 + 5
+
+    frame = int(di["start"] * FPS)
+    cam_obj.location = (cx, cy, cz)
+    cam_obj.keyframe_insert(data_path="location", frame=frame)
+    # Look at target
+    direction = (tx - cx, ty - cy, tz - cz)
+    rot = mathutils.Vector(direction).to_track_quat('-Z', 'Y').to_euler()
+    cam_obj.rotation_euler = rot
+    cam_obj.keyframe_insert(data_path="rotation_euler", frame=frame)
+
+import mathutils
+
+# Redo camera with mathutils available.
+#
+# NEW camera choreography per triple (SPO):
+#   [start_frame] → close-in on the triple (position C_i)
+#   [hold_end_frame] → still close-in (held during narration)
+#   [midpoint_out_frame] → ZOOMED OUT between triple i and triple i+1
+#                          (camera pulled back to show both + context)
+#   [next_start_frame] → close-in on the next triple (position C_{i+1})
+#
+# Camera choreography based on human visual/spatial cognition research:
+#   * Heer & Robertson 2007: animated transitions help tracking, 1-1.5s for simple
+#   * Bartram & Ware 2002: 3D viewpoint changes need 1.5-2.5s to avoid disorientation
+#   * Shneiderman overview-first: need brief overview (~0.5s) before diving to detail
+#   * Film editing convention: 2-4s per "shot" for comprehension
+#
+# TIMING MODEL (per-edge with transitions straddling the boundary):
+#   [0        → 75%]   CLOSE-IN HOLD on current triple
+#   [75%      → 100%]  ZOOM OUT starts (lasts ~25% of this edge's duration)
+#   [0.4s silence gap] OVERVIEW HOLD (both triples visible)
+#   [0        → 25%]   ZOOM IN to next triple (first 25% of next edge's duration)
+#   [25%      → 100%]  CLOSE-IN HOLD on next triple
+#
+# For a typical 7s edge this means ~1.75s zoom-out + 0.4s overview + 1.75s zoom-in
+# = ~3.9s of continuous smooth motion across the boundary. The viewer gets the
+# Shneiderman-style "detail → overview → detail" experience.
+# (Constants HOLD_FRACTION, TRANSITION_FRACTION, ZOOM_OUT_FACTOR are defined
+#  at the top of the file so they're accessible from both the label visibility
+#  logic and this camera section.)
+
+# PASS 1: compute close-in position for every edge — VARIED 3D POSES
+# We vary the spherical orbit angle per edge so consecutive triples are
+# seen from different 3D perspectives, giving a strong sense of depth.
+# Local FOV constants (same as the asset-plane override computes below).
+_HALF_H_FOV = math.radians(32.5)
+_HALF_V_FOV = math.radians(18.5)
+edge_cam_poses = []  # list of {cx, cy, cz, tx, ty, tz, rot, start, end, hold_end}
+
+# Compute the global scene bounding sphere so the zoom-out midpoint can
+# show the whole graph from above.
+_all_positions = list(positions.values()) if positions else [(0, 0, 0)]
+_gcx = sum(p[0] for p in _all_positions) / len(_all_positions)
+_gcy = sum(p[1] for p in _all_positions) / len(_all_positions)
+_gcz = sum(p[2] for p in _all_positions) / len(_all_positions)
+_global_r = max(
+    (math.sqrt((p[0]-_gcx)**2 + (p[1]-_gcy)**2 + (p[2]-_gcz)**2) for p in _all_positions),
+    default=20.0,
+)
+_global_r = max(_global_r, 15.0)
+
+for i, di in enumerate(durations):
+    if i >= len(edges):
+        edge_cam_poses.append(None)
+        continue
+    e = edges[i]
+    xs, ys, zs = [], [], []
+    for nid in [e["from"], e["to"]]:
+        if nid in positions:
+            xs.append(positions[nid][0]); ys.append(positions[nid][1]); zs.append(positions[nid][2])
+    if not xs:
+        edge_cam_poses.append(None)
+        continue
+    tx, ty, tz = sum(xs)/len(xs), sum(ys)/len(ys), sum(zs)/len(zs)
+    from_c = n2c.get(e["from"]); to_c = n2c.get(e["to"])
+
+    # Dynamic distance: MUST fit BOTH subject and object in frame, always.
+    # No cap on edge length — if nodes are far apart, pull the camera back
+    # enough to see both. This is non-negotiable: the user must always see
+    # where the edge starts and ends.
+    if len(xs) >= 2:
+        edge_dx = xs[1] - xs[0]
+        edge_dy = ys[1] - ys[0]
+        edge_dz = zs[1] - zs[0]
+        edge_len = math.sqrt(edge_dx*edge_dx + edge_dy*edge_dy + edge_dz*edge_dz)
+    else:
+        edge_len = 2.0
+    # Pad the edge length by 6 units horizontally for label/icon margin.
+    # Use actual edge_len (not capped) so both endpoints fit.
+    needed_h = (edge_len + 6.0) * 0.5 / math.tan(_HALF_H_FOV)
+    needed_v = 5.0 / math.tan(_HALF_V_FOV)
+    base_dist = max(needed_h, needed_v)
+    # Min 12 for short edges (prevents clipping), max 60 for very long ones
+    # (lets us see truly cross-cluster edges). 1.12x safety margin so labels
+    # near the frame edges aren't clipped.
+    dist = max(12.0, min(base_dist * 1.12, 60.0))
+
+    # OCCLUSION AVOIDANCE: approach the triple from a direction that looks
+    # OUT of the scene — so the edge is in the foreground and the rest of
+    # the graph is behind it, not in front.
+    # Primary direction: vector from scene center to edge midpoint.
+    out_x = tx - _gcx
+    out_y = ty - _gcy
+    out_z = tz - _gcz
+    out_len = math.sqrt(out_x * out_x + out_y * out_y + out_z * out_z) or 1.0
+    out_x /= out_len
+    out_y /= out_len
+    out_z /= out_len
+    # Also consider the edge's own direction — we want to look at the edge
+    # side-on so subject and object are visibly separated, not stacked.
+    if edge_len > 0.1:
+        ed_x = edge_dx / edge_len
+        ed_y = edge_dy / edge_len
+        ed_z = edge_dz / edge_len
+    else:
+        ed_x = ed_y = ed_z = 0.0
+    # Perpendicular to edge direction, combined with outward direction:
+    # cross product of edge-dir and up gives a horizontal perp; blend with
+    # outward direction so the view is BOTH side-on to the edge AND
+    # pointing outward from the cluster.
+    up_x, up_y, up_z = 0.0, 0.0, 1.0
+    perp_x = ed_y * up_z - ed_z * up_y
+    perp_y = ed_z * up_x - ed_x * up_z
+    perp_z = ed_x * up_y - ed_y * up_x
+    perp_len = math.sqrt(perp_x*perp_x + perp_y*perp_y + perp_z*perp_z) or 1.0
+    perp_x /= perp_len; perp_y /= perp_len; perp_z /= perp_len
+    # Align perp with outward direction (flip if it points inward)
+    if perp_x * out_x + perp_y * out_y + perp_z * out_z < 0:
+        perp_x, perp_y, perp_z = -perp_x, -perp_y, -perp_z
+    # Blend: 70% edge-perpendicular + 30% outward to add variation
+    blend_x = perp_x * 0.7 + out_x * 0.3
+    blend_y = perp_y * 0.7 + out_y * 0.3
+    blend_z = perp_z * 0.7 + out_z * 0.3
+    blend_len = math.sqrt(blend_x*blend_x + blend_y*blend_y + blend_z*blend_z) or 1.0
+    blend_x /= blend_len; blend_y /= blend_len; blend_z /= blend_len
+
+    # Add a small angular variation per edge for 3D feel (rotate around the
+    # edge axis by a small angle). Use a sinusoid so nearby edges look from
+    # similar but not identical angles.
+    tilt = math.radians(15) * math.sin(i * 0.5)
+    cos_t = math.cos(tilt); sin_t = math.sin(tilt)
+    # Rotate blend around edge-direction axis (ed_*) using Rodrigues' formula
+    # new = blend*cos + (axis×blend)*sin + axis*(axis·blend)*(1-cos)
+    if edge_len > 0.1:
+        ax_, ay_, az_ = ed_x, ed_y, ed_z
+        dot_ab = ax_ * blend_x + ay_ * blend_y + az_ * blend_z
+        cross_x = ay_ * blend_z - az_ * blend_y
+        cross_y = az_ * blend_x - ax_ * blend_z
+        cross_z = ax_ * blend_y - ay_ * blend_x
+        blend_x = blend_x * cos_t + cross_x * sin_t + ax_ * dot_ab * (1 - cos_t)
+        blend_y = blend_y * cos_t + cross_y * sin_t + ay_ * dot_ab * (1 - cos_t)
+        blend_z = blend_z * cos_t + cross_z * sin_t + az_ * dot_ab * (1 - cos_t)
+
+    # Vertical lift: add a 20° pitch up from horizontal so we look slightly
+    # down at the triple (gives depth cue). Varies slightly per edge.
+    lift_pitch = math.radians(20) + math.radians(10) * math.sin(i * 0.7)
+    # Apply lift: tilt the blend vector up
+    blend_xy_len = math.sqrt(blend_x*blend_x + blend_y*blend_y) or 1.0
+    lift_horiz = math.cos(lift_pitch)
+    lift_vert = math.sin(lift_pitch)
+    new_bx = (blend_x / blend_xy_len) * lift_horiz * blend_xy_len
+    new_by = (blend_y / blend_xy_len) * lift_horiz * blend_xy_len
+    new_bz = blend_z + lift_vert  # add upward component
+
+    # Normalize and scale by distance
+    nb_len = math.sqrt(new_bx*new_bx + new_by*new_by + new_bz*new_bz) or 1.0
+    cx = tx + (new_bx / nb_len) * dist
+    cy = ty + (new_by / nb_len) * dist
+    cz = tz + (new_bz / nb_len) * dist
+    # Expose yaw/pitch approximations for the midpoint blending code below
+    yaw = math.atan2(cx - tx, -(cy - ty))
+    pitch = lift_pitch
+
+    start_frame = int(di["start"] * FPS)
+    end_frame   = int((di["start"] + di["duration"]) * FPS)
+    # Timing points within each edge (all in frame units):
+    #   zoom_in_end   = start + 25%dur  — camera finished arriving from previous triple
+    #   hold_end      = start + 75%dur  — close-in hold ends, zoom-out begins
+    #   end           = start + 100%dur — silence gap, camera at overview
+    duration_frames = end_frame - start_frame
+    zoom_in_end_frame = start_frame + max(1, int(duration_frames * TRANSITION_FRACTION))
+    hold_end_frame = start_frame + int(duration_frames * HOLD_FRACTION)
+    hold_end_frame = max(zoom_in_end_frame + 1, hold_end_frame)
+    edge_cam_poses.append({
+        "cx": cx, "cy": cy, "cz": cz,
+        "tx": tx, "ty": ty, "tz": tz,
+        "dist": dist,
+        "yaw": yaw,
+        "pitch": pitch,
+        "start": start_frame,
+        "end": end_frame,
+        "zoom_in_end": zoom_in_end_frame,
+        "hold_end": hold_end_frame,
+    })
+
+# PASS 2: insert keyframes implementing the 4-phase per-edge animation:
+#   1. ZOOM-IN phase  [start_frame → zoom_in_end_frame]
+#      — camera interpolates from previous edge's overview to this edge's close-in
+#      — no keyframe inserted HERE; the zoom_in_end keyframe is what Blender
+#        interpolates TO from the previous edge's overview keyframe
+#   2. HOLD phase     [zoom_in_end_frame → hold_end_frame]
+#      — camera stays at close-in; keyframes at both ends create the hold
+#   3. ZOOM-OUT phase [hold_end_frame → overview_frame]
+#      — camera interpolates from close-in to overview
+#   4. OVERVIEW HOLD  [overview_frame → next_zoom_in_end_frame]
+#      — camera held at overview briefly during the silence gap
+for i, pose in enumerate(edge_cam_poses):
+    if pose is None:
+        continue
+
+    # Close-in pose (for this triple)
+    close_loc = (pose["cx"], pose["cy"], pose["cz"])
+    close_dir = mathutils.Vector((pose["tx"] - pose["cx"], pose["ty"] - pose["cy"], pose["tz"] - pose["cz"]))
+    close_rot = close_dir.to_track_quat('-Z', 'Y').to_euler()
+
+    # Keyframe at ZOOM-IN END (end of transition from previous edge)
+    # = start of hold phase. This is what the previous edge's overview
+    # keyframe interpolates TO.
+    cam_obj.location = close_loc
+    cam_obj.rotation_euler = close_rot
+    cam_obj.keyframe_insert(data_path="location", frame=pose["zoom_in_end"])
+    cam_obj.keyframe_insert(data_path="rotation_euler", frame=pose["zoom_in_end"])
+
+    # For the very first edge, also keyframe at frame=start_frame
+    # so there's a stable starting pose (no previous edge to interpolate from).
+    if i == 0 or all(p is None for p in edge_cam_poses[:i]):
+        cam_obj.keyframe_insert(data_path="location", frame=max(1, pose["start"]))
+        cam_obj.keyframe_insert(data_path="rotation_euler", frame=max(1, pose["start"]))
+
+    # Keyframe at HOLD END (start of zoom-out). Same close-in pose.
+    cam_obj.keyframe_insert(data_path="location", frame=pose["hold_end"])
+    cam_obj.keyframe_insert(data_path="rotation_euler", frame=pose["hold_end"])
+
+    # Compute the OVERVIEW pose for the transition to the next triple.
+    next_pose = None
+    for j in range(i + 1, len(edge_cam_poses)):
+        if edge_cam_poses[j] is not None:
+            next_pose = edge_cam_poses[j]
+            break
+    if next_pose is not None:
+        # Overview target: midpoint between the two triples, biased toward
+        # the global scene center for a spatial-context feel.
+        mid_tx = (pose["tx"] + next_pose["tx"]) * 0.5 * 0.6 + _gcx * 0.4
+        mid_ty = (pose["ty"] + next_pose["ty"]) * 0.5 * 0.6 + _gcy * 0.4
+        mid_tz = (pose["tz"] + next_pose["tz"]) * 0.5 * 0.6 + _gcz * 0.4
+
+        # Overview camera: pulled back by ZOOM_OUT_FACTOR, elevated slightly.
+        # Yaw interpolates between the two triples with a small twist for 3D feel.
+        mid_dist = max(_global_r * 0.9, pose["dist"] * ZOOM_OUT_FACTOR)
+        mid_yaw = (pose["yaw"] + next_pose["yaw"]) * 0.5 + math.pi / 16
+        avg_pitch = (pose["pitch"] + next_pose["pitch"]) * 0.5
+        mid_pitch = min(math.radians(42), avg_pitch + math.radians(8))
+        mid_off_x = mid_dist * math.cos(mid_pitch) * math.sin(mid_yaw)
+        mid_off_y = -mid_dist * math.cos(mid_pitch) * math.cos(mid_yaw)
+        mid_off_z = mid_dist * math.sin(mid_pitch)
+        mid_cx = mid_tx + mid_off_x
+        mid_cy = mid_ty + mid_off_y
+        mid_cz = mid_tz + mid_off_z
+
+        mid_dir = mathutils.Vector((mid_tx - mid_cx, mid_ty - mid_cy, mid_tz - mid_cz))
+        mid_rot = mid_dir.to_track_quat('-Z', 'Y').to_euler()
+
+        # The overview is HELD from end_frame to next zoom_in_end_frame,
+        # creating a brief plateau during the silence gap + start of next edge.
+        cam_obj.location = (mid_cx, mid_cy, mid_cz)
+        cam_obj.rotation_euler = mid_rot
+        cam_obj.keyframe_insert(data_path="location", frame=pose["end"])
+        cam_obj.keyframe_insert(data_path="rotation_euler", frame=pose["end"])
+    else:
+        # Last edge — no next, just hold close-in until the very end
+        cam_obj.location = close_loc
+        cam_obj.rotation_euler = close_rot
+        cam_obj.keyframe_insert(data_path="location", frame=pose["end"])
+        cam_obj.keyframe_insert(data_path="rotation_euler", frame=pose["end"])
+
+print(f"Keyframes: {len(durations)} edges + camera")
+
+# ─── Camera override for asset windows ───
+# During each overlay window, frame the host's full cluster PLUS the asset
+# plane side-by-side. The image plane sits outside the cluster sphere so
+# no sibling nodes in the sub-network are occluded; the camera pulls back
+# far enough that the whole cluster stays in view while the image is
+# prominent on the far side.
+HALF_H_FOV = math.radians(32.5)
+HALF_V_FOV = math.radians(18.5)
+for ap_info in asset_plane_objs:
+    entry = ap_info["entry"]
+    host_id = entry.get("node_id")
+    if not host_id or host_id not in positions: continue
+    ax, ay, az = ap_info["center"]
+    ccx, ccy, ccz = ap_info["cluster_center"]
+    cluster_radius = ap_info["cluster_radius"]
+    plane_w = ap_info["plane_w"]
+
+    # FIX: Image plane on ONE SIDE of the frame, host sub-network on the OTHER side.
+    # Camera target = midpoint between host node and plane, looking side-on.
+    # We cap the cluster contribution to the framing so the image always takes
+    # at least 35% of the frame width (so it stays readable).
+    hx, hy, _ = positions[host_id]
+    # Target = midpoint of host-to-plane line (NOT cluster center)
+    tx = (hx + ax) * 0.5
+    ty = (hy + ay) * 0.5
+    tz = (positions[host_id][2] + az) * 0.5
+
+    # The image plane and the host node are both visible. Frame fits both.
+    # horizontal_span = distance from host to far edge of image plane
+    host_to_plane = math.sqrt((ax - hx) ** 2 + (ay - hy) ** 2)
+    horizontal_span = host_to_plane + ASSET_PLANE_SIZE * 0.6 + 2.0
+    # Cap at a reasonable max so the camera doesn't zoom out too far
+    horizontal_span = min(horizontal_span, ASSET_PLANE_SIZE * 2.6)
+    vertical_span = ASSET_PLANE_SIZE * 1.1
+
+    fit_h = (horizontal_span * 0.5) / math.tan(HALF_H_FOV)
+    fit_v = (vertical_span * 0.5) / math.tan(HALF_V_FOV)
+    cam_dist = max(fit_h, fit_v) * 1.05
+
+    # Camera offset direction: perpendicular (in XY) to the line from
+    # host node to plane center, so we look at that line side-on with
+    # the plane on one side and the host on the other.
+    line_x = ax - hx
+    line_y = ay - hy
+    line_len = math.sqrt(line_x * line_x + line_y * line_y) or 1.0
+    line_x /= line_len
+    line_y /= line_len
+    # Perpendicular
+    perp_x, perp_y = -line_y, line_x
+    # Flip so camera is on the outside of the overall graph (farther from origin)
+    if perp_x * tx + perp_y * ty < 0:
+        perp_x, perp_y = -perp_x, -perp_y
+
+    cx = tx + perp_x * cam_dist
+    cy = ty + perp_y * cam_dist
+    cz = tz + cam_dist * 0.05  # slight elevation
+
+    sf = max(2, int(entry["start"] * FPS))
+    ef = int(entry["end"] * FPS)
+    cam_obj.location = (cx, cy, cz)
+    direction = mathutils.Vector((tx - cx, ty - cy, tz - cz))
+    rot = direction.to_track_quat('-Z', 'Y').to_euler()
+    cam_obj.rotation_euler = rot
+    cam_obj.keyframe_insert(data_path="location", frame=sf)
+    cam_obj.keyframe_insert(data_path="rotation_euler", frame=sf)
+    # HOLD on the image: camera stays put until ~0.3s before the image disappears.
+    hold_end = max(sf + 1, int(sf + (ef - sf) * HOLD_FRACTION))
+    cam_obj.keyframe_insert(data_path="location", frame=hold_end)
+    cam_obj.keyframe_insert(data_path="rotation_euler", frame=hold_end)
+
+print(f"Camera overrides: {len(asset_plane_objs)} asset windows")
+
+# ─── Audio ───
+# Priority: $NARRATION_PATH env var > narration.wav > narration.mp3
+_env_audio = os.environ.get("NARRATION_PATH", "").strip()
+_candidates = []
+if _env_audio: _candidates.append(_env_audio)
+_candidates += [
+    os.path.join(DATA_DIR, "audio_clips/narration.wav"),
+    os.path.join(DATA_DIR, "audio_clips/narration.mp3"),
+]
+audio_path = next((p for p in _candidates if os.path.exists(p)), _candidates[-1])
+try:
+    if not bpy.context.scene.sequence_editor: bpy.context.scene.sequence_editor_create()
+    bpy.context.scene.sequence_editor.strips.new_sound("Narration", audio_path, 1, 1)
+    print(f"Audio added: {audio_path}")
+except Exception as ex:
+    print(f"Audio failed ({audio_path}): {ex}")
+
+# ─── Render ───
+bpy.context.scene.render.engine = 'BLENDER_EEVEE'
+bpy.context.scene.render.resolution_x = 1920
+bpy.context.scene.render.resolution_y = 1080
+view_settings = bpy.context.scene.view_settings
+display_settings = bpy.context.scene.display_settings
+display_settings.display_device = 'sRGB'
+if hasattr(view_settings, "view_transform"):
+    # Standard view transform preserves the original colors of image
+    # textures (Wikipedia photos, PDF charts) without Filmic's desaturation.
+    try:
+        view_settings.view_transform = 'Standard'
+    except Exception:
+        view_settings.view_transform = 'Filmic'
+if hasattr(view_settings, "look"):
+    view_settings.look = 'None'
+if hasattr(view_settings, "exposure"):
+    view_settings.exposure = 0.0
+if hasattr(view_settings, "gamma"):
+    view_settings.gamma = 1.0
+eevee = bpy.context.scene.eevee
+if hasattr(eevee, "use_ssr"):
+    eevee.use_ssr = True
+if hasattr(eevee, "use_ssr_refraction"):
+    eevee.use_ssr_refraction = True
+if hasattr(eevee, "taa_render_samples"):
+    eevee.taa_render_samples = 32
+if hasattr(eevee, "shadow_cube_size"):
+    eevee.shadow_cube_size = '1024'
+if hasattr(eevee, "shadow_cascade_size"):
+    eevee.shadow_cascade_size = '1024'
+
+# ─── Save ───
+blend_path = os.environ.get("TEXTVIS_BLEND") or os.path.join(DATA_DIR, "textvis_animated.blend")
+bpy.ops.wm.save_as_mainfile(filepath=blend_path)
+print(f"Saved: {blend_path}")

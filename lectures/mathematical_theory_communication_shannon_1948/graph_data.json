@@ -1,0 +1,1420 @@
+{
+  "nodes": [
+    {
+      "id": "introduction",
+      "label": "Introduction to Mathematical Communication Theory",
+      "type": "presentation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "information_transmission",
+      "label": "information transmission",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "channel",
+      "label": "Transmission channel",
+      "type": "channel",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "groundwork",
+      "label": "groundwork",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "math_comm_theory",
+      "label": "Mathematical Communication Theory",
+      "type": "theory",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "complex_topic",
+      "label": "Complex topics in communication systems",
+      "type": "topics",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "mathemat_underpinning",
+      "label": "Mathematical underpinnings",
+      "type": "underpinnings",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "foundational_knowledge",
+      "label": "Foundational knowledge",
+      "type": "knowledge",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "stage",
+      "label": "stage",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "motivation_modulation",
+      "label": "Motivation for modulation",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "efficient_transmission",
+      "label": "Efficient transmission",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "communication_channel",
+      "label": "Communication channel",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "modulated_signal",
+      "label": "Modulated carrier signal",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "transmission_speed",
+      "label": "Transmission speed",
+      "type": "faster",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "transmission_reliability",
+      "label": "Transmission reliability",
+      "type": "greater",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "adaptation_proces",
+      "label": "Adaptation process",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "phy_constraint",
+      "label": "Physical constraints",
+      "type": "constraint",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "transmission_medium",
+      "label": "Transmission medium",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scene_3",
+      "label": "Scene 3",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "nyquist_contribution",
+      "label": "nyquist contributions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "hartley_contribution",
+      "label": "hartley contributions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "fundamental_concept",
+      "label": "Fundamental concepts",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "information_capacity",
+      "label": "information capacity",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "nyquist_rate",
+      "label": "nyquist rate",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "hartley_law",
+      "label": "hartleys law",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "set_of_pos_message",
+      "label": "Set of possible messages",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transmission_efficiency",
+      "label": "Transmission efficiency",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "minimized_error",
+      "label": "Minimized errors",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "measure_of_information",
+      "label": "Measure of information",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "quantification_and_transmission",
+      "label": "Quantification and transmission of data",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "bit_a_unit",
+      "label": "Bit as a unit of information",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "bit",
+      "label": "bit",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "choice",
+      "label": "Choice between two equally likely outcomes",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "binary_digit",
+      "label": "Binary digit",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "zero_one",
+      "label": "Either 0 or 1",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "discrete_source",
+      "label": "Discrete information sources",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "property",
+      "label": "Properties of information sources",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "behavior",
+      "label": "behaviors",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "continu_source",
+      "label": "Continuous information sources",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "by_specific_property_and_behavior",
+      "label": "by specific properties and behaviors",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "transmitter_functionality",
+      "label": "Transmitter functionality",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "communication_system",
+      "label": "Various communication systems",
+      "type": "world",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "message_encoding",
+      "label": "Message encoding",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "signal_transmission",
+      "label": "Signal transmission",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "digital_data",
+      "label": "Digital data",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "analog_signal",
+      "label": "Analog signal",
+      "type": "signal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "discrete_channel_capacity_formula",
+      "label": "Discrete channel capacity formula",
+      "type": "formula",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "without_error",
+      "label": "Without error",
+      "type": "constraint",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "reli_transmission",
+      "label": "Reliable transmission",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "distinct_symbol",
+      "label": "Distinct symbols",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "determinant_equation_for_capacity",
+      "label": "determinant equation for capacity",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "weight_and_distance",
+      "label": "Weights and distances between different states",
+      "type": "input",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "maximum_capacity",
+      "label": "Maximum capacity of a communication channel",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "rate_of_transmission",
+      "label": "Rate of transmission",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "data_transfer",
+      "label": "Data transfer efficiency",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "calculation_efficiency",
+      "label": "Calculation efficiency",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dimension_rate",
+      "label": "Dimension rate measure",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "specific_rate",
+      "label": "Specific encoding rate",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "number_dimension",
+      "label": "Number of dimensions required",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "data_transmission",
+      "label": "Data transmission efficiency",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "encoding_scheme",
+      "label": "Encoding schemes",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "signal_distance",
+      "label": "Signal distance comparisons",
+      "type": "comparison",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "communication_efficiency",
+      "label": "Communication efficiency",
+      "type": "efficiency",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "communication_reliability",
+      "label": "Communication reliability",
+      "type": "reliability",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "importance_understanding",
+      "label": "Importance of understanding signal differences",
+      "type": "importance",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "number_of_dimension",
+      "label": "number of dimensions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "transmission_information",
+      "label": "Effective transmission of information",
+      "type": "communication",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "capacity_efficiency",
+      "label": "Capacity and efficiency of communication channels",
+      "type": "complexity",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "summary_key_concept",
+      "label": "summary key concepts",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "information_theory",
+      "label": "Information theory",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "pract_application",
+      "label": "Practical applications",
+      "type": "application",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "message_selection",
+      "label": "Message selection",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "definition_of_bit",
+      "label": "Definition of a bit",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transmitter_role",
+      "label": "Role of transmitters",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "transmission_rate_calculation",
+      "label": "Calculation of transmission rates",
+      "type": "calculation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "future_research",
+      "label": "Future research",
+      "type": "research",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "complex_topic",
+      "to": "mathemat_underpinning",
+      "verb": "consists of",
+      "time": 18.080000000000002,
+      "cluster": 0
+    },
+    {
+      "from": "groundwork",
+      "to": "math_comm_theory",
+      "verb": "lay",
+      "time": 7.018666666666666,
+      "cluster": 0
+    },
+    {
+      "from": "signal_distance",
+      "to": "communication_efficiency",
+      "verb": "affects",
+      "time": 13.248,
+      "cluster": 5
+    },
+    {
+      "from": "signal_distance",
+      "to": "communication_reliability",
+      "verb": "affects",
+      "time": 21.354666666666667,
+      "cluster": 5
+    },
+    {
+      "from": "scene_3",
+      "to": "nyquist_contribution",
+      "verb": "relates",
+      "time": 29.525333333333336,
+      "cluster": 0
+    },
+    {
+      "from": "nyquist_rate",
+      "to": "nyquist_contribution",
+      "verb": "introduced by",
+      "time": 35.94666666666667,
+      "cluster": 0
+    },
+    {
+      "from": "introduction",
+      "to": "channel",
+      "verb": "consists of",
+      "time": 42.21866666666667,
+      "cluster": 0
+    },
+    {
+      "from": "message_selection",
+      "to": "set_of_pos_message",
+      "verb": "relates",
+      "time": 49.17333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "bit",
+      "to": "choice",
+      "verb": "consists of",
+      "time": 56.98133333333334,
+      "cluster": 1
+    },
+    {
+      "from": "hartley_law",
+      "to": "hartley_contribution",
+      "verb": "introduced by",
+      "time": 64.29866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "binary_digit",
+      "to": "bit",
+      "verb": "equals",
+      "time": 71.424,
+      "cluster": 1
+    },
+    {
+      "from": "measure_of_information",
+      "to": "quantification_and_transmission",
+      "verb": "consists of",
+      "time": 79.01866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "phy_constraint",
+      "to": "transmission_medium",
+      "verb": "consists of",
+      "time": 87.552,
+      "cluster": 0
+    },
+    {
+      "from": "message_encoding",
+      "to": "signal_transmission",
+      "verb": "encodes into",
+      "time": 92.13866666666668,
+      "cluster": 0
+    },
+    {
+      "from": "modulated_signal",
+      "to": "transmission_speed",
+      "verb": "produces",
+      "time": 97.92000000000002,
+      "cluster": 0
+    },
+    {
+      "from": "determinant_equation_for_capacity",
+      "to": "maximum_capacity",
+      "verb": "produces",
+      "time": 102.37866666666669,
+      "cluster": 4
+    },
+    {
+      "from": "adaptation_proces",
+      "to": "phy_constraint",
+      "verb": "operates on",
+      "time": 108.62933333333335,
+      "cluster": 0
+    },
+    {
+      "from": "continu_source",
+      "to": "discrete_source",
+      "verb": "distinguish",
+      "time": 113.21600000000002,
+      "cluster": 2
+    },
+    {
+      "from": "future_research",
+      "to": "communication_system",
+      "verb": "consists of",
+      "time": 118.40000000000002,
+      "cluster": 1
+    },
+    {
+      "from": "dimension_rate",
+      "to": "transmission_information",
+      "verb": "operates on",
+      "time": 123.47733333333335,
+      "cluster": 3
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "message_selection",
+      "verb": "highlights",
+      "time": 128.704,
+      "cluster": 1
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "definition_of_bit",
+      "verb": "highlights",
+      "time": 134.05866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "pract_application",
+      "verb": "contains",
+      "time": 139.49866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "calculation_efficiency",
+      "to": "communication_system",
+      "verb": "depends on",
+      "time": 144.96,
+      "cluster": 1
+    },
+    {
+      "from": "transmitter_functionality",
+      "to": "communication_system",
+      "verb": "is crucial in",
+      "time": 151.25333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "reli_transmission",
+      "to": "distinct_symbol",
+      "verb": "consists of",
+      "time": 158.99733333333333,
+      "cluster": 6
+    },
+    {
+      "from": "fundamental_concept",
+      "to": "data_transmission",
+      "verb": "defines",
+      "time": 165.90933333333334,
+      "cluster": 1
+    },
+    {
+      "from": "rate_of_transmission",
+      "to": "data_transfer",
+      "verb": "depends on",
+      "time": 173.97333333333333,
+      "cluster": 7
+    },
+    {
+      "from": "binary_digit",
+      "to": "zero_one",
+      "verb": "contains",
+      "time": 180.37333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "information_theory",
+      "to": "transmission_rate_calculation",
+      "verb": "consists of",
+      "time": 186.368,
+      "cluster": 1
+    },
+    {
+      "from": "importance_understanding",
+      "to": "data_transmission",
+      "verb": "enables",
+      "time": 192.59733333333332,
+      "cluster": 1
+    },
+    {
+      "from": "signal_transmission",
+      "to": "channel",
+      "verb": "occurs over",
+      "time": 199.42399999999998,
+      "cluster": 0
+    },
+    {
+      "from": "data_transmission",
+      "to": "encoding_scheme",
+      "verb": "depends on",
+      "time": 205.03466666666665,
+      "cluster": 1
+    },
+    {
+      "from": "transmission_efficiency",
+      "to": "minimized_error",
+      "verb": "better than",
+      "time": 211.05066666666664,
+      "cluster": 2
+    },
+    {
+      "from": "information_transmission",
+      "to": "without_error",
+      "verb": "requires",
+      "time": 217.47199999999998,
+      "cluster": 0
+    },
+    {
+      "from": "determinant_equation_for_capacity",
+      "to": "weight_and_distance",
+      "verb": "operates on",
+      "time": 224.68266666666665,
+      "cluster": 4
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "communication_system",
+      "verb": "emphasizes",
+      "time": 232.55466666666666,
+      "cluster": 1
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "transmitter_role",
+      "verb": "emphasizes",
+      "time": 237.952,
+      "cluster": 1
+    },
+    {
+      "from": "communication_system",
+      "to": "bit",
+      "verb": "depends on",
+      "time": 243.34933333333333,
+      "cluster": 1
+    },
+    {
+      "from": "by_specific_property_and_behavior",
+      "to": "discrete_source",
+      "verb": "characterize",
+      "time": 248.256,
+      "cluster": 2
+    },
+    {
+      "from": "capacity_efficiency",
+      "to": "dimension_rate",
+      "verb": "depends on",
+      "time": 253.61066666666667,
+      "cluster": 3
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "information_theory",
+      "verb": "contains",
+      "time": 259.008,
+      "cluster": 1
+    },
+    {
+      "from": "summary_key_concept",
+      "to": "measure_of_information",
+      "verb": "highlights",
+      "time": 263.78666666666663,
+      "cluster": 1
+    },
+    {
+      "from": "fundamental_concept",
+      "to": "information_capacity",
+      "verb": "defines",
+      "time": 268.79999999999995,
+      "cluster": 1
+    },
+    {
+      "from": "discrete_channel_capacity_formula",
+      "to": "information_transmission",
+      "verb": "computes",
+      "time": 273.53599999999994,
+      "cluster": 0
+    },
+    {
+      "from": "stage",
+      "to": "foundational_knowledge",
+      "verb": "set",
+      "time": 278.67733333333325,
+      "cluster": 0
+    },
+    {
+      "from": "modulated_signal",
+      "to": "transmission_reliability",
+      "verb": "improves",
+      "time": 282.96533333333326,
+      "cluster": 0
+    },
+    {
+      "from": "complex_topic",
+      "to": "foundational_knowledge",
+      "verb": "depends on",
+      "time": 287.59466666666657,
+      "cluster": 0
+    },
+    {
+      "from": "discrete_source",
+      "to": "property",
+      "verb": "consists of",
+      "time": 292.45866666666655,
+      "cluster": 2
+    },
+    {
+      "from": "discrete_source",
+      "to": "behavior",
+      "verb": "consists of",
+      "time": 298.3466666666665,
+      "cluster": 2
+    },
+    {
+      "from": "motivation_modulation",
+      "to": "efficient_transmission",
+      "verb": "requires",
+      "time": 303.2746666666665,
+      "cluster": 0
+    },
+    {
+      "from": "efficient_transmission",
+      "to": "communication_channel",
+      "verb": "constrains",
+      "time": 309.8453333333332,
+      "cluster": 0
+    },
+    {
+      "from": "bit_a_unit",
+      "to": "communication_channel",
+      "verb": "enables",
+      "time": 316.07466666666653,
+      "cluster": 0
+    },
+    {
+      "from": "introduction",
+      "to": "information_transmission",
+      "verb": "consists of",
+      "time": 322.75199999999984,
+      "cluster": 0
+    },
+    {
+      "from": "continu_source",
+      "to": "property",
+      "verb": "consists of",
+      "time": 329.1519999999998,
+      "cluster": 2
+    },
+    {
+      "from": "continu_source",
+      "to": "behavior",
+      "verb": "consists of",
+      "time": 335.89333333333315,
+      "cluster": 2
+    },
+    {
+      "from": "digital_data",
+      "to": "analog_signal",
+      "verb": "converts into",
+      "time": 342.74133333333316,
+      "cluster": 2
+    },
+    {
+      "from": "number_dimension",
+      "to": "dimension_rate",
+      "verb": "represents",
+      "time": 347.6479999999998,
+      "cluster": 3
+    },
+    {
+      "from": "dimension_rate",
+      "to": "specific_rate",
+      "verb": "contains",
+      "time": 353.32266666666646,
+      "cluster": 3
+    },
+    {
+      "from": "dimension_rate",
+      "to": "number_of_dimension",
+      "verb": "consists of",
+      "time": 358.0159999999998,
+      "cluster": 3
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "information_transmission",
+      "label": "Information transmission",
+      "children": [
+        {
+          "id": "introduction",
+          "label": "Introduction to Mathematical Communication Theory"
+        },
+        {
+          "id": "channel",
+          "label": "channels"
+        },
+        {
+          "id": "groundwork",
+          "label": "groundwork"
+        },
+        {
+          "id": "math_comm_theory",
+          "label": "Mathematical Communication Theory"
+        },
+        {
+          "id": "complex_topic",
+          "label": "Complex topics in communication systems"
+        },
+        {
+          "id": "mathemat_underpinning",
+          "label": "Mathematical underpinnings"
+        },
+        {
+          "id": "foundational_knowledge",
+          "label": "Foundational knowledge"
+        },
+        {
+          "id": "stage",
+          "label": "stage"
+        },
+        {
+          "id": "motivation_modulation",
+          "label": "Motivation for modulation"
+        },
+        {
+          "id": "efficient_transmission",
+          "label": "Efficient transmission"
+        },
+        {
+          "id": "communication_channel",
+          "label": "Communication channel"
+        },
+        {
+          "id": "modulated_signal",
+          "label": "Modulated carrier signal"
+        },
+        {
+          "id": "transmission_speed",
+          "label": "Transmission speed"
+        },
+        {
+          "id": "transmission_reliability",
+          "label": "Transmission reliability"
+        },
+        {
+          "id": "adaptation_proces",
+          "label": "Adaptation process"
+        },
+        {
+          "id": "phy_constraint",
+          "label": "Physical constraints"
+        },
+        {
+          "id": "transmission_medium",
+          "label": "Transmission medium"
+        },
+        {
+          "id": "scene_3",
+          "label": "Scene 3"
+        },
+        {
+          "id": "nyquist_contribution",
+          "label": "Contributions of Nyquist"
+        },
+        {
+          "id": "nyquist_rate",
+          "label": "nyquist rate"
+        },
+        {
+          "id": "bit_a_unit",
+          "label": "Bit as a unit of information"
+        },
+        {
+          "id": "message_encoding",
+          "label": "Message encoding"
+        },
+        {
+          "id": "signal_transmission",
+          "label": "Signal transmission"
+        },
+        {
+          "id": "discrete_channel_capacity_formula",
+          "label": "Discrete channel capacity formula"
+        },
+        {
+          "id": "without_error",
+          "label": "Without error"
+        }
+      ]
+    },
+    {
+      "id": "summary_key_concept",
+      "label": "Summary of key concepts",
+      "children": [
+        {
+          "id": "information_theory",
+          "label": "Information theory"
+        },
+        {
+          "id": "pract_application",
+          "label": "Practical applications"
+        },
+        {
+          "id": "hartley_contribution",
+          "label": "Contributions of Hartley"
+        },
+        {
+          "id": "fundamental_concept",
+          "label": "Fundamental concepts"
+        },
+        {
+          "id": "information_capacity",
+          "label": "information capacity"
+        },
+        {
+          "id": "hartley_law",
+          "label": "hartleys law"
+        },
+        {
+          "id": "set_of_pos_message",
+          "label": "Set of possible messages"
+        },
+        {
+          "id": "measure_of_information",
+          "label": "Measure of information"
+        },
+        {
+          "id": "quantification_and_transmission",
+          "label": "Quantification and transmission of data"
+        },
+        {
+          "id": "bit",
+          "label": "Bit as the basic unit of information"
+        },
+        {
+          "id": "choice",
+          "label": "Choice between two equally likely outcomes"
+        },
+        {
+          "id": "binary_digit",
+          "label": "Binary digit",
+          "children": [
+            {
+              "id": "zero_one",
+              "label": "Either 0 or 1"
+            }
+          ]
+        },
+        {
+          "id": "transmitter_functionality",
+          "label": "Transmitter functionality"
+        },
+        {
+          "id": "communication_system",
+          "label": "Communication systems"
+        },
+        {
+          "id": "calculation_efficiency",
+          "label": "Calculation efficiency"
+        },
+        {
+          "id": "data_transmission",
+          "label": "Data transmission efficiency"
+        },
+        {
+          "id": "encoding_scheme",
+          "label": "Encoding schemes"
+        },
+        {
+          "id": "importance_understanding",
+          "label": "Importance of understanding signal differences"
+        },
+        {
+          "id": "message_selection",
+          "label": "Message selection"
+        },
+        {
+          "id": "definition_of_bit",
+          "label": "Definition of a bit"
+        },
+        {
+          "id": "transmitter_role",
+          "label": "Role of transmitters"
+        },
+        {
+          "id": "transmission_rate_calculation",
+          "label": "Calculation of transmission rates"
+        },
+        {
+          "id": "future_research",
+          "label": "Future research"
+        }
+      ]
+    },
+    {
+      "id": "discrete_source",
+      "label": "Discrete information sources",
+      "children": [
+        {
+          "id": "transmission_efficiency",
+          "label": "Transmission efficiency"
+        },
+        {
+          "id": "minimized_error",
+          "label": "Minimized errors"
+        },
+        {
+          "id": "property",
+          "label": "Properties of information sources"
+        },
+        {
+          "id": "behavior",
+          "label": "behaviors"
+        },
+        {
+          "id": "continu_source",
+          "label": "Continuous information sources"
+        },
+        {
+          "id": "by_specific_property_and_behavior",
+          "label": "by specific properties and behaviors"
+        },
+        {
+          "id": "digital_data",
+          "label": "Digital data"
+        },
+        {
+          "id": "analog_signal",
+          "label": "Analog signal"
+        }
+      ]
+    },
+    {
+      "id": "dimension_rate",
+      "label": "Dimension rate measure",
+      "children": [
+        {
+          "id": "specific_rate",
+          "label": "Specific encoding rate"
+        },
+        {
+          "id": "number_dimension",
+          "label": "Number of dimensions required"
+        },
+        {
+          "id": "number_of_dimension",
+          "label": "number of dimensions"
+        },
+        {
+          "id": "transmission_information",
+          "label": "Effective transmission of information"
+        },
+        {
+          "id": "capacity_efficiency",
+          "label": "Capacity and efficiency of communication channels"
+        }
+      ]
+    },
+    {
+      "id": "determinant_equation_for_capacity",
+      "label": "determinant equation for capacity",
+      "children": [
+        {
+          "id": "weight_and_distance",
+          "label": "Weights and distances between different states"
+        },
+        {
+          "id": "maximum_capacity",
+          "label": "Maximum capacity of a communication channel"
+        }
+      ]
+    },
+    {
+      "id": "signal_distance",
+      "label": "Signal distance comparisons",
+      "children": [
+        {
+          "id": "communication_efficiency",
+          "label": "Communication efficiency"
+        },
+        {
+          "id": "communication_reliability",
+          "label": "Communication reliability"
+        }
+      ]
+    },
+    {
+      "id": "reli_transmission",
+      "label": "Reliable transmission",
+      "children": [
+        {
+          "id": "distinct_symbol",
+          "label": "Distinct symbols"
+        }
+      ]
+    },
+    {
+      "id": "rate_of_transmission",
+      "label": "Rate of transmission",
+      "children": [
+        {
+          "id": "data_transfer",
+          "label": "Data transfer efficiency"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Complex topics in communication systems consist of mathematical underpinnings that form their core foundation.",
+    "The groundwork for mathematical communication theory was laid, establishing its fundamental principles.",
+    "Comparisons of signal distances affect the efficiency of communication by influencing how effectively messages are conveyed.",
+    "It also comparisons of signal distances impact communication reliability, ensuring messages reach their destination accurately.",
+    "Scene three delves into the contributions of Nyquist, highlighting his pivotal role in communication theory.",
+    "The nyquist rate, a key concept in information theory, was introduced through the contributions of Nyquist.",
+    "An introduction to mathematical communication theory includes an exploration of channels and their characteristics.",
+    "Message selection involves choosing one message from a set of possible messages, reflecting the variability in communication.",
+    "A bit, the basic unit of information, represents a choice between two equally likely outcomes in data transmission.",
+    "Hartley's law, introduced through the work of Hartley, uses the logarithmic function as a natural measure of information.",
+    "A binary digit, often referred to as a bit, serves as the fundamental unit of information in digital communication.",
+    "Measures of information encompass the quantification and transmission aspects of data, capturing the essence of communication processes.",
+    "Physical constraints include the transmission medium through which messages travel.",
+    "Message encoding transforms the original message into a signal suitable for transmission.",
+    "Modulated carrier signals determine the speed at which transmissions occur.",
+    "The determinant equation for capacity defines the maximum capacity of a communication channel.",
+    "Adaptation processes adjust based on the physical constraints affecting them.",
+    "Continuous information sources differentiate themselves from discrete information sources.",
+    "Future research focuses on improving communication systems and their functionality.",
+    "Dimension rate measures assess the effective transmission of information within a system.",
+    "Key concepts highlight the importance of message selection in communication processes.",
+    "It also key concepts emphasize the definition of a bit as a fundamental unit of information.",
+    "And practical applications are summarized, demonstrating the relevance of theoretical concepts.",
+    "Calculation efficiency varies depending on the design and capabilities of communication systems.",
+    "Transmitter functionality ensures communication systems operate effectively by maintaining a non-singular channel input.",
+    "Reliable transmission relies on distinct symbols to convey messages accurately within a communication system.",
+    "Fundamental concepts define data transmission efficiency by comparing the actual rate of transmission to the channel capacity.",
+    "The rate of transmission is contingent upon the efficiency of data transfer within a communication system.",
+    "A binary digit comprises either a 0 or a 1, forming the basis of digital communication.",
+    "Information theory includes calculations to determine the rate of transmission in the presence of noise.",
+    "Understanding the differences in signals enhances data transmission efficiency by reducing equivocation.",
+    "Signal transmission occurs over channels, where signals travel from the sender to the receiver.",
+    "Efficient data transmission depends on the use of effective encoding schemes to minimize errors.",
+    "Transmission efficiency improves when errors are minimized, allowing for more reliable data transfer.",
+    "Information transmission without error is achievable by properly encoding messages at the channel's capacity.",
+    "The determinant equation for channel capacity considers weights and distances between different states to calculate maximum throughput.",
+    "Summary key concept focuses on communication systems as foundational elements.",
+    "It also summary key concept underscores the role of transmitters in communication processes.",
+    "Communication systems rely on the bit as the fundamental unit of information.",
+    "Specific properties and behaviors define characteristics of discrete information sources.",
+    "Capacity efficiency of communication channels hinges on the dimension rate measurement.",
+    "Summary key concept integrates information theory into its core principles.",
+    "It also summary key concept underscores the importance of measuring information accurately.",
+    "Fundamental concepts establish information capacity as a critical measure.",
+    "The discrete channel capacity formula calculates the amount of information transmitted.",
+    "Initial stage sets the foundation for understanding essential knowledge.",
+    "Modulated carrier signals enhance the reliability of data transmission.",
+    "Complex topics within communication systems build upon foundational knowledge.",
+    "The discrete source of information possesses properties that allow for the determination of its entropy.",
+    "It also discrete sources exhibit behaviors that can be quantified through their entropy rates.",
+    "Motivation for modulation arises from the need for efficient transmission over communication channels.",
+    "Efficient transmission is constrained by the characteristics and limitations of the communication channel.",
+    "Treating a bit as a unit of information facilitates the use of communication channels for data transfer.",
+    "The introduction to the mathematical theory of communication includes principles of information transmission.",
+    "Continuous information sources consist of properties that can be measured relative to a fidelity evaluation.",
+    "It also continuous sources also demonstrate behaviors that can be analyzed through their rate of information generation.",
+    "Digital data can be converted into an analog signal for transmission purposes.",
+    "The number of dimensions required to specify a signal represents a measure of the dimension rate.",
+    "The dimension rate measure encompasses the specific rate at which encoding occurs.",
+    "It also itself consists of the number of dimensions needed to specify a signal's elements."
+  ]
+}

@@ -1,0 +1,1438 @@
+{
+  "nodes": [
+    {
+      "id": "integration",
+      "label": "Integration of AI in marketing strategies",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "customer_interaction",
+      "label": "Customer interaction through Gen AI",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "content_creation",
+      "label": "Content creation using Gen AI",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "marketing_outcome",
+      "label": "Marketing outcomes",
+      "type": "outcome",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "marketing_future",
+      "label": "Future of marketing",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "economic_impact",
+      "label": "Economic impact",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "generat_ai",
+      "label": "Generative AI",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "personalized_interaction",
+      "label": "Personalized customer interactions",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "individual_preference",
+      "label": "individual preferences",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "enhanced_engage",
+      "label": "enhanced engagement",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "personalized_content",
+      "label": "personalized content",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "brand_communication",
+      "label": "Brands' communication strategy",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "social_media_post",
+      "label": "Social media posts",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "email_campaign",
+      "label": "Email marketing campaigns",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "audience_segment",
+      "label": "Specific audience segments",
+      "type": "population",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "product_research",
+      "label": "Product research",
+      "type": "activity",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "develop_strategy",
+      "label": "development strategies",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "ai_analysi",
+      "label": "AI analysis",
+      "type": "activity",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "vast_data",
+      "label": "Vast amounts of data",
+      "type": "quantity",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "trend_preference",
+      "label": "Trends and preferences",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "customer_experience",
+      "label": "Customer experience enhancement",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "tailored_offering",
+      "label": "tailored offerings",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "core_concept",
+      "label": "Core concepts of generative AI",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "learned_pattern",
+      "label": "learned patterns",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "content_generation",
+      "label": "Generation of new content",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "new_content",
+      "label": "new content",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "deep_learning_model",
+      "label": "Deep learning models",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "type": "domain",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "ad_copy_creation",
+      "label": "Ad copy creation",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "conversion_rate",
+      "label": "conversion rates",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "personalized_credit_offer",
+      "label": "Personalized credit offers",
+      "type": "benefit",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "customer_response_automation",
+      "label": "Customer response automation",
+      "type": "system",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "speed",
+      "label": "Efficiency",
+      "type": "faster",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "marketing_strategy",
+      "label": "Marketing strategies",
+      "type": "strategy",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "effect",
+      "label": "Effectiveness",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "effect_personal",
+      "label": "effectiveness,personalization",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "personalized_offer",
+      "label": "Personalized offers",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "customer_engage",
+      "label": "customer engagement",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "tailored_loan_option",
+      "label": "Tailored loan options",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "interaction",
+      "label": "interactions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "response_time",
+      "label": "Response time",
+      "type": "time",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "customer_satisfaction",
+      "label": "customer satisfaction",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "seg",
+      "label": "Segment about chatbots in negotiations",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "chatbot",
+      "label": "Chatbots for negotiations",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "intelligent_bot",
+      "label": "Intelligent chatbots",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "customer_query",
+      "label": "Customer queries",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "negotiation_efficiency",
+      "label": "negotiation efficiency",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "gen_ai",
+      "label": "Generative artificial intelligence",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "other_ai",
+      "label": "Other forms of AI",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "unique_capability_and_application",
+      "label": "unique capabilities and applications",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "scene_18",
+      "label": "Scene focusing on distinguishing generative AI",
+      "type": "scene",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "util",
+      "label": "Effective utilization of Gen AI",
+      "type": "approach",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "busi_context",
+      "label": "Various business contexts",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "selection_factor",
+      "label": "selection factors",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "benefit",
+      "label": "benefits",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "negat_consequence",
+      "label": "Negative consequences of AI integration",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "privacy_transparency",
+      "label": "privacy transparency",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "privacy_concern",
+      "label": "Privacy concerns",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "integrated_ai_marketing",
+      "label": "Integrated AI in marketing strategies",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "previ_technology",
+      "label": "previous technologies",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "widespread",
+      "label": "widespread",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "company_integration",
+      "label": "Integration of generative AI by companies",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "enhanced_efficiency",
+      "label": "Enhanced efficiency",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "innovation_acros_sector",
+      "label": "Innovation across various sectors",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "transparency_issue",
+      "label": "Transparency issues",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "user_privacy",
+      "label": "User privacy",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "clear_operation",
+      "label": "Clear operations of AI systems",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "understandability",
+      "label": "Understandability to users",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "generat_ai",
+      "to": "personalized_interaction",
+      "verb": "produces",
+      "time": 1.8162162162162159,
+      "cluster": 0
+    },
+    {
+      "from": "intelligent_bot",
+      "to": "generat_ai",
+      "verb": "depends on",
+      "time": 6.357333333333333,
+      "cluster": 4
+    },
+    {
+      "from": "generat_ai",
+      "to": "conversion_rate",
+      "verb": "enhances",
+      "time": 11.626666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "customer_interaction",
+      "to": "generat_ai",
+      "verb": "contains",
+      "time": 17.066666666666666,
+      "cluster": 1
+    },
+    {
+      "from": "customer_interaction",
+      "to": "gen_ai",
+      "verb": "consists of",
+      "time": 23.296,
+      "cluster": 1
+    },
+    {
+      "from": "gen_ai",
+      "to": "integration",
+      "verb": "contains",
+      "time": 30.165333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "gen_ai",
+      "to": "util",
+      "verb": "understand",
+      "time": 36.288,
+      "cluster": 1
+    },
+    {
+      "from": "content_creation",
+      "to": "gen_ai",
+      "verb": "consists of",
+      "time": 42.986666666666665,
+      "cluster": 1
+    },
+    {
+      "from": "gen_ai",
+      "to": "other_ai",
+      "verb": "better than",
+      "time": 49.727999999999994,
+      "cluster": 1
+    },
+    {
+      "from": "generat_ai",
+      "to": "personalized_credit_offer",
+      "verb": "enhances",
+      "time": 55.93599999999999,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "privacy_concern",
+      "verb": "depends on",
+      "time": 62.84799999999999,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "marketing_outcome",
+      "verb": "improves",
+      "time": 69.22666666666666,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "response_time",
+      "verb": "improves",
+      "time": 75.904,
+      "cluster": 0
+    },
+    {
+      "from": "brand_communication",
+      "to": "generat_ai",
+      "verb": "revolutionize",
+      "time": 81.77066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "previ_technology",
+      "verb": "better than",
+      "time": 88.08533333333332,
+      "cluster": 0
+    },
+    {
+      "from": "widespread",
+      "to": "generat_ai",
+      "verb": "becoming",
+      "time": 94.76266666666666,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "transparency_issue",
+      "verb": "depends on",
+      "time": 100.8,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "user_privacy",
+      "verb": "requires",
+      "time": 106.73066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "clear_operation",
+      "verb": "requires",
+      "time": 113.25866666666667,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "understandability",
+      "verb": "requires",
+      "time": 118.95466666666667,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "conversion_rate",
+      "verb": "produces",
+      "time": 125.65333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "personalized_credit_offer",
+      "to": "generat_ai",
+      "verb": "depends on",
+      "time": 132.58666666666667,
+      "cluster": 0
+    },
+    {
+      "from": "customer_interaction",
+      "to": "gen_ai",
+      "verb": "depends on",
+      "time": 139.15733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "content_creation",
+      "to": "gen_ai",
+      "verb": "depends on",
+      "time": 146.45333333333332,
+      "cluster": 1
+    },
+    {
+      "from": "marketing_outcome",
+      "to": "gen_ai",
+      "verb": "consists of",
+      "time": 155.05066666666664,
+      "cluster": 1
+    },
+    {
+      "from": "personalized_credit_offer",
+      "to": "tailored_loan_option",
+      "verb": "produces",
+      "time": 161.45066666666665,
+      "cluster": 0
+    },
+    {
+      "from": "customer_response_automation",
+      "to": "interaction",
+      "verb": "streamlines",
+      "time": 169.21599999999998,
+      "cluster": 0
+    },
+    {
+      "from": "seg",
+      "to": "chatbot",
+      "verb": "relates",
+      "time": 176.14933333333332,
+      "cluster": 6
+    },
+    {
+      "from": "selection_factor",
+      "to": "negat_consequence",
+      "verb": "consists of",
+      "time": 184.04266666666666,
+      "cluster": 3
+    },
+    {
+      "from": "selection_factor",
+      "to": "benefit",
+      "verb": "relates",
+      "time": 191.488,
+      "cluster": 3
+    },
+    {
+      "from": "integrated_ai_marketing",
+      "to": "negat_consequence",
+      "verb": "relates",
+      "time": 199.18933333333334,
+      "cluster": 3
+    },
+    {
+      "from": "selection_factor",
+      "to": "benefit",
+      "verb": "consists of",
+      "time": 206.80533333333335,
+      "cluster": 3
+    },
+    {
+      "from": "personalized_interaction",
+      "to": "enhanced_engage",
+      "verb": "transforms into",
+      "time": 214.82666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "selection_factor",
+      "to": "privacy_transparency",
+      "verb": "consists of",
+      "time": 222.912,
+      "cluster": 3
+    },
+    {
+      "from": "core_concept",
+      "to": "learned_pattern",
+      "verb": "contains",
+      "time": 231.08266666666668,
+      "cluster": 1
+    },
+    {
+      "from": "tailored_loan_option",
+      "to": "customer_satisfaction",
+      "verb": "improves",
+      "time": 237.97333333333336,
+      "cluster": 0
+    },
+    {
+      "from": "personalized_content",
+      "to": "audience_segment",
+      "verb": "targets",
+      "time": 246.27200000000002,
+      "cluster": 1
+    },
+    {
+      "from": "conversion_rate",
+      "to": "personalized_offer",
+      "verb": "depends on",
+      "time": 252.77866666666668,
+      "cluster": 0
+    },
+    {
+      "from": "customer_experience",
+      "to": "personalized_interaction",
+      "verb": "consists of",
+      "time": 259.264,
+      "cluster": 0
+    },
+    {
+      "from": "vast_data",
+      "to": "ai_analysi",
+      "verb": "analyze",
+      "time": 265.3226666666667,
+      "cluster": 1
+    },
+    {
+      "from": "generat_ai",
+      "to": "personalized_content",
+      "verb": "produces",
+      "time": 272.1706666666667,
+      "cluster": 0
+    },
+    {
+      "from": "personalized_content",
+      "to": "email_campaign",
+      "verb": "contains",
+      "time": 278.91200000000003,
+      "cluster": 1
+    },
+    {
+      "from": "economic_impact",
+      "to": "gen_ai",
+      "verb": "depends on",
+      "time": 285.9946666666667,
+      "cluster": 1
+    },
+    {
+      "from": "company_integration",
+      "to": "innovation_acros_sector",
+      "verb": "produces",
+      "time": 293.31200000000007,
+      "cluster": 5
+    },
+    {
+      "from": "personalized_content",
+      "to": "social_media_post",
+      "verb": "contains",
+      "time": 300.4373333333334,
+      "cluster": 1
+    },
+    {
+      "from": "generat_ai",
+      "to": "customer_response_automation",
+      "verb": "enhances",
+      "time": 306.98666666666674,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "customer_satisfaction",
+      "verb": "enhances",
+      "time": 313.7920000000001,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "customer_experience",
+      "verb": "enables",
+      "time": 320.4693333333334,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "customer_engage",
+      "verb": "improves",
+      "time": 327.91466666666673,
+      "cluster": 0
+    },
+    {
+      "from": "customer_response_automation",
+      "to": "generat_ai",
+      "verb": "utilizes",
+      "time": 334.9973333333334,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "customer_engage",
+      "verb": "enhances",
+      "time": 343.46666666666675,
+      "cluster": 0
+    },
+    {
+      "from": "customer_experience",
+      "to": "tailored_offering",
+      "verb": "consists of",
+      "time": 351.76533333333344,
+      "cluster": 0
+    },
+    {
+      "from": "conversion_rate",
+      "to": "customer_engage",
+      "verb": "depends on",
+      "time": 358.31466666666677,
+      "cluster": 0
+    },
+    {
+      "from": "util",
+      "to": "busi_context",
+      "verb": "depends on",
+      "time": 364.50133333333343,
+      "cluster": 1
+    },
+    {
+      "from": "generat_ai",
+      "to": "ad_copy_creation",
+      "verb": "enhances",
+      "time": 371.6480000000001,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "product_research",
+      "verb": "improves",
+      "time": 380.60800000000006,
+      "cluster": 0
+    },
+    {
+      "from": "generat_ai",
+      "to": "ad_copy_creation",
+      "verb": "improves",
+      "time": 388.9493333333334,
+      "cluster": 0
+    },
+    {
+      "from": "personalized_interaction",
+      "to": "individual_preference",
+      "verb": "depends on",
+      "time": 397.01333333333343,
+      "cluster": 1
+    },
+    {
+      "from": "intelligent_bot",
+      "to": "customer_query",
+      "verb": "depends on",
+      "time": 404.4373333333334,
+      "cluster": 4
+    },
+    {
+      "from": "intelligent_bot",
+      "to": "negotiation_efficiency",
+      "verb": "improves",
+      "time": 411.3493333333334,
+      "cluster": 4
+    },
+    {
+      "from": "ad_copy_creation",
+      "to": "effect_personal",
+      "verb": "consists of",
+      "time": 419.49866666666674,
+      "cluster": 0
+    },
+    {
+      "from": "negat_consequence",
+      "to": "privacy_concern",
+      "verb": "relates",
+      "time": 426.98666666666674,
+      "cluster": 3
+    },
+    {
+      "from": "develop_strategy",
+      "to": "ai_analysi",
+      "verb": "depends on",
+      "time": 435.3493333333334,
+      "cluster": 1
+    },
+    {
+      "from": "trend_preference",
+      "to": "ai_analysi",
+      "verb": "identify",
+      "time": 443.32800000000003,
+      "cluster": 1
+    },
+    {
+      "from": "speed",
+      "to": "marketing_strategy",
+      "verb": "increases",
+      "time": 451.79733333333337,
+      "cluster": 2
+    },
+    {
+      "from": "effect",
+      "to": "marketing_strategy",
+      "verb": "improves",
+      "time": 459.54133333333334,
+      "cluster": 2
+    },
+    {
+      "from": "company_integration",
+      "to": "enhanced_efficiency",
+      "verb": "produces",
+      "time": 467.904,
+      "cluster": 5
+    },
+    {
+      "from": "content_generation",
+      "to": "new_content",
+      "verb": "produces",
+      "time": 476.2026666666667,
+      "cluster": 2
+    },
+    {
+      "from": "intelligent_bot",
+      "to": "customer_satisfaction",
+      "verb": "improves",
+      "time": 484.86400000000003,
+      "cluster": 4
+    },
+    {
+      "from": "customer_response_automation",
+      "to": "response_time",
+      "verb": "reduces",
+      "time": 492.3733333333334,
+      "cluster": 0
+    },
+    {
+      "from": "customer_response_automation",
+      "to": "customer_satisfaction",
+      "verb": "enhances",
+      "time": 499.9253333333334,
+      "cluster": 0
+    },
+    {
+      "from": "unique_capability_and_application",
+      "to": "scene_18",
+      "verb": "emphasize",
+      "time": 508.09600000000006,
+      "cluster": 7
+    },
+    {
+      "from": "generat_ai",
+      "to": "marketing_future",
+      "verb": "impacts",
+      "time": 516.9280000000001,
+      "cluster": 0
+    },
+    {
+      "from": "deep_learning_model",
+      "to": "marketing",
+      "verb": "relates",
+      "time": 524.2453333333334,
+      "cluster": 2
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "generat_ai",
+      "label": "Generative Artificial Intelligence",
+      "children": [
+        {
+          "id": "marketing_future",
+          "label": "Future of marketing"
+        },
+        {
+          "id": "brand_communication",
+          "label": "Brands' communication strategy"
+        },
+        {
+          "id": "product_research",
+          "label": "Product research"
+        },
+        {
+          "id": "customer_experience",
+          "label": "Customer experience enhancement"
+        },
+        {
+          "id": "tailored_offering",
+          "label": "tailored offerings"
+        },
+        {
+          "id": "ad_copy_creation",
+          "label": "Ad copy creation"
+        },
+        {
+          "id": "conversion_rate",
+          "label": "conversion rates"
+        },
+        {
+          "id": "personalized_credit_offer",
+          "label": "personalized credit offers"
+        },
+        {
+          "id": "customer_response_automation",
+          "label": "customer response automation"
+        },
+        {
+          "id": "effect_personal",
+          "label": "effectiveness,personalization"
+        },
+        {
+          "id": "personalized_offer",
+          "label": "Personalized offers"
+        },
+        {
+          "id": "customer_engage",
+          "label": "customer engagement"
+        },
+        {
+          "id": "tailored_loan_option",
+          "label": "Tailored loan options"
+        },
+        {
+          "id": "interaction",
+          "label": "interactions"
+        },
+        {
+          "id": "response_time",
+          "label": "response times"
+        },
+        {
+          "id": "customer_satisfaction",
+          "label": "customer satisfaction"
+        },
+        {
+          "id": "previ_technology",
+          "label": "previous technologies"
+        },
+        {
+          "id": "widespread",
+          "label": "widespread"
+        },
+        {
+          "id": "transparency_issue",
+          "label": "Transparency issues"
+        },
+        {
+          "id": "user_privacy",
+          "label": "User privacy"
+        },
+        {
+          "id": "clear_operation",
+          "label": "Clear operations of AI systems"
+        },
+        {
+          "id": "understandability",
+          "label": "Understandability to users"
+        }
+      ]
+    },
+    {
+      "id": "gen_ai",
+      "label": "Generative artificial intelligence",
+      "children": [
+        {
+          "id": "integration",
+          "label": "Integration of AI in marketing strategies"
+        },
+        {
+          "id": "customer_interaction",
+          "label": "Customer interaction through Gen AI"
+        },
+        {
+          "id": "content_creation",
+          "label": "Content creation using Gen AI"
+        },
+        {
+          "id": "marketing_outcome",
+          "label": "Marketing outcomes enhanced by Gen AI"
+        },
+        {
+          "id": "economic_impact",
+          "label": "Economic impact"
+        },
+        {
+          "id": "personalized_interaction",
+          "label": "Personalized Interactions"
+        },
+        {
+          "id": "individual_preference",
+          "label": "individual preferences"
+        },
+        {
+          "id": "enhanced_engage",
+          "label": "enhanced engagement"
+        },
+        {
+          "id": "personalized_content",
+          "label": "Personalized marketing content",
+          "children": [
+            {
+              "id": "social_media_post",
+              "label": "Social media posts"
+            },
+            {
+              "id": "email_campaign",
+              "label": "Email marketing campaigns"
+            }
+          ]
+        },
+        {
+          "id": "audience_segment",
+          "label": "Specific audience segments"
+        },
+        {
+          "id": "develop_strategy",
+          "label": "development strategies"
+        },
+        {
+          "id": "ai_analysi",
+          "label": "AI analysis"
+        },
+        {
+          "id": "vast_data",
+          "label": "Vast amounts of data"
+        },
+        {
+          "id": "trend_preference",
+          "label": "Trends and preferences"
+        },
+        {
+          "id": "core_concept",
+          "label": "Core concepts of generative AI",
+          "children": [
+            {
+              "id": "learned_pattern",
+              "label": "learned patterns"
+            }
+          ]
+        },
+        {
+          "id": "other_ai",
+          "label": "Other forms of AI"
+        },
+        {
+          "id": "util",
+          "label": "Effective utilization of Gen AI"
+        },
+        {
+          "id": "busi_context",
+          "label": "Various business contexts"
+        }
+      ]
+    },
+    {
+      "id": "marketing_strategy",
+      "label": "Marketing strategies",
+      "children": [
+        {
+          "id": "content_generation",
+          "label": "Generation of new content"
+        },
+        {
+          "id": "new_content",
+          "label": "new content"
+        },
+        {
+          "id": "deep_learning_model",
+          "label": "Deep learning models"
+        },
+        {
+          "id": "marketing",
+          "label": "Marketing"
+        },
+        {
+          "id": "speed",
+          "label": "Efficiency"
+        },
+        {
+          "id": "effect",
+          "label": "Effectiveness"
+        }
+      ]
+    },
+    {
+      "id": "selection_factor",
+      "label": "Selection factors for generative AI tools",
+      "children": [
+        {
+          "id": "benefit",
+          "label": "Potential benefits of generative AI tools"
+        },
+        {
+          "id": "negat_consequence",
+          "label": "Negative consequences of generative AI tools"
+        },
+        {
+          "id": "privacy_transparency",
+          "label": "privacy transparency"
+        },
+        {
+          "id": "privacy_concern",
+          "label": "Privacy concerns"
+        },
+        {
+          "id": "integrated_ai_marketing",
+          "label": "Integrated AI in marketing strategies"
+        }
+      ]
+    },
+    {
+      "id": "intelligent_bot",
+      "label": "Intelligent chatbots",
+      "children": [
+        {
+          "id": "customer_query",
+          "label": "Customer queries"
+        },
+        {
+          "id": "negotiation_efficiency",
+          "label": "negotiation efficiency"
+        }
+      ]
+    },
+    {
+      "id": "company_integration",
+      "label": "Integration of generative AI by companies",
+      "children": [
+        {
+          "id": "enhanced_efficiency",
+          "label": "Enhanced efficiency"
+        },
+        {
+          "id": "innovation_acros_sector",
+          "label": "Innovation across various sectors"
+        }
+      ]
+    },
+    {
+      "id": "seg",
+      "label": "Segment about chatbots in negotiations",
+      "children": [
+        {
+          "id": "chatbot",
+          "label": "Chatbots for negotiations"
+        }
+      ]
+    },
+    {
+      "id": "unique_capability_and_application",
+      "label": "unique capabilities and applications",
+      "children": [
+        {
+          "id": "scene_18",
+          "label": "Scene focusing on distinguishing generative AI"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Generative Artificial Intelligence produces personalized interactions tailored to individual users.",
+    "Intelligent bots depend on generative AI to function effectively.",
+    "GenAI enhances conversion rates through customized content.",
+    "Customer interaction through Gen AI includes the use of GenAI.",
+    "and involves the application of GenAI.",
+    "GenAI integrates advanced AI techniques into marketing strategies.",
+    "and understands the effective utilization of its capabilities in marketing.",
+    "Content creation using Gen AI relies on GenAI for innovation.",
+    "GenAI surpasses other forms of AI in creating novel outputs.",
+    "GenAI enhances personalized credit offers through sophisticated algorithms.",
+    "It also GenAI addresses privacy concerns while offering personalized services.",
+    "It also GenAI improves marketing outcomes by leveraging advanced customization.",
+    "And GenAI enhances response times with its advanced algorithms.",
+    "Brands use GenAI to innovate their communication strategies significantly.",
+    "Compared to older technologies, GenAI offers superior performance and outcomes.",
+    "GenAI is becoming more widespread due to its versatile applications.",
+    "The effectiveness of GenAI hinges on addressing transparency issues.",
+    "It also utilizing GenAI requires careful consideration of user privacy concerns.",
+    "It also for GenAI to function clearly, transparent operations are essential.",
+    "It also to ensure understandability, GenAI must be designed with user needs in mind.",
+    "And through its sophisticated algorithms, GenAI can improve conversion rates effectively.",
+    "Personalized credit offers increasingly rely on the capabilities of GenAI.",
+    "Customer interactions via GenAI depend on the technology's ability to engage users.",
+    "Content creation leveraging GenAI benefits from clear operational guidelines and user understanding.",
+    "Marketing outcomes are enhanced by Gen AI, which uses deep-learning models to generate new outputs.",
+    "Personalized credit offers produce tailored loan options, increasing leads significantly through Gen AI applications.",
+    "Customer response automation streamlines interactions, reducing response times by nearly ninety percent.",
+    "Segment about chatbots in negotiations relates to chatbots designed for marketing negotiations, delivering cost savings.",
+    "Selection factors for GenAI tools include negative consequences, such as strategic misalignment issues.",
+    "and for GenAI tools relate to potential benefits, including improved operational efficiencies.",
+    "Integrated AI in marketing strategies relates to negative consequences, highlighting strategic misalignment risks.",
+    "Selection factors for GenAI tools consist of potential benefits, emphasizing positive impacts on businesses.",
+    "Personalized interactions transform into enhanced engagement, indicating a belief in Gen AI's transformative power.",
+    "Selection factors for GenAI tools consist of privacy transparency concerns, regarding data inputs and outputs.",
+    "Core concepts of GenAI contain learned patterns, relying on statistical machine learning techniques.",
+    "Tailored loan options improve customer satisfaction, offering personalized financial solutions through Gen AI advancements.",
+    "Personalized content is tailored specifically for different audience segments to enhance targeting accuracy.",
+    "Conversion rates improve when personalized offers are used, reflecting more effective customer engagement.",
+    "Personalized interactions contribute significantly to enhancing the overall customer experience.",
+    "Vast amounts of data are analyzed by AI, leading to deeper insights and better decision-making processes.",
+    "GenAI generates personalized marketing content that resonates with consumers.",
+    "Personalized marketing content includes email campaigns designed to engage targeted audiences effectively.",
+    "The economic impact is influenced by the adoption of GenAI, affecting business outcomes positively.",
+    "Integrating GenAI into company operations fosters innovation across multiple industry sectors.",
+    "Personalized marketing content encompasses social media posts, ensuring consistent brand messaging.",
+    "GenAI improves customer response automation, streamlining interactions and improving efficiency.",
+    "It also , businesses can increase customer satisfaction through tailored experiences.",
+    "It also plays a crucial role in enabling enhancements to customer experience across various touchpoints.",
+    "And GenAI improves customer engagement through better insights from senior executives.",
+    "Customer response automation utilizes GenAI to tailor interactions based on gathered information.",
+    "GenAI enhances customer engagement by providing more personalized and effective marketing strategies.",
+    "Customer experience enhancement consists of tailored offerings that address specific needs and preferences.",
+    "Conversion rates depend on customer engagement, influenced by the effectiveness of marketing campaigns.",
+    "Effective utilization of GenAI depends on various business contexts and requirements.",
+    "GenAI enhances ad copy creation by enabling mass personalization and improved consumer insights.",
+    "It also GenAI improves product research by synthesizing consumer insights and aiding in new product testing.",
+    "And GenAI improves ad copy creation through the use of advanced consumer sentiment analysis tools.",
+    "Personalized interactions depend on individual preferences, allowing for more targeted and effective marketing approaches.",
+    "Intelligent chatbots depend on customer queries to provide relevant and timely responses to user inquiries.",
+    "and improve negotiation efficiency by facilitating more informed and efficient decision-making processes.",
+    "Ad copy creation depends on effectiveness and personalization through careful exploration of generated preferences.",
+    "Negative consequences of GenAI tools relate to privacy concerns due to pattern identification in complex data.",
+    "Development strategies depend on AI analysis to explore complex and multidimensional customer profiles effectively.",
+    "Trends and preferences identified by AI analysis help firms understand and utilize complex customer data efficiently.",
+    "Speed enhances marketing strategies by facilitating quick and effective decision-making processes with GenAI.",
+    "Effectiveness improves marketing strategies by ensuring accurate and efficient pattern identification through GenAI tools.",
+    "Integration of GenAI by companies produces enhanced efficiency in analyzing and responding to customer data.",
+    "Generation of new content produces fresh material by leveraging the capabilities of GenAI in creating diverse outputs.",
+    "Intelligent chatbots improve customer satisfaction by providing personalized and efficient interaction experiences.",
+    "Customer response automation reduces response times by automating the process of handling customer inquiries quickly.",
+    "and enhances customer satisfaction by providing timely and relevant responses to customer needs.",
+    "Unique capabilities and applications emphasize scene focusing on distinguishing GenAI's role and potential in various fields.",
+    "GenAI significantly influences the future of marketing, transforming how businesses operate.",
+    "Deep learning models are increasingly relevant to marketing, promising continued substantial impacts in the coming days and years."
+  ]
+}

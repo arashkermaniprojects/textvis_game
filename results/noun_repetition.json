@@ -1,0 +1,119 @@
+{
+  "metric": "noun_repetition",
+  "window": 5,
+  "lectures": [
+    {
+      "basename": "alphafold_jumper_2021",
+      "sentences": 57,
+      "total_mentions": 47,
+      "repeated_mentions": 4,
+      "repeat_rate": 0.0851
+    },
+    {
+      "basename": "attention_is_all_you_need_vaswani_2017",
+      "sentences": 74,
+      "total_mentions": 56,
+      "repeated_mentions": 3,
+      "repeat_rate": 0.0536
+    },
+    {
+      "basename": "ayurvedic_medicine_epma_journal_2014",
+      "sentences": 88,
+      "total_mentions": 126,
+      "repeated_mentions": 59,
+      "repeat_rate": 0.4683
+    },
+    {
+      "basename": "dna_structure_watson_crick_1953",
+      "sentences": 64,
+      "total_mentions": 72,
+      "repeated_mentions": 37,
+      "repeat_rate": 0.5139
+    },
+    {
+      "basename": "english_literature_critical_inquiry_2023",
+      "sentences": 57,
+      "total_mentions": 59,
+      "repeated_mentions": 9,
+      "repeat_rate": 0.1525
+    },
+    {
+      "basename": "fuzzy_logic_zadeh_1965_information_control",
+      "sentences": 36,
+      "total_mentions": 15,
+      "repeated_mentions": 1,
+      "repeat_rate": 0.0667
+    },
+    {
+      "basename": "game_dev_pcg_survey_aiide_2024",
+      "sentences": 74,
+      "total_mentions": 72,
+      "repeated_mentions": 23,
+      "repeat_rate": 0.3194
+    },
+    {
+      "basename": "gravitational_waves_ligo_2016",
+      "sentences": 55,
+      "total_mentions": 37,
+      "repeated_mentions": 3,
+      "repeat_rate": 0.0811
+    },
+    {
+      "basename": "marketing_generative_ai_future_2024",
+      "sentences": 74,
+      "total_mentions": 47,
+      "repeated_mentions": 5,
+      "repeat_rate": 0.1064
+    },
+    {
+      "basename": "mathematical_theory_communication_shannon_1948",
+      "sentences": 60,
+      "total_mentions": 42,
+      "repeated_mentions": 3,
+      "repeat_rate": 0.0714
+    },
+    {
+      "basename": "on_computable_numbers_turing_1936",
+      "sentences": 63,
+      "total_mentions": 48,
+      "repeated_mentions": 4,
+      "repeat_rate": 0.0833
+    },
+    {
+      "basename": "price_optimization_algorithmic_pricing_nber_2024",
+      "sentences": 90,
+      "total_mentions": 66,
+      "repeated_mentions": 7,
+      "repeat_rate": 0.1061
+    },
+    {
+      "basename": "prospect_theory_kahneman_tversky_1979",
+      "sentences": 67,
+      "total_mentions": 51,
+      "repeated_mentions": 10,
+      "repeat_rate": 0.1961
+    },
+    {
+      "basename": "psychology_marketing_nudges_nature_2023",
+      "sentences": 71,
+      "total_mentions": 57,
+      "repeated_mentions": 4,
+      "repeat_rate": 0.0702
+    },
+    {
+      "basename": "special_relativity_einstein_1905",
+      "sentences": 55,
+      "total_mentions": 33,
+      "repeated_mentions": 1,
+      "repeat_rate": 0.0303
+    }
+  ],
+  "aggregate": {
+    "num_lectures": 15,
+    "total_sentences": 985,
+    "total_mentions": 828,
+    "repeated_mentions": 173,
+    "pooled_repeat_rate": 0.20893719806763286,
+    "mean_per_lecture_repeat_rate": 0.16029333333333332
+  }
+}

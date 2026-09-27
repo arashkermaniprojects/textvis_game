@@ -1,0 +1,1492 @@
+{
+  "nodes": [
+    {
+      "id": "10",
+      "label": "10 Å",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "dna_component",
+      "label": "Components of DNA",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "salt_environ",
+      "label": "Salt environment",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "crit_examination",
+      "label": "Critical examination",
+      "type": "procedure",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "previ_model",
+      "label": "previous models",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "foundational_insight",
+      "label": "Foundational insights",
+      "type": "insight",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "room_for_improve",
+      "label": "Room for improvement",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "accurate_representation",
+      "label": "Accurate representation of DNA organization",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "dna_organ",
+      "label": "dna organization",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "salt_structure",
+      "label": "Salt structure",
+      "type": "structure",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "fresh_perspect",
+      "label": "Fresh perspective on DNA helical nature",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "previ_critique",
+      "label": "Previous critiques of DNA models",
+      "type": "evidence",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "hel_nature",
+      "label": "Helical nature of DNA structure",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "hel_chain_overview",
+      "label": "Overview of helical chains",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "dna_model",
+      "label": "DNA model",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "sugar_phosphate_backbone",
+      "label": "Sugar-phosphate backbone orientation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "hel_structure",
+      "label": "Helical structure of DNA",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "stability_and_function",
+      "label": "Overall stability and function",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "dna_structure",
+      "label": "DNA structure",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "stability",
+      "label": "Stability of DNA",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "genetic_information_transfer",
+      "label": "Transfer of genetic information",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dna_overview",
+      "label": "DNA base pairing overview",
+      "type": "document",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "base_pairing",
+      "label": "Base pairing in DNA",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "adenine_thymine",
+      "label": "adenine thymine",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "cytosine_guanine",
+      "label": "cytosine guanine",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "stability_function",
+      "label": "Stability and function of DNA",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "adenine",
+      "label": "Adenine",
+      "type": "token",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "hydrogen_bond",
+      "label": "Hydrogen bonds",
+      "type": "bond",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "cytosine",
+      "label": "cytosine",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dna_molecule",
+      "label": "DNA molecule",
+      "type": "entity",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "specificity",
+      "label": "Specificity",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequence_determination",
+      "label": "Sequence determination process",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "identification_order",
+      "label": "identification order",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "sequencing_technique",
+      "label": "Sequencing experimental techniques",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "genetic_information_understanding",
+      "label": "Understanding of genetic information",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "new_model",
+      "label": "New model",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "experimental_data",
+      "label": "Existing experimental data",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "compatibility",
+      "label": "Compatibility",
+      "type": "relationship",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability",
+      "type": "property",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "accuracy",
+      "label": "accuracy",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "distance_between_residue",
+      "label": "Distance between residues along the helix axis",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "measure_value",
+      "label": "measurement value",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "hel_distance",
+      "label": "helical distance",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "structural_integrity",
+      "label": "Structural integrity of the DNA molecule",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "repeating_pattern",
+      "label": "Repeating pattern of DNA",
+      "type": "pattern",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "fundamental_characteristic",
+      "label": "Fundamental characteristic of double helix structure",
+      "type": "characteristic",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "same_chain_residue",
+      "label": "Residues within the same chain",
+      "type": "chain",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "angle_value",
+      "label": "angle value",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "angle_crusial",
+      "label": "Crucial angle for DNA structural integrity",
+      "type": "crucial_angle",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "consistent_value",
+      "label": "Consistent value of phosphorus distance",
+      "type": "value",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "phosphoru_distance",
+      "label": "Phosphorus distance from the fiber axis",
+      "type": "dimension",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "spatial_organ",
+      "label": "Spatial organization of the DNA molecule",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "fiber_diagram",
+      "label": "Fiber diagram interpretation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "hel_config",
+      "label": "Helical configuration of DNA",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "understanding",
+      "label": "understanding",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "layer_line_analysi",
+      "label": "Layer line analysis of DNA",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "analysi_layer_line",
+      "label": "Analysis of layer lines",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "pitch_and_radiu",
+      "label": "Pitch and radius of helix",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "spacing_between_line",
+      "label": "Spacing between layer lines",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "three_dimensional_arrange",
+      "label": "Three-dimensional arrangement of DNA molecules",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "diffraction_pattern",
+      "label": "Diffraction pattern",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "crit_insight",
+      "label": "critical insights",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "distance_and_angle",
+      "label": "Distances and angles within DNA molecule",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "spacing_between_spot",
+      "label": "Spacing between spots",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "system_of_helice",
+      "label": "System of helices",
+      "type": "system",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "multiple_dna_strand",
+      "label": "Multiple DNA strands",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "organized_align",
+      "label": "Organized alignment",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "intricate_interaction",
+      "label": "Intricate interactions",
+      "type": "interaction",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "hel_configuration",
+      "label": "Helical configuration",
+      "type": "configuration",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "functional_effect",
+      "label": "functional effects",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "structural_stability",
+      "label": "Structural stability",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "functionality",
+      "label": "Functionality",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "packing_density",
+      "label": "Packing densities",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "base_pair_interaction",
+      "label": "Interactions between base pairs",
+      "type": "interaction",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "genetic_expression",
+      "label": "Genetic expression",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "replication_mechanism",
+      "label": "replication mechanisms",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "dna_replication",
+      "label": "DNA replication mechanism",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "structural_component",
+      "label": "Structural components of DNA replication",
+      "type": "structure",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "interaction",
+      "label": "Interactions involved in DNA replication",
+      "type": "interaction",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    }
+  ],
+  "edges": [
+    {
+      "from": "dna_structure",
+      "to": "stability",
+      "verb": "provides",
+      "time": 1.96875,
+      "cluster": 1
+    },
+    {
+      "from": "dna_overview",
+      "to": "base_pairing",
+      "verb": "consists of",
+      "time": 5.056,
+      "cluster": 1
+    },
+    {
+      "from": "sequence_determination",
+      "to": "identification_order",
+      "verb": "consists of",
+      "time": 10.879999999999999,
+      "cluster": 1
+    },
+    {
+      "from": "sugar_phosphate_backbone",
+      "to": "hel_structure",
+      "verb": "contains",
+      "time": 16.064,
+      "cluster": 0
+    },
+    {
+      "from": "hel_distance",
+      "to": "stability",
+      "verb": "requires",
+      "time": 21.376,
+      "cluster": 1
+    },
+    {
+      "from": "hel_distance",
+      "to": "structural_integrity",
+      "verb": "requires",
+      "time": 26.389333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "dna_organ",
+      "to": "salt_structure",
+      "verb": "within",
+      "time": 32,
+      "cluster": 0
+    },
+    {
+      "from": "salt_structure",
+      "to": "dna_component",
+      "verb": "consists of",
+      "time": 37.824,
+      "cluster": 0
+    },
+    {
+      "from": "dna_component",
+      "to": "salt_environ",
+      "verb": "operates on",
+      "time": 43.242666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "hel_chain_overview",
+      "to": "dna_model",
+      "verb": "delve into",
+      "time": 48.85333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "hel_structure",
+      "to": "stability_and_function",
+      "verb": "produces",
+      "time": 54.336,
+      "cluster": 0
+    },
+    {
+      "from": "spatial_organ",
+      "to": "structural_integrity",
+      "verb": "helps understand",
+      "time": 59.882666666666665,
+      "cluster": 1
+    },
+    {
+      "from": "accurate_representation",
+      "to": "dna_organ",
+      "verb": "consists of",
+      "time": 65.94133333333333,
+      "cluster": 0
+    },
+    {
+      "from": "dna_model",
+      "to": "sugar_phosphate_backbone",
+      "verb": "focuses on",
+      "time": 73.13066666666667,
+      "cluster": 0
+    },
+    {
+      "from": "intricate_interaction",
+      "to": "dna_structure",
+      "verb": "operates on",
+      "time": 79.18933333333334,
+      "cluster": 1
+    },
+    {
+      "from": "structural_integrity",
+      "to": "angle_crusial",
+      "verb": "requires",
+      "time": 84.37333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "hel_structure",
+      "to": "same_chain_residue",
+      "verb": "consists of",
+      "time": 90.73066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "same_chain_residue",
+      "to": "angle_value",
+      "verb": "produces",
+      "time": 95.59466666666667,
+      "cluster": 0
+    },
+    {
+      "from": "consistent_value",
+      "to": "10",
+      "verb": "equals",
+      "time": 100.97066666666667,
+      "cluster": 0
+    },
+    {
+      "from": "phosphoru_distance",
+      "to": "consistent_value",
+      "verb": "is consistently measured",
+      "time": 107.34933333333333,
+      "cluster": 0
+    },
+    {
+      "from": "dna_model",
+      "to": "accurate_representation",
+      "verb": "provides",
+      "time": 114.96533333333333,
+      "cluster": 0
+    },
+    {
+      "from": "adenine",
+      "to": "hydrogen_bond",
+      "verb": "contains",
+      "time": 121.28,
+      "cluster": 1
+    },
+    {
+      "from": "cytosine",
+      "to": "hydrogen_bond",
+      "verb": "contains",
+      "time": 127.744,
+      "cluster": 1
+    },
+    {
+      "from": "fundamental_characteristic",
+      "to": "base_pairing",
+      "verb": "relates",
+      "time": 134.10133333333334,
+      "cluster": 1
+    },
+    {
+      "from": "dna_structure",
+      "to": "adenine_thymine",
+      "verb": "contains",
+      "time": 140.288,
+      "cluster": 1
+    },
+    {
+      "from": "stability_function",
+      "to": "adenine_thymine",
+      "verb": "requires",
+      "time": 146.21866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "dna_structure",
+      "to": "cytosine_guanine",
+      "verb": "contains",
+      "time": 152.14933333333335,
+      "cluster": 1
+    },
+    {
+      "from": "stability_function",
+      "to": "cytosine_guanine",
+      "verb": "requires",
+      "time": 158.86933333333334,
+      "cluster": 1
+    },
+    {
+      "from": "crit_examination",
+      "to": "previ_model",
+      "verb": "depends on",
+      "time": 164.99200000000002,
+      "cluster": 0
+    },
+    {
+      "from": "dna_structure",
+      "to": "genetic_information_transfer",
+      "verb": "facilitates",
+      "time": 171.54133333333334,
+      "cluster": 1
+    },
+    {
+      "from": "genetic_expression",
+      "to": "base_pair_interaction",
+      "verb": "depends on",
+      "time": 177.57866666666666,
+      "cluster": 4
+    },
+    {
+      "from": "replication_mechanism",
+      "to": "base_pair_interaction",
+      "verb": "depends on",
+      "time": 183.14666666666668,
+      "cluster": 4
+    },
+    {
+      "from": "fresh_perspect",
+      "to": "previ_critique",
+      "verb": "builds upon",
+      "time": 189.09866666666667,
+      "cluster": 0
+    },
+    {
+      "from": "hel_nature",
+      "to": "distance_and_angle",
+      "verb": "depends on",
+      "time": 195.328,
+      "cluster": 0
+    },
+    {
+      "from": "dna_structure",
+      "to": "base_pairing",
+      "verb": "contains",
+      "time": 201.536,
+      "cluster": 1
+    },
+    {
+      "from": "dna_molecule",
+      "to": "stability",
+      "verb": "contains",
+      "time": 207.14666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "dna_molecule",
+      "to": "specificity",
+      "verb": "contains",
+      "time": 213.65333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "fiber_diagram",
+      "to": "dna_structure",
+      "verb": "contains",
+      "time": 218.98666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "previ_model",
+      "to": "foundational_insight",
+      "verb": "contains",
+      "time": 225.85600000000002,
+      "cluster": 0
+    },
+    {
+      "from": "previ_model",
+      "to": "room_for_improve",
+      "verb": "contains",
+      "time": 232.25600000000003,
+      "cluster": 0
+    },
+    {
+      "from": "packing_density",
+      "to": "base_pair_interaction",
+      "verb": "contains",
+      "time": 237.52533333333335,
+      "cluster": 4
+    },
+    {
+      "from": "compatibility",
+      "to": "reliability",
+      "verb": "confirms",
+      "time": 243.73333333333335,
+      "cluster": 2
+    },
+    {
+      "from": "structural_stability",
+      "to": "hel_configuration",
+      "verb": "influence",
+      "time": 250.19733333333335,
+      "cluster": 3
+    },
+    {
+      "from": "functionality",
+      "to": "hel_configuration",
+      "verb": "influence",
+      "time": 256.384,
+      "cluster": 3
+    },
+    {
+      "from": "compatibility",
+      "to": "accuracy",
+      "verb": "confirms",
+      "time": 262.91200000000003,
+      "cluster": 2
+    },
+    {
+      "from": "sequencing_technique",
+      "to": "genetic_information_understanding",
+      "verb": "achieves",
+      "time": 268.9066666666667,
+      "cluster": 1
+    },
+    {
+      "from": "new_model",
+      "to": "experimental_data",
+      "verb": "aligns with",
+      "time": 274.58133333333336,
+      "cluster": 2
+    },
+    {
+      "from": "dna_replication",
+      "to": "structural_component",
+      "verb": "consists of",
+      "time": 279.5733333333334,
+      "cluster": 7
+    },
+    {
+      "from": "distance_and_angle",
+      "to": "spacing_between_spot",
+      "verb": "depends on",
+      "time": 285.88800000000003,
+      "cluster": 0
+    },
+    {
+      "from": "distance_between_residue",
+      "to": "measure_value",
+      "verb": "equals",
+      "time": 292.48,
+      "cluster": 2
+    },
+    {
+      "from": "analysi_layer_line",
+      "to": "hel_structure",
+      "verb": "produces",
+      "time": 299.5626666666667,
+      "cluster": 0
+    },
+    {
+      "from": "hel_configuration",
+      "to": "functional_effect",
+      "verb": "transforms into",
+      "time": 306.26133333333337,
+      "cluster": 3
+    },
+    {
+      "from": "hel_config",
+      "to": "understanding",
+      "verb": "produces",
+      "time": 311.80800000000005,
+      "cluster": 2
+    },
+    {
+      "from": "layer_line_analysi",
+      "to": "understanding",
+      "verb": "produces",
+      "time": 317.65333333333336,
+      "cluster": 2
+    },
+    {
+      "from": "multiple_dna_strand",
+      "to": "organized_align",
+      "verb": "produces",
+      "time": 324.096,
+      "cluster": 6
+    },
+    {
+      "from": "fresh_perspect",
+      "to": "hel_nature",
+      "verb": "focuses on",
+      "time": 330.752,
+      "cluster": 0
+    },
+    {
+      "from": "diffraction_pattern",
+      "to": "dna_structure",
+      "verb": "produces",
+      "time": 337.3226666666667,
+      "cluster": 1
+    },
+    {
+      "from": "crit_insight",
+      "to": "diffraction_pattern",
+      "verb": "provides",
+      "time": 343.72266666666667,
+      "cluster": 1
+    },
+    {
+      "from": "dna_replication",
+      "to": "interaction",
+      "verb": "consists of",
+      "time": 349.4186666666667,
+      "cluster": 7
+    },
+    {
+      "from": "three_dimensional_arrange",
+      "to": "pitch_and_radiu",
+      "verb": "requires",
+      "time": 356.3946666666667,
+      "cluster": 5
+    },
+    {
+      "from": "system_of_helice",
+      "to": "multiple_dna_strand",
+      "verb": "consists of",
+      "time": 363.92533333333336,
+      "cluster": 6
+    },
+    {
+      "from": "identification_order",
+      "to": "dna_molecule",
+      "verb": "operates on",
+      "time": 369.728,
+      "cluster": 1
+    },
+    {
+      "from": "pitch_and_radiu",
+      "to": "spacing_between_line",
+      "verb": "depends on",
+      "time": 375.63733333333334,
+      "cluster": 5
+    },
+    {
+      "from": "hel_structure",
+      "to": "repeating_pattern",
+      "verb": "relates",
+      "time": 381.97333333333336,
+      "cluster": 0
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "hel_structure",
+      "label": "Helical structure",
+      "children": [
+        {
+          "id": "10",
+          "label": "10 Å"
+        },
+        {
+          "id": "dna_component",
+          "label": "Components of DNA"
+        },
+        {
+          "id": "salt_environ",
+          "label": "Salt environment"
+        },
+        {
+          "id": "crit_examination",
+          "label": "Critical examination"
+        },
+        {
+          "id": "previ_model",
+          "label": "Previous models of DNA structure",
+          "children": [
+            {
+              "id": "foundational_insight",
+              "label": "Foundational insights"
+            },
+            {
+              "id": "room_for_improve",
+              "label": "Room for improvement"
+            }
+          ]
+        },
+        {
+          "id": "accurate_representation",
+          "label": "Accurate representation of DNA organization"
+        },
+        {
+          "id": "dna_organ",
+          "label": "dna organization"
+        },
+        {
+          "id": "salt_structure",
+          "label": "Salt structure"
+        },
+        {
+          "id": "fresh_perspect",
+          "label": "Fresh perspective on DNA helical nature"
+        },
+        {
+          "id": "previ_critique",
+          "label": "Previous critiques of DNA models"
+        },
+        {
+          "id": "hel_nature",
+          "label": "helical nature"
+        },
+        {
+          "id": "hel_chain_overview",
+          "label": "Overview of helical chains"
+        },
+        {
+          "id": "dna_model",
+          "label": "DNA model"
+        },
+        {
+          "id": "sugar_phosphate_backbone",
+          "label": "Sugar-phosphate backbone"
+        },
+        {
+          "id": "stability_and_function",
+          "label": "Overall stability and function"
+        },
+        {
+          "id": "repeating_pattern",
+          "label": "Repeating pattern of DNA"
+        },
+        {
+          "id": "same_chain_residue",
+          "label": "Residues within the same chain"
+        },
+        {
+          "id": "angle_value",
+          "label": "angle value"
+        },
+        {
+          "id": "consistent_value",
+          "label": "Consistent value of phosphorus distance"
+        },
+        {
+          "id": "phosphoru_distance",
+          "label": "Phosphorus distance from the fiber axis"
+        },
+        {
+          "id": "analysi_layer_line",
+          "label": "Analysis of layer lines"
+        },
+        {
+          "id": "distance_and_angle",
+          "label": "Distances and angles within DNA molecule"
+        },
+        {
+          "id": "spacing_between_spot",
+          "label": "Spacing between spots"
+        }
+      ]
+    },
+    {
+      "id": "dna_structure",
+      "label": "Structural framework for DNA",
+      "children": [
+        {
+          "id": "base_pairing",
+          "label": "Base pairing in DNA"
+        },
+        {
+          "id": "adenine_thymine",
+          "label": "Adenine-thymine pairing"
+        },
+        {
+          "id": "cytosine_guanine",
+          "label": "Cytosine-guanine pairing"
+        },
+        {
+          "id": "stability",
+          "label": "Stability of DNA"
+        },
+        {
+          "id": "genetic_information_transfer",
+          "label": "Transfer of genetic information"
+        },
+        {
+          "id": "dna_overview",
+          "label": "DNA base pairing overview"
+        },
+        {
+          "id": "stability_function",
+          "label": "Stability and function of DNA"
+        },
+        {
+          "id": "adenine",
+          "label": "Adenine",
+          "children": [
+            {
+              "id": "hydrogen_bond",
+              "label": "Hydrogen bonds"
+            }
+          ]
+        },
+        {
+          "id": "cytosine",
+          "label": "cytosine"
+        },
+        {
+          "id": "dna_molecule",
+          "label": "DNA molecule",
+          "children": [
+            {
+              "id": "specificity",
+              "label": "Specificity"
+            }
+          ]
+        },
+        {
+          "id": "sequence_determination",
+          "label": "Sequence determination process"
+        },
+        {
+          "id": "identification_order",
+          "label": "identification order"
+        },
+        {
+          "id": "sequencing_technique",
+          "label": "Sequencing experimental techniques"
+        },
+        {
+          "id": "genetic_information_understanding",
+          "label": "Understanding of genetic information"
+        },
+        {
+          "id": "hel_distance",
+          "label": "Helical distance formula"
+        },
+        {
+          "id": "structural_integrity",
+          "label": "Structural integrity"
+        },
+        {
+          "id": "fundamental_characteristic",
+          "label": "Fundamental characteristic of double helix structure"
+        },
+        {
+          "id": "angle_crusial",
+          "label": "Crucial angle for DNA structural integrity"
+        },
+        {
+          "id": "spatial_organ",
+          "label": "Spatial organization of the DNA molecule"
+        },
+        {
+          "id": "fiber_diagram",
+          "label": "Fiber diagram interpretation"
+        },
+        {
+          "id": "diffraction_pattern",
+          "label": "Diffraction pattern"
+        },
+        {
+          "id": "crit_insight",
+          "label": "critical insights"
+        },
+        {
+          "id": "intricate_interaction",
+          "label": "Intricate interactions"
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "label": "Compatibility",
+      "children": [
+        {
+          "id": "new_model",
+          "label": "New model"
+        },
+        {
+          "id": "experimental_data",
+          "label": "Existing experimental data"
+        },
+        {
+          "id": "reliability",
+          "label": "Reliability"
+        },
+        {
+          "id": "accuracy",
+          "label": "accuracy"
+        },
+        {
+          "id": "distance_between_residue",
+          "label": "Distance between residues along the helix axis"
+        },
+        {
+          "id": "measure_value",
+          "label": "measurement value"
+        },
+        {
+          "id": "hel_config",
+          "label": "Helical configuration of DNA"
+        },
+        {
+          "id": "understanding",
+          "label": "understanding"
+        },
+        {
+          "id": "layer_line_analysi",
+          "label": "Layer line analysis of DNA"
+        }
+      ]
+    },
+    {
+      "id": "hel_configuration",
+      "label": "Helical configuration",
+      "children": [
+        {
+          "id": "functional_effect",
+          "label": "functional effects"
+        },
+        {
+          "id": "structural_stability",
+          "label": "Structural stability"
+        },
+        {
+          "id": "functionality",
+          "label": "Functionality"
+        }
+      ]
+    },
+    {
+      "id": "base_pair_interaction",
+      "label": "Interactions between base pairs",
+      "children": [
+        {
+          "id": "packing_density",
+          "label": "Packing densities"
+        },
+        {
+          "id": "genetic_expression",
+          "label": "Genetic expression"
+        },
+        {
+          "id": "replication_mechanism",
+          "label": "replication mechanisms"
+        }
+      ]
+    },
+    {
+      "id": "pitch_and_radiu",
+      "label": "Pitch and radius of helix",
+      "children": [
+        {
+          "id": "spacing_between_line",
+          "label": "Spacing between layer lines"
+        },
+        {
+          "id": "three_dimensional_arrange",
+          "label": "Three-dimensional arrangement of DNA molecules"
+        }
+      ]
+    },
+    {
+      "id": "multiple_dna_strand",
+      "label": "Multiple DNA strands",
+      "children": [
+        {
+          "id": "system_of_helice",
+          "label": "System of helices"
+        },
+        {
+          "id": "organized_align",
+          "label": "Organized alignment"
+        }
+      ]
+    },
+    {
+      "id": "dna_replication",
+      "label": "DNA replication mechanism",
+      "children": [
+        {
+          "id": "structural_component",
+          "label": "Structural components of DNA replication"
+        },
+        {
+          "id": "interaction",
+          "label": "Interactions involved in DNA replication"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "The structural framework for DNA's stability is highlighted by its novel features.",
+    "DNA base pairing overview includes the three intertwined chains, with bases on the exterior.",
+    "Sequence determination involves identifying the order of components in DNA.",
+    "The sugar-phosphate backbone contains a helical structure essential for DNA's shape.",
+    "Helical distance formula relies on the stability provided by DNA's structure.",
+    "It also formula ensures the structural integrity necessary for DNA's form.",
+    "DNA organization within a salt structure is proposed due to unclear previous definitions.",
+    "Salt structure consists of the components of DNA, redefining its known composition.",
+    "DNA components operate within a salt environment, influencing the molecule's behavior.",
+    "An overview of helical chains delves into the DNA model, showcasing its complexity.",
+    "The helical structure produces overall stability and function within the DNA molecule.",
+    "Spatial organization of the DNA molecule aids in understanding its structural integrity.",
+    "An accurate representation captures the DNA organization with two helical chains sharing the same axis.",
+    "The DNA model emphasizes the sugar-phosphate backbone as a central component of its structure.",
+    "Intricate interactions govern the structural framework supporting the stability of DNA.",
+    "Structural integrity relies on maintaining a crucial angle of thirty-six degrees between residues.",
+    "The helical structure is defined by residues situated along the same chain.",
+    "Residues within the same chain create a consistent angle value of thirty-six degrees.",
+    "The consistent value of ten angstroms measures the phosphorus distance from the fiber axis accurately.",
+    "Phosphorus atoms maintain a consistent ten angstroms distance from the fiber axis, ensuring structural stability.",
+    "This DNA model offers an accurate representation of how the two chains interact through their bases.",
+    "Adenine molecules contain hydrogen bonds that connect to complementary positions in other bases.",
+    "Cytosine also participates in hydrogen bonding, facilitating the formation of stable base pairs.",
+    "The fundamental characteristic of the double helix structure lies in the specific base pairing mechanism.",
+    "The structural framework for DNA includes adenine-thymine pairing as essential components.",
+    "Adenine-thymine pairing plays a critical role in ensuring the stability and function of DNA.",
+    "Similarly, DNA's structural framework incorporates cytosine-guanine pairing as fundamental elements.",
+    "Cytosine-guanine pairing is indispensable for maintaining the stability and function of DNA.",
+    "A critical examination of DNA relies heavily on previous models to establish its foundation.",
+    "The structural framework of DNA is crucial for facilitating the transfer of genetic information.",
+    "Genetic expression is contingent upon the interactions between base pairs within DNA.",
+    "Replication mechanisms depend on the interactions between base pairs for accurate duplication.",
+    "Fresh perspectives on the helical nature of DNA build upon earlier critiques of DNA models.",
+    "The helical nature of DNA is determined by precise distances and angles within the molecule.",
+    "Base pairing is an integral part of the structural framework that defines the DNA molecule.",
+    "The DNA molecule inherently contains stability, which is vital for its overall structure and function.",
+    "It also contains specificity due to its complex molecular structure.",
+    "Fiber diagram interpretations contain structural frameworks essential for understanding DNA structure.",
+    "Previous models of DNA structure contain foundational insights into molecular organization.",
+    "It also of DNA structure also contain room for improvement in accuracy.",
+    "Packing densities contain interactions between base pairs, influencing DNA's physical properties.",
+    "Compatibility among experimental data confirms reliability in DNA structure determination.",
+    "Structural stability influences the helical configuration of DNA molecules significantly.",
+    "Functionality considerations also influence the helical configuration necessary for DNA's role.",
+    "Compatibility across different experiments confirms the accuracy of DNA structural models.",
+    "Sequencing experimental techniques achieve a deeper understanding of genetic information.",
+    "New models align well with existing experimental data on DNA structure.",
+    "The DNA replication mechanism consists of structural components crucial for replication processes.",
+    "Distance and angle within the DNA molecule depend on the spacing between spots, affecting its structure.",
+    "The distance between residues along the helix axis matches the measure value, defining molecular organization.",
+    "Analyzing layer lines reveals the helical structure of DNA, offering insights into its composition.",
+    "The helical configuration of DNA leads to functional effects observable in its behavior.",
+    "Understanding arises from the helical configuration of DNA, providing clarity on its structure.",
+    "Layer line analysis contributes to a deeper understanding of DNA's complex structure and function.",
+    "Multiple DNA strands organize themselves into an aligned structure, enhancing stability and function.",
+    "Fresh perspectives focus on the helical nature of DNA, highlighting its unique structural characteristics.",
+    "Diffraction patterns provide the structural framework necessary to understand DNA’s organization.",
+    "Critical insights reveal the diffraction patterns that define the structure of DNA molecules.",
+    "The DNA replication mechanism involves interactions crucial to the process of duplicating genetic information.",
+    "A three-dimensional arrangement of DNA molecules requires precise pitch and radius measurements for accurate modeling.",
+    "The system of helices involves multiple DNA strands intertwining in a complex structure.",
+    "Identification order influences how the DNA molecule is analyzed and understood.",
+    "The pitch and radius of the helix dictate the spacing between layer lines observed in diffraction patterns.",
+    "The helical structure correlates with the repeating pattern found within DNA molecules."
+  ]
+}

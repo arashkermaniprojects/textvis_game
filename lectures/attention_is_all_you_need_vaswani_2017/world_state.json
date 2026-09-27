@@ -1,0 +1,2543 @@
+{
+  "basename": "attention_is_all_you_need_vaswani_2017",
+  "version": "1.0",
+  "generated_at": "2026-04-14T07:48:00.577Z",
+  "title": "attention is all you need vaswani 2017",
+  "source_pdf": "source_papers/attention_is_all_you_need_vaswani_2017.pdf",
+  "voice": {
+    "name": "bf_lily",
+    "speed": 1,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 1.2,
+    "total_duration": 602.7840000000002
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 62.3,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 13.497514,
+    "rescale_factor": 1
+  },
+  "clusters": [
+    {
+      "id": "transformer",
+      "label": "Transformer model concept",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "radius": 11,
+      "node_ids": [
+        "transformer",
+        "parallel_processing",
+        "parallel_computation",
+        "sequential_computation",
+        "computation_speed",
+        "sequential_data",
+        "sequential_processing",
+        "computational_efficiency",
+        "model_part",
+        "independent_functioning",
+        "training_time",
+        "inference_time",
+        "po_enc",
+        "information",
+        "sine_cosine",
+        "po_info",
+        "dim",
+        "encoder_decoder_framework",
+        "rnn_model",
+        "traditional_rnn",
+        "future_work",
+        "other_task",
+        "convs2_architecture",
+        "performance_metric",
+        "processing_task",
+        "efficiency_effect",
+        "transformer_efficiency",
+        "previ_model",
+        "transformer_time",
+        "compar_result",
+        "general_ability",
+        "unseen_data"
+      ]
+    },
+    {
+      "id": "attention",
+      "label": "attention mechanism",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "radius": 11,
+      "node_ids": [
+        "attention",
+        "title_attention_i_all_you_need",
+        "central_theme",
+        "innovat_nature",
+        "processing_sequence",
+        "recurrent_neural_network",
+        "sequence_step",
+        "dependency",
+        "model",
+        "focu",
+        "enhanced_ability",
+        "recurrent_connection",
+        "query_matrix",
+        "key_matrix",
+        "value_matrix",
+        "attention_output",
+        "focu_on_part",
+        "query_key_value_matrice",
+        "split_into_head",
+        "concatenate",
+        "context_vector",
+        "ffn",
+        "position_output",
+        "relu_activation",
+        "enhanced_complex_feature",
+        "linear_transformation",
+        "encoder",
+        "input_sequence",
+        "decoder",
+        "output_sequence",
+        "concurrent_processing"
+      ]
+    },
+    {
+      "id": "beam_search_decoding",
+      "label": "Beam search decoding technique",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "radius": 10.621024,
+      "node_ids": [
+        "beam_search_decoding",
+        "transformer_training",
+        "wsj_dataset",
+        "language_modeling",
+        "machine_translation",
+        "human_like_text",
+        "on_wsj_data",
+        "generated_sequence",
+        "promising_sequence_set",
+        "multiple_hypothe",
+        "optimal_sequence",
+        "transformer_parallel",
+        "rnn_sequential"
+      ]
+    },
+    {
+      "id": "dilated_convolutional_network",
+      "label": "Dilated convolutional network",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "radius": 8.820653,
+      "node_ids": [
+        "dilated_convolutional_network",
+        "byte_net_architecture",
+        "long_sequence_processing",
+        "parameter",
+        "efficient_processing",
+        "multiple_layer",
+        "different_dilation_rate",
+        "varying_scale"
+      ]
+    },
+    {
+      "id": "hidden_state",
+      "label": "Hidden states",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "hidden_state",
+        "information_flow",
+        "input"
+      ]
+    },
+    {
+      "id": "robust",
+      "label": "Robustness",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "radius": 6.11127,
+      "node_ids": [
+        "robust",
+        "vari_metric",
+        "different_task_dataset"
+      ]
+    },
+    {
+      "id": "superior_performance",
+      "label": "Superior performance",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "superior_performance",
+        "accurate_fluent_translation"
+      ]
+    },
+    {
+      "id": "convolutional_layer",
+      "label": "Convolutional layers for encoding",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "radius": 5.2,
+      "node_ids": [
+        "convolutional_layer",
+        "seq_to_seq_learning"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "title_attention_i_all_you_need",
+      "label": "Attention Is All You Need",
+      "type": "title",
+      "position": [
+        -33.832185,
+        -33.073429,
+        46.754518
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/title_attention_i_all_you_need.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "central_theme",
+      "label": "Central theme",
+      "type": "concept",
+      "position": [
+        -37.105561,
+        -34.826621,
+        46.345654
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/central_theme.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "innovat_nature",
+      "label": "Innovative nature",
+      "type": "attribute",
+      "position": [
+        -35.013695,
+        -27.345987,
+        45.303216
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/innovat_nature.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "attention",
+      "label": "scaled dot product attention",
+      "type": "default",
+      "position": [
+        -35.304107,
+        -32.341454,
+        38.333469
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/attention.png",
+      "edge_in_count": 3,
+      "edge_out_count": 6
+    },
+    {
+      "id": "processing_sequence",
+      "label": "processing sequences",
+      "type": "default",
+      "position": [
+        -32.445837,
+        -37.200168,
+        44.801822
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/processing_sequence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "recurrent_neural_network",
+      "label": "recurrent neural networks",
+      "type": "default",
+      "position": [
+        -41.291649,
+        -30.963768,
+        44.322436
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/recurrent_neural_network.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sequence_step",
+      "label": "Sequence processing step-by-step",
+      "type": "recurrence",
+      "position": [
+        -29.734191,
+        -30.620108,
+        44.628658
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/sequence_step.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dependency",
+      "label": "Dependency on previous step",
+      "type": "dependency",
+      "position": [
+        -35.759303,
+        -38.506996,
+        44.282863
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/dependency.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "parallel_computation",
+      "label": "Parallel computation",
+      "type": "parallelization",
+      "position": [
+        29.444536,
+        -1.93192,
+        64.364918
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/parallel_computation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sequential_computation",
+      "label": "Sequential computation",
+      "type": "recurrence",
+      "position": [
+        31.424942,
+        2.85126,
+        64.250771
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/sequential_computation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "computation_speed",
+      "label": "Computation speed",
+      "type": "speed",
+      "position": [
+        34.263532,
+        -3.395699,
+        63.371699
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/computation_speed.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "model",
+      "label": "model",
+      "type": "default",
+      "position": [
+        -38.935711,
+        -25.625102,
+        42.247351
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "focu",
+      "label": "Focus on specific parts",
+      "type": "function",
+      "position": [
+        -28.902274,
+        -36.051173,
+        42.677537
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/focu.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "enhanced_ability",
+      "label": "Enhanced ability to handle complex tasks",
+      "type": "function",
+      "position": [
+        -40.665404,
+        -37.459163,
+        42.65573
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/enhanced_ability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "recurrent_connection",
+      "label": "recurrent connections",
+      "type": "default",
+      "position": [
+        -31.232769,
+        -25.068533,
+        40.369454
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/recurrent_connection.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "transformer",
+      "label": "Transformer model",
+      "type": "model",
+      "position": [
+        31.075671,
+        0,
+        56.165925
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/transformer.png",
+      "edge_in_count": 2,
+      "edge_out_count": 7
+    },
+    {
+      "id": "sequential_data",
+      "label": "Sequential data processing",
+      "type": "recurrence",
+      "position": [
+        25.606511,
+        1.187538,
+        62.669343
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/sequential_data.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "parallel_processing",
+      "label": "Parallel processing",
+      "type": "parallelization",
+      "position": [
+        34.949851,
+        0.903729,
+        63.767925
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/parallel_processing.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "sequential_processing",
+      "label": "sequential processing",
+      "type": "default",
+      "position": [
+        36.642207,
+        3.418096,
+        61.7289
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/sequential_processing.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "computational_efficiency",
+      "label": "Computational efficiency",
+      "type": "faster",
+      "position": [
+        28.921997,
+        -6.952808,
+        60.708672
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/computational_efficiency.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "model_part",
+      "label": "Model parts",
+      "type": "architecture",
+      "position": [
+        29.232044,
+        6.938479,
+        60.864325
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/model_part.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "independent_functioning",
+      "label": "Independent functioning",
+      "type": "architecture",
+      "position": [
+        34.107178,
+        1.304374,
+        59.557905
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/independent_functioning.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "training_time",
+      "label": "Training time",
+      "type": "time",
+      "position": [
+        24.802651,
+        -2.18882,
+        57.607313
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/training_time.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "inference_time",
+      "label": "inference time",
+      "type": "default",
+      "position": [
+        35.349955,
+        6.790554,
+        59.204884
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/inference_time.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "query_matrix",
+      "label": "Query matrix Q",
+      "type": "matrix",
+      "position": [
+        -34.729274,
+        -40.174713,
+        40.142055
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/query_matrix.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "key_matrix",
+      "label": "Key matrix K",
+      "type": "matrix",
+      "position": [
+        -42.795459,
+        -29.471848,
+        39.734281
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/key_matrix.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "value_matrix",
+      "label": "Value matrix V",
+      "type": "matrix",
+      "position": [
+        -27.412716,
+        -32.169342,
+        39.096384
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/value_matrix.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "attention_output",
+      "label": "Attention output",
+      "type": "output",
+      "position": [
+        -38.046211,
+        -39.916852,
+        38.604963
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/attention_output.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "focu_on_part",
+      "label": "Focusing on different parts of the input sequence",
+      "type": "function",
+      "position": [
+        -35.974012,
+        -23.822742,
+        37.559403
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/focu_on_part.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "query_key_value_matrice",
+      "label": "Query, Key, Value matrices",
+      "type": "matrix",
+      "position": [
+        -29.112554,
+        -38.134689,
+        37.022172
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/query_key_value_matrice.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "split_into_head",
+      "label": "Splitting into multiple heads",
+      "type": "function",
+      "position": [
+        -43.77884,
+        -32.891703,
+        37.111784
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/split_into_head.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "concatenate",
+      "label": "concatenate",
+      "type": "default",
+      "position": [
+        -28.635566,
+        -27.695401,
+        35.583714
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/concatenate.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "context_vector",
+      "label": "Context vector",
+      "type": "representation",
+      "position": [
+        -36.206088,
+        -39.090937,
+        33.113574
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/context_vector.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ffn",
+      "label": "ffn",
+      "type": "default",
+      "position": [
+        -36.476534,
+        -28.552682,
+        34.334689
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/ffn.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "position_output",
+      "label": "position output",
+      "type": "default",
+      "position": [
+        -27.923213,
+        -32.471747,
+        33.960618
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/position_output.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "relu_activation",
+      "label": "ReLU activation function",
+      "type": "activation",
+      "position": [
+        -40.994904,
+        -35.962491,
+        33.030705
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/relu_activation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "enhanced_complex_feature",
+      "label": "Enhanced ability to learn complex features",
+      "type": "representation",
+      "position": [
+        -35.319783,
+        -25.908901,
+        32.65558
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/enhanced_complex_feature.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "linear_transformation",
+      "label": "Linear transformation",
+      "type": "transformation",
+      "position": [
+        -32.275656,
+        -35.594646,
+        33.450511
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/linear_transformation.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "po_enc",
+      "label": "Positional encoding method",
+      "type": "representation",
+      "position": [
+        32.484379,
+        -7.475524,
+        58.552151
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/po_enc.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "information",
+      "label": "Relative positions of tokens",
+      "type": "representation",
+      "position": [
+        23.971046,
+        2.971704,
+        57.802841
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/information.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sine_cosine",
+      "label": "Sine and cosine functions",
+      "type": "mechanism",
+      "position": [
+        37.114501,
+        2.347198,
+        56.413849
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/sine_cosine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "po_info",
+      "label": "Captured positional information",
+      "type": "representation",
+      "position": [
+        27.101251,
+        -6.430644,
+        57.054088
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/po_info.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dim",
+      "label": "Dimensionality of embeddings",
+      "type": "dimension",
+      "position": [
+        31.722498,
+        8.555582,
+        56.171932
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/dim.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "encoder_decoder_framework",
+      "label": "Encoder-decoder framework",
+      "type": "architecture",
+      "position": [
+        37.861134,
+        -5.185956,
+        55.341462
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/encoder_decoder_framework.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "encoder",
+      "label": "Encoder",
+      "type": "layer",
+      "position": [
+        -40.311353,
+        -31.791316,
+        31.387878
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/encoder.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "input_sequence",
+      "label": "Input sequence",
+      "type": "sequence",
+      "position": [
+        -31.815786,
+        -29.75633,
+        30.933121
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/input_sequence.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "decoder",
+      "label": "Decoder",
+      "type": "layer",
+      "position": [
+        -36.757499,
+        -36.485322,
+        30.962417
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/decoder.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "output_sequence",
+      "label": "output sequence",
+      "type": "default",
+      "position": [
+        -36.499027,
+        -30.411786,
+        30.059114
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/output_sequence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "transformer_training",
+      "label": "Transformer model training process",
+      "type": "training",
+      "position": [
+        7.062058,
+        63.138299,
+        33.970142
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/transformer_training.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "wsj_dataset",
+      "label": "WSJ dataset",
+      "type": "dataset",
+      "position": [
+        2.505894,
+        60.603665,
+        32.891309
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/wsj_dataset.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "language_modeling",
+      "label": "Language modeling task",
+      "type": "task",
+      "position": [
+        7.096151,
+        67.869959,
+        30.911557
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/language_modeling.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "machine_translation",
+      "label": "Machine translation task",
+      "type": "task",
+      "position": [
+        10.719634,
+        58.960938,
+        30.229764
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/machine_translation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "human_like_text",
+      "label": "Human-like text generation",
+      "type": "output",
+      "position": [
+        0.545066,
+        66.02889,
+        27.688705
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/human_like_text.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "on_wsj_data",
+      "label": "Training on WSJ data",
+      "type": "training",
+      "position": [
+        9.60463,
+        67.973498,
+        26.747229
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/on_wsj_data.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "beam_search_decoding",
+      "label": "beam search decoding",
+      "type": "default",
+      "position": [
+        5.583051,
+        63.615982,
+        25.832845
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/beam_search_decoding.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "generated_sequence",
+      "label": "Generated sequences",
+      "type": "sequence",
+      "position": [
+        3.252077,
+        55.71282,
+        24.973865
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/generated_sequence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "promising_sequence_set",
+      "label": "Set of promising sequences",
+      "type": "set",
+      "position": [
+        4.069659,
+        69.081248,
+        23.160455
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/promising_sequence_set.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "multiple_hypothe",
+      "label": "Multiple hypotheses",
+      "type": "hypotheses",
+      "position": [
+        10.742958,
+        63.24883,
+        22.299346
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/multiple_hypothe.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "optimal_sequence",
+      "label": "Optimal sequence",
+      "type": "sequence",
+      "position": [
+        -0.731962,
+        61.18825,
+        21.051842
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/optimal_sequence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "rnn_model",
+      "label": "RNN models",
+      "type": "architecture",
+      "position": [
+        22.64822,
+        -0.23276,
+        54.572094
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/rnn_model.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "transformer_parallel",
+      "label": "Transformer operates in parallel",
+      "type": "parallelization",
+      "position": [
+        7.670377,
+        67.158079,
+        18.640636
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/transformer_parallel.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "rnn_sequential",
+      "label": "RNN requires sequential processing",
+      "type": "recurrence",
+      "position": [
+        6.750643,
+        62.04451,
+        17.796863
+      ],
+      "cluster_id": "beam_search_decoding",
+      "icon": "png_icons/rnn_sequential.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "information_flow",
+      "label": "Information flow",
+      "type": "process",
+      "position": [
+        -50.821465,
+        9.899679,
+        -4.615317
+      ],
+      "cluster_id": "hidden_state",
+      "icon": "png_icons/information_flow.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "input",
+      "label": "Inputs",
+      "type": "input",
+      "position": [
+        -58.081089,
+        7.077132,
+        -9.440251
+      ],
+      "cluster_id": "hidden_state",
+      "icon": "png_icons/input.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "hidden_state",
+      "label": "Hidden states",
+      "type": "representation",
+      "position": [
+        -54.928604,
+        9.716097,
+        -7.027784
+      ],
+      "cluster_id": "hidden_state",
+      "icon": "png_icons/hidden_state.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "traditional_rnn",
+      "label": "Traditional RNN models",
+      "type": "model",
+      "position": [
+        37.087557,
+        5.712202,
+        53.964932
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/traditional_rnn.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "superior_performance",
+      "label": "Superior performance",
+      "type": "success",
+      "position": [
+        -11.766395,
+        -43.770404,
+        -36.28852
+      ],
+      "cluster_id": "superior_performance",
+      "icon": "png_icons/superior_performance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "accurate_fluent_translation",
+      "label": "More accurate and fluent translations",
+      "type": "representation",
+      "position": [
+        -9.865927,
+        -43.914356,
+        -37.588916
+      ],
+      "cluster_id": "superior_performance",
+      "icon": "png_icons/accurate_fluent_translation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "future_work",
+      "label": "Future work discussion",
+      "type": "section",
+      "position": [
+        29.460307,
+        -7.845453,
+        53.090886
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/future_work.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "other_task",
+      "label": "Other tasks beyond machine translation",
+      "type": "problem",
+      "position": [
+        25.542101,
+        4.663465,
+        52.574237
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/other_task.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "concurrent_processing",
+      "label": "Concurrent processing",
+      "type": "parallelization",
+      "position": [
+        -32.966764,
+        -33.75452,
+        30.199806
+      ],
+      "cluster_id": "attention",
+      "icon": "png_icons/concurrent_processing.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "byte_net_architecture",
+      "label": "ByteNet architecture",
+      "type": "architecture",
+      "position": [
+        43.355369,
+        -52.677571,
+        13.083145
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/byte_net_architecture.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dilated_convolutional_network",
+      "label": "dilated convolutional network",
+      "type": "default",
+      "position": [
+        39.523466,
+        -51.551363,
+        8.184041
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/dilated_convolutional_network.png",
+      "edge_in_count": 1,
+      "edge_out_count": 4
+    },
+    {
+      "id": "long_sequence_processing",
+      "label": "Processing of long sequences",
+      "type": "processing",
+      "position": [
+        35.307598,
+        -55.284317,
+        12.137194
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/long_sequence_processing.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "parameter",
+      "label": "parameters",
+      "type": "default",
+      "position": [
+        39.961456,
+        -44.996837,
+        10.229097
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/parameter.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "efficient_processing",
+      "label": "efficient processing",
+      "type": "default",
+      "position": [
+        43.785311,
+        -56.076871,
+        9.447469
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/efficient_processing.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "multiple_layer",
+      "label": "Multiple layers",
+      "type": "layers",
+      "position": [
+        36.076956,
+        -50.632061,
+        5.011882
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/multiple_layer.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "different_dilation_rate",
+      "label": "Different dilation rates",
+      "type": "rates",
+      "position": [
+        42.048918,
+        -48.879482,
+        4.350437
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/different_dilation_rate.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "varying_scale",
+      "label": "Varying scales",
+      "type": "scales",
+      "position": [
+        37.640446,
+        -54.200442,
+        2.752791
+      ],
+      "cluster_id": "dilated_convolutional_network",
+      "icon": "png_icons/varying_scale.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "convolutional_layer",
+      "label": "Convolutional layers for encoding",
+      "type": "architecture",
+      "position": [
+        -14.421587,
+        27.767888,
+        -56.552543
+      ],
+      "cluster_id": "convolutional_layer",
+      "icon": "png_icons/convolutional_layer.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "seq_to_seq_learning",
+      "label": "Sequence-to-sequence learning for decoding",
+      "type": "architecture",
+      "position": [
+        -12.434881,
+        29.045724,
+        -57.556135
+      ],
+      "cluster_id": "convolutional_layer",
+      "icon": "png_icons/seq_to_seq_learning.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "convs2_architecture",
+      "label": "ConvS2S Architecture",
+      "type": "default",
+      "position": [
+        34.900709,
+        -1.287405,
+        56.625558
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/convs2_architecture.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "performance_metric",
+      "label": "Performance metrics",
+      "type": "metric",
+      "position": [
+        25.973098,
+        -4.793119,
+        51.205465
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/performance_metric.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "processing_task",
+      "label": "processing tasks",
+      "type": "default",
+      "position": [
+        32.679912,
+        7.216934,
+        51.81177
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/processing_task.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "efficiency_effect",
+      "label": "efficiency effectiveness",
+      "type": "default",
+      "position": [
+        33.582257,
+        -6.017347,
+        50.586951
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/efficiency_effect.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "transformer_efficiency",
+      "label": "Transformer model efficiency",
+      "type": "architecture",
+      "position": [
+        25.227012,
+        1.351953,
+        50.309966
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/transformer_efficiency.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "previ_model",
+      "label": "Previous state-of-the-art models",
+      "type": "architecture",
+      "position": [
+        32.939264,
+        2.321347,
+        48.131003
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/previ_model.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "transformer_time",
+      "label": "Three days of training time",
+      "type": "time",
+      "position": [
+        30.040386,
+        -3.591432,
+        48.44283
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/transformer_time.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "compar_result",
+      "label": "comparable results",
+      "type": "default",
+      "position": [
+        30.351094,
+        4.5195,
+        48.908825
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/compar_result.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "general_ability",
+      "label": "Generalization abilities",
+      "type": "architecture",
+      "position": [
+        34.098991,
+        -1.459612,
+        48.270011
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/general_ability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "unseen_data",
+      "label": "Unseen data",
+      "type": "data",
+      "position": [
+        29.845262,
+        -0.213151,
+        47.677282
+      ],
+      "cluster_id": "transformer",
+      "icon": "png_icons/unseen_data.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "vari_metric",
+      "label": "Various metrics",
+      "type": "metric",
+      "position": [
+        53.225839,
+        31.428879,
+        -21.136413
+      ],
+      "cluster_id": "robust",
+      "icon": "png_icons/vari_metric.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "robust",
+      "label": "Robustness",
+      "type": "architecture",
+      "position": [
+        49.1187,
+        31.245296,
+        -23.54888
+      ],
+      "cluster_id": "robust",
+      "icon": "png_icons/robust.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "different_task_dataset",
+      "label": "Different tasks and datasets",
+      "type": "data",
+      "position": [
+        45.966216,
+        28.606332,
+        -25.961348
+      ],
+      "cluster_id": "robust",
+      "icon": "png_icons/different_task_dataset.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "dilated_convolutional_network",
+      "from_label": "dilated convolutional network",
+      "to": "long_sequence_processing",
+      "to_label": "Processing of long sequences",
+      "verb": "operates on",
+      "subtitle": "Dilated convolutional network operates on long sequence processing for efficient handling of extensive data streams.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 8.496,
+      "image": null
+    },
+    {
+      "index": 1,
+      "from": "decoder",
+      "from_label": "Decoder",
+      "to": "context_vector",
+      "to_label": "Context vector",
+      "verb": "operates on",
+      "subtitle": "Decoder operates on context vectors generated from the encoder to facilitate better understanding of input sequences.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 8.496,
+      "audio_duration": 8.709333333333333,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "language_modeling",
+      "from_label": "Language modeling task",
+      "to": "machine_translation",
+      "to_label": "Machine translation task",
+      "verb": "relates",
+      "subtitle": "Language modeling task relates to machine translation as both rely on sequence modeling techniques for accurate predictions.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 17.205333333333336,
+      "audio_duration": 8.944,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "concurrent_processing",
+      "from_label": "Concurrent processing",
+      "to": "input_sequence",
+      "to_label": "Input sequence",
+      "verb": "operates on",
+      "subtitle": "Concurrent processing operates on input sequence to generate hidden states efficiently in real-time applications.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 26.149333333333338,
+      "audio_duration": 8.517333333333333,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "input",
+      "from_label": "Inputs",
+      "to": "hidden_state",
+      "to_label": "Hidden states",
+      "verb": "connects",
+      "subtitle": "Inputs connect hidden states through successive computations, forming the basis of recurrent neural network operations.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 34.66666666666667,
+      "audio_duration": 8.368,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "sequence_step",
+      "from_label": "Sequence processing step-by-step",
+      "to": "dependency",
+      "to_label": "Dependency on previous step",
+      "verb": "depends on",
+      "subtitle": "Sequence processing step-by-step depends on the previous step, ensuring coherent information flow.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 43.03466666666667,
+      "audio_duration": 7.237333333333333,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "performance_metric",
+      "from_label": "Performance metrics",
+      "to": "efficiency_effect",
+      "to_label": "efficiency effectiveness",
+      "verb": "consists of",
+      "subtitle": "Performance metrics consist of efficiency effectiveness, measuring how well a model can perform its designated task.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 50.272000000000006,
+      "audio_duration": 8.389333333333333,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "computational_efficiency",
+      "from_label": "Computational efficiency",
+      "to": "transformer",
+      "to_label": "Transformer model",
+      "verb": "enhances",
+      "subtitle": "Computational efficiency enhances transformer model concept, making it more adaptable for various natural language tasks.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 58.66133333333334,
+      "audio_duration": 9.093333333333334,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "concatenate",
+      "to_label": "concatenate",
+      "verb": "sequence of",
+      "subtitle": "Attention mechanism sequence of concatenate allows for the integration of multiple inputs into a cohesive representation.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 67.75466666666668,
+      "audio_duration": 9.136,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "focu_on_part",
+      "to_label": "Focusing on different parts of the input sequence",
+      "verb": "produces",
+      "subtitle": "It also attention mechanism produces focusing on different parts of the input sequence, enhancing its interpretative capabilities.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 76.89066666666668,
+      "audio_duration": 9.242666666666667,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "computation_speed",
+      "from_label": "Computation speed",
+      "to": "parallel_processing",
+      "to_label": "Parallel processing",
+      "verb": "increase",
+      "subtitle": "Computation speed increases with parallel processing, enabling faster generation of hidden states across the entire sequence.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 86.13333333333334,
+      "audio_duration": 9.328,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "sequential_computation",
+      "from_label": "Sequential computation",
+      "to": "computation_speed",
+      "to_label": "Computation speed",
+      "verb": "depends on",
+      "subtitle": "Sequential computation depends on computation speed, impacting its overall efficiency and performance.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 95.46133333333334,
+      "audio_duration": 7.941333333333334,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "parallel_computation",
+      "from_label": "Parallel computation",
+      "to": "sequential_computation",
+      "to_label": "Sequential computation",
+      "verb": "better than",
+      "subtitle": "Parallel computation is preferred over sequential computation to enhance efficiency in processing tasks.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 103.40266666666668,
+      "audio_duration": 8.048,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "convs2_architecture",
+      "from_label": "ConvS2S Architecture",
+      "to": "parallel_computation",
+      "to_label": "Parallel computation",
+      "verb": "maintains",
+      "subtitle": "The convs2 architecture supports parallel computation, contrasting with traditional sequential methods.",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 111.45066666666668,
+      "audio_duration": 7.706666666666667,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "parallel_processing",
+      "from_label": "Parallel processing",
+      "to": "sequential_processing",
+      "to_label": "sequential processing",
+      "verb": "better than",
+      "subtitle": "Parallel processing is favored over sequential processing for its ability to handle tasks more efficiently.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 119.15733333333334,
+      "audio_duration": 7.834666666666666,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "byte_net_architecture",
+      "from_label": "ByteNet architecture",
+      "to": "dilated_convolutional_network",
+      "to_label": "dilated convolutional network",
+      "verb": "consists of",
+      "subtitle": "These architectures incorporate dilated convolutional networks, facilitating efficient parallel processing.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 126.992,
+      "audio_duration": 8.133333333333333,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "transformer_parallel",
+      "from_label": "Transformer operates in parallel",
+      "to": "rnn_sequential",
+      "to_label": "RNN requires sequential processing",
+      "verb": "opposes",
+      "subtitle": "The transformer model utilizes parallel processing, unlike RNNs which require sequential steps.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 135.12533333333334,
+      "audio_duration": 7.898666666666666,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "innovat_nature",
+      "from_label": "Innovative nature",
+      "to": "attention",
+      "to_label": "scaled dot product attention",
+      "verb": "emphasizes",
+      "subtitle": "The innovative nature of the transformer emphasizes the use of the attention mechanism.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 143.024,
+      "audio_duration": 6.704,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "processing_sequence",
+      "to_label": "processing sequences",
+      "verb": "requires",
+      "subtitle": "Attention mechanisms require processing sequences to compute representations effectively.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 149.728,
+      "audio_duration": 7.088,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "recurrent_neural_network",
+      "to_label": "recurrent neural networks",
+      "verb": "eliminates",
+      "subtitle": "It also by employing the attention mechanism, recurrent neural networks can be eliminated in favor of more efficient processing.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 156.816,
+      "audio_duration": 9.072,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "model",
+      "from_label": "model",
+      "to": "attention",
+      "to_label": "scaled dot product attention",
+      "verb": "consists of",
+      "subtitle": "This model's design includes an attention mechanism, which is central to its functionality.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 165.888,
+      "audio_duration": 6.746666666666667,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "recurrent_connection",
+      "to_label": "recurrent connections",
+      "verb": "replaces",
+      "subtitle": "The attention mechanism replaces traditional recurrent connections, offering a more streamlined approach.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 172.63466666666667,
+      "audio_duration": 7.408,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "rnn_model",
+      "to_label": "RNN models",
+      "verb": "compares with",
+      "subtitle": "The concept of the transformer model compares favorably with traditional RNN models.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 180.04266666666666,
+      "audio_duration": 6.533333333333333,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "traditional_rnn",
+      "to_label": "Traditional RNN models",
+      "verb": "better than",
+      "subtitle": "It also surpasses traditional RNN models by relying entirely on self-attention mechanisms.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 186.576,
+      "audio_duration": 7.536,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "encoder",
+      "from_label": "Encoder",
+      "to": "input_sequence",
+      "to_label": "Input sequence",
+      "verb": "operates on",
+      "subtitle": "The encoder processes the input sequence by converting symbols into continuous representations.",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 194.112,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "decoder",
+      "from_label": "Decoder",
+      "to": "output_sequence",
+      "to_label": "output sequence",
+      "verb": "produces",
+      "subtitle": "The decoder generates the output sequence based on the continuous representations received from the encoder.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 201.328,
+      "audio_duration": 7.728,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "convs2_architecture",
+      "from_label": "ConvS2S Architecture",
+      "to": "sequential_data",
+      "to_label": "Sequential data processing",
+      "verb": "enables",
+      "subtitle": "This architecture enables sequential data processing through stacked self-attention mechanisms.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 209.056,
+      "audio_duration": 6.789333333333333,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "split_into_head",
+      "from_label": "Splitting into multiple heads",
+      "to": "attention",
+      "to_label": "scaled dot product attention",
+      "verb": "sequence of",
+      "subtitle": "Splitting into multiple heads enhances the attention mechanism by distributing the computation across several smaller matrices.",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 215.84533333333334,
+      "audio_duration": 9.349333333333334,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "encoder",
+      "from_label": "Encoder",
+      "to": "context_vector",
+      "to_label": "Context vector",
+      "verb": "produces",
+      "subtitle": "Its encoder produces context vectors which serve as inputs for subsequent layers within the model.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 225.19466666666668,
+      "audio_duration": 6.896,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "general_ability",
+      "to_label": "Generalization abilities",
+      "verb": "produces",
+      "subtitle": "This model concept yields generalization abilities due to its innovative use of self-attention and feed-forward networks.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 232.09066666666666,
+      "audio_duration": 8.752,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "attention",
+      "from_label": "scaled dot product attention",
+      "to": "query_key_value_matrice",
+      "to_label": "Query, Key, Value matrices",
+      "verb": "consists of",
+      "subtitle": "The attention mechanism comprises Query, Key, and Value matrices, facilitating the mapping of input sequences to outputs.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 240.84266666666667,
+      "audio_duration": 8.986666666666666,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "independent_functioning",
+      "from_label": "Independent functioning",
+      "to": "training_time",
+      "to_label": "Training time",
+      "verb": "reduces",
+      "subtitle": "Independent functioning of the model components reduces training time by allowing parallel processing of tasks.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 249.82933333333335,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "independent_functioning",
+      "from_label": "Independent functioning",
+      "to": "inference_time",
+      "to_label": "inference time",
+      "verb": "reduces",
+      "subtitle": "It also reduces inference time, enabling faster processing of input sequences.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 258.17600000000004,
+      "audio_duration": 6.576,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "encoder_decoder_framework",
+      "to_label": "Encoder-decoder framework",
+      "verb": "consists of",
+      "subtitle": "The transformer model concept integrates an encoder-decoder framework to facilitate sequence transduction tasks efficiently.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 264.75200000000007,
+      "audio_duration": 8.858666666666666,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "parallel_processing",
+      "to_label": "Parallel processing",
+      "verb": "contains",
+      "subtitle": "It includes parallel processing capabilities, allowing simultaneous attention to all positions in the input sequence.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 273.61066666666676,
+      "audio_duration": 8.474666666666666,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "value_matrix",
+      "from_label": "Value matrix V",
+      "to": "attention_output",
+      "to_label": "Attention output",
+      "verb": "relates",
+      "subtitle": "The value matrix in the attention mechanism directly influences the final output of the attention process.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 282.08533333333344,
+      "audio_duration": 7.856,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "query_matrix",
+      "from_label": "Query matrix Q",
+      "to": "key_matrix",
+      "to_label": "Key matrix K",
+      "verb": "relates",
+      "subtitle": "The query matrix relates to the key matrix by coming from the same source in a self-attention layer.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 289.94133333333343,
+      "audio_duration": 7.1946666666666665,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "information_flow",
+      "from_label": "Information flow",
+      "to": "hidden_state",
+      "to_label": "Hidden states",
+      "verb": "consists of",
+      "subtitle": "Information flow consists of hidden states that are processed through the decoder's self-attention layers.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 297.1360000000001,
+      "audio_duration": 7.066666666666666,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "ffn",
+      "from_label": "ffn",
+      "to": "position_output",
+      "to_label": "position output",
+      "verb": "applied independently to",
+      "subtitle": "Feed-Forward Networks are applied independently to each position output within the encoder and decoder.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 304.20266666666674,
+      "audio_duration": 7.28,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "concatenate",
+      "from_label": "concatenate",
+      "to": "linear_transformation",
+      "to_label": "Linear transformation",
+      "verb": "sequence of",
+      "subtitle": "A sequence of linear transformations is concatenated after applying it.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 311.4826666666667,
+      "audio_duration": 5.744,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "linear_transformation",
+      "from_label": "Linear transformation",
+      "to": "context_vector",
+      "to_label": "Context vector",
+      "verb": "produces",
+      "subtitle": "Linear transformations produce context vectors which are crucial for understanding the input data.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 317.2266666666667,
+      "audio_duration": 6.896,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "ffn",
+      "from_label": "ffn",
+      "to": "linear_transformation",
+      "to_label": "Linear transformation",
+      "verb": "consists of",
+      "subtitle": "It consists of linear transformations with a ReLU activation in between them.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 324.1226666666667,
+      "audio_duration": 6,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "title_attention_i_all_you_need",
+      "from_label": "Attention Is All You Need",
+      "to": "central_theme",
+      "to_label": "Central theme",
+      "verb": "introduces",
+      "subtitle": "Attention Is All You Need introduces the central theme of utilizing self-attention mechanisms.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 330.1226666666667,
+      "audio_duration": 7.493333333333333,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "sine_cosine",
+      "from_label": "Sine and cosine functions",
+      "to": "po_info",
+      "to_label": "Captured positional information",
+      "verb": "produces",
+      "subtitle": "Sine and cosine functions capture positional information by calculating PE values based on position and dimension.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 337.61600000000004,
+      "audio_duration": 8.709333333333333,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "sine_cosine",
+      "from_label": "Sine and cosine functions",
+      "to": "dim",
+      "to_label": "Dimensionality of embeddings",
+      "verb": "opposes",
+      "subtitle": "It also opposes the dimensionality of embeddings by assigning sine to even dimensions and cosine to odd ones.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 346.3253333333334,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "relu_activation",
+      "from_label": "ReLU activation function",
+      "to": "enhanced_complex_feature",
+      "to_label": "Enhanced ability to learn complex features",
+      "verb": "enables",
+      "subtitle": "ReLU activation function enables the model to learn enhanced complex features through its non-linear properties.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 354.6720000000001,
+      "audio_duration": 8.581333333333333,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "efficient_processing",
+      "from_label": "efficient processing",
+      "to": "byte_net_architecture",
+      "to_label": "ByteNet architecture",
+      "verb": "allows for",
+      "subtitle": "Efficient processing allows for the ByteNet architecture to handle variable-length sequences effectively.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 363.25333333333344,
+      "audio_duration": 7.557333333333333,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "convolutional_layer",
+      "from_label": "Convolutional layers for encoding",
+      "to": "seq_to_seq_learning",
+      "to_label": "Sequence-to-sequence learning for decoding",
+      "verb": "relates",
+      "subtitle": "Convolutional layers for encoding relate to sequence-to-sequence learning for decoding, facilitating the processing of symbolic representations.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 370.8106666666668,
+      "audio_duration": 10.117333333333333,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "general_ability",
+      "from_label": "Generalization abilities",
+      "to": "unseen_data",
+      "to_label": "Unseen data",
+      "verb": "operates on",
+      "subtitle": "Generalization abilities operate on unseen data, enhancing the model's performance on new information.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 380.9280000000001,
+      "audio_duration": 7.621333333333333,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "multiple_layer",
+      "from_label": "Multiple layers",
+      "to": "different_dilation_rate",
+      "to_label": "Different dilation rates",
+      "verb": "contains",
+      "subtitle": "Multiple layers contain different dilation rates, allowing for varied signal propagation lengths within the network.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 388.54933333333344,
+      "audio_duration": 7.941333333333334,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "beam_search_decoding",
+      "from_label": "beam search decoding",
+      "to": "generated_sequence",
+      "to_label": "Generated sequences",
+      "verb": "improves",
+      "subtitle": "Beam search decoding technique improves generated sequences by optimizing the selection process for longer sequences.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 396.49066666666675,
+      "audio_duration": 8.581333333333333,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "dilated_convolutional_network",
+      "from_label": "dilated convolutional network",
+      "to": "multiple_layer",
+      "to_label": "Multiple layers",
+      "verb": "consists of",
+      "subtitle": "Dilated convolutional network consists of multiple layers, enabling efficient processing of large-scale data.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 405.0720000000001,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "dilated_convolutional_network",
+      "from_label": "dilated convolutional network",
+      "to": "varying_scale",
+      "to_label": "Varying scales",
+      "verb": "captures",
+      "subtitle": "It also captures varying scales through its hierarchical structure, adapting to diverse input sizes.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 413.4186666666668,
+      "audio_duration": 7.557333333333333,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "dilated_convolutional_network",
+      "from_label": "dilated convolutional network",
+      "to": "parameter",
+      "to_label": "parameters",
+      "verb": "does not increase",
+      "subtitle": "And does not increase parameters despite adding layers, maintaining computational efficiency.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 420.97600000000017,
+      "audio_duration": 6.832,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "robust",
+      "from_label": "Robustness",
+      "to": "different_task_dataset",
+      "to_label": "Different tasks and datasets",
+      "verb": "operates across",
+      "subtitle": "Robustness operates across different tasks and datasets, ensuring consistent performance across various applications.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 427.80800000000016,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "po_enc",
+      "from_label": "Positional encoding method",
+      "to": "information",
+      "to_label": "Relative positions of tokens",
+      "verb": "produces",
+      "subtitle": "Positional encoding method produces relative positions of tokens, facilitating the understanding of sentence structure.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 436.4106666666668,
+      "audio_duration": 8.56,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "model_part",
+      "from_label": "Model parts",
+      "to": "independent_functioning",
+      "to_label": "Independent functioning",
+      "verb": "contains",
+      "subtitle": "Model parts contain independent functioning, allowing each component to operate effectively without interference.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 444.97066666666683,
+      "audio_duration": 8.282666666666668,
+      "image": null
+    },
+    {
+      "index": 57,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "efficiency_effect",
+      "to_label": "efficiency effectiveness",
+      "verb": "achieves",
+      "subtitle": "Transformer model concept achieves efficiency effectiveness by streamlining the training process while improving performance.",
+      "audio_clip": "audio_clips/edge_057.wav",
+      "audio_start": 453.2533333333335,
+      "audio_duration": 8.688,
+      "image": null
+    },
+    {
+      "index": 58,
+      "from": "transformer_efficiency",
+      "from_label": "Transformer model efficiency",
+      "to": "previ_model",
+      "to_label": "Previous state-of-the-art models",
+      "verb": "better than",
+      "subtitle": "Its efficiency also offers superior results with less training compared to previous state-of-the-art models.",
+      "audio_clip": "audio_clips/edge_058.wav",
+      "audio_start": 461.9413333333335,
+      "audio_duration": 7.621333333333333,
+      "image": null
+    },
+    {
+      "index": 59,
+      "from": "transformer_time",
+      "from_label": "Three days of training time",
+      "to": "previ_model",
+      "to_label": "Previous state-of-the-art models",
+      "verb": "better than",
+      "subtitle": "Three days of training time for it are more efficient than previous models, achieving better results.",
+      "audio_clip": "audio_clips/edge_059.wav",
+      "audio_start": 469.5626666666668,
+      "audio_duration": 7.024,
+      "image": null
+    },
+    {
+      "index": 60,
+      "from": "training_time",
+      "from_label": "Training time",
+      "to": "transformer_efficiency",
+      "to_label": "Transformer model efficiency",
+      "verb": "requires",
+      "subtitle": "Training time requires its efficiency, as it achieves better performance with reduced training costs.",
+      "audio_clip": "audio_clips/edge_060.wav",
+      "audio_start": 476.5866666666668,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 61,
+      "from": "human_like_text",
+      "from_label": "Human-like text generation",
+      "to": "on_wsj_data",
+      "to_label": "Training on WSJ data",
+      "verb": "improve",
+      "subtitle": "Human-like text generation improves training on WSJ data, enhancing its ability to produce fluent and accurate translations.",
+      "audio_clip": "audio_clips/edge_061.wav",
+      "audio_start": 483.8026666666668,
+      "audio_duration": 9.669333333333332,
+      "image": null
+    },
+    {
+      "index": 62,
+      "from": "other_task",
+      "from_label": "Other tasks beyond machine translation",
+      "to": "transformer",
+      "to_label": "Transformer model",
+      "verb": "includes",
+      "subtitle": "Other tasks beyond machine translation include its concept, demonstrating its versatility across different applications.",
+      "audio_clip": "audio_clips/edge_062.wav",
+      "audio_start": 493.47200000000015,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 63,
+      "from": "transformer",
+      "from_label": "Transformer model",
+      "to": "processing_task",
+      "to_label": "processing tasks",
+      "verb": "operates on",
+      "subtitle": "Its concept operates on processing tasks, showing its effectiveness in handling various computational challenges.",
+      "audio_clip": "audio_clips/edge_063.wav",
+      "audio_start": 502.0746666666668,
+      "audio_duration": 8.304,
+      "image": null
+    },
+    {
+      "index": 64,
+      "from": "beam_search_decoding",
+      "from_label": "beam search decoding",
+      "to": "optimal_sequence",
+      "to_label": "Optimal sequence",
+      "verb": "achieves",
+      "subtitle": "Beam search decoding technique achieves optimal sequence through systematic evaluation of potential outputs.",
+      "audio_clip": "audio_clips/edge_064.wav",
+      "audio_start": 510.3786666666668,
+      "audio_duration": 8.112,
+      "image": null
+    },
+    {
+      "index": 65,
+      "from": "superior_performance",
+      "from_label": "Superior performance",
+      "to": "accurate_fluent_translation",
+      "to_label": "More accurate and fluent translations",
+      "verb": "produces",
+      "subtitle": "Superior performance produces more accurate and fluent translations, highlighting its capability in improving translation quality.",
+      "audio_clip": "audio_clips/edge_065.wav",
+      "audio_start": 518.4906666666668,
+      "audio_duration": 9.370666666666667,
+      "image": null
+    },
+    {
+      "index": 66,
+      "from": "vari_metric",
+      "from_label": "Various metrics",
+      "to": "robust",
+      "to_label": "Robustness",
+      "verb": "captures",
+      "subtitle": "Various metrics capture robustness, indicating the stability and reliability of the Transformer model under different conditions.",
+      "audio_clip": "audio_clips/edge_066.wav",
+      "audio_start": 527.8613333333335,
+      "audio_duration": 8.901333333333334,
+      "image": null
+    },
+    {
+      "index": 67,
+      "from": "focu",
+      "from_label": "Focus on specific parts",
+      "to": "enhanced_ability",
+      "to_label": "Enhanced ability to handle complex tasks",
+      "verb": "transforms into",
+      "subtitle": "Focus on specific parts transforms into enhanced ability to handle complex tasks, showcasing its adaptability.",
+      "audio_clip": "audio_clips/edge_067.wav",
+      "audio_start": 536.7626666666669,
+      "audio_duration": 8.730666666666666,
+      "image": null
+    },
+    {
+      "index": 68,
+      "from": "compar_result",
+      "from_label": "comparable results",
+      "to": "previ_model",
+      "to_label": "Previous state-of-the-art models",
+      "verb": "achieves",
+      "subtitle": "Comparable results achieve previous state-of-the-art models, suggesting it can match or surpass established benchmarks.",
+      "audio_clip": "audio_clips/edge_068.wav",
+      "audio_start": 545.4933333333336,
+      "audio_duration": 8.325333333333333,
+      "image": null
+    },
+    {
+      "index": 69,
+      "from": "transformer_training",
+      "from_label": "Transformer model training process",
+      "to": "wsj_dataset",
+      "to_label": "WSJ dataset",
+      "verb": "relates",
+      "subtitle": "The training process relates to the WSJ dataset, indicating the use of this dataset in refining its performance.",
+      "audio_clip": "audio_clips/edge_069.wav",
+      "audio_start": 553.8186666666669,
+      "audio_duration": 8.666666666666666,
+      "image": null
+    },
+    {
+      "index": 70,
+      "from": "beam_search_decoding",
+      "from_label": "beam search decoding",
+      "to": "promising_sequence_set",
+      "to_label": "Set of promising sequences",
+      "verb": "operates on",
+      "subtitle": "Beam search decoding operates on a set of promising sequences, enabling the selection of the most likely correct translations.",
+      "audio_clip": "audio_clips/edge_070.wav",
+      "audio_start": 562.4853333333335,
+      "audio_duration": 9.008,
+      "image": null
+    },
+    {
+      "index": 71,
+      "from": "promising_sequence_set",
+      "from_label": "Set of promising sequences",
+      "to": "multiple_hypothe",
+      "to_label": "Multiple hypotheses",
+      "verb": "consists of",
+      "subtitle": "A set of promising sequences consists of multiple hypotheses, allowing it to consider various possibilities during translation.",
+      "audio_clip": "audio_clips/edge_071.wav",
+      "audio_start": 571.4933333333336,
+      "audio_duration": 9.349333333333334,
+      "image": null
+    },
+    {
+      "index": 72,
+      "from": "varying_scale",
+      "from_label": "Varying scales",
+      "to": "multiple_layer",
+      "to_label": "Multiple layers",
+      "verb": "enable",
+      "subtitle": "Varying scales enable multiple layers, allowing it to be trained much faster for translation tasks compared to recurrent or convolutional layer-based architectures.",
+      "audio_clip": "audio_clips/edge_072.wav",
+      "audio_start": 580.8426666666669,
+      "audio_duration": 11.162666666666667,
+      "image": null
+    },
+    {
+      "index": 73,
+      "from": "future_work",
+      "from_label": "Future work discussion",
+      "to": "other_task",
+      "to_label": "Other tasks beyond machine translation",
+      "verb": "focuses on",
+      "subtitle": "Future work discussion focuses on other tasks beyond machine translation, with plans to apply attention-based models to a variety of new challenges.",
+      "audio_clip": "audio_clips/edge_073.wav",
+      "audio_start": 592.0053333333335,
+      "audio_duration": 10.778666666666666,
+      "image": null
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,1200 @@
+{
+  "nodes": [
+    {
+      "id": "einstein_theory",
+      "label": "Einstein's theory of relativity",
+      "type": "theory",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "key_prediction",
+      "label": "Key prediction",
+      "type": "prediction",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "einstein_prediction",
+      "label": "Einstein's prediction of gravitational waves",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "general_theory_relativity",
+      "label": "General theory of relativity",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "gravitational_wave",
+      "label": "Detected gravitational waves",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "direct_detection_confirmation",
+      "label": "Confirmation through direct detection",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "theoret_framework",
+      "label": "Century-old theoretical framework",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "black_hole",
+      "label": "black hole",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "gravitational_pull",
+      "label": "Gravitational pull",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "light_escape",
+      "label": "Light cannot escape",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "understanding_role",
+      "label": "Understanding role",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "model_crucial_for_understanding",
+      "label": "Model crucial for understanding",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "predicting_characteristic",
+      "label": "Predicting characteristics",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dynamic_of_system",
+      "label": "Dynamics of the system",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "visual_of_discovery",
+      "label": "Visualization of the discovery",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "implication_for_astrophysic",
+      "label": "Implications for astrophysics",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "sophisticated_system",
+      "label": "Sophisticated detection system",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "interferometer",
+      "label": "Highly sensitive interferometers",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "space_time_curvature",
+      "label": "Space-time curvature changes",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "first_detection_event",
+      "label": "First detection event",
+      "type": "event",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "milestone",
+      "label": "Significant milestone",
+      "type": "milestone",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "first_observation_event",
+      "label": "First confirmed observation",
+      "type": "observation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "timestamp_discovery",
+      "label": "Detection timestamp of gravitational wave signal",
+      "type": "timestamp",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "detection_timestamp",
+      "label": "detection timestamp",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "signal_to_noise_ratio",
+      "label": "Signal-to-noise ratio",
+      "type": "ratio",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "higher_signal_to_noise",
+      "label": "Higher signal-to-noise ratio",
+      "type": "greater",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "easily_identifi_signal",
+      "label": "Easily identifiable signal",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "mistaken_random_fluctuation",
+      "label": "Less likely to be mistaken for random fluctuations",
+      "type": "warning",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "false_alarm_rate",
+      "label": "false alarm rate",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability of detected signal",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "random_noise",
+      "label": "random noise",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "interference_source",
+      "label": "interference sources",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "exten_simulation",
+      "label": "Extensive simulations",
+      "type": "experiment",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "analy",
+      "label": "Analyses",
+      "type": "experiment",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "accuracy",
+      "label": "Accuracy of detections",
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "distance_to_source",
+      "label": "Distance to the source of the gravitational waves",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "crit_information",
+      "label": "critical information",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "event_occurrence",
+      "label": "Event occurrence",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "scale_phenomenon",
+      "label": "Scale of the phenomenon",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "observed_waveform",
+      "label": "Observed waveform",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "source_energy",
+      "label": "Energy from the source",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "propagation_space",
+      "label": "Propagation through space",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "quantified_energy",
+      "label": "Quantified gravitational wave energy",
+      "type": "energy",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "dynamic_understanding",
+      "label": "Understanding the dynamics of the event",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "understanding_universe",
+      "label": "Understanding of the universe",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "empir_evidence",
+      "label": "Empirical evidence",
+      "type": "evidence",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "general_relativity_prediction",
+      "label": "Predictions made by general relativity",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "extreme_cosmic_environment",
+      "label": "Extreme environments in the cosmos",
+      "type": "environment",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "visual",
+      "label": "Visualization of signal",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "waveform",
+      "label": "Waveform of signal",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "chirp_pattern",
+      "label": "'Chirp' pattern",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "merging",
+      "label": "merging",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "chirp_mas",
+      "label": "Chirp mass parameter",
+      "type": "parameter",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "binary_system",
+      "label": "Binary systems",
+      "type": "system",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "crucial_parameter",
+      "label": "crucial parameter",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "two_object",
+      "label": "Two objects' masses",
+      "type": "weight",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "single_value",
+      "label": "Single value representing combined masses",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "intrinsic_property",
+      "label": "Intrinsic properties of binary system",
+      "type": "property",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "observed_characteristic",
+      "label": "Observed characteristics of gravitational waves",
+      "type": "characteristic",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "effect_relat_velocity_formula",
+      "label": "effective relative velocity formula",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "relat_velocity_ratio",
+      "label": "Relative velocity ratio",
+      "type": "ratio",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "gravitational_wave",
+      "to": "black_hole",
+      "verb": "emit",
+      "time": 0,
+      "cluster": 1
+    },
+    {
+      "from": "false_alarm_rate",
+      "to": "reliability",
+      "verb": "helps determine",
+      "time": 6.250666666666667,
+      "cluster": 2
+    },
+    {
+      "from": "mistaken_random_fluctuation",
+      "to": "higher_signal_to_noise",
+      "verb": "opposes",
+      "time": 12.181333333333333,
+      "cluster": 0
+    },
+    {
+      "from": "black_hole",
+      "to": "gravitational_pull",
+      "verb": "contains",
+      "time": 19.669333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "einstein_theory",
+      "verb": "confirms",
+      "time": 25.6,
+      "cluster": 1
+    },
+    {
+      "from": "predicting_characteristic",
+      "to": "gravitational_wave",
+      "verb": "produces",
+      "time": 31.573333333333334,
+      "cluster": 1
+    },
+    {
+      "from": "einstein_prediction",
+      "to": "general_theory_relativity",
+      "verb": "part of",
+      "time": 37.973333333333336,
+      "cluster": 0
+    },
+    {
+      "from": "model_crucial_for_understanding",
+      "to": "black_hole",
+      "verb": "requires",
+      "time": 44.480000000000004,
+      "cluster": 1
+    },
+    {
+      "from": "black_hole",
+      "to": "dynamic_of_system",
+      "verb": "helps understand",
+      "time": 50.28266666666667,
+      "cluster": 1
+    },
+    {
+      "from": "black_hole",
+      "to": "understanding_role",
+      "verb": "plays a role in",
+      "time": 55.48800000000001,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "understanding_universe",
+      "verb": "achieves",
+      "time": 61.184000000000005,
+      "cluster": 1
+    },
+    {
+      "from": "understanding_role",
+      "to": "gravitational_wave",
+      "verb": "contains",
+      "time": 67.17866666666667,
+      "cluster": 1
+    },
+    {
+      "from": "crit_information",
+      "to": "scale_phenomenon",
+      "verb": "helps understand",
+      "time": 73.23733333333334,
+      "cluster": 0
+    },
+    {
+      "from": "quantified_energy",
+      "to": "dynamic_understanding",
+      "verb": "contributes to",
+      "time": 83.39200000000001,
+      "cluster": 2
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "understanding_universe",
+      "verb": "produces",
+      "time": 91.09333333333335,
+      "cluster": 1
+    },
+    {
+      "from": "dynamic_of_system",
+      "to": "model_crucial_for_understanding",
+      "verb": "understand",
+      "time": 97.57866666666668,
+      "cluster": 1
+    },
+    {
+      "from": "black_hole",
+      "to": "merging",
+      "verb": "results in",
+      "time": 104.76800000000001,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "key_prediction",
+      "verb": "introduces",
+      "time": 110.97600000000001,
+      "cluster": 1
+    },
+    {
+      "from": "direct_detection_confirmation",
+      "to": "theoret_framework",
+      "verb": "validates",
+      "time": 117.03466666666668,
+      "cluster": 0
+    },
+    {
+      "from": "empir_evidence",
+      "to": "black_hole",
+      "verb": "confirms",
+      "time": 124.60800000000002,
+      "cluster": 4
+    },
+    {
+      "from": "interferometer",
+      "to": "space_time_curvature",
+      "verb": "measures",
+      "time": 130.45333333333335,
+      "cluster": 0
+    },
+    {
+      "from": "observed_waveform",
+      "to": "black_hole",
+      "verb": "provides insights into",
+      "time": 137.87733333333335,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_pull",
+      "to": "light_escape",
+      "verb": "produces",
+      "time": 142.9546666666667,
+      "cluster": 0
+    },
+    {
+      "from": "interference_source",
+      "to": "gravitational_wave",
+      "verb": "opposes",
+      "time": 148.09600000000003,
+      "cluster": 1
+    },
+    {
+      "from": "effect_relat_velocity_formula",
+      "to": "gravitational_wave",
+      "verb": "understands",
+      "time": 154.68800000000005,
+      "cluster": 3
+    },
+    {
+      "from": "effect_relat_velocity_formula",
+      "to": "relat_velocity_ratio",
+      "verb": "contains",
+      "time": 159.9146666666667,
+      "cluster": 3
+    },
+    {
+      "from": "effect_relat_velocity_formula",
+      "to": "binary_system",
+      "verb": "focuses on",
+      "time": 165.12000000000003,
+      "cluster": 3
+    },
+    {
+      "from": "chirp_mas",
+      "to": "binary_system",
+      "verb": "relates to",
+      "time": 171.73333333333338,
+      "cluster": 3
+    },
+    {
+      "from": "crucial_parameter",
+      "to": "chirp_mas",
+      "verb": "is",
+      "time": 176.96000000000004,
+      "cluster": 3
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "propagation_space",
+      "verb": "propagates through",
+      "time": 180.5866666666667,
+      "cluster": 1
+    },
+    {
+      "from": "space_time_curvature",
+      "to": "gravitational_wave",
+      "verb": "caused by",
+      "time": 184.70400000000004,
+      "cluster": 0
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "timestamp_discovery",
+      "verb": "produces",
+      "time": 189.52533333333338,
+      "cluster": 1
+    },
+    {
+      "from": "detection_timestamp",
+      "to": "timestamp_discovery",
+      "verb": "mark",
+      "time": 194.43200000000004,
+      "cluster": 0
+    },
+    {
+      "from": "sophisticated_system",
+      "to": "gravitational_wave",
+      "verb": "consists of",
+      "time": 199.42400000000004,
+      "cluster": 1
+    },
+    {
+      "from": "false_alarm_rate",
+      "to": "accuracy",
+      "verb": "ensures",
+      "time": 204.48000000000005,
+      "cluster": 2
+    },
+    {
+      "from": "signal_to_noise_ratio",
+      "to": "gravitational_wave",
+      "verb": "depends on",
+      "time": 209.79200000000006,
+      "cluster": 1
+    },
+    {
+      "from": "random_noise",
+      "to": "gravitational_wave",
+      "verb": "opposes",
+      "time": 214.44266666666672,
+      "cluster": 1
+    },
+    {
+      "from": "intrinsic_property",
+      "to": "observed_characteristic",
+      "verb": "connects",
+      "time": 220.5653333333334,
+      "cluster": 7
+    },
+    {
+      "from": "higher_signal_to_noise",
+      "to": "easily_identifi_signal",
+      "verb": "depends on",
+      "time": 227.75466666666674,
+      "cluster": 0
+    },
+    {
+      "from": "visual",
+      "to": "gravitational_wave",
+      "verb": "captures",
+      "time": 234.24000000000007,
+      "cluster": 1
+    },
+    {
+      "from": "false_alarm_rate",
+      "to": "exten_simulation",
+      "verb": "calculates based on",
+      "time": 240.4053333333334,
+      "cluster": 2
+    },
+    {
+      "from": "false_alarm_rate",
+      "to": "analy",
+      "verb": "calculates based on",
+      "time": 247.21066666666673,
+      "cluster": 2
+    },
+    {
+      "from": "first_detection_event",
+      "to": "milestone",
+      "verb": "marks",
+      "time": 253.29066666666674,
+      "cluster": 0
+    },
+    {
+      "from": "crit_information",
+      "to": "event_occurrence",
+      "verb": "indicates",
+      "time": 259.20000000000005,
+      "cluster": 0
+    },
+    {
+      "from": "waveform",
+      "to": "chirp_pattern",
+      "verb": "indicates",
+      "time": 264.70400000000006,
+      "cluster": 5
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "source_energy",
+      "verb": "transfers",
+      "time": 270.2293333333334,
+      "cluster": 1
+    },
+    {
+      "from": "empir_evidence",
+      "to": "general_relativity_prediction",
+      "verb": "supports",
+      "time": 276.1813333333334,
+      "cluster": 4
+    },
+    {
+      "from": "black_hole",
+      "to": "extreme_cosmic_environment",
+      "verb": "includes",
+      "time": 283.26400000000007,
+      "cluster": 1
+    },
+    {
+      "from": "visual_of_discovery",
+      "to": "implication_for_astrophysic",
+      "verb": "projects",
+      "time": 289.6000000000001,
+      "cluster": 0
+    },
+    {
+      "from": "distance_to_source",
+      "to": "crit_information",
+      "verb": "produces",
+      "time": 298.73066666666676,
+      "cluster": 0
+    },
+    {
+      "from": "two_object",
+      "to": "single_value",
+      "verb": "transforms into",
+      "time": 307.02933333333345,
+      "cluster": 6
+    },
+    {
+      "from": "first_observation_event",
+      "to": "gravitational_wave",
+      "verb": "results from",
+      "time": 314.2400000000001,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "black_hole",
+      "verb": "caused by",
+      "time": 321.68533333333346,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "black_hole",
+      "verb": "opens",
+      "time": 328.06400000000014,
+      "cluster": 1
+    },
+    {
+      "from": "gravitational_wave",
+      "to": "black_hole",
+      "verb": "originates from",
+      "time": 334.52800000000013,
+      "cluster": 1
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "crit_information",
+      "label": "Critical piece of information",
+      "children": [
+        {
+          "id": "einstein_prediction",
+          "label": "Einstein's prediction of gravitational waves"
+        },
+        {
+          "id": "general_theory_relativity",
+          "label": "General theory of relativity"
+        },
+        {
+          "id": "direct_detection_confirmation",
+          "label": "Confirmation through direct detection"
+        },
+        {
+          "id": "theoret_framework",
+          "label": "Century-old theoretical framework"
+        },
+        {
+          "id": "gravitational_pull",
+          "label": "Gravitational pull"
+        },
+        {
+          "id": "light_escape",
+          "label": "Light cannot escape"
+        },
+        {
+          "id": "visual_of_discovery",
+          "label": "Visualization of the discovery"
+        },
+        {
+          "id": "implication_for_astrophysic",
+          "label": "Implications for astrophysics"
+        },
+        {
+          "id": "interferometer",
+          "label": "Highly sensitive interferometers"
+        },
+        {
+          "id": "space_time_curvature",
+          "label": "Space-time curvature changes"
+        },
+        {
+          "id": "first_detection_event",
+          "label": "First detection event"
+        },
+        {
+          "id": "milestone",
+          "label": "Significant milestone"
+        },
+        {
+          "id": "timestamp_discovery",
+          "label": "Detection timestamp of gravitational wave signal"
+        },
+        {
+          "id": "detection_timestamp",
+          "label": "detection timestamp"
+        },
+        {
+          "id": "higher_signal_to_noise",
+          "label": "Higher signal-to-noise ratio"
+        },
+        {
+          "id": "easily_identifi_signal",
+          "label": "Easily identifiable signal"
+        },
+        {
+          "id": "mistaken_random_fluctuation",
+          "label": "Less likely to be mistaken for random fluctuations"
+        },
+        {
+          "id": "distance_to_source",
+          "label": "Distance to the source of the gravitational waves"
+        },
+        {
+          "id": "event_occurrence",
+          "label": "Event occurrence"
+        },
+        {
+          "id": "scale_phenomenon",
+          "label": "Scale of the phenomenon"
+        }
+      ]
+    },
+    {
+      "id": "gravitational_wave",
+      "label": "Gravitational waves",
+      "children": [
+        {
+          "id": "einstein_theory",
+          "label": "Einstein's theory of relativity"
+        },
+        {
+          "id": "key_prediction",
+          "label": "Key prediction"
+        },
+        {
+          "id": "black_hole",
+          "label": "Black hole",
+          "children": [
+            {
+              "id": "extreme_cosmic_environment",
+              "label": "Extreme environments in the cosmos"
+            }
+          ]
+        },
+        {
+          "id": "understanding_role",
+          "label": "Understanding role"
+        },
+        {
+          "id": "model_crucial_for_understanding",
+          "label": "Model crucial for understanding"
+        },
+        {
+          "id": "predicting_characteristic",
+          "label": "Predicting characteristics"
+        },
+        {
+          "id": "dynamic_of_system",
+          "label": "Dynamics of such systems"
+        },
+        {
+          "id": "sophisticated_system",
+          "label": "Sophisticated detection system"
+        },
+        {
+          "id": "first_observation_event",
+          "label": "First confirmed observation"
+        },
+        {
+          "id": "signal_to_noise_ratio",
+          "label": "Signal-to-noise ratio"
+        },
+        {
+          "id": "random_noise",
+          "label": "random noise"
+        },
+        {
+          "id": "interference_source",
+          "label": "interference sources"
+        },
+        {
+          "id": "observed_waveform",
+          "label": "Observed waveform"
+        },
+        {
+          "id": "source_energy",
+          "label": "Energy from the source"
+        },
+        {
+          "id": "propagation_space",
+          "label": "Propagation through space"
+        },
+        {
+          "id": "understanding_universe",
+          "label": "Understanding of the universe"
+        },
+        {
+          "id": "visual",
+          "label": "Visualization of signal"
+        },
+        {
+          "id": "merging",
+          "label": "merging"
+        }
+      ]
+    },
+    {
+      "id": "false_alarm_rate",
+      "label": "False alarm rate",
+      "children": [
+        {
+          "id": "reliability",
+          "label": "Reliability of detected signal"
+        },
+        {
+          "id": "exten_simulation",
+          "label": "Extensive simulations"
+        },
+        {
+          "id": "analy",
+          "label": "Analyses"
+        },
+        {
+          "id": "accuracy",
+          "label": "Accuracy of detections"
+        },
+        {
+          "id": "quantified_energy",
+          "label": "Quantified gravitational wave energy"
+        },
+        {
+          "id": "dynamic_understanding",
+          "label": "Understanding the dynamics of the event"
+        }
+      ]
+    },
+    {
+      "id": "effect_relat_velocity_formula",
+      "label": "Effective relative velocity formula",
+      "children": [
+        {
+          "id": "relat_velocity_ratio",
+          "label": "Relative velocity ratio"
+        },
+        {
+          "id": "chirp_mas",
+          "label": "Chirp mass parameter"
+        },
+        {
+          "id": "binary_system",
+          "label": "Binary system emitting gravitational waves"
+        },
+        {
+          "id": "crucial_parameter",
+          "label": "crucial parameter"
+        }
+      ]
+    },
+    {
+      "id": "empir_evidence",
+      "label": "Empirical evidence",
+      "children": [
+        {
+          "id": "general_relativity_prediction",
+          "label": "Predictions made by general relativity"
+        }
+      ]
+    },
+    {
+      "id": "waveform",
+      "label": "Waveform of signal",
+      "children": [
+        {
+          "id": "chirp_pattern",
+          "label": "'Chirp' pattern"
+        }
+      ]
+    },
+    {
+      "id": "two_object",
+      "label": "Two objects' masses",
+      "children": [
+        {
+          "id": "single_value",
+          "label": "Single value representing combined masses"
+        }
+      ]
+    },
+    {
+      "id": "intrinsic_property",
+      "label": "Intrinsic properties of binary system",
+      "children": [
+        {
+          "id": "observed_characteristic",
+          "label": "Observed characteristics of gravitational waves"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Gravitational waves were emitted when black holes merged on September 14, 2015.",
+    "The false alarm rate helped establish the reliability of the detected gravitational wave signal.",
+    "A higher signal-to-noise ratio made it less likely for the gravitational wave to be mistaken for random fluctuations.",
+    "Black holes contain powerful gravitational pulls that influence their surroundings significantly.",
+    "Observations of gravitational waves confirm predictions made by Einstein's theory of relativity.",
+    "Predicting the characteristics of black holes produced gravitational waves as described by Einstein.",
+    "Einstein's prediction of gravitational waves was an integral part of his general theory of relativity.",
+    "Models crucial for understanding black holes require detailed study of these celestial bodies.",
+    "Studying black holes helps in understanding the dynamic interactions within such systems.",
+    "It also s play a significant role in the scientific understanding of gravitational phenomena.",
+    "Gravitational waves provide insights into the workings of the universe, enhancing our comprehension.",
+    "The role of understanding gravitational waves includes recognizing their importance in cosmology.",
+    "Critical information about the binary pulsar system PSR B1913+16 helped scale the understanding of gravitational waves.",
+    "Quantified energy loss from the binary pulsar contributed to the dynamic understanding of gravitational wave phenomena.",
+    "Observations of gravitational waves produced new understanding of the universe's structure and behavior.",
+    "The model describing the dynamics of the binary pulsar system is crucial for understanding gravitational wave events.",
+    "The merging of two black holes resulted in the formation of a single black hole, confirming the prediction.",
+    "Direct detection of gravitational waves introduced key predictions from Einstein and Schwarzschild.",
+    "Direct confirmation of gravitational waves validates the century-old theoretical framework predicting their existence.",
+    "Empirical evidence from gravitational wave detections confirms the existence of black holes.",
+    "Highly sensitive interferometers measure changes in space-time curvature, providing evidence for gravitational waves.",
+    "Observed waveforms provide insights into the properties and dynamics of black holes.",
+    "The gravitational pull near a black hole produces conditions where light cannot escape.",
+    "Multiple detectors oppose local noise, distinguishing interference from true gravitational wave signals.",
+    "The effect relative velocity formula aids understanding of gravitational waves.",
+    "It also incorporates the relative velocity ratio.",
+    "And zeroes in on binary systems emitting gravitational waves.",
+    "The chirp mass parameter correlates with binary systems emitting gravitational waves.",
+    "The crucial parameter identified is the chirp mass parameter.",
+    "Gravitational waves travel freely through space without obstruction.",
+    "Space-time curvature fluctuates due to the influence of gravitational waves.",
+    "Gravitational waves trigger detection timestamps marking signal occurrences.",
+    "Detection timestamps indicate the exact moments of gravitational wave signals.",
+    "Sophisticated detection systems rely on the detection of gravitational waves.",
+    "A low false alarm rate enhances the accuracy of gravitational wave detections.",
+    "The signal-to-noise ratio is influenced by the presence of gravitational waves.",
+    "Random noise challenges the detection of gravitational waves due to its unpredictable nature.",
+    "Intrinsic properties of a binary system correlate directly with the observed characteristics of gravitational waves.",
+    "A higher signal-to-noise ratio is dependent on signals that are easily identifiable within the data.",
+    "Visual representations capture the essence of gravitational waves, making them more comprehensible.",
+    "False alarm rates are calculated through extensive simulations to ensure accurate signal identification.",
+    "It also analyses performed on the data help in calculating the false alarm rate for identified signals.",
+    "The first detection event signifies a significant milestone in gravitational wave research.",
+    "Critical pieces of information about waveform patterns indicate the occurrence of an event.",
+    "The waveform of a detected signal reveals a distinct 'chirp' pattern indicative of its source.",
+    "Gravitational waves carry energy away from their source, influencing the dynamics of the cosmos.",
+    "Empirical evidence gathered supports predictions made by general relativity regarding gravitational phenomena.",
+    "Black holes exist in extreme cosmic environments, formed through various astrophysical processes.",
+    "The visualization of the discovery projects has significant implications for understanding astrophysical phenomena related to binary black holes.",
+    "The distance to the source of the gravitational waves provides critical information about the rate of stellar-mass binary black hole mergers.",
+    "The masses of the two objects involved in the merger transform into a single value representing their combined mass.",
+    "The first confirmed observation of gravitational waves resulted from detecting a binary black hole merger event.",
+    "Gravitational waves detected originate from the interactions and eventual merger of two black holes.",
+    "It also the detection of gravitational waves opened new avenues for observing black holes and their interactions.",
+    "And gravitational waves originate from the merger of two black holes, providing evidence for the existence of such systems."
+  ]
+}

@@ -1,0 +1,2502 @@
+{
+  "basename": "game_dev_pcg_survey_aiide_2024",
+  "version": "1.0",
+  "generated_at": "2026-04-14T05:20:31.165Z",
+  "title": "game dev pcg survey aiide 2024",
+  "source_pdf": "source_papers/game_dev_pcg_survey_aiide_2024.pdf",
+  "voice": {
+    "name": "af_river",
+    "speed": 0.85,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 0.4,
+    "total_duration": 486.7733333333333
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 19.398042,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 80.29161,
+    "rescale_factor": 0.311365
+  },
+  "clusters": [
+    {
+      "id": "procedural_content_gen",
+      "label": "Procedural content generation",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        9.675877,
+        0,
+        17.488105
+      ],
+      "radius": 3.425015,
+      "node_ids": [
+        "deep_learning",
+        "complex_pattern",
+        "survey_overview",
+        "current_landscape",
+        "new_opportunity",
+        "innovate_and_reach_wider_market",
+        "content_creation_problem",
+        "challenge",
+        "simple_algorithm",
+        "automate_task",
+        "basic_texture",
+        "terrain_design",
+        "level_design",
+        "sophisticated_technique",
+        "search_strategy",
+        "potential_outcome",
+        "heuristic",
+        "navigation_efficiency",
+        "minimal_human_intervention",
+        "highly_detailed_varied_content",
+        "research_trend",
+        "quality_diversity",
+        "real_world_challenge",
+        "theoret_advancement",
+        "pract_application",
+        "generation",
+        "game",
+        "pract_challenge",
+        "implementation_complexity",
+        "potential_area"
+      ]
+    },
+    {
+      "id": "pcg",
+      "label": "Procedural Content Generation method",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -10.992464,
+        -10.069998,
+        11.935702
+      ],
+      "radius": 3.425015,
+      "node_ids": [
+        "pcg",
+        "texture",
+        "level",
+        "music",
+        "media",
+        "manual_design",
+        "dynamic_content_creation",
+        "varied_content_creation",
+        "infinite_content_creation",
+        "history_of_pcg",
+        "early_procedural_technique",
+        "video_game_and_simulation",
+        "advancement",
+        "evolution_of_pcg_method",
+        "player_engage_increase",
+        "diverse_dynamic_content",
+        "replayability_enhance",
+        "impact",
+        "way",
+        "llm",
+        "disruption",
+        "game_industry_growth",
+        "advancement_in_technology",
+        "increasing_global_audience",
+        "unique_game_level",
+        "increasing_use",
+        "gap_theory_practice",
+        "vari_field",
+        "natural_language_processing"
+      ]
+    },
+    {
+      "id": "neural_network",
+      "label": "Neural networks",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        1.738367,
+        19.807793,
+        8.043445
+      ],
+      "radius": 3.403909,
+      "node_ids": [
+        "neural_network",
+        "large_space",
+        "certain_criteria",
+        "training_model",
+        "existing_data",
+        "pattern",
+        "new_content",
+        "novel_output",
+        "large_dataset",
+        "sophisticated_adapt_content",
+        "combined_method",
+        "search_based",
+        "learning_based",
+        "efficient_system"
+      ]
+    },
+    {
+      "id": "recent_trend",
+      "label": "recent trends",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        12.306226,
+        -16.051292,
+        2.548224
+      ],
+      "radius": 2.304101,
+      "node_ids": [
+        "recent_trend",
+        "advancement_in_dl",
+        "integration_of_method",
+        "evolving_research_direction",
+        "improve_efficiency_quality"
+      ]
+    },
+    {
+      "id": "future_direction",
+      "label": "Future directions of procedural content generation",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -17.102847,
+        3.025253,
+        -2.188206
+      ],
+      "radius": 2.304101,
+      "node_ids": [
+        "future_direction",
+        "dynamic_interact_content",
+        "integration",
+        "traditional_method",
+        "expanded_application"
+      ]
+    },
+    {
+      "id": "strength_integration",
+      "label": "Integration of strengths",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        15.293846,
+        9.728693,
+        -7.332298
+      ],
+      "radius": 2.120555,
+      "node_ids": [
+        "strength_integration",
+        "hybrid_model",
+        "improved_performance",
+        "flexibility"
+      ]
+    },
+    {
+      "id": "word_cloud",
+      "label": "Word cloud visualization",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -3.663644,
+        -13.628574,
+        -11.298976
+      ],
+      "radius": 1.619098,
+      "node_ids": [
+        "word_cloud",
+        "topic"
+      ]
+    },
+    {
+      "id": "large_language_model",
+      "label": "Large Language Models (LLMs)",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -4.490378,
+        8.64595,
+        -17.608485
+      ],
+      "radius": 1.619098,
+      "node_ids": [
+        "large_language_model",
+        "diverse_complex_content"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pcg",
+      "label": "Procedural Content Generation",
+      "type": "architecture",
+      "position": [
+        -10.992464,
+        -10.069998,
+        11.935702
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/pcg.png",
+      "edge_in_count": 9,
+      "edge_out_count": 11
+    },
+    {
+      "id": "manual_design",
+      "label": "Manual game content design",
+      "type": "architecture",
+      "position": [
+        -12.960751,
+        -9.726571,
+        13.709084
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/manual_design.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "dynamic_content_creation",
+      "label": "Dynamic content creation",
+      "type": "solution",
+      "position": [
+        -9.032706,
+        -8.990755,
+        13.395687
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/dynamic_content_creation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "varied_content_creation",
+      "label": "Varied content creation",
+      "type": "solution",
+      "position": [
+        -11.666827,
+        -12.250553,
+        13.324008
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/varied_content_creation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "infinite_content_creation",
+      "label": "Infinite content creation",
+      "type": "solution",
+      "position": [
+        -12.244844,
+        -7.955928,
+        12.984144
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/infinite_content_creation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "history_of_pcg",
+      "label": "History of PCG",
+      "type": "context",
+      "position": [
+        -9.064691,
+        -11.099433,
+        13.101984
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/history_of_pcg.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "early_procedural_technique",
+      "label": "Early procedural techniques",
+      "type": "method",
+      "position": [
+        -11.831057,
+        -10.459876,
+        12.913296
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/early_procedural_technique.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "video_game_and_simulation",
+      "label": "Video games and simulations",
+      "type": "application",
+      "position": [
+        -10.271477,
+        -7.877,
+        12.640547
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/video_game_and_simulation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "advancement",
+      "label": "Advancements in computational power and algorithms",
+      "type": "advancement",
+      "position": [
+        -10.849276,
+        -12.304534,
+        12.418959
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/advancement.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "evolution_of_pcg_method",
+      "label": "Evolution of PCG methods",
+      "type": "process",
+      "position": [
+        -13.228213,
+        -9.429853,
+        12.258974
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/evolution_of_pcg_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "player_engage_increase",
+      "label": "Increase in player engagement",
+      "type": "increase",
+      "position": [
+        -8.36771,
+        -9.579197,
+        12.017899
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/player_engage_increase.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "diverse_dynamic_content",
+      "label": "Diverse and dynamic content generation",
+      "type": "representation",
+      "position": [
+        -12.707198,
+        -11.66106,
+        11.727195
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/diverse_dynamic_content.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "replayability_enhance",
+      "label": "Enhanced replayability",
+      "type": "success",
+      "position": [
+        -11.880672,
+        -7.97451,
+        11.520055
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/replayability_enhance.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "impact",
+      "label": "impact",
+      "type": "default",
+      "position": [
+        -9.593104,
+        -11.830004,
+        11.333725
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/impact.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "way",
+      "label": "way",
+      "type": "default",
+      "position": [
+        -13.169047,
+        -10.644571,
+        11.208675
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/way.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "deep_learning",
+      "label": "Deep learning",
+      "type": "mechanism",
+      "position": [
+        9.939981,
+        0.129085,
+        20.143395
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/deep_learning.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "complex_pattern",
+      "label": "Complex patterns in data",
+      "type": "representation",
+      "position": [
+        8.80289,
+        -0.697052,
+        19.914829
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/complex_pattern.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "llm",
+      "label": "Large Language Models",
+      "type": "model",
+      "position": [
+        -9.135643,
+        -8.932168,
+        10.782349
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/llm.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "disruption",
+      "label": "Significant disruption",
+      "type": "warning",
+      "position": [
+        -10.744617,
+        -12.154988,
+        10.646927
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/disruption.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "survey_overview",
+      "label": "Survey overview",
+      "type": "document",
+      "position": [
+        9.796788,
+        1.391603,
+        19.76534
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/survey_overview.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "current_landscape",
+      "label": "Current landscape",
+      "type": "context",
+      "position": [
+        10.477052,
+        -1.165057,
+        19.754763
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/current_landscape.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "game_industry_growth",
+      "label": "Game industry growth",
+      "type": "growth",
+      "position": [
+        -11.997595,
+        -8.882579,
+        10.226168
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/game_industry_growth.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "advancement_in_technology",
+      "label": "Advancements in technology",
+      "type": "advancement",
+      "position": [
+        -9.06467,
+        -10.020269,
+        10.139087
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/advancement_in_technology.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "increasing_global_audience",
+      "label": "Increasing global audience",
+      "type": "audience",
+      "position": [
+        -12.745306,
+        -10.872434,
+        10.086211
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/increasing_global_audience.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "new_opportunity",
+      "label": "New opportunities for game developers",
+      "type": "opportunity",
+      "position": [
+        8.177943,
+        0.648199,
+        19.603054
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/new_opportunity.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "innovate_and_reach_wider_market",
+      "label": "Innovate and reach wider markets",
+      "type": "objective",
+      "position": [
+        10.92914,
+        1.357309,
+        19.417878
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/innovate_and_reach_wider_market.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "content_creation_problem",
+      "label": "Content creation problem",
+      "type": "problem",
+      "position": [
+        8.661887,
+        -1.755671,
+        19.227767
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/content_creation_problem.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "challenge",
+      "label": "Challenges in generating diverse and high-quality content",
+      "type": "challenge",
+      "position": [
+        8.356241,
+        1.6391,
+        19.133976
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/challenge.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "unique_game_level",
+      "label": "Unique game levels",
+      "type": "representation",
+      "position": [
+        -10.354682,
+        -8.059119,
+        10.799802
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/unique_game_level.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "texture",
+      "label": "Texture generation",
+      "type": "representation",
+      "position": [
+        -10.036846,
+        -9.771053,
+        13.989913
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/texture.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "simple_algorithm",
+      "label": "simple algorithms",
+      "type": "default",
+      "position": [
+        11.004114,
+        -0.367027,
+        18.609366
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/simple_algorithm.png",
+      "edge_in_count": 0,
+      "edge_out_count": 5
+    },
+    {
+      "id": "automate_task",
+      "label": "Automate repetitive tasks",
+      "type": "goal",
+      "position": [
+        7.617364,
+        -1.090694,
+        18.795184
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/automate_task.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "basic_texture",
+      "label": "Basic textures",
+      "type": "representation",
+      "position": [
+        11.0265,
+        2.1414,
+        18.340865
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/basic_texture.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "terrain_design",
+      "label": "Terrain design",
+      "type": "representation",
+      "position": [
+        10.498023,
+        -2.373945,
+        18.396641
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/terrain_design.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "level_design",
+      "label": "Level design",
+      "type": "representation",
+      "position": [
+        7.620567,
+        1.155602,
+        18.114998
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/level_design.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sophisticated_technique",
+      "label": "Sophisticated techniques",
+      "type": "architecture",
+      "position": [
+        12.263779,
+        0.47575,
+        17.950063
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/sophisticated_technique.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "level",
+      "label": "Level generation",
+      "type": "representation",
+      "position": [
+        -11.853852,
+        -10.918841,
+        14.317813
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/level.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "type": "default",
+      "position": [
+        -11.001705,
+        -8.54998,
+        14.132617
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/music.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "media",
+      "label": "media",
+      "type": "default",
+      "position": [
+        -9.972694,
+        -11.546078,
+        13.915155
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/media.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "large_space",
+      "label": "Large spaces of possible solutions",
+      "type": "architecture",
+      "position": [
+        2.72742,
+        20.082432,
+        9.992203
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/large_space.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "certain_criteria",
+      "label": "certain criteria",
+      "type": "default",
+      "position": [
+        0.903789,
+        19.079689,
+        9.54545
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/certain_criteria.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "search_strategy",
+      "label": "Search strategies",
+      "type": "architecture",
+      "position": [
+        7.877813,
+        -1.617879,
+        17.454598
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/search_strategy.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "potential_outcome",
+      "label": "potential outcomes",
+      "type": "default",
+      "position": [
+        8.830103,
+        2.4491,
+        17.455745
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/potential_outcome.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "heuristic",
+      "label": "Heuristics",
+      "type": "architecture",
+      "position": [
+        11.444847,
+        -1.953322,
+        17.049634
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/heuristic.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "navigation_efficiency",
+      "label": "navigation efficiency",
+      "type": "default",
+      "position": [
+        7.426948,
+        -0.621924,
+        16.936335
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/navigation_efficiency.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "training_model",
+      "label": "Training models",
+      "type": "training",
+      "position": [
+        2.567598,
+        20.574853,
+        8.800004
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/training_model.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "existing_data",
+      "label": "Existing data",
+      "type": "data",
+      "position": [
+        3.105705,
+        18.542075,
+        9.316789
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/existing_data.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "neural_network",
+      "label": "Neural networks",
+      "type": "architecture",
+      "position": [
+        1.738367,
+        19.807793,
+        8.043445
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/neural_network.png",
+      "edge_in_count": 0,
+      "edge_out_count": 4
+    },
+    {
+      "id": "pattern",
+      "label": "Patterns",
+      "type": "representation",
+      "position": [
+        -0.743909,
+        20.272473,
+        8.862997
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/pattern.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "new_content",
+      "label": "new content",
+      "type": "default",
+      "position": [
+        3.819058,
+        21.359332,
+        8.602669
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/new_content.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "novel_output",
+      "label": "Novel outputs",
+      "type": "output",
+      "position": [
+        1.084784,
+        17.234447,
+        8.040582
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/novel_output.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "recent_trend",
+      "label": "recent trends",
+      "type": "default",
+      "position": [
+        12.306226,
+        -16.051292,
+        2.548224
+      ],
+      "cluster_id": "recent_trend",
+      "icon": "png_icons/recent_trend.png",
+      "edge_in_count": 0,
+      "edge_out_count": 4
+    },
+    {
+      "id": "advancement_in_dl",
+      "label": "Advancements in deep learning techniques",
+      "type": "architecture",
+      "position": [
+        13.482167,
+        -16.051219,
+        3.9073
+      ],
+      "cluster_id": "recent_trend",
+      "icon": "png_icons/advancement_in_dl.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "integration_of_method",
+      "label": "Integration of multiple methods",
+      "type": "architecture",
+      "position": [
+        10.998737,
+        -17.193997,
+        3.000678
+      ],
+      "cluster_id": "recent_trend",
+      "icon": "png_icons/integration_of_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "evolving_research_direction",
+      "label": "Evolving research directions",
+      "type": "architecture",
+      "position": [
+        12.41755,
+        -14.318402,
+        2.095771
+      ],
+      "cluster_id": "recent_trend",
+      "icon": "png_icons/evolving_research_direction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "improve_efficiency_quality",
+      "label": "improvement efficiency quality",
+      "type": "default",
+      "position": [
+        13.021656,
+        -16.984564,
+        1.189149
+      ],
+      "cluster_id": "recent_trend",
+      "icon": "png_icons/improve_efficiency_quality.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "increasing_use",
+      "label": "Increasing use of deep learning techniques",
+      "type": "architecture",
+      "position": [
+        -10.038774,
+        -11.561836,
+        9.935235
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/increasing_use.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "large_dataset",
+      "label": "Large datasets",
+      "type": "data",
+      "position": [
+        0.613696,
+        22.173693,
+        7.611108
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/large_dataset.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "sophisticated_adapt_content",
+      "label": "Sophisticated and adaptive content generation",
+      "type": "architecture",
+      "position": [
+        4.107316,
+        18.960166,
+        7.19557
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/sophisticated_adapt_content.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "minimal_human_intervention",
+      "label": "Minimal human intervention",
+      "type": "architecture",
+      "position": [
+        11.507188,
+        1.48999,
+        16.792413
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/minimal_human_intervention.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "highly_detailed_varied_content",
+      "label": "Highly detailed and varied content",
+      "type": "architecture",
+      "position": [
+        9.766657,
+        -2.24936,
+        16.586975
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/highly_detailed_varied_content.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "combined_method",
+      "label": "Combined methods in procedural content generation",
+      "type": "architecture",
+      "position": [
+        0.636234,
+        19.373294,
+        6.539352
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/combined_method.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "search_based",
+      "label": "Search-based method",
+      "type": "method",
+      "position": [
+        1.862822,
+        20.393052,
+        7.725543
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/search_based.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "learning_based",
+      "label": "Learning-based method",
+      "type": "method",
+      "position": [
+        1.961916,
+        18.920812,
+        6.700867
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/learning_based.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "efficient_system",
+      "label": "efficient system",
+      "type": "default",
+      "position": [
+        0.726662,
+        20.176148,
+        5.616502
+      ],
+      "cluster_id": "neural_network",
+      "icon": "png_icons/efficient_system.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "hybrid_model",
+      "label": "Hybrid models",
+      "type": "architecture",
+      "position": [
+        16.518229,
+        9.711465,
+        -6.220356
+      ],
+      "cluster_id": "strength_integration",
+      "icon": "png_icons/hybrid_model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "strength_integration",
+      "label": "Integration of strengths",
+      "type": "architecture",
+      "position": [
+        15.293846,
+        9.728693,
+        -7.332298
+      ],
+      "cluster_id": "strength_integration",
+      "icon": "png_icons/strength_integration.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "improved_performance",
+      "label": "Improved performance",
+      "type": "architecture",
+      "position": [
+        14.074213,
+        8.61141,
+        -7.332298
+      ],
+      "cluster_id": "strength_integration",
+      "icon": "png_icons/improved_performance.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "flexibility",
+      "label": "flexibility",
+      "type": "default",
+      "position": [
+        15.383727,
+        10.949894,
+        -8.44424
+      ],
+      "cluster_id": "strength_integration",
+      "icon": "png_icons/flexibility.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "research_trend",
+      "label": "Research trends",
+      "type": "topic",
+      "position": [
+        9.126181,
+        1.31282,
+        17.113123
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/research_trend.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "quality_diversity",
+      "label": "quality diversity",
+      "type": "default",
+      "position": [
+        12.023803,
+        -0.045203,
+        16.214457
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/quality_diversity.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "real_world_challenge",
+      "label": "Real-world challenges",
+      "type": "problem",
+      "position": [
+        8.256108,
+        -1.182377,
+        15.558541
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/real_world_challenge.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "theoret_advancement",
+      "label": "Theoretical advancements",
+      "type": "architecture",
+      "position": [
+        9.350044,
+        1.459816,
+        15.383376
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/theoret_advancement.png",
+      "edge_in_count": 3,
+      "edge_out_count": 1
+    },
+    {
+      "id": "pract_application",
+      "label": "practical applications",
+      "type": "default",
+      "position": [
+        10.008591,
+        -1.80082,
+        15.543028
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/pract_application.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "future_direction",
+      "label": "future directions",
+      "type": "default",
+      "position": [
+        -17.102847,
+        3.025253,
+        -2.188206
+      ],
+      "cluster_id": "future_direction",
+      "icon": "png_icons/future_direction.png",
+      "edge_in_count": 1,
+      "edge_out_count": 3
+    },
+    {
+      "id": "dynamic_interact_content",
+      "label": "dynamic interactive content",
+      "type": "default",
+      "position": [
+        -15.926905,
+        3.025325,
+        -0.829131
+      ],
+      "cluster_id": "future_direction",
+      "icon": "png_icons/dynamic_interact_content.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "integration",
+      "label": "integration",
+      "type": "default",
+      "position": [
+        -18.410335,
+        1.882548,
+        -1.735753
+      ],
+      "cluster_id": "future_direction",
+      "icon": "png_icons/integration.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "traditional_method",
+      "label": "Traditional procedural content generation methods",
+      "type": "architecture",
+      "position": [
+        -16.991522,
+        4.758143,
+        -2.64066
+      ],
+      "cluster_id": "future_direction",
+      "icon": "png_icons/traditional_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "expanded_application",
+      "label": "Expanding applications across various fields",
+      "type": "solution",
+      "position": [
+        -16.387416,
+        2.091981,
+        -3.547282
+      ],
+      "cluster_id": "future_direction",
+      "icon": "png_icons/expanded_application.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "word_cloud",
+      "label": "Word cloud visualization",
+      "type": "visualization",
+      "position": [
+        -3.663644,
+        -13.628574,
+        -11.298976
+      ],
+      "cluster_id": "word_cloud",
+      "icon": "png_icons/word_cloud.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "topic",
+      "label": "Most frequently discussed topics",
+      "type": "topic",
+      "position": [
+        -3.071905,
+        -13.673395,
+        -11.703874
+      ],
+      "cluster_id": "word_cloud",
+      "icon": "png_icons/topic.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "generation",
+      "label": "Generation",
+      "type": "process",
+      "position": [
+        7.702851,
+        0.627215,
+        15.79969
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/generation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "game",
+      "label": "game",
+      "type": "default",
+      "position": [
+        11.196173,
+        0.889309,
+        15.479423
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/game.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "gap_theory_practice",
+      "label": "Gap between theory and practice",
+      "type": "problem",
+      "position": [
+        -12.423834,
+        -9.643104,
+        9.720771
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/gap_theory_practice.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "pract_challenge",
+      "label": "Practical challenges",
+      "type": "problem",
+      "position": [
+        8.978534,
+        -0.367902,
+        14.93559
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/pract_challenge.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "implementation_complexity",
+      "label": "Implementation complexity",
+      "type": "bottleneck",
+      "position": [
+        9.000168,
+        0.659967,
+        14.989138
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/implementation_complexity.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "vari_field",
+      "label": "Various fields",
+      "type": "category",
+      "position": [
+        -10.2034,
+        -9.693148,
+        9.411353
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/vari_field.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "natural_language_processing",
+      "label": "Natural language processing",
+      "type": "category",
+      "position": [
+        -11.049737,
+        -10.515503,
+        9.302221
+      ],
+      "cluster_id": "pcg",
+      "icon": "png_icons/natural_language_processing.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "large_language_model",
+      "label": "Large Language Models (LLMs)",
+      "type": "model",
+      "position": [
+        -4.490378,
+        8.64595,
+        -17.608485
+      ],
+      "cluster_id": "large_language_model",
+      "icon": "png_icons/large_language_model.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "diverse_complex_content",
+      "label": "diverse complex content",
+      "type": "default",
+      "position": [
+        -3.871787,
+        9.043823,
+        -17.920968
+      ],
+      "cluster_id": "large_language_model",
+      "icon": "png_icons/diverse_complex_content.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "potential_area",
+      "label": "Potential areas for further research",
+      "type": "problem",
+      "position": [
+        10.261243,
+        -0.457078,
+        14.921901
+      ],
+      "cluster_id": "procedural_content_gen",
+      "icon": "png_icons/potential_area.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "manual_design",
+      "to_label": "Manual game content design",
+      "verb": "replaces",
+      "subtitle": "Procedural Content Generation replaces manual design with automated algorithms for game content creation.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 7.653333333333333,
+      "image": {
+        "png": "overlay_assets/wiki/wiki_game_theory_2.png",
+        "caption": "Game theory — Cournot Duopoly Nash equilibrium.png",
+        "kind": "wiki_image"
+      }
+    },
+    {
+      "index": 1,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "dynamic_content_creation",
+      "to_label": "Dynamic content creation",
+      "verb": "enables",
+      "subtitle": "It also enables dynamic content creation, adapting to various gameplay scenarios.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 7.653333333333333,
+      "audio_duration": 6.096,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "varied_content_creation",
+      "to_label": "Varied content creation",
+      "verb": "enables",
+      "subtitle": "This also allows for varied content creation, ensuring diverse gaming experiences.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 13.749333333333333,
+      "audio_duration": 6.096,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "infinite_content_creation",
+      "to_label": "Infinite content creation",
+      "verb": "enables",
+      "subtitle": "This also supports infinite content creation, providing endless possibilities in game design.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 19.845333333333333,
+      "audio_duration": 6.458666666666667,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "theoret_advancement",
+      "to_label": "Theoretical advancements",
+      "verb": "connects",
+      "subtitle": "And theoretical advancements connect PCG, driving innovation in game content creation.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 26.304,
+      "audio_duration": 6.394666666666667,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "real_world_challenge",
+      "from_label": "Real-world challenges",
+      "to": "theoret_advancement",
+      "to_label": "Theoretical advancements",
+      "verb": "emphasize importance",
+      "subtitle": "Real-world challenges emphasize the importance of theoretical advancements in PCG.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 32.69866666666667,
+      "audio_duration": 6.330666666666667,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "recent_trend",
+      "from_label": "recent trends",
+      "to": "advancement_in_dl",
+      "to_label": "Advancements in deep learning techniques",
+      "verb": "contains",
+      "subtitle": "Recent trends include advancements in deep learning techniques, enhancing PCG.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 39.029333333333334,
+      "audio_duration": 5.754666666666667,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "large_language_model",
+      "from_label": "Large Language Models (LLMs)",
+      "to": "diverse_complex_content",
+      "to_label": "diverse complex content",
+      "verb": "produces",
+      "subtitle": "Large Language Models produce diverse and complex content, revolutionizing PCG.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 44.784,
+      "audio_duration": 6.224,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "new_opportunity",
+      "from_label": "New opportunities for game developers",
+      "to": "innovate_and_reach_wider_market",
+      "to_label": "Innovate and reach wider markets",
+      "verb": "produces",
+      "subtitle": "New opportunities for game developers arise, allowing them to innovate and reach wider markets.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 51.007999999999996,
+      "audio_duration": 6.266666666666667,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "level",
+      "to_label": "Level generation",
+      "verb": "contains",
+      "subtitle": "PCG includes level generation, automating the creation of game levels.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 57.27466666666666,
+      "audio_duration": 5.413333333333333,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "media",
+      "to_label": "media",
+      "verb": "contains",
+      "subtitle": "and encompasses media content, broadening its scope beyond just levels.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 62.687999999999995,
+      "audio_duration": 4.858666666666666,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "player_engage_increase",
+      "from_label": "Increase in player engagement",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "relates",
+      "subtitle": "An increase in player engagement relates to it, enhancing game enjoyment.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 67.54666666666667,
+      "audio_duration": 5.136,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "music",
+      "to_label": "music",
+      "verb": "contains",
+      "subtitle": "It involves music as one of its many content creation capabilities designed for games.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 72.68266666666666,
+      "audio_duration": 5.925333333333334,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "content_creation_problem",
+      "from_label": "Content creation problem",
+      "to": "challenge",
+      "to_label": "Challenges in generating diverse and high-quality content",
+      "verb": "relates",
+      "subtitle": "The content creation problem presents challenges in generating diverse and high-quality game content.",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 78.60799999999999,
+      "audio_duration": 6.586666666666667,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "future_direction",
+      "from_label": "future directions",
+      "to": "expanded_application",
+      "to_label": "Expanding applications across various fields",
+      "verb": "consists of",
+      "subtitle": "Future directions for PCG aim to expand its use across various fields beyond gaming.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 85.19466666666666,
+      "audio_duration": 6.1386666666666665,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "vari_field",
+      "from_label": "Various fields",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "contains",
+      "subtitle": "Various fields utilize it to automate the creation of game content.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 91.33333333333333,
+      "audio_duration": 4.794666666666667,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "survey_overview",
+      "from_label": "Survey overview",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "consists of",
+      "subtitle": "A survey overview covers the range of PCG methods and their applications.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 96.128,
+      "audio_duration": 5.605333333333333,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "minimal_human_intervention",
+      "from_label": "Minimal human intervention",
+      "to": "highly_detailed_varied_content",
+      "to_label": "Highly detailed and varied content",
+      "verb": "produces",
+      "subtitle": "Minimal human intervention through it results in highly detailed and varied content creation.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 101.73333333333333,
+      "audio_duration": 6.16,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "research_trend",
+      "to_label": "Research trends",
+      "verb": "focus on",
+      "subtitle": "Research trends in it focus on advancing both the methods and the types of content produced.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 107.89333333333333,
+      "audio_duration": 5.989333333333334,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "quality_diversity",
+      "from_label": "quality diversity",
+      "to": "research_trend",
+      "to_label": "Research trends",
+      "verb": "combine techniques",
+      "subtitle": "Techniques aimed at improving quality and diversity in it are central to current research trends.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 113.88266666666667,
+      "audio_duration": 6.074666666666666,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "survey_overview",
+      "from_label": "Survey overview",
+      "to": "current_landscape",
+      "to_label": "Current landscape",
+      "verb": "describes",
+      "subtitle": "The survey overview provides insights into the current landscape of PCG methods and applications.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 119.95733333333334,
+      "audio_duration": 6.714666666666667,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "recent_trend",
+      "from_label": "recent trends",
+      "to": "improve_efficiency_quality",
+      "to_label": "improvement efficiency quality",
+      "verb": "improves",
+      "subtitle": "Recent trends in PCG emphasize improvements in efficiency and content quality.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 126.67200000000001,
+      "audio_duration": 6.117333333333334,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "pract_challenge",
+      "from_label": "Practical challenges",
+      "to": "theoret_advancement",
+      "to_label": "Theoretical advancements",
+      "verb": "depends on",
+      "subtitle": "Practical challenges in PCG depend on theoretical advancements in algorithm design and implementation.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 132.78933333333333,
+      "audio_duration": 7.376,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "pract_challenge",
+      "from_label": "Practical challenges",
+      "to": "implementation_complexity",
+      "to_label": "Implementation complexity",
+      "verb": "contains",
+      "subtitle": "and in PCG include the complexity involved in implementing these advanced algorithms.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 140.16533333333334,
+      "audio_duration": 5.8613333333333335,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "pract_application",
+      "to_label": "practical applications",
+      "verb": "connects",
+      "subtitle": "PCG links practical applications through its various algorithms designed for game content.",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 146.02666666666667,
+      "audio_duration": 6.522666666666667,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "generation",
+      "from_label": "Generation",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "stand out",
+      "subtitle": "Generation stands out as part of PCG, adapting to diverse game content needs.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 152.54933333333335,
+      "audio_duration": 6.032,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "game",
+      "from_label": "game",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "stand out",
+      "subtitle": "Game development highlights it, utilizing algorithms for dynamic content creation.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 158.58133333333336,
+      "audio_duration": 5.904,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "history_of_pcg",
+      "from_label": "History of PCG",
+      "to": "early_procedural_technique",
+      "to_label": "Early procedural techniques",
+      "verb": "consists of",
+      "subtitle": "The history of it includes early procedural techniques that laid the groundwork for modern methods.",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 164.48533333333336,
+      "audio_duration": 5.968,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "diverse_dynamic_content",
+      "from_label": "Diverse and dynamic content generation",
+      "to": "replayability_enhance",
+      "to_label": "Enhanced replayability",
+      "verb": "relates",
+      "subtitle": "Diverse and dynamic content generation enhances game replayability by offering varied player experiences.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 170.45333333333335,
+      "audio_duration": 7.674666666666667,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "search_based",
+      "from_label": "Search-based method",
+      "to": "certain_criteria",
+      "to_label": "certain criteria",
+      "verb": "achieves",
+      "subtitle": "Search-based methods achieve specific criteria by assigning real values to measure content acceptability.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 178.12800000000001,
+      "audio_duration": 7.056,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "simple_algorithm",
+      "from_label": "simple algorithms",
+      "to": "level_design",
+      "to_label": "Level design",
+      "verb": "operates on",
+      "subtitle": "Simple algorithms operate on level design, creating game environments with procedural generation techniques.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 185.18400000000003,
+      "audio_duration": 7.205333333333333,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "simple_algorithm",
+      "from_label": "simple algorithms",
+      "to": "sophisticated_technique",
+      "to_label": "Sophisticated techniques",
+      "verb": "evolves to",
+      "subtitle": "and evolve into sophisticated techniques, showcasing the progression in algorithm complexity.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 192.38933333333335,
+      "audio_duration": 6.352,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "strength_integration",
+      "from_label": "Integration of strengths",
+      "to": "improved_performance",
+      "to_label": "Improved performance",
+      "verb": "produces",
+      "subtitle": "Strength integration improves performance by combining the best aspects of different planning methods.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 198.74133333333336,
+      "audio_duration": 6.224,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "simple_algorithm",
+      "from_label": "simple algorithms",
+      "to": "basic_texture",
+      "to_label": "Basic textures",
+      "verb": "operates on",
+      "subtitle": "Simple algorithms operate on basic textures, synthesizing patterns consistent with input designs.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 204.96533333333335,
+      "audio_duration": 7.034666666666666,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "recent_trend",
+      "from_label": "recent trends",
+      "to": "integration_of_method",
+      "to_label": "Integration of multiple methods",
+      "verb": "contains",
+      "subtitle": "Recent trends include the integration of multiple methods, reflecting advancements in it.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 212,
+      "audio_duration": 5.776,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "hybrid_model",
+      "from_label": "Hybrid models",
+      "to": "strength_integration",
+      "to_label": "Integration of strengths",
+      "verb": "contains",
+      "subtitle": "Hybrid models incorporate strength integration, enhancing their effectiveness in it.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 217.776,
+      "audio_duration": 5.434666666666667,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "pcg",
+      "from_label": "Procedural Content Generation",
+      "to": "texture",
+      "to_label": "Texture generation",
+      "verb": "contains",
+      "subtitle": "PCG method includes textures, ensuring unique patterns in game levels.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 223.21066666666667,
+      "audio_duration": 5.626666666666667,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "unique_game_level",
+      "from_label": "Unique game levels",
+      "to": "texture",
+      "to_label": "Texture generation",
+      "verb": "relates",
+      "subtitle": "The Wave Function Collapse (WFC) algorithm creates unique game levels by focusing on specific textures.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 228.83733333333333,
+      "audio_duration": 7.589333333333333,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "heuristic",
+      "from_label": "Heuristics",
+      "to": "navigation_efficiency",
+      "to_label": "navigation efficiency",
+      "verb": "improves",
+      "subtitle": "Heuristics like Monte Carlo Tree Search enhance the efficiency of navigation through complex game environments.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 236.42666666666668,
+      "audio_duration": 7.525333333333333,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "search_based",
+      "from_label": "Search-based method",
+      "to": "large_space",
+      "to_label": "Large spaces of possible solutions",
+      "verb": "operates on",
+      "subtitle": "Search-based methods also excel at exploring large spaces of potential solutions, optimizing outcomes in it.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 243.952,
+      "audio_duration": 7.717333333333333,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "neural_network",
+      "from_label": "Neural networks",
+      "to": "pattern",
+      "to_label": "Patterns",
+      "verb": "depends on",
+      "subtitle": "Neural networks depend on patterns extracted from data to improve its processes.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 251.66933333333333,
+      "audio_duration": 5.669333333333333,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "neural_network",
+      "from_label": "Neural networks",
+      "to": "large_dataset",
+      "to_label": "Large datasets",
+      "verb": "learns from",
+      "subtitle": "and learn from large datasets, enabling more accurate predictions and content generation.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 257.33866666666665,
+      "audio_duration": 6.245333333333333,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "deep_learning",
+      "from_label": "Deep learning",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "stand out",
+      "subtitle": "DL stands out in it by leveraging advanced algorithms and techniques.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 263.584,
+      "audio_duration": 5.008,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "deep_learning",
+      "from_label": "Deep learning",
+      "to": "complex_pattern",
+      "to_label": "Complex patterns in data",
+      "verb": "operates on",
+      "subtitle": "and operates effectively on complex patterns within data, enhancing the sophistication of generated content.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 268.592,
+      "audio_duration": 7.333333333333333,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "simple_algorithm",
+      "from_label": "simple algorithms",
+      "to": "automate_task",
+      "to_label": "Automate repetitive tasks",
+      "verb": "operates on",
+      "subtitle": "Simple algorithms automate repetitive tasks, making them useful for generating basic procedural content.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 275.9253333333333,
+      "audio_duration": 7.376,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "simple_algorithm",
+      "from_label": "simple algorithms",
+      "to": "terrain_design",
+      "to_label": "Terrain design",
+      "verb": "operates on",
+      "subtitle": "and operate on terrain design, streamlining the process of creating varied landscapes in games.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 283.3013333333333,
+      "audio_duration": 6.522666666666667,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "neural_network",
+      "from_label": "Neural networks",
+      "to": "novel_output",
+      "to_label": "Novel outputs",
+      "verb": "produces",
+      "subtitle": "Neural networks produce novel outputs, contributing to the diversity of procedural content generated.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 289.82399999999996,
+      "audio_duration": 7.013333333333334,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "neural_network",
+      "from_label": "Neural networks",
+      "to": "sophisticated_adapt_content",
+      "to_label": "Sophisticated and adaptive content generation",
+      "verb": "enables",
+      "subtitle": "and enable sophisticated and adaptive content generation, enhancing the quality and variety of game content.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 296.8373333333333,
+      "audio_duration": 7.397333333333333,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "learning_based",
+      "from_label": "Learning-based method",
+      "to": "training_model",
+      "to_label": "Training models",
+      "verb": "consists of",
+      "subtitle": "Learning-based methods involve training models, which are central to generating content automatically through algorithms.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 304.2346666666666,
+      "audio_duration": 7.632,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "vari_field",
+      "from_label": "Various fields",
+      "to": "natural_language_processing",
+      "to_label": "Natural language processing",
+      "verb": "contains",
+      "subtitle": "Various fields include natural language processing, contributing to the breadth of PCG.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 311.8666666666666,
+      "audio_duration": 6.010666666666666,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "training_model",
+      "from_label": "Training models",
+      "to": "new_content",
+      "to_label": "new content",
+      "verb": "produces",
+      "subtitle": "Training models create new content by optimizing the selection of actions within a Markov decision process framework.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 317.8773333333333,
+      "audio_duration": 7.589333333333333,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "future_direction",
+      "from_label": "future directions",
+      "to": "traditional_method",
+      "to_label": "Traditional procedural content generation methods",
+      "verb": "consists of",
+      "subtitle": "Future directions in PCG encompass traditional methods, aiming to refine existing approaches.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 325.46666666666664,
+      "audio_duration": 7.034666666666666,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "future_direction",
+      "from_label": "future directions",
+      "to": "dynamic_interact_content",
+      "to_label": "dynamic interactive content",
+      "verb": "produces",
+      "subtitle": "and also focus on producing dynamic interactive content, enhancing user engagement in games.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 332.5013333333333,
+      "audio_duration": 6.949333333333334,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "integration",
+      "from_label": "integration",
+      "to": "future_direction",
+      "to_label": "future directions",
+      "verb": "enhance",
+      "subtitle": "Integration with future directions improves PCG by incorporating advanced methodologies.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 339.4506666666667,
+      "audio_duration": 6.8213333333333335,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "combined_method",
+      "from_label": "Combined methods in procedural content generation",
+      "to": "learning_based",
+      "to_label": "Learning-based method",
+      "verb": "consists of",
+      "subtitle": "Combined methods in PCG integrate learning-based techniques, enhancing content creation processes.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 346.272,
+      "audio_duration": 7.205333333333333,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "combined_method",
+      "from_label": "Combined methods in procedural content generation",
+      "to": "search_based",
+      "to_label": "Search-based method",
+      "verb": "consists of",
+      "subtitle": "and combined methods also incorporate search-based strategies, offering a versatile approach to it.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 353.4773333333333,
+      "audio_duration": 6.458666666666667,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "early_procedural_technique",
+      "from_label": "Early procedural techniques",
+      "to": "video_game_and_simulation",
+      "to_label": "Video games and simulations",
+      "verb": "applied in",
+      "subtitle": "Early procedural techniques were applied in video games and simulations, laying foundational methods for modern applications.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 359.936,
+      "audio_duration": 8.037333333333333,
+      "image": null
+    },
+    {
+      "index": 57,
+      "from": "strength_integration",
+      "from_label": "Integration of strengths",
+      "to": "flexibility",
+      "to_label": "flexibility",
+      "verb": "results in",
+      "subtitle": "The integration of different strengths leads to increased flexibility in PCG systems.",
+      "audio_clip": "audio_clips/edge_057.wav",
+      "audio_start": 367.9733333333333,
+      "audio_duration": 5.989333333333334,
+      "image": null
+    },
+    {
+      "index": 58,
+      "from": "increasing_use",
+      "from_label": "Increasing use of deep learning techniques",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "focuses on",
+      "subtitle": "An increasing trend observes the application of DL techniques specifically targeting PCG.",
+      "audio_clip": "audio_clips/edge_058.wav",
+      "audio_start": 373.9626666666666,
+      "audio_duration": 6.586666666666667,
+      "image": null
+    },
+    {
+      "index": 59,
+      "from": "gap_theory_practice",
+      "from_label": "Gap between theory and practice",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "relates",
+      "subtitle": "There remains a gap between theoretical advancements and practical implementations in the realm of PCG.",
+      "audio_clip": "audio_clips/edge_059.wav",
+      "audio_start": 380.54933333333327,
+      "audio_duration": 6.736,
+      "image": null
+    },
+    {
+      "index": 60,
+      "from": "pract_application",
+      "from_label": "practical applications",
+      "to": "real_world_challenge",
+      "to_label": "Real-world challenges",
+      "verb": "address challenges",
+      "subtitle": "Practical applications address real-world challenges by balancing iterative and random generation methods.",
+      "audio_clip": "audio_clips/edge_060.wav",
+      "audio_start": 387.28533333333326,
+      "audio_duration": 7.312,
+      "image": null
+    },
+    {
+      "index": 61,
+      "from": "combined_method",
+      "from_label": "Combined methods in procedural content generation",
+      "to": "efficient_system",
+      "to_label": "efficient system",
+      "verb": "produces",
+      "subtitle": "These methods produce more efficient systems through the use of fractals.",
+      "audio_clip": "audio_clips/edge_061.wav",
+      "audio_start": 394.59733333333327,
+      "audio_duration": 4.709333333333333,
+      "image": null
+    },
+    {
+      "index": 62,
+      "from": "llm",
+      "from_label": "Large Language Models",
+      "to": "disruption",
+      "to_label": "Significant disruption",
+      "verb": "relates",
+      "subtitle": "LLMs significantly disrupt traditional approaches to PCG.",
+      "audio_clip": "audio_clips/edge_062.wav",
+      "audio_start": 399.3066666666666,
+      "audio_duration": 4.816,
+      "image": null
+    },
+    {
+      "index": 63,
+      "from": "impact",
+      "from_label": "impact",
+      "to": "way",
+      "to_label": "way",
+      "verb": "transforms into",
+      "subtitle": "The impact of advancements in technology transforms into new ways of generating game content dynamically.",
+      "audio_clip": "audio_clips/edge_063.wav",
+      "audio_start": 404.1226666666666,
+      "audio_duration": 7.013333333333334,
+      "image": null
+    },
+    {
+      "index": 64,
+      "from": "training_model",
+      "from_label": "Training models",
+      "to": "existing_data",
+      "to_label": "Existing data",
+      "verb": "operates on",
+      "subtitle": "Training models operate on existing data, often limiting researcher access to its underlying algorithms.",
+      "audio_clip": "audio_clips/edge_064.wav",
+      "audio_start": 411.1359999999999,
+      "audio_duration": 7.184,
+      "image": null
+    },
+    {
+      "index": 65,
+      "from": "recent_trend",
+      "from_label": "recent trends",
+      "to": "evolving_research_direction",
+      "to_label": "Evolving research directions",
+      "verb": "contains",
+      "subtitle": "Recent trends contain evolving research directions aimed at addressing current gaps in PCG.",
+      "audio_clip": "audio_clips/edge_065.wav",
+      "audio_start": 418.31999999999994,
+      "audio_duration": 6.672,
+      "image": null
+    },
+    {
+      "index": 66,
+      "from": "advancement",
+      "from_label": "Advancements in computational power and algorithms",
+      "to": "evolution_of_pcg_method",
+      "to_label": "Evolution of PCG methods",
+      "verb": "influences",
+      "subtitle": "Advancements in computational power and algorithms influence the evolution of these methods, driving their continued growth.",
+      "audio_clip": "audio_clips/edge_066.wav",
+      "audio_start": 424.99199999999996,
+      "audio_duration": 8.058666666666667,
+      "image": null
+    },
+    {
+      "index": 67,
+      "from": "game_industry_growth",
+      "from_label": "Game industry growth",
+      "to": "increasing_global_audience",
+      "to_label": "Increasing global audience",
+      "verb": "depends on",
+      "subtitle": "Game industry growth depends on increasing the global audience by incorporating innovative technologies like PCG.",
+      "audio_clip": "audio_clips/edge_067.wav",
+      "audio_start": 433.05066666666664,
+      "audio_duration": 7.76,
+      "image": null
+    },
+    {
+      "index": 68,
+      "from": "search_strategy",
+      "from_label": "Search strategies",
+      "to": "potential_outcome",
+      "to_label": "potential outcomes",
+      "verb": "operates on",
+      "subtitle": "Search strategies operate on potential outcomes by combining LLMs with genetic algorithms for better results.",
+      "audio_clip": "audio_clips/edge_068.wav",
+      "audio_start": 440.81066666666663,
+      "audio_duration": 7.482666666666667,
+      "image": null
+    },
+    {
+      "index": 69,
+      "from": "potential_area",
+      "from_label": "Potential areas for further research",
+      "to": "pcg",
+      "to_label": "Procedural Content Generation",
+      "verb": "focuses on",
+      "subtitle": "Potential areas for further research focus on it, especially in 3D game level design.",
+      "audio_clip": "audio_clips/edge_069.wav",
+      "audio_start": 448.2933333333333,
+      "audio_duration": 6.288,
+      "image": null
+    },
+    {
+      "index": 70,
+      "from": "game_industry_growth",
+      "from_label": "Game industry growth",
+      "to": "advancement_in_technology",
+      "to_label": "Advancements in technology",
+      "verb": "depends on",
+      "subtitle": "Game industry growth depends on advancements in technology, leading to more sophisticated and engaging game environments.",
+      "audio_clip": "audio_clips/edge_070.wav",
+      "audio_start": 454.5813333333333,
+      "audio_duration": 7.866666666666666,
+      "image": null
+    },
+    {
+      "index": 71,
+      "from": "word_cloud",
+      "from_label": "Word cloud visualization",
+      "to": "topic",
+      "to_label": "Most frequently discussed topics",
+      "verb": "highlights",
+      "subtitle": "Word cloud visualizations highlight the most frequently discussed topics in the field of it.",
+      "audio_clip": "audio_clips/edge_071.wav",
+      "audio_start": 462.448,
+      "audio_duration": 5.84,
+      "image": null
+    },
+    {
+      "index": 72,
+      "from": "deep_learning",
+      "from_label": "Deep learning",
+      "to": "research_trend",
+      "to_label": "Research trends",
+      "verb": "advance integration",
+      "subtitle": "DL represents a significant research trend as it integrates advanced algorithms to address future content generation challenges.",
+      "audio_clip": "audio_clips/edge_072.wav",
+      "audio_start": 468.28799999999995,
+      "audio_duration": 8.997333333333334,
+      "image": null
+    },
+    {
+      "index": 73,
+      "from": "theoret_advancement",
+      "from_label": "Theoretical advancements",
+      "to": "pract_challenge",
+      "to_label": "Practical challenges",
+      "verb": "opposes",
+      "subtitle": "Theoretical advancements in DL present substantial opposition to practical challenges faced in implementing new machine learning techniques for it.",
+      "audio_clip": "audio_clips/edge_073.wav",
+      "audio_start": 477.2853333333333,
+      "audio_duration": 9.488,
+      "image": null
+    }
+  ],
+  "questions": []
+}

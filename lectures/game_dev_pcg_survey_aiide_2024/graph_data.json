@@ -1,0 +1,1722 @@
+{
+  "nodes": [
+    {
+      "id": "pcg",
+      "label": "Procedural Content Generation",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "manual_design",
+      "label": "Manual game content design",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "dynamic_content_creation",
+      "label": "Dynamic content creation",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "varied_content_creation",
+      "label": "Varied content creation",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "infinite_content_creation",
+      "label": "Infinite content creation",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "history_of_pcg",
+      "label": "History of PCG",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "early_procedural_technique",
+      "label": "Early procedural techniques",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "video_game_and_simulation",
+      "label": "Video games and simulations",
+      "type": "application",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "advancement",
+      "label": "Advancements in computational power and algorithms",
+      "type": "advancement",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "evolution_of_pcg_method",
+      "label": "Evolution of PCG methods",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "player_engage_increase",
+      "label": "Increase in player engagement",
+      "type": "increase",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "diverse_dynamic_content",
+      "label": "Diverse and dynamic content generation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "replayability_enhance",
+      "label": "Enhanced replayability",
+      "type": "success",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "impact",
+      "label": "impact",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "way",
+      "label": "way",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "deep_learning",
+      "label": "Deep learning",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "complex_pattern",
+      "label": "Complex patterns in data",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "llm",
+      "label": "Large Language Models",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "disruption",
+      "label": "Significant disruption",
+      "type": "warning",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "survey_overview",
+      "label": "Survey overview",
+      "type": "document",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "current_landscape",
+      "label": "Current landscape",
+      "type": "context",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "game_industry_growth",
+      "label": "Game industry growth",
+      "type": "growth",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "advancement_in_technology",
+      "label": "Advancements in technology",
+      "type": "advancement",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "increasing_global_audience",
+      "label": "Increasing global audience",
+      "type": "audience",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "new_opportunity",
+      "label": "New opportunities for game developers",
+      "type": "opportunity",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "innovate_and_reach_wider_market",
+      "label": "Innovate and reach wider markets",
+      "type": "objective",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "content_creation_problem",
+      "label": "Content creation problem",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "challenge",
+      "label": "Challenges in generating diverse and high-quality content",
+      "type": "challenge",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "unique_game_level",
+      "label": "Unique game levels",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "texture",
+      "label": "Texture generation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "simple_algorithm",
+      "label": "simple algorithms",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "automate_task",
+      "label": "Automate repetitive tasks",
+      "type": "goal",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "basic_texture",
+      "label": "Basic textures",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "terrain_design",
+      "label": "Terrain design",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "level_design",
+      "label": "Level design",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "sophisticated_technique",
+      "label": "Sophisticated techniques",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "level",
+      "label": "Level generation",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "media",
+      "label": "media",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "large_space",
+      "label": "Large spaces of possible solutions",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "certain_criteria",
+      "label": "certain criteria",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "search_strategy",
+      "label": "Search strategies",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "potential_outcome",
+      "label": "potential outcomes",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "heuristic",
+      "label": "Heuristics",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "navigation_efficiency",
+      "label": "navigation efficiency",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "training_model",
+      "label": "Training models",
+      "type": "training",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "existing_data",
+      "label": "Existing data",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "neural_network",
+      "label": "Neural networks",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "pattern",
+      "label": "Patterns",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "new_content",
+      "label": "new content",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "novel_output",
+      "label": "Novel outputs",
+      "type": "output",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "recent_trend",
+      "label": "recent trends",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "advancement_in_dl",
+      "label": "Advancements in deep learning techniques",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "integration_of_method",
+      "label": "Integration of multiple methods",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "evolving_research_direction",
+      "label": "Evolving research directions",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "improve_efficiency_quality",
+      "label": "improvement efficiency quality",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "increasing_use",
+      "label": "Increasing use of deep learning techniques",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "large_dataset",
+      "label": "Large datasets",
+      "type": "data",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "sophisticated_adapt_content",
+      "label": "Sophisticated and adaptive content generation",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "minimal_human_intervention",
+      "label": "Minimal human intervention",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "highly_detailed_varied_content",
+      "label": "Highly detailed and varied content",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "combined_method",
+      "label": "Combined methods in procedural content generation",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "search_based",
+      "label": "Search-based method",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "learning_based",
+      "label": "Learning-based method",
+      "type": "method",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "efficient_system",
+      "label": "efficient system",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "hybrid_model",
+      "label": "Hybrid models",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "strength_integration",
+      "label": "Integration of strengths",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "improved_performance",
+      "label": "Improved performance",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "flexibility",
+      "label": "flexibility",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "research_trend",
+      "label": "Research trends",
+      "type": "topic",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "quality_diversity",
+      "label": "quality diversity",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "real_world_challenge",
+      "label": "Real-world challenges",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "theoret_advancement",
+      "label": "Theoretical advancements",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "pract_application",
+      "label": "practical applications",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "future_direction",
+      "label": "future directions",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "dynamic_interact_content",
+      "label": "dynamic interactive content",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "integration",
+      "label": "integration",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "traditional_method",
+      "label": "Traditional procedural content generation methods",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "expanded_application",
+      "label": "Expanding applications across various fields",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "word_cloud",
+      "label": "Word cloud visualization",
+      "type": "visualization",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "topic",
+      "label": "Most frequently discussed topics",
+      "type": "topic",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "generation",
+      "label": "Generation",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "game",
+      "label": "game",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "gap_theory_practice",
+      "label": "Gap between theory and practice",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "pract_challenge",
+      "label": "Practical challenges",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "implementation_complexity",
+      "label": "Implementation complexity",
+      "type": "bottleneck",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "vari_field",
+      "label": "Various fields",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "natural_language_processing",
+      "label": "Natural language processing",
+      "type": "category",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "large_language_model",
+      "label": "Large Language Models (LLMs)",
+      "type": "model",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "diverse_complex_content",
+      "label": "diverse complex content",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "potential_area",
+      "label": "Potential areas for further research",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "pcg",
+      "to": "manual_design",
+      "verb": "replaces",
+      "time": 1.554054054054054,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "dynamic_content_creation",
+      "verb": "enables",
+      "time": 7.210666666666667,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "varied_content_creation",
+      "verb": "enables",
+      "time": 14.314666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "infinite_content_creation",
+      "verb": "enables",
+      "time": 21.312,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "theoret_advancement",
+      "verb": "connects",
+      "time": 28.586666666666666,
+      "cluster": 0
+    },
+    {
+      "from": "real_world_challenge",
+      "to": "theoret_advancement",
+      "verb": "emphasize importance",
+      "time": 35.519999999999996,
+      "cluster": 0
+    },
+    {
+      "from": "recent_trend",
+      "to": "advancement_in_dl",
+      "verb": "contains",
+      "time": 42.538666666666664,
+      "cluster": 3
+    },
+    {
+      "from": "large_language_model",
+      "to": "diverse_complex_content",
+      "verb": "produces",
+      "time": 48.959999999999994,
+      "cluster": 7
+    },
+    {
+      "from": "new_opportunity",
+      "to": "innovate_and_reach_wider_market",
+      "verb": "produces",
+      "time": 55.93599999999999,
+      "cluster": 0
+    },
+    {
+      "from": "pcg",
+      "to": "level",
+      "verb": "contains",
+      "time": 61.58933333333333,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "media",
+      "verb": "contains",
+      "time": 67.79733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "player_engage_increase",
+      "to": "pcg",
+      "verb": "relates",
+      "time": 73.87733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "pcg",
+      "to": "music",
+      "verb": "contains",
+      "time": 80.38399999999999,
+      "cluster": 1
+    },
+    {
+      "from": "content_creation_problem",
+      "to": "challenge",
+      "verb": "relates",
+      "time": 87.80799999999999,
+      "cluster": 0
+    },
+    {
+      "from": "future_direction",
+      "to": "expanded_application",
+      "verb": "consists of",
+      "time": 94.05866666666665,
+      "cluster": 4
+    },
+    {
+      "from": "vari_field",
+      "to": "pcg",
+      "verb": "contains",
+      "time": 101.05599999999998,
+      "cluster": 1
+    },
+    {
+      "from": "survey_overview",
+      "to": "pcg",
+      "verb": "consists of",
+      "time": 107.24266666666665,
+      "cluster": 0
+    },
+    {
+      "from": "minimal_human_intervention",
+      "to": "highly_detailed_varied_content",
+      "verb": "produces",
+      "time": 113.59999999999998,
+      "cluster": 0
+    },
+    {
+      "from": "pcg",
+      "to": "research_trend",
+      "verb": "focus on",
+      "time": 120.27733333333332,
+      "cluster": 0
+    },
+    {
+      "from": "quality_diversity",
+      "to": "research_trend",
+      "verb": "combine techniques",
+      "time": 127.91466666666665,
+      "cluster": 0
+    },
+    {
+      "from": "survey_overview",
+      "to": "current_landscape",
+      "verb": "describes",
+      "time": 135.61599999999999,
+      "cluster": 0
+    },
+    {
+      "from": "recent_trend",
+      "to": "improve_efficiency_quality",
+      "verb": "improves",
+      "time": 143.21066666666664,
+      "cluster": 3
+    },
+    {
+      "from": "pract_challenge",
+      "to": "theoret_advancement",
+      "verb": "depends on",
+      "time": 149.86666666666665,
+      "cluster": 0
+    },
+    {
+      "from": "pract_challenge",
+      "to": "implementation_complexity",
+      "verb": "contains",
+      "time": 158.33599999999998,
+      "cluster": 0
+    },
+    {
+      "from": "pcg",
+      "to": "pract_application",
+      "verb": "connects",
+      "time": 166.25066666666666,
+      "cluster": 0
+    },
+    {
+      "from": "generation",
+      "to": "pcg",
+      "verb": "stand out",
+      "time": 173.696,
+      "cluster": 0
+    },
+    {
+      "from": "game",
+      "to": "pcg",
+      "verb": "stand out",
+      "time": 180.544,
+      "cluster": 0
+    },
+    {
+      "from": "history_of_pcg",
+      "to": "early_procedural_technique",
+      "verb": "consists of",
+      "time": 187.52,
+      "cluster": 1
+    },
+    {
+      "from": "diverse_dynamic_content",
+      "to": "replayability_enhance",
+      "verb": "relates",
+      "time": 193.74933333333334,
+      "cluster": 1
+    },
+    {
+      "from": "search_based",
+      "to": "certain_criteria",
+      "verb": "achieves",
+      "time": 201.23733333333334,
+      "cluster": 2
+    },
+    {
+      "from": "simple_algorithm",
+      "to": "level_design",
+      "verb": "operates on",
+      "time": 208.12800000000001,
+      "cluster": 0
+    },
+    {
+      "from": "simple_algorithm",
+      "to": "sophisticated_technique",
+      "verb": "evolves to",
+      "time": 214.78400000000002,
+      "cluster": 0
+    },
+    {
+      "from": "strength_integration",
+      "to": "improved_performance",
+      "verb": "produces",
+      "time": 221.61066666666667,
+      "cluster": 5
+    },
+    {
+      "from": "simple_algorithm",
+      "to": "basic_texture",
+      "verb": "operates on",
+      "time": 227.41333333333336,
+      "cluster": 0
+    },
+    {
+      "from": "recent_trend",
+      "to": "integration_of_method",
+      "verb": "contains",
+      "time": 234.00533333333337,
+      "cluster": 3
+    },
+    {
+      "from": "hybrid_model",
+      "to": "strength_integration",
+      "verb": "contains",
+      "time": 240.78933333333336,
+      "cluster": 5
+    },
+    {
+      "from": "pcg",
+      "to": "texture",
+      "verb": "contains",
+      "time": 247.68000000000004,
+      "cluster": 1
+    },
+    {
+      "from": "unique_game_level",
+      "to": "texture",
+      "verb": "relates",
+      "time": 253.65333333333336,
+      "cluster": 1
+    },
+    {
+      "from": "heuristic",
+      "to": "navigation_efficiency",
+      "verb": "improves",
+      "time": 261.0986666666667,
+      "cluster": 0
+    },
+    {
+      "from": "search_based",
+      "to": "large_space",
+      "verb": "operates on",
+      "time": 268.2026666666667,
+      "cluster": 2
+    },
+    {
+      "from": "neural_network",
+      "to": "pattern",
+      "verb": "depends on",
+      "time": 277.26933333333335,
+      "cluster": 2
+    },
+    {
+      "from": "neural_network",
+      "to": "large_dataset",
+      "verb": "learns from",
+      "time": 284.11733333333336,
+      "cluster": 2
+    },
+    {
+      "from": "deep_learning",
+      "to": "pcg",
+      "verb": "stand out",
+      "time": 290.58133333333336,
+      "cluster": 0
+    },
+    {
+      "from": "deep_learning",
+      "to": "complex_pattern",
+      "verb": "operates on",
+      "time": 297.0666666666667,
+      "cluster": 0
+    },
+    {
+      "from": "simple_algorithm",
+      "to": "automate_task",
+      "verb": "operates on",
+      "time": 304.44800000000004,
+      "cluster": 0
+    },
+    {
+      "from": "simple_algorithm",
+      "to": "terrain_design",
+      "verb": "operates on",
+      "time": 311.4453333333334,
+      "cluster": 0
+    },
+    {
+      "from": "neural_network",
+      "to": "novel_output",
+      "verb": "produces",
+      "time": 318.2293333333334,
+      "cluster": 2
+    },
+    {
+      "from": "neural_network",
+      "to": "sophisticated_adapt_content",
+      "verb": "enables",
+      "time": 324.62933333333336,
+      "cluster": 2
+    },
+    {
+      "from": "learning_based",
+      "to": "training_model",
+      "verb": "consists of",
+      "time": 332.48,
+      "cluster": 2
+    },
+    {
+      "from": "vari_field",
+      "to": "natural_language_processing",
+      "verb": "contains",
+      "time": 339.584,
+      "cluster": 1
+    },
+    {
+      "from": "training_model",
+      "to": "new_content",
+      "verb": "produces",
+      "time": 346.41066666666666,
+      "cluster": 2
+    },
+    {
+      "from": "future_direction",
+      "to": "traditional_method",
+      "verb": "consists of",
+      "time": 353.57866666666666,
+      "cluster": 4
+    },
+    {
+      "from": "future_direction",
+      "to": "dynamic_interact_content",
+      "verb": "produces",
+      "time": 361.408,
+      "cluster": 4
+    },
+    {
+      "from": "integration",
+      "to": "future_direction",
+      "verb": "enhance",
+      "time": 368.66133333333335,
+      "cluster": 4
+    },
+    {
+      "from": "combined_method",
+      "to": "learning_based",
+      "verb": "consists of",
+      "time": 376.1066666666667,
+      "cluster": 2
+    },
+    {
+      "from": "combined_method",
+      "to": "search_based",
+      "verb": "consists of",
+      "time": 384,
+      "cluster": 2
+    },
+    {
+      "from": "early_procedural_technique",
+      "to": "video_game_and_simulation",
+      "verb": "applied in",
+      "time": 391.8933333333333,
+      "cluster": 1
+    },
+    {
+      "from": "strength_integration",
+      "to": "flexibility",
+      "verb": "results in",
+      "time": 399.55199999999996,
+      "cluster": 5
+    },
+    {
+      "from": "increasing_use",
+      "to": "pcg",
+      "verb": "focuses on",
+      "time": 406.08,
+      "cluster": 1
+    },
+    {
+      "from": "gap_theory_practice",
+      "to": "pcg",
+      "verb": "relates",
+      "time": 413.9733333333333,
+      "cluster": 1
+    },
+    {
+      "from": "pract_application",
+      "to": "real_world_challenge",
+      "verb": "address challenges",
+      "time": 421.69599999999997,
+      "cluster": 0
+    },
+    {
+      "from": "combined_method",
+      "to": "efficient_system",
+      "verb": "produces",
+      "time": 428.79999999999995,
+      "cluster": 2
+    },
+    {
+      "from": "llm",
+      "to": "disruption",
+      "verb": "relates",
+      "time": 435.4133333333333,
+      "cluster": 1
+    },
+    {
+      "from": "impact",
+      "to": "way",
+      "verb": "transforms into",
+      "time": 441.7706666666666,
+      "cluster": 1
+    },
+    {
+      "from": "training_model",
+      "to": "existing_data",
+      "verb": "operates on",
+      "time": 448.4479999999999,
+      "cluster": 2
+    },
+    {
+      "from": "recent_trend",
+      "to": "evolving_research_direction",
+      "verb": "contains",
+      "time": 455.18933333333325,
+      "cluster": 3
+    },
+    {
+      "from": "advancement",
+      "to": "evolution_of_pcg_method",
+      "verb": "influences",
+      "time": 462.9333333333333,
+      "cluster": 1
+    },
+    {
+      "from": "game_industry_growth",
+      "to": "increasing_global_audience",
+      "verb": "depends on",
+      "time": 471.2533333333333,
+      "cluster": 1
+    },
+    {
+      "from": "search_strategy",
+      "to": "potential_outcome",
+      "verb": "operates on",
+      "time": 479.03999999999996,
+      "cluster": 0
+    },
+    {
+      "from": "potential_area",
+      "to": "pcg",
+      "verb": "focuses on",
+      "time": 487.03999999999996,
+      "cluster": 0
+    },
+    {
+      "from": "game_industry_growth",
+      "to": "advancement_in_technology",
+      "verb": "depends on",
+      "time": 494.82666666666665,
+      "cluster": 1
+    },
+    {
+      "from": "word_cloud",
+      "to": "topic",
+      "verb": "highlights",
+      "time": 502.50666666666666,
+      "cluster": 6
+    },
+    {
+      "from": "deep_learning",
+      "to": "research_trend",
+      "verb": "advance integration",
+      "time": 509.80266666666665,
+      "cluster": 0
+    },
+    {
+      "from": "theoret_advancement",
+      "to": "pract_challenge",
+      "verb": "opposes",
+      "time": 518.3573333333334,
+      "cluster": 0
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "procedural_content_gen",
+      "label": "Procedural content generation",
+      "children": [
+        {
+          "id": "deep_learning",
+          "label": "Deep learning"
+        },
+        {
+          "id": "complex_pattern",
+          "label": "Complex patterns in data"
+        },
+        {
+          "id": "survey_overview",
+          "label": "Survey overview"
+        },
+        {
+          "id": "current_landscape",
+          "label": "Current landscape"
+        },
+        {
+          "id": "new_opportunity",
+          "label": "New opportunities for game developers"
+        },
+        {
+          "id": "innovate_and_reach_wider_market",
+          "label": "Innovate and reach wider markets"
+        },
+        {
+          "id": "content_creation_problem",
+          "label": "Content creation problem"
+        },
+        {
+          "id": "challenge",
+          "label": "Challenges in generating diverse and high-quality content"
+        },
+        {
+          "id": "simple_algorithm",
+          "label": "Simple algorithms"
+        },
+        {
+          "id": "automate_task",
+          "label": "Automate repetitive tasks"
+        },
+        {
+          "id": "basic_texture",
+          "label": "Basic textures"
+        },
+        {
+          "id": "terrain_design",
+          "label": "Terrain design"
+        },
+        {
+          "id": "level_design",
+          "label": "Level design"
+        },
+        {
+          "id": "sophisticated_technique",
+          "label": "Sophisticated techniques"
+        },
+        {
+          "id": "search_strategy",
+          "label": "Search strategies"
+        },
+        {
+          "id": "potential_outcome",
+          "label": "potential outcomes"
+        },
+        {
+          "id": "heuristic",
+          "label": "Heuristics"
+        },
+        {
+          "id": "navigation_efficiency",
+          "label": "navigation efficiency"
+        },
+        {
+          "id": "minimal_human_intervention",
+          "label": "Minimal human intervention"
+        },
+        {
+          "id": "highly_detailed_varied_content",
+          "label": "Highly detailed and varied content"
+        },
+        {
+          "id": "research_trend",
+          "label": "Research trends"
+        },
+        {
+          "id": "quality_diversity",
+          "label": "quality diversity"
+        },
+        {
+          "id": "real_world_challenge",
+          "label": "Real-world challenges"
+        },
+        {
+          "id": "theoret_advancement",
+          "label": "Theoretical advancements"
+        },
+        {
+          "id": "pract_application",
+          "label": "Practical applications"
+        },
+        {
+          "id": "generation",
+          "label": "Generation"
+        },
+        {
+          "id": "game",
+          "label": "game"
+        },
+        {
+          "id": "pract_challenge",
+          "label": "Practical challenges",
+          "children": [
+            {
+              "id": "implementation_complexity",
+              "label": "Implementation complexity"
+            }
+          ]
+        },
+        {
+          "id": "potential_area",
+          "label": "Potential areas for further research"
+        }
+      ]
+    },
+    {
+      "id": "pcg",
+      "label": "Procedural Content Generation method",
+      "children": [
+        {
+          "id": "texture",
+          "label": "Textures"
+        },
+        {
+          "id": "level",
+          "label": "Level generation"
+        },
+        {
+          "id": "music",
+          "label": "music"
+        },
+        {
+          "id": "media",
+          "label": "media"
+        },
+        {
+          "id": "manual_design",
+          "label": "Manual game content design"
+        },
+        {
+          "id": "dynamic_content_creation",
+          "label": "Dynamic content creation"
+        },
+        {
+          "id": "varied_content_creation",
+          "label": "Varied content creation"
+        },
+        {
+          "id": "infinite_content_creation",
+          "label": "Infinite content creation"
+        },
+        {
+          "id": "history_of_pcg",
+          "label": "History of PCG"
+        },
+        {
+          "id": "early_procedural_technique",
+          "label": "Early procedural techniques"
+        },
+        {
+          "id": "video_game_and_simulation",
+          "label": "Video games and simulations"
+        },
+        {
+          "id": "advancement",
+          "label": "Advancements in computational power and algorithms"
+        },
+        {
+          "id": "evolution_of_pcg_method",
+          "label": "Evolution of PCG methods"
+        },
+        {
+          "id": "player_engage_increase",
+          "label": "Increase in player engagement"
+        },
+        {
+          "id": "procedural_content_generation",
+          "label": "Procedural Content Generation (PCG)"
+        },
+        {
+          "id": "diverse_dynamic_content",
+          "label": "Diverse and dynamic content generation"
+        },
+        {
+          "id": "replayability_enhance",
+          "label": "Enhanced replayability"
+        },
+        {
+          "id": "impact",
+          "label": "impact"
+        },
+        {
+          "id": "way",
+          "label": "way"
+        },
+        {
+          "id": "llm",
+          "label": "Large Language Models"
+        },
+        {
+          "id": "disruption",
+          "label": "Significant disruption"
+        },
+        {
+          "id": "game_industry_growth",
+          "label": "Game industry growth"
+        },
+        {
+          "id": "advancement_in_technology",
+          "label": "Advancements in technology"
+        },
+        {
+          "id": "increasing_global_audience",
+          "label": "Increasing global audience"
+        },
+        {
+          "id": "unique_game_level",
+          "label": "Unique game levels"
+        },
+        {
+          "id": "increasing_use",
+          "label": "Increasing use of deep learning techniques"
+        },
+        {
+          "id": "gap_theory_practice",
+          "label": "Gap between theory and practice"
+        },
+        {
+          "id": "vari_field",
+          "label": "Various fields",
+          "children": [
+            {
+              "id": "natural_language_processing",
+              "label": "Natural language processing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neural_network",
+      "label": "Neural networks",
+      "children": [
+        {
+          "id": "large_space",
+          "label": "Large spaces of possible solutions"
+        },
+        {
+          "id": "certain_criteria",
+          "label": "certain criteria"
+        },
+        {
+          "id": "training_model",
+          "label": "Training models"
+        },
+        {
+          "id": "existing_data",
+          "label": "Existing data"
+        },
+        {
+          "id": "pattern",
+          "label": "Patterns"
+        },
+        {
+          "id": "new_content",
+          "label": "new content"
+        },
+        {
+          "id": "novel_output",
+          "label": "Novel outputs"
+        },
+        {
+          "id": "large_dataset",
+          "label": "Large datasets"
+        },
+        {
+          "id": "sophisticated_adapt_content",
+          "label": "Sophisticated and adaptive content generation"
+        },
+        {
+          "id": "combined_method",
+          "label": "Combined methods in procedural content generation"
+        },
+        {
+          "id": "search_based",
+          "label": "Search-based method"
+        },
+        {
+          "id": "learning_based",
+          "label": "Learning-based method"
+        },
+        {
+          "id": "efficient_system",
+          "label": "efficient system"
+        }
+      ]
+    },
+    {
+      "id": "recent_trend",
+      "label": "recent trends",
+      "children": [
+        {
+          "id": "advancement_in_dl",
+          "label": "Advancements in deep learning techniques"
+        },
+        {
+          "id": "integration_of_method",
+          "label": "Integration of multiple methods"
+        },
+        {
+          "id": "evolving_research_direction",
+          "label": "Evolving research directions"
+        },
+        {
+          "id": "improve_efficiency_quality",
+          "label": "improvement efficiency quality"
+        }
+      ]
+    },
+    {
+      "id": "future_direction",
+      "label": "Future directions of procedural content generation",
+      "children": [
+        {
+          "id": "dynamic_interact_content",
+          "label": "dynamic interactive content"
+        },
+        {
+          "id": "integration",
+          "label": "integration"
+        },
+        {
+          "id": "traditional_method",
+          "label": "Traditional procedural content generation methods"
+        },
+        {
+          "id": "expanded_application",
+          "label": "Expanding applications across various fields"
+        }
+      ]
+    },
+    {
+      "id": "strength_integration",
+      "label": "Integration of strengths",
+      "children": [
+        {
+          "id": "hybrid_model",
+          "label": "Hybrid models"
+        },
+        {
+          "id": "improved_performance",
+          "label": "Improved performance"
+        },
+        {
+          "id": "flexibility",
+          "label": "flexibility"
+        }
+      ]
+    },
+    {
+      "id": "word_cloud",
+      "label": "Word cloud visualization",
+      "children": [
+        {
+          "id": "topic",
+          "label": "Most frequently discussed topics"
+        }
+      ]
+    },
+    {
+      "id": "large_language_model",
+      "label": "Large Language Models (LLMs)",
+      "children": [
+        {
+          "id": "diverse_complex_content",
+          "label": "diverse complex content"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Procedural Content Generation replaces manual design with automated algorithms for game content creation.",
+    "It also enables dynamic content creation, adapting to various gameplay scenarios.",
+    "It also allows for varied content creation, ensuring diverse gaming experiences.",
+    "It also supports infinite content creation, providing endless possibilities in game design.",
+    "And theoretical advancements connect PCG, driving innovation in game content creation.",
+    "Real-world challenges emphasize the importance of theoretical advancements in PCG.",
+    "Recent trends include advancements in deep learning techniques, enhancing PCG.",
+    "Large Language Models produce diverse and complex content, revolutionizing PCG.",
+    "New opportunities for game developers arise, allowing them to innovate and reach wider markets.",
+    "PCG includes level generation, automating the creation of game levels.",
+    "and encompasses media content, broadening its scope beyond just levels.",
+    "An increase in player engagement relates to PCG, enhancing game enjoyment.",
+    "PCG involves music as one of its many content creation capabilities designed for games.",
+    "The content creation problem presents challenges in generating diverse and high-quality game content.",
+    "Future directions for PCG aim to expand its use across various fields beyond gaming.",
+    "Various fields utilize PCG to automate the creation of game content.",
+    "A survey overview covers the range of PCG methods and their applications.",
+    "Minimal human intervention through PCG results in highly detailed and varied content creation.",
+    "Research trends in PCG focus on advancing both the methods and the types of content produced.",
+    "Techniques aimed at improving quality and diversity in PCG are central to current research trends.",
+    "The survey overview provides insights into the current landscape of PCG methods and applications.",
+    "Recent trends in PCG emphasize improvements in efficiency and content quality.",
+    "Practical challenges in PCG depend on theoretical advancements in algorithm design and implementation.",
+    "and in PCG include the complexity involved in implementing these advanced algorithms.",
+    "PCG links practical applications through its various algorithms designed for game content.",
+    "Generation stands out as part of PCG, adapting to diverse game content needs.",
+    "Game development highlights PCG, utilizing algorithms for dynamic content creation.",
+    "The history of PCG includes early procedural techniques that laid the groundwork for modern methods.",
+    "Diverse and dynamic content generation enhances game replayability by offering varied player experiences.",
+    "Search-based methods achieve specific criteria by assigning real values to measure content acceptability.",
+    "Simple algorithms operate on level design, creating game environments with procedural generation techniques.",
+    "and evolve into sophisticated techniques, showcasing the progression in algorithm complexity.",
+    "Strength integration improves performance by combining the best aspects of different planning methods.",
+    "Simple algorithms operate on basic textures, synthesizing patterns consistent with input designs.",
+    "Recent trends include the integration of multiple methods, reflecting advancements in procedural generation.",
+    "Hybrid models incorporate strength integration, enhancing their effectiveness in PCG.",
+    "PCG method includes textures, ensuring unique patterns in game levels.",
+    "The Wave Function Collapse (WFC) algorithm creates unique game levels by focusing on specific textures.",
+    "Heuristics like Monte Carlo Tree Search enhance the efficiency of navigation through complex game environments.",
+    "Search-based methods excel at exploring large spaces of potential solutions, optimizing outcomes in PCG.",
+    "Neural networks depend on patterns extracted from data to improve PCG processes.",
+    "and learn from large datasets, enabling more accurate predictions and content generation.",
+    "DL stands out in PCG by leveraging advanced algorithms and techniques.",
+    "and operates effectively on complex patterns within data, enhancing the sophistication of generated content.",
+    "Simple algorithms automate repetitive tasks, making them useful for generating basic procedural content.",
+    "and operate on terrain design, streamlining the process of creating varied landscapes in games.",
+    "Neural networks produce novel outputs, contributing to the diversity of procedural content generated.",
+    "and enable sophisticated and adaptive content generation, enhancing the quality and variety of game content.",
+    "Learning-based methods involve training models, which are central to generating content automatically through algorithms.",
+    "Various fields include natural language processing, contributing to the breadth of PCG.",
+    "Training models create new content by optimizing the selection of actions within a Markov decision process framework.",
+    "Future directions in PCG encompass traditional methods, aiming to refine existing approaches.",
+    "and also focus on producing dynamic interactive content, enhancing user engagement in games.",
+    "Integration with future directions improves PCG by incorporating advanced methodologies.",
+    "Combined methods in PCG integrate learning-based techniques, enhancing content creation processes.",
+    "and combined methods also incorporate search-based strategies, offering a versatile approach to PCG.",
+    "Early procedural techniques were applied in video games and simulations, laying foundational methods for modern applications.",
+    "The integration of different strengths leads to increased flexibility in PCG systems.",
+    "An increasing trend observes the application of DL techniques specifically targeting PCG.",
+    "There remains a gap between theoretical advancements and practical implementations in the realm of PCG.",
+    "Practical applications address real-world challenges by balancing iterative and random generation methods.",
+    "Combined methods in PCG produce more efficient systems through the use of fractals.",
+    "LLMs significantly disrupt traditional approaches to PCG.",
+    "The impact of advancements in technology transforms into new ways of generating game content dynamically.",
+    "Training models operate on existing data, often limiting researcher access to the underlying algorithms.",
+    "Recent trends contain evolving research directions aimed at addressing current gaps in PCG.",
+    "Advancements in computational power and algorithms influence the evolution of PCG methods, driving their continued growth.",
+    "Game industry growth depends on increasing the global audience by incorporating innovative technologies like PCG.",
+    "Search strategies operate on potential outcomes by combining LLMs with genetic algorithms for better results.",
+    "Potential areas for further research focus on PCG, especially in 3D game level design.",
+    "Game industry growth depends on advancements in technology, leading to more sophisticated and engaging game environments.",
+    "Word cloud visualizations highlight the most frequently discussed topics in the field of PCG.",
+    "DL represents a significant research trend as it integrates advanced algorithms to address future content generation challenges.",
+    "Theoretical advancements in DL present substantial opposition to practical challenges faced in implementing new machine learning techniques for PCG."
+  ]
+}

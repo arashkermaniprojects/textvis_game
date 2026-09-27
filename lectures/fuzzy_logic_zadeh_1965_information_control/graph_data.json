@@ -1,0 +1,750 @@
+{
+  "nodes": [
+    {
+      "id": "definition",
+      "label": "Definition of fuzzy sets",
+      "type": "concept",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "uncertainty_vague",
+      "label": "Uncertainty and vagueness in data",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "degree_membership",
+      "label": "Degree of membership",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "motivation_study",
+      "label": "Motivation behind the study",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "problem_addressed",
+      "label": "Problem it aims to address",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "nuanced_approach",
+      "label": "Nuanced approach",
+      "type": "solution",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "challenge",
+      "label": "Challenges",
+      "type": "problem",
+      "x": 0,
+      "y": 0,
+      "cluster": 4
+    },
+    {
+      "id": "degree_of_membership",
+      "label": "degrees of membership",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "number_greater_than_one",
+      "label": "Numbers greater than one",
+      "type": "number",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "threshold_value",
+      "label": "Threshold value of one",
+      "type": "number",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "fuzzy_set",
+      "label": "Fuzzy sets A and B",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "probability",
+      "label": "Probability system",
+      "type": "architecture",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "comparison",
+      "label": "comparison",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "degree_likelihood",
+      "label": "Degrees of likelihood",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "all_pos_element",
+      "label": "all possible elements",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "membership_function",
+      "label": "Membership functions",
+      "type": "function",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "membership_value",
+      "label": "Membership values from both sets",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "ele_comparison",
+      "label": "Element comparison",
+      "type": "process",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "membership_grade",
+      "label": "Membership grade of an element",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "original_set",
+      "label": "original sets",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "minimum_grade",
+      "label": "minimum grade",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "common_element",
+      "label": "Common elements to both input sets",
+      "type": "set",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "adjusted_membership",
+      "label": "Adjusted membership grades",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "algebraic_product",
+      "label": "algebraic product",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 0
+    },
+    {
+      "id": "operation",
+      "label": "Algebraic sum operation",
+      "type": "operation",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "fuzzy_set_a",
+      "label": "Fuzzy set A",
+      "type": "fuzzy_set",
+      "x": 0,
+      "y": 0,
+      "cluster": 5
+    },
+    {
+      "id": "absolute_difference_formula",
+      "label": "absolute difference formula",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "distinct_measure",
+      "label": "Measurement of set distinctness",
+      "type": "mechanism",
+      "x": 0,
+      "y": 0,
+      "cluster": 2
+    },
+    {
+      "id": "comple_union",
+      "label": "Complement of the union of two fuzzy sets",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "intersection_complement",
+      "label": "Intersection of their complements",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 6
+    },
+    {
+      "id": "visual_representation",
+      "label": "Visual representation of De Morgan's Law",
+      "type": "representation",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "formula_dml",
+      "label": "formula dml",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 7
+    },
+    {
+      "id": "condition_for_algebraic_sum",
+      "label": "Condition for Algebraic Sum",
+      "type": "rule",
+      "x": 0,
+      "y": 0,
+      "cluster": 1
+    },
+    {
+      "id": "separation_theorem",
+      "label": "Separation Theorem",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "two_disjoint_fuzzy_set_and_a_membership_function",
+      "label": "two disjoint fuzzy sets and a membership function",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    },
+    {
+      "id": "existence_of_a_membership_function",
+      "label": "existence of a membership function",
+      "type": "default",
+      "x": 0,
+      "y": 0,
+      "cluster": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "fuzzy_set",
+      "to": "membership_grade",
+      "verb": "contains",
+      "time": 0,
+      "cluster": 0
+    },
+    {
+      "from": "ele_comparison",
+      "to": "membership_grade",
+      "verb": "requires",
+      "time": 5.738666666666667,
+      "cluster": 0
+    },
+    {
+      "from": "separation_theorem",
+      "to": "two_disjoint_fuzzy_set_and_a_membership_function",
+      "verb": "consists of",
+      "time": 12.992,
+      "cluster": 3
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "degree_of_membership",
+      "verb": "contains",
+      "time": 20.053333333333335,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "number_greater_than_one",
+      "verb": "contains",
+      "time": 26.112000000000002,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "threshold_value",
+      "verb": "contains",
+      "time": 33.024,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "minimum_grade",
+      "verb": "consists of",
+      "time": 39.104,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "adjusted_membership",
+      "verb": "adjusts",
+      "time": 45.41866666666667,
+      "cluster": 0
+    },
+    {
+      "from": "membership_grade",
+      "to": "original_set",
+      "verb": "depends on",
+      "time": 51.797333333333334,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "original_set",
+      "verb": "contains",
+      "time": 58.304,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "probability",
+      "verb": "similar to",
+      "time": 64.57600000000001,
+      "cluster": 0
+    },
+    {
+      "from": "absolute_difference_formula",
+      "to": "membership_value",
+      "verb": "captures",
+      "time": 72.00000000000001,
+      "cluster": 2
+    },
+    {
+      "from": "definition",
+      "to": "degree_membership",
+      "verb": "assigns",
+      "time": 79.78666666666668,
+      "cluster": 1
+    },
+    {
+      "from": "membership_function",
+      "to": "degree_membership",
+      "verb": "produces",
+      "time": 84.62933333333334,
+      "cluster": 1
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "probability",
+      "verb": "opposes",
+      "time": 89.21600000000001,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "common_element",
+      "verb": "contains",
+      "time": 94.22933333333334,
+      "cluster": 0
+    },
+    {
+      "from": "comparison",
+      "to": "fuzzy_set",
+      "verb": "depends on",
+      "time": 99.52000000000001,
+      "cluster": 0
+    },
+    {
+      "from": "comparison",
+      "to": "degree_likelihood",
+      "verb": "contains",
+      "time": 104.83200000000001,
+      "cluster": 0
+    },
+    {
+      "from": "comple_union",
+      "to": "intersection_complement",
+      "verb": "equals",
+      "time": 109.76,
+      "cluster": 6
+    },
+    {
+      "from": "visual_representation",
+      "to": "formula_dml",
+      "verb": "represents",
+      "time": 115.05066666666667,
+      "cluster": 7
+    },
+    {
+      "from": "existence_of_a_membership_function",
+      "to": "separation_theorem",
+      "verb": "asserts",
+      "time": 120.40533333333335,
+      "cluster": 3
+    },
+    {
+      "from": "comparison",
+      "to": "probability",
+      "verb": "depends on",
+      "time": 125.78133333333335,
+      "cluster": 0
+    },
+    {
+      "from": "operation",
+      "to": "fuzzy_set_a",
+      "verb": "relates",
+      "time": 131.64800000000002,
+      "cluster": 5
+    },
+    {
+      "from": "algebraic_product",
+      "to": "fuzzy_set",
+      "verb": "produces",
+      "time": 137.21600000000004,
+      "cluster": 0
+    },
+    {
+      "from": "condition_for_algebraic_sum",
+      "to": "membership_function",
+      "verb": "requires",
+      "time": 143.10400000000004,
+      "cluster": 1
+    },
+    {
+      "from": "absolute_difference_formula",
+      "to": "distinct_measure",
+      "verb": "produces",
+      "time": 149.48266666666672,
+      "cluster": 2
+    },
+    {
+      "from": "nuanced_approach",
+      "to": "fuzzy_set",
+      "verb": "depends on",
+      "time": 156.84266666666673,
+      "cluster": 4
+    },
+    {
+      "from": "membership_value",
+      "to": "fuzzy_set",
+      "verb": "multiplication",
+      "time": 165.3333333333334,
+      "cluster": 2
+    },
+    {
+      "from": "degree_of_membership",
+      "to": "number_greater_than_one",
+      "verb": "depends on",
+      "time": 172.60800000000006,
+      "cluster": 0
+    },
+    {
+      "from": "degree_of_membership",
+      "to": "threshold_value",
+      "verb": "depends on",
+      "time": 180.26666666666674,
+      "cluster": 0
+    },
+    {
+      "from": "nuanced_approach",
+      "to": "challenge",
+      "verb": "contains",
+      "time": 188.22400000000007,
+      "cluster": 4
+    },
+    {
+      "from": "motivation_study",
+      "to": "problem_addressed",
+      "verb": "contains",
+      "time": 195.4133333333334,
+      "cluster": 1
+    },
+    {
+      "from": "definition",
+      "to": "uncertainty_vague",
+      "verb": "handles",
+      "time": 203.96800000000007,
+      "cluster": 1
+    },
+    {
+      "from": "threshold_value",
+      "to": "number_greater_than_one",
+      "verb": "depends on",
+      "time": 212.09600000000006,
+      "cluster": 0
+    },
+    {
+      "from": "fuzzy_set",
+      "to": "all_pos_element",
+      "verb": "contains",
+      "time": 219.32800000000006,
+      "cluster": 0
+    },
+    {
+      "from": "separation_theorem",
+      "to": "fuzzy_set",
+      "verb": "provides",
+      "time": 227.2213333333334,
+      "cluster": 3
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "fuzzy_set",
+      "label": "Fuzzy set with varying degrees of membership",
+      "children": [
+        {
+          "id": "degree_of_membership",
+          "label": "degrees of membership"
+        },
+        {
+          "id": "number_greater_than_one",
+          "label": "Numbers greater than one"
+        },
+        {
+          "id": "threshold_value",
+          "label": "Threshold value of one"
+        },
+        {
+          "id": "all_pos_element",
+          "label": "all possible elements"
+        },
+        {
+          "id": "membership_grade",
+          "label": "Membership grade"
+        },
+        {
+          "id": "original_set",
+          "label": "original sets"
+        },
+        {
+          "id": "common_element",
+          "label": "Common elements to both input sets"
+        },
+        {
+          "id": "probability",
+          "label": "Probability system"
+        },
+        {
+          "id": "comparison",
+          "label": "comparison",
+          "children": [
+            {
+              "id": "degree_likelihood",
+              "label": "Degrees of likelihood"
+            }
+          ]
+        },
+        {
+          "id": "ele_comparison",
+          "label": "Element comparison"
+        },
+        {
+          "id": "minimum_grade",
+          "label": "minimum grade"
+        },
+        {
+          "id": "adjusted_membership",
+          "label": "Adjusted membership grades"
+        },
+        {
+          "id": "algebraic_product",
+          "label": "algebraic product"
+        }
+      ]
+    },
+    {
+      "id": "definition",
+      "label": "Definition of fuzzy sets",
+      "children": [
+        {
+          "id": "uncertainty_vague",
+          "label": "Uncertainty and vagueness in data"
+        },
+        {
+          "id": "degree_membership",
+          "label": "Degrees of membership between 0 and 1"
+        },
+        {
+          "id": "motivation_study",
+          "label": "Motivation behind the study",
+          "children": [
+            {
+              "id": "problem_addressed",
+              "label": "Problem it aims to address"
+            }
+          ]
+        },
+        {
+          "id": "membership_function",
+          "label": "Membership function"
+        },
+        {
+          "id": "condition_for_algebraic_sum",
+          "label": "Condition for Algebraic Sum"
+        }
+      ]
+    },
+    {
+      "id": "membership_value",
+      "label": "membership values",
+      "children": [
+        {
+          "id": "absolute_difference_formula",
+          "label": "absolute difference formula"
+        },
+        {
+          "id": "distinct_measure",
+          "label": "Measurement of set distinctness"
+        }
+      ]
+    },
+    {
+      "id": "separation_theorem",
+      "label": "Separation Theorem",
+      "children": [
+        {
+          "id": "two_disjoint_fuzzy_set_and_a_membership_function",
+          "label": "two disjoint fuzzy sets and a membership function"
+        },
+        {
+          "id": "existence_of_a_membership_function",
+          "label": "existence of a membership function"
+        }
+      ]
+    },
+    {
+      "id": "nuanced_approach",
+      "label": "Nuanced approach",
+      "children": [
+        {
+          "id": "challenge",
+          "label": "Challenges"
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "label": "Algebraic sum operation",
+      "children": [
+        {
+          "id": "fuzzy_set_a",
+          "label": "Fuzzy set A"
+        }
+      ]
+    },
+    {
+      "id": "comple_union",
+      "label": "Complement of the union of two fuzzy sets",
+      "children": [
+        {
+          "id": "intersection_complement",
+          "label": "Intersection of their complements"
+        }
+      ]
+    },
+    {
+      "id": "visual_representation",
+      "label": "Visual representation of De Morgan's Law",
+      "children": [
+        {
+          "id": "formula_dml",
+          "label": "formula dml"
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    "Fuzzy set includes membership grade as its core component, defining varying degrees of membership.",
+    "Element comparison within fuzzy sets necessitates the assessment of membership grade for accurate classification.",
+    "Separation theorem applies to convex fuzzy sets, though the source mentions proof without requiring disjoint sets.",
+    "Fuzzy set incorporates degrees of membership to classify elements based on their association strength.",
+    "It also fuzzy set cannot contain numbers greater than one as membership grades, adhering to a range between zero and one.",
+    "It also fuzzy set includes threshold values, particularly noting the upper limit of one for membership grades.",
+    "It also fuzzy set encompasses a minimum grade for membership, ensuring all elements have some level of inclusion.",
+    "And fuzzy set adjusts membership grades through a characteristic function, allowing for nuanced classification.",
+    "Membership grade reflects the characteristics of the original set from which it originates, providing context.",
+    "Fuzzy set retains the structure of original sets while applying varying degrees of membership to its elements.",
+    "and fuzzy set's membership function resembles a probability system, capturing uncertainty akin to probabilistic models.",
+    "Absolute difference formula captures the nuances of membership values, facilitating precise comparisons within fuzzy sets.",
+    "The definition assigns degree memberships between zero and one for fuzzy sets.",
+    "The membership function generates degree memberships ranging from zero to one.",
+    "Fuzzy sets oppose the probability system due to their varying degrees of membership.",
+    "and a fuzzy set includes common elements from input sets with varying degrees of membership.",
+    "Comparisons hinge on fuzzy sets characterized by variable degrees of membership.",
+    "and s incorporate degrees of likelihood within the context of fuzzy sets.",
+    "The complement of the union of two fuzzy sets matches the intersection of their complements.",
+    "Visual representations depict De Morgan's Law, illustrating the formula for dml.",
+    "The existence of a membership function supports the separation theorem within fuzzy logic.",
+    "Comparisons rely on the probability system, emphasizing traditional probabilistic frameworks.",
+    "Algebraic operations relate fuzzy set A through various mathematical manipulations.",
+    "The algebraic product operation results in a fuzzy set featuring varying degrees of membership.",
+    "The condition for algebraic sum requires a membership function to define the product of sets A and B.",
+    "The absolute difference formula produces a measurement of set distinctness by comparing the membership functions of two sets.",
+    "A nuanced approach depends on a fuzzy set with varying degrees of membership, allowing for subjective representation of relationships.",
+    "Multiplication of membership values within a fuzzy set allows for the calculation of degrees of membership between elements.",
+    "Degrees of membership depend on numbers greater than one when mapping distinct points in set X to a single point in set Y.",
+    "and depend on a threshold value of one, indicating the minimum level of certainty required for classification.",
+    "A nuanced approach contains challenges, especially when dealing with bounded sets and their proximity to a hyperplane.",
+    "The motivation behind the study contains the problem it aims to address, focusing on achieving a certain degree of separation between sets.",
+    "Definition of fuzzy sets handles uncertainty and vagueness in data, ensuring that shadows of convex sets remain convex.",
+    "Threshold value of one depends on numbers greater than one, setting boundaries for the membership values within fuzzy sets.",
+    "A fuzzy set with varying degrees of membership contains all possible elements, allowing for a comprehensive analysis of data.",
+    "The separation theorem provides a fuzzy set with varying degrees of membership, determining the maximum degree of separation between two sets."
+  ]
+}

@@ -1,0 +1,2907 @@
+{
+  "basename": "ayurvedic_medicine_epma_journal_2014",
+  "version": "1.0",
+  "generated_at": "2026-04-14T05:18:17.133Z",
+  "title": "ayurvedic medicine epma journal 2014",
+  "source_pdf": "source_papers/ayurvedic_medicine_epma_journal_2014.pdf",
+  "voice": {
+    "name": "af_river",
+    "speed": 0.82,
+    "lang": "en-us"
+  },
+  "audio": {
+    "sentence_gap_seconds": 1.2,
+    "total_duration": 741.4186666666668
+  },
+  "scene": {
+    "background_color": [
+      0.02,
+      0.02,
+      0.04
+    ],
+    "fps": 24,
+    "global_radius": 19.823123,
+    "coord_system": "z_up",
+    "max_edge_len_before_rescale": 78.569859,
+    "rescale_factor": 0.318188
+  },
+  "clusters": [
+    {
+      "id": "modern_of_ayurveda",
+      "label": "modernization of ayurveda",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        9.887911,
+        0,
+        17.871333
+      ],
+      "radius": 3.50007,
+      "node_ids": [
+        "modern_of_ayurveda",
+        "bridging_ayurveda_title",
+        "traditional_ayurveda_practice",
+        "modern_scientific_methodology",
+        "approach",
+        "rigor_evidence_based_research",
+        "effect",
+        "integration_of_ayurveda",
+        "validate_and_enhance_effect",
+        "contemporary_scientific_method",
+        "term_evidence",
+        "systematic_collection",
+        "support_refute_claim",
+        "validation_wisdom",
+        "relevance_modern_healthcare",
+        "epistemologic_sensit_method",
+        "ayurveda",
+        "respect_knowledge_system",
+        "robust_credential_evidence",
+        "validate_treatment",
+        "rigor_inquiry",
+        "ayurvedic_recognition",
+        "global_community",
+        "alternat_therapy",
+        "conventional_treat",
+        "ayurveda_origin",
+        "ancient_india",
+        "holistic_system",
+        "person_centered_medicine",
+        "unique_need",
+        "principle_of_ayurveda",
+        "food_nutrition_guidance",
+        "enhanced_effect",
+        "broader_application"
+      ]
+    },
+    {
+      "id": "systematic_documentation",
+      "label": "Systematic documentation",
+      "color": [
+        0.3,
+        0.5,
+        0.9
+      ],
+      "center": [
+        -11.233349,
+        -10.290668,
+        12.197257
+      ],
+      "radius": 3.50007,
+      "node_ids": [
+        "systematic_documentation",
+        "evidence_based_practice",
+        "traditional_knowledge",
+        "ayurvedic_practice",
+        "importance",
+        "govern_role",
+        "regulation",
+        "standard_preservation",
+        "standard",
+        "kitchen_garden_ingredient",
+        "ailment",
+        "overall_health",
+        "natural_source",
+        "plant_animal_mineral",
+        "ayurvedic_medicine",
+        "ayurvedic_principle",
+        "scientific_evaluation",
+        "rigor_testing_method",
+        "efficacy_and_safety",
+        "continu_research",
+        "scientific_study",
+        "integration_advance",
+        "meticul_recording",
+        "contemporary_research_finding",
+        "ensure_consistency",
+        "ensure_reliability",
+        "contemporary_scientific_methodology",
+        "potential_collaboration_opportunity",
+        "personalized_health_care",
+        "evidence_based_method",
+        "empir_evidence",
+        "pppm_ayurveda_integration",
+        "modern_healthcare_framework"
+      ]
+    },
+    {
+      "id": "med_practice",
+      "label": "Ancient medical practice",
+      "color": [
+        0.65,
+        0.4,
+        0.85
+      ],
+      "center": [
+        1.776461,
+        20.241853,
+        8.219706
+      ],
+      "radius": 3.50007,
+      "node_ids": [
+        "med_practice",
+        "rich_repository",
+        "generation",
+        "time",
+        "core_principle",
+        "clas_ayurvedic_text",
+        "foundation_of_ayurveda",
+        "modern_practice_and_research",
+        "tailored_healthcare",
+        "personal_constitution",
+        "pppm",
+        "personalized_health_strategy",
+        "data_analytic",
+        "predict_potential_issue",
+        "tailored_intervention",
+        "personalized_treatment",
+        "prakriti_approach",
+        "fundamental_principle",
+        "unique_characteristic",
+        "personalized_recommendation",
+        "individual_need"
+      ]
+    },
+    {
+      "id": "dietary_recommendation",
+      "label": "Dietary recommendations",
+      "color": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "center": [
+        12.575899,
+        -16.403034,
+        2.604065
+      ],
+      "radius": 2.167024,
+      "node_ids": [
+        "dietary_recommendation",
+        "prakriti_type",
+        "health_statu",
+        "balance_harmony"
+      ]
+    },
+    {
+      "id": "modern_method",
+      "label": "Modern evidence-based methods",
+      "color": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "center": [
+        -17.477632,
+        3.091547,
+        -2.236158
+      ],
+      "radius": 1.944534,
+      "node_ids": [
+        "modern_method",
+        "ayurvedic_evolution",
+        "contemporary_advancement"
+      ]
+    },
+    {
+      "id": "basic_principle_ayurveda",
+      "label": "Basic principles of Ayurveda",
+      "color": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "center": [
+        15.62899,
+        9.941884,
+        -7.492975
+      ],
+      "radius": 1.654579,
+      "node_ids": [
+        "basic_principle_ayurveda",
+        "balance_mind_body_spirit"
+      ]
+    },
+    {
+      "id": "three_dosha",
+      "label": "Three doshas: Vata, Pitta, and Kapha",
+      "color": [
+        0.9,
+        0.4,
+        0.4
+      ],
+      "center": [
+        -3.743928,
+        -13.927225,
+        -11.546578
+      ],
+      "radius": 1.654579,
+      "node_ids": [
+        "three_dosha",
+        "energy_governing_function"
+      ]
+    },
+    {
+      "id": "healthy_lifestyle_through_diet_exercise_meditation",
+      "label": "Healthy lifestyle through diet, exercise, and meditation",
+      "color": [
+        0.6,
+        0.6,
+        0.65
+      ],
+      "center": [
+        -4.588778,
+        8.835414,
+        -17.99435
+      ],
+      "radius": 1.654579,
+      "node_ids": [
+        "healthy_lifestyle_through_diet_exercise_meditation",
+        "harmony_with_nature"
+      ]
+    },
+    {
+      "id": "__orphans__",
+      "label": "Other topics",
+      "color": [
+        0.3,
+        0.7,
+        0.9
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 2.354592,
+      "node_ids": [
+        "medicinal_herb",
+        "practice",
+        "theory",
+        "home_remedy"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bridging_ayurveda_title",
+      "label": "Bridging Ayurveda title",
+      "type": "title",
+      "position": [
+        10.392772,
+        0.21996,
+        20.545269
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/bridging_ayurveda_title.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "traditional_ayurveda_practice",
+      "label": "Traditional Ayurvedic practices",
+      "type": "practice",
+      "position": [
+        9.232594,
+        -0.630311,
+        20.445526
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/traditional_ayurveda_practice.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "modern_scientific_methodology",
+      "label": "Modern scientific methodologies",
+      "type": "methodology",
+      "position": [
+        10.128192,
+        1.241386,
+        20.290925
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/modern_scientific_methodology.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "approach",
+      "label": "Approach for validating Ayurveda",
+      "type": "approach",
+      "position": [
+        10.847765,
+        -0.903173,
+        20.262182
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/approach.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "rigor_evidence_based_research",
+      "label": "Rigorous evidence-based research",
+      "type": "research",
+      "position": [
+        8.211457,
+        0.181504,
+        20.018368
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/rigor_evidence_based_research.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "effect",
+      "label": "effectiveness",
+      "type": "default",
+      "position": [
+        11.722765,
+        0.486497,
+        19.833432
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/effect.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "integration_of_ayurveda",
+      "label": "Integration of Ayurveda with evidence-based practices",
+      "type": "solution",
+      "position": [
+        9.619271,
+        -1.828346,
+        19.780146
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/integration_of_ayurveda.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "validate_and_enhance_effect",
+      "label": "validate and enhance effectiveness",
+      "type": "default",
+      "position": [
+        8.622772,
+        1.419371,
+        19.830417
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/validate_and_enhance_effect.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "contemporary_scientific_method",
+      "label": "Contemporary scientific methods",
+      "type": "architecture",
+      "position": [
+        11.420373,
+        -0.98659,
+        19.263553
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/contemporary_scientific_method.png",
+      "edge_in_count": 3,
+      "edge_out_count": 0
+    },
+    {
+      "id": "term_evidence",
+      "label": "Term 'evidence' in Ayurveda",
+      "type": "concept",
+      "position": [
+        8.275962,
+        -0.919439,
+        19.145605
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/term_evidence.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "systematic_collection",
+      "label": "Systematic collection and analysis of data",
+      "type": "procedure",
+      "position": [
+        10.54657,
+        2.387397,
+        19.020115
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/systematic_collection.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "support_refute_claim",
+      "label": "support refute claims",
+      "type": "default",
+      "position": [
+        10.123773,
+        -2.552184,
+        18.811505
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/support_refute_claim.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "validation_wisdom",
+      "label": "Validation of ancient wisdom of Ayurveda",
+      "type": "purpose",
+      "position": [
+        9.214679,
+        0.762923,
+        18.689496
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/validation_wisdom.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "relevance_modern_healthcare",
+      "label": "Relevance in modern healthcare settings",
+      "type": "application",
+      "position": [
+        12.402878,
+        0.778582,
+        18.593792
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/relevance_modern_healthcare.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "epistemologic_sensit_method",
+      "label": "Epistemologically sensitive methods",
+      "type": "method",
+      "position": [
+        8.033689,
+        -1.805589,
+        18.080622
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/epistemologic_sensit_method.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "ayurveda",
+      "label": "Ayurveda",
+      "type": "world",
+      "position": [
+        8.801997,
+        2.503928,
+        17.805483
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/ayurveda.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "evidence_based_practice",
+      "label": "Evidence-based practices",
+      "type": "model",
+      "position": [
+        -11.077936,
+        -11.025316,
+        13.548488
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/evidence_based_practice.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "respect_knowledge_system",
+      "label": "Respect for diverse knowledge systems",
+      "type": "approach",
+      "position": [
+        11.466278,
+        -1.989821,
+        17.812276
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/respect_knowledge_system.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "robust_credential_evidence",
+      "label": "Robust and credible evidence",
+      "type": "evidence",
+      "position": [
+        7.34875,
+        -0.69569,
+        17.811936
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/robust_credential_evidence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "validate_treatment",
+      "label": "Validation of Ayurvedic treatments",
+      "type": "goal",
+      "position": [
+        12.100843,
+        1.250007,
+        17.270461
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/validate_treatment.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "rigor_inquiry",
+      "label": "Rigorous scientific inquiry",
+      "type": "method",
+      "position": [
+        10.281292,
+        -2.475491,
+        17.246135
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/rigor_inquiry.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ayurvedic_recognition",
+      "label": "Growing recognition of Ayurvedic medicine",
+      "type": "success",
+      "position": [
+        8.524514,
+        2.019164,
+        16.689954
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/ayurvedic_recognition.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "global_community",
+      "label": "Global healthcare community",
+      "type": "community",
+      "position": [
+        12.266374,
+        0.038974,
+        16.779309
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/global_community.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "alternat_therapy",
+      "label": "Alternative and complementary therapy",
+      "type": "solution",
+      "position": [
+        7.846775,
+        -1.10662,
+        16.435243
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/alternat_therapy.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "conventional_treat",
+      "label": "Conventional medical treatments",
+      "type": "solution",
+      "position": [
+        10.11961,
+        2.165167,
+        16.22465
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/conventional_treat.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "traditional_knowledge",
+      "label": "Traditional Ayurvedic knowledge",
+      "type": "knowledge",
+      "position": [
+        -11.445326,
+        -10.11771,
+        14.763335
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/traditional_knowledge.png",
+      "edge_in_count": 2,
+      "edge_out_count": 5
+    },
+    {
+      "id": "ayurvedic_practice",
+      "label": "Ayurvedic practice",
+      "type": "practice",
+      "position": [
+        -11.782079,
+        -9.501438,
+        13.488695
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ayurvedic_practice.png",
+      "edge_in_count": 4,
+      "edge_out_count": 1
+    },
+    {
+      "id": "importance",
+      "label": "importance",
+      "type": "default",
+      "position": [
+        -10.374465,
+        -11.346757,
+        14.563729
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/importance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "rich_repository",
+      "label": "Rich repository of knowledge",
+      "type": "repository",
+      "position": [
+        2.742565,
+        20.28478,
+        10.772742
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/rich_repository.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "ayurveda_origin",
+      "label": "Origins of Ayurveda",
+      "type": "history",
+      "position": [
+        10.542852,
+        -1.989847,
+        16.120688
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/ayurveda_origin.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "ancient_india",
+      "label": "Ancient India",
+      "type": "world",
+      "position": [
+        7.962636,
+        0.648203,
+        16.047506
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/ancient_india.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "holistic_system",
+      "label": "Holistic system of health and wellness",
+      "type": "architecture",
+      "position": [
+        11.418055,
+        1.039785,
+        15.863672
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/holistic_system.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "med_practice",
+      "label": "Ancient medical practice",
+      "type": "practice",
+      "position": [
+        1.776461,
+        20.241853,
+        8.219706
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/med_practice.png",
+      "edge_in_count": 2,
+      "edge_out_count": 3
+    },
+    {
+      "id": "generation",
+      "label": "Generations",
+      "type": "population",
+      "position": [
+        0.77533,
+        19.264004,
+        10.563793
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/generation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "time",
+      "label": "time",
+      "type": "default",
+      "position": [
+        1.887981,
+        22.067952,
+        10.246063
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/time.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "core_principle",
+      "label": "Core principles and philosophies",
+      "type": "architecture",
+      "position": [
+        3.123718,
+        18.520021,
+        9.854756
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/core_principle.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "clas_ayurvedic_text",
+      "label": "classical ayurvedic texts",
+      "type": "default",
+      "position": [
+        0.425528,
+        20.503302,
+        9.659619
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/clas_ayurvedic_text.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "foundation_of_ayurveda",
+      "label": "Foundation of Ayurveda",
+      "type": "architecture",
+      "position": [
+        3.235488,
+        21.517664,
+        9.645449
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/foundation_of_ayurveda.png",
+      "edge_in_count": 1,
+      "edge_out_count": 3
+    },
+    {
+      "id": "medicinal_herb",
+      "label": "Medicinal herbs",
+      "type": "concept",
+      "position": [
+        1.201711,
+        0.000074,
+        1.388858
+      ],
+      "cluster_id": "__orphans__",
+      "icon": "png_icons/medicinal_herb.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "practice",
+      "label": "practices",
+      "type": "default",
+      "position": [
+        -1.33614,
+        -1.167746,
+        0.462369
+      ],
+      "cluster_id": "__orphans__",
+      "icon": "png_icons/practice.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "theory",
+      "label": "theories",
+      "type": "default",
+      "position": [
+        0.113764,
+        1.770864,
+        -0.462369
+      ],
+      "cluster_id": "__orphans__",
+      "icon": "png_icons/theory.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "modern_practice_and_research",
+      "label": "Modern Ayurvedic practice and research",
+      "type": "activity",
+      "position": [
+        0.720445,
+        17.98472,
+        9.284817
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/modern_practice_and_research.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "govern_role",
+      "label": "Government regulation role",
+      "type": "role",
+      "position": [
+        -12.93874,
+        -9.735685,
+        14.255613
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/govern_role.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "regulation",
+      "label": "Regulations",
+      "type": "rule",
+      "position": [
+        -10.449676,
+        -9.462646,
+        14.677868
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/regulation.png",
+      "edge_in_count": 2,
+      "edge_out_count": 1
+    },
+    {
+      "id": "standard_preservation",
+      "label": "standardization,preservation",
+      "type": "default",
+      "position": [
+        -11.811714,
+        -11.949344,
+        14.287109
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/standard_preservation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "standard",
+      "label": "Standardization of quality and safety",
+      "type": "goal",
+      "position": [
+        -11.804394,
+        -8.193434,
+        13.849139
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/standard.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "home_remedy",
+      "label": "home remedies",
+      "type": "default",
+      "position": [
+        0.731109,
+        -0.953724,
+        -1.388858
+      ],
+      "cluster_id": "__orphans__",
+      "icon": "png_icons/home_remedy.png",
+      "edge_in_count": 1,
+      "edge_out_count": 3
+    },
+    {
+      "id": "kitchen_garden_ingredient",
+      "label": "Ingredients from kitchen and garden",
+      "type": "representation",
+      "position": [
+        -8.877801,
+        -10.915408,
+        13.427821
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/kitchen_garden_ingredient.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ailment",
+      "label": "Ailments",
+      "type": "problem",
+      "position": [
+        -13.499694,
+        -11.327373,
+        13.311762
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ailment.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "overall_health",
+      "label": "Overall health",
+      "type": "goal",
+      "position": [
+        -9.827077,
+        -8.124371,
+        13.081989
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/overall_health.png",
+      "edge_in_count": 2,
+      "edge_out_count": 0
+    },
+    {
+      "id": "natural_source",
+      "label": "Natural sources",
+      "type": "source",
+      "position": [
+        -10.524978,
+        -12.754309,
+        13.136341
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/natural_source.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "plant_animal_mineral",
+      "label": "plants,animals,minerals",
+      "type": "default",
+      "position": [
+        -13.501809,
+        -9.567662,
+        13.008691
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/plant_animal_mineral.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ayurvedic_medicine",
+      "label": "ayurvedic medicines",
+      "type": "default",
+      "position": [
+        -10.172698,
+        -9.981916,
+        12.024741
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ayurvedic_medicine.png",
+      "edge_in_count": 1,
+      "edge_out_count": 4
+    },
+    {
+      "id": "ayurvedic_principle",
+      "label": "Ayurvedic principles",
+      "type": "model",
+      "position": [
+        -11.862873,
+        -11.167631,
+        11.480383
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ayurvedic_principle.png",
+      "edge_in_count": 4,
+      "edge_out_count": 2
+    },
+    {
+      "id": "person_centered_medicine",
+      "label": "person centered medicine",
+      "type": "default",
+      "position": [
+        9.437091,
+        -1.447051,
+        15.60065
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/person_centered_medicine.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "unique_need",
+      "label": "Unique needs of individuals",
+      "type": "problem",
+      "position": [
+        9.340566,
+        1.137419,
+        15.450612
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/unique_need.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "tailored_healthcare",
+      "label": "tailored healthcare",
+      "type": "default",
+      "position": [
+        1.220349,
+        22.237248,
+        8.893875
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/tailored_healthcare.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "principle_of_ayurveda",
+      "label": "Principles of Ayurveda",
+      "type": "architecture",
+      "position": [
+        11.208183,
+        -1.031256,
+        15.715738
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/principle_of_ayurveda.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "personal_constitution",
+      "label": "Personal constitution",
+      "type": "representation",
+      "position": [
+        3.825735,
+        20.012029,
+        8.782951
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/personal_constitution.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "pppm",
+      "label": "Predictive Preventive Personalized Medicine",
+      "type": "architecture",
+      "position": [
+        -0.336686,
+        19.920061,
+        8.205943
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/pppm.png",
+      "edge_in_count": 0,
+      "edge_out_count": 2
+    },
+    {
+      "id": "personalized_health_strategy",
+      "label": "Personalized health strategies",
+      "type": "architecture",
+      "position": [
+        2.241588,
+        22.29182,
+        8.036832
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/personalized_health_strategy.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "data_analytic",
+      "label": "Data and analytics",
+      "type": "architecture",
+      "position": [
+        2.065823,
+        18.736336,
+        7.435365
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/data_analytic.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "predict_potential_issue",
+      "label": "Prediction of potential health issues",
+      "type": "solution",
+      "position": [
+        -0.14916,
+        20.991845,
+        7.378672
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/predict_potential_issue.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "tailored_intervention",
+      "label": "Tailored interventions",
+      "type": "solution",
+      "position": [
+        4.202462,
+        20.221386,
+        7.181436
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/tailored_intervention.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "personalized_treatment",
+      "label": "personalized treatments",
+      "type": "default",
+      "position": [
+        0.728574,
+        18.023018,
+        7.023084
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/personalized_treatment.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "scientific_evaluation",
+      "label": "Scientific evaluation of Ayurvedic practices and medicines",
+      "type": "method",
+      "position": [
+        -10.968573,
+        -9.117072,
+        12.189127
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/scientific_evaluation.png",
+      "edge_in_count": 1,
+      "edge_out_count": 2
+    },
+    {
+      "id": "rigor_testing_method",
+      "label": "Rigorous testing methods",
+      "type": "method",
+      "position": [
+        -10.100508,
+        -11.149957,
+        11.957705
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/rigor_testing_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "efficacy_and_safety",
+      "label": "Efficacy and safety",
+      "type": "goal",
+      "position": [
+        -13.730764,
+        -10.679283,
+        11.860915
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/efficacy_and_safety.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "prakriti_approach",
+      "label": "Prakriti approach in Ayurveda",
+      "type": "approach",
+      "position": [
+        1.748851,
+        22.075999,
+        6.336888
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/prakriti_approach.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "fundamental_principle",
+      "label": "Fundamental principle",
+      "type": "principle",
+      "position": [
+        2.595701,
+        19.724966,
+        6.23384
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/fundamental_principle.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "unique_characteristic",
+      "label": "Unique physical and psychological characteristics",
+      "type": "representation",
+      "position": [
+        0.403013,
+        19.972032,
+        5.87577
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/unique_characteristic.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "personalized_recommendation",
+      "label": "Personalized health recommendations and treatments",
+      "type": "solution",
+      "position": [
+        2.653744,
+        20.98649,
+        5.744006
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/personalized_recommendation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "individual_need",
+      "label": "Individual needs",
+      "type": "need",
+      "position": [
+        1.851247,
+        19.781659,
+        5.529757
+      ],
+      "cluster_id": "med_practice",
+      "icon": "png_icons/individual_need.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "food_nutrition_guidance",
+      "label": "Food and nutrition guidance",
+      "type": "solution",
+      "position": [
+        8.665823,
+        -0.055011,
+        15.430704
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/food_nutrition_guidance.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "dietary_recommendation",
+      "label": "Dietary recommendations",
+      "type": "solution",
+      "position": [
+        12.575899,
+        -16.403034,
+        2.604065
+      ],
+      "cluster_id": "dietary_recommendation",
+      "icon": "png_icons/dietary_recommendation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 3
+    },
+    {
+      "id": "prakriti_type",
+      "label": "Prakriti type",
+      "type": "category",
+      "position": [
+        13.808994,
+        -16.411565,
+        3.715307
+      ],
+      "cluster_id": "dietary_recommendation",
+      "icon": "png_icons/prakriti_type.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "health_statu",
+      "label": "Current health status",
+      "type": "category",
+      "position": [
+        11.354463,
+        -17.52197,
+        2.604065
+      ],
+      "cluster_id": "dietary_recommendation",
+      "icon": "png_icons/health_statu.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "balance_harmony",
+      "label": "balance harmony",
+      "type": "default",
+      "position": [
+        12.675205,
+        -15.173915,
+        1.492823
+      ],
+      "cluster_id": "dietary_recommendation",
+      "icon": "png_icons/balance_harmony.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "basic_principle_ayurveda",
+      "label": "Basic principles of Ayurveda",
+      "type": "architecture",
+      "position": [
+        15.62899,
+        9.941884,
+        -7.492975
+      ],
+      "cluster_id": "basic_principle_ayurveda",
+      "icon": "png_icons/basic_principle_ayurveda.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "balance_mind_body_spirit",
+      "label": "Balance between mind, body, and spirit",
+      "type": "rule",
+      "position": [
+        16.233696,
+        9.89608,
+        -7.906746
+      ],
+      "cluster_id": "basic_principle_ayurveda",
+      "icon": "png_icons/balance_mind_body_spirit.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "three_dosha",
+      "label": "Three doshas: Vata, Pitta, and Kapha",
+      "type": "representation",
+      "position": [
+        -3.743928,
+        -13.927225,
+        -11.546578
+      ],
+      "cluster_id": "three_dosha",
+      "icon": "png_icons/three_dosha.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "energy_governing_function",
+      "label": "Energies governing the functions of the body",
+      "type": "energy",
+      "position": [
+        -3.111782,
+        -13.520633,
+        -11.865909
+      ],
+      "cluster_id": "three_dosha",
+      "icon": "png_icons/energy_governing_function.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "healthy_lifestyle_through_diet_exercise_meditation",
+      "label": "Healthy lifestyle through diet, exercise, and meditation",
+      "type": "solution",
+      "position": [
+        -4.588778,
+        8.835414,
+        -17.99435
+      ],
+      "cluster_id": "healthy_lifestyle_through_diet_exercise_meditation",
+      "icon": "png_icons/healthy_lifestyle_through_diet_exercise_meditation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "harmony_with_nature",
+      "label": "Harmony with nature",
+      "type": "world",
+      "position": [
+        -5.089696,
+        8.836621,
+        -17.685586
+      ],
+      "cluster_id": "healthy_lifestyle_through_diet_exercise_meditation",
+      "icon": "png_icons/harmony_with_nature.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "continu_research",
+      "label": "Continuous research requirement",
+      "type": "goal",
+      "position": [
+        -9.049511,
+        -8.738418,
+        11.723528
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/continu_research.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "scientific_study",
+      "label": "Scientific study",
+      "type": "method",
+      "position": [
+        -10.919593,
+        -11.753226,
+        11.924477
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/scientific_study.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "modern_method",
+      "label": "Modern evidence-based methods",
+      "type": "method",
+      "position": [
+        -17.477632,
+        3.091547,
+        -2.236158
+      ],
+      "cluster_id": "modern_method",
+      "icon": "png_icons/modern_method.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "ayurvedic_evolution",
+      "label": "Ayurveda evolution",
+      "type": "evolution",
+      "position": [
+        -16.685942,
+        2.941034,
+        -1.812861
+      ],
+      "cluster_id": "modern_method",
+      "icon": "png_icons/ayurvedic_evolution.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "contemporary_advancement",
+      "label": "contemporary advancements",
+      "type": "default",
+      "position": [
+        -17.95973,
+        2.445784,
+        -2.659454
+      ],
+      "cluster_id": "modern_method",
+      "icon": "png_icons/contemporary_advancement.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "systematic_documentation",
+      "label": "systematic documentation",
+      "type": "default",
+      "position": [
+        -11.233349,
+        -10.290668,
+        12.197257
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/systematic_documentation.png",
+      "edge_in_count": 0,
+      "edge_out_count": 8
+    },
+    {
+      "id": "integration_advance",
+      "label": "Advancing integration",
+      "type": "goal",
+      "position": [
+        -12.912263,
+        -8.225534,
+        11.589253
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/integration_advance.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "meticul_recording",
+      "label": "Meticulous recording",
+      "type": "method",
+      "position": [
+        -8.674137,
+        -10.667849,
+        11.324695
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/meticul_recording.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "contemporary_research_finding",
+      "label": "Contemporary research findings",
+      "type": "evidence",
+      "position": [
+        -13.315329,
+        -11.700138,
+        11.133324
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/contemporary_research_finding.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ensure_consistency",
+      "label": "ensure consistency",
+      "type": "default",
+      "position": [
+        -10.666712,
+        -7.914435,
+        10.97839
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ensure_consistency.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "ensure_reliability",
+      "label": "ensure reliability",
+      "type": "default",
+      "position": [
+        -10.091174,
+        -12.216555,
+        10.635338
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/ensure_reliability.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "modern_of_ayurveda",
+      "label": "modernization of ayurveda",
+      "type": "default",
+      "position": [
+        9.887911,
+        0,
+        17.871333
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/modern_of_ayurveda.png",
+      "edge_in_count": 0,
+      "edge_out_count": 4
+    },
+    {
+      "id": "enhanced_effect",
+      "label": "Enhanced effectiveness",
+      "type": "success",
+      "position": [
+        10.564738,
+        0.837246,
+        15.362524
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/enhanced_effect.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "broader_application",
+      "label": "broader application",
+      "type": "default",
+      "position": [
+        10.100321,
+        -0.610249,
+        15.218848
+      ],
+      "cluster_id": "modern_of_ayurveda",
+      "icon": "png_icons/broader_application.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "contemporary_scientific_methodology",
+      "label": "Contemporary scientific methodologies",
+      "type": "model",
+      "position": [
+        -12.996493,
+        -9.462964,
+        10.509404
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/contemporary_scientific_methodology.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "potential_collaboration_opportunity",
+      "label": "potential collaboration opportunities",
+      "type": "default",
+      "position": [
+        -9.240488,
+        -9.367343,
+        10.575784
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/potential_collaboration_opportunity.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "personalized_health_care",
+      "label": "Personalized health care",
+      "type": "goal",
+      "position": [
+        -11.952477,
+        -12.333937,
+        10.872315
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/personalized_health_care.png",
+      "edge_in_count": 1,
+      "edge_out_count": 1
+    },
+    {
+      "id": "evidence_based_method",
+      "label": "Evidence-based methods",
+      "type": "method",
+      "position": [
+        -11.931234,
+        -8.300373,
+        10.463798
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/evidence_based_method.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "empir_evidence",
+      "label": "Empirical evidence",
+      "type": "evidence",
+      "position": [
+        -9.914634,
+        -10.508738,
+        9.816787
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/empir_evidence.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    },
+    {
+      "id": "pppm_ayurveda_integration",
+      "label": "Integration of PPPM and Ayurveda",
+      "type": "architecture",
+      "position": [
+        -12.476945,
+        -10.927918,
+        9.851925
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/pppm_ayurveda_integration.png",
+      "edge_in_count": 0,
+      "edge_out_count": 1
+    },
+    {
+      "id": "modern_healthcare_framework",
+      "label": "Modern healthcare frameworks",
+      "type": "architecture",
+      "position": [
+        -11.229232,
+        -10.064375,
+        9.4766
+      ],
+      "cluster_id": "systematic_documentation",
+      "icon": "png_icons/modern_healthcare_framework.png",
+      "edge_in_count": 1,
+      "edge_out_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "index": 0,
+      "from": "continu_research",
+      "from_label": "Continuous research requirement",
+      "to": "scientific_study",
+      "to_label": "Scientific study",
+      "verb": "requires",
+      "subtitle": "Continuous research requires scientific study to ensure quality and methodology in Ayurvedic medicine.",
+      "audio_clip": "audio_clips/edge_000.wav",
+      "audio_start": 0,
+      "audio_duration": 8.282666666666668,
+      "image": null
+    },
+    {
+      "index": 1,
+      "from": "ayurvedic_medicine",
+      "from_label": "ayurvedic medicines",
+      "to": "contemporary_scientific_methodology",
+      "to_label": "Contemporary scientific methodologies",
+      "verb": "connection",
+      "subtitle": "Ayurvedic medicine connects with contemporary scientific methodologies to validate its efficacy.",
+      "audio_clip": "audio_clips/edge_001.wav",
+      "audio_start": 8.282666666666668,
+      "audio_duration": 7.408,
+      "image": null
+    },
+    {
+      "index": 2,
+      "from": "traditional_knowledge",
+      "from_label": "Traditional Ayurvedic knowledge",
+      "to": "scientific_evaluation",
+      "to_label": "Scientific evaluation of Ayurvedic practices and medicines",
+      "verb": "requires",
+      "subtitle": "Traditional Ayurvedic knowledge necessitates scientific evaluation to assess the validity of Ayurvedic practices and medicines.",
+      "audio_clip": "audio_clips/edge_002.wav",
+      "audio_start": 15.690666666666669,
+      "audio_duration": 10.010666666666667,
+      "image": null
+    },
+    {
+      "index": 3,
+      "from": "traditional_knowledge",
+      "from_label": "Traditional Ayurvedic knowledge",
+      "to": "modern_method",
+      "to_label": "Modern evidence-based methods",
+      "verb": "bridges",
+      "subtitle": "It also bridges the gap between modern evidence-based methods, fostering integration.",
+      "audio_clip": "audio_clips/edge_003.wav",
+      "audio_start": 25.701333333333338,
+      "audio_duration": 7.024,
+      "image": null
+    },
+    {
+      "index": 4,
+      "from": "traditional_knowledge",
+      "from_label": "Traditional Ayurvedic knowledge",
+      "to": "modern_scientific_methodology",
+      "to_label": "Modern scientific methodologies",
+      "verb": "integrates",
+      "subtitle": "And integrates with modern scientific methodologies to enhance understanding and application.",
+      "audio_clip": "audio_clips/edge_004.wav",
+      "audio_start": 32.72533333333334,
+      "audio_duration": 7.408,
+      "image": null
+    },
+    {
+      "index": 5,
+      "from": "importance",
+      "from_label": "importance",
+      "to": "traditional_knowledge",
+      "to_label": "Traditional Ayurvedic knowledge",
+      "verb": "highlight",
+      "subtitle": "The importance of traditional Ayurvedic knowledge highlights its significance in the context of modern healthcare.",
+      "audio_clip": "audio_clips/edge_005.wav",
+      "audio_start": 40.13333333333334,
+      "audio_duration": 8.197333333333333,
+      "image": null
+    },
+    {
+      "index": 6,
+      "from": "potential_collaboration_opportunity",
+      "from_label": "potential collaboration opportunities",
+      "to": "ayurvedic_medicine",
+      "to_label": "ayurvedic medicines",
+      "verb": "highlight",
+      "subtitle": "Potential collaboration opportunities highlight the importance of Ayurvedic medicines in advancing medical research.",
+      "audio_clip": "audio_clips/edge_006.wav",
+      "audio_start": 48.33066666666667,
+      "audio_duration": 8.837333333333333,
+      "image": null
+    },
+    {
+      "index": 7,
+      "from": "traditional_knowledge",
+      "from_label": "Traditional Ayurvedic knowledge",
+      "to": "ayurvedic_practice",
+      "to_label": "Ayurvedic practice",
+      "verb": "contains",
+      "subtitle": "Traditional Ayurvedic knowledge encompasses various Ayurvedic practices aimed at holistic health improvement.",
+      "audio_clip": "audio_clips/edge_007.wav",
+      "audio_start": 57.168000000000006,
+      "audio_duration": 8.410666666666666,
+      "image": null
+    },
+    {
+      "index": 8,
+      "from": "ayurvedic_principle",
+      "from_label": "Ayurvedic principles",
+      "to": "personalized_health_care",
+      "to_label": "Personalized health care",
+      "verb": "connection",
+      "subtitle": "Ayurvedic principles connect with personalized health care, emphasizing individualized treatment approaches.",
+      "audio_clip": "audio_clips/edge_008.wav",
+      "audio_start": 65.57866666666668,
+      "audio_duration": 8.112,
+      "image": null
+    },
+    {
+      "index": 9,
+      "from": "pppm",
+      "from_label": "Predictive Preventive Personalized Medicine",
+      "to": "med_practice",
+      "to_label": "Ancient medical practice",
+      "verb": "consists of",
+      "subtitle": "Predictive, preventive, and personalized medicine (PPPM) incorporates elements of ancient medical practices like Ayurveda.",
+      "audio_clip": "audio_clips/edge_009.wav",
+      "audio_start": 73.69066666666667,
+      "audio_duration": 9.968,
+      "image": null
+    },
+    {
+      "index": 10,
+      "from": "personalized_health_care",
+      "from_label": "Personalized health care",
+      "to": "evidence_based_practice",
+      "to_label": "Evidence-based practices",
+      "verb": "aim",
+      "subtitle": "Personalized health care aims to align with evidence-based practices to provide more effective treatments.",
+      "audio_clip": "audio_clips/edge_010.wav",
+      "audio_start": 83.65866666666668,
+      "audio_duration": 7.834666666666666,
+      "image": null
+    },
+    {
+      "index": 11,
+      "from": "ayurveda_origin",
+      "from_label": "Origins of Ayurveda",
+      "to": "ancient_india",
+      "to_label": "Ancient India",
+      "verb": "traces back to",
+      "subtitle": "The origins of Ayurveda trace back to ancient India, where it was developed as a comprehensive system of health.",
+      "audio_clip": "audio_clips/edge_011.wav",
+      "audio_start": 91.49333333333334,
+      "audio_duration": 8.069333333333333,
+      "image": null
+    },
+    {
+      "index": 12,
+      "from": "ancient_india",
+      "from_label": "Ancient India",
+      "to": "holistic_system",
+      "to_label": "Holistic system of health and wellness",
+      "verb": "developed as",
+      "subtitle": "Ancient India developed as a holistic system of health and wellness, emphasizing comprehensive care.",
+      "audio_clip": "audio_clips/edge_012.wav",
+      "audio_start": 99.56266666666667,
+      "audio_duration": 8.048,
+      "image": null
+    },
+    {
+      "index": 13,
+      "from": "govern_role",
+      "from_label": "Government regulation role",
+      "to": "ayurvedic_practice",
+      "to_label": "Ayurvedic practice",
+      "verb": "constrains",
+      "subtitle": "The government regulation role constrains Ayurvedic practices, ensuring quality and standardization.",
+      "audio_clip": "audio_clips/edge_013.wav",
+      "audio_start": 107.61066666666667,
+      "audio_duration": 7.706666666666667,
+      "image": null
+    },
+    {
+      "index": 14,
+      "from": "med_practice",
+      "from_label": "Ancient medical practice",
+      "to": "time",
+      "to_label": "time",
+      "verb": "evolves and adapts over time",
+      "subtitle": "Ancient medical practice evolves and adapts over time, incorporating modern insights while preserving tradition.",
+      "audio_clip": "audio_clips/edge_014.wav",
+      "audio_start": 115.31733333333334,
+      "audio_duration": 8.581333333333333,
+      "image": null
+    },
+    {
+      "index": 15,
+      "from": "home_remedy",
+      "from_label": "home remedies",
+      "to": "kitchen_garden_ingredient",
+      "to_label": "Ingredients from kitchen and garden",
+      "verb": "consists of",
+      "subtitle": "Home remedies consist of ingredients from kitchen and garden, offering natural solutions for daily needs.",
+      "audio_clip": "audio_clips/edge_015.wav",
+      "audio_start": 123.89866666666667,
+      "audio_duration": 7.8133333333333335,
+      "image": null
+    },
+    {
+      "index": 16,
+      "from": "home_remedy",
+      "from_label": "home remedies",
+      "to": "ailment",
+      "to_label": "Ailments",
+      "verb": "treats",
+      "subtitle": "and treat ailments, providing accessible healthcare solutions for common issues.",
+      "audio_clip": "audio_clips/edge_016.wav",
+      "audio_start": 131.71200000000002,
+      "audio_duration": 6.277333333333333,
+      "image": null
+    },
+    {
+      "index": 17,
+      "from": "foundation_of_ayurveda",
+      "from_label": "Foundation of Ayurveda",
+      "to": "medicinal_herb",
+      "to_label": "Medicinal herbs",
+      "verb": "contains",
+      "subtitle": "The foundation of Ayurveda contains medicinal herbs, forming the basis of its therapeutic formulations.",
+      "audio_clip": "audio_clips/edge_017.wav",
+      "audio_start": 137.98933333333335,
+      "audio_duration": 8.069333333333333,
+      "image": null
+    },
+    {
+      "index": 18,
+      "from": "person_centered_medicine",
+      "from_label": "person centered medicine",
+      "to": "principle_of_ayurveda",
+      "to_label": "Principles of Ayurveda",
+      "verb": "aligns with",
+      "subtitle": "Person-centered medicine aligns with principles of Ayurveda, focusing on individualized care.",
+      "audio_clip": "audio_clips/edge_018.wav",
+      "audio_start": 146.05866666666668,
+      "audio_duration": 7.429333333333333,
+      "image": null
+    },
+    {
+      "index": 19,
+      "from": "healthy_lifestyle_through_diet_exercise_meditation",
+      "from_label": "Healthy lifestyle through diet, exercise, and meditation",
+      "to": "harmony_with_nature",
+      "to_label": "Harmony with nature",
+      "verb": "requires",
+      "subtitle": "A healthy lifestyle through diet, exercise, and meditation requires harmony with nature, promoting overall wellbeing.",
+      "audio_clip": "audio_clips/edge_019.wav",
+      "audio_start": 153.48800000000003,
+      "audio_duration": 8.986666666666666,
+      "image": null
+    },
+    {
+      "index": 20,
+      "from": "pppm",
+      "from_label": "Predictive Preventive Personalized Medicine",
+      "to": "personalized_health_strategy",
+      "to_label": "Personalized health strategies",
+      "verb": "consists of",
+      "subtitle": "Predictive preventive personalized medicine consists of personalized health strategies, integrating modern and traditional approaches.",
+      "audio_clip": "audio_clips/edge_020.wav",
+      "audio_start": 162.4746666666667,
+      "audio_duration": 9.477333333333334,
+      "image": null
+    },
+    {
+      "index": 21,
+      "from": "food_nutrition_guidance",
+      "from_label": "Food and nutrition guidance",
+      "to": "ayurveda",
+      "to_label": "Ayurveda",
+      "verb": "relates",
+      "subtitle": "Food and nutrition guidance relates to Ayurveda, tailoring dietary advice based on individual constitutions and seasonal changes.",
+      "audio_clip": "audio_clips/edge_021.wav",
+      "audio_start": 171.95200000000006,
+      "audio_duration": 10.032,
+      "image": null
+    },
+    {
+      "index": 22,
+      "from": "med_practice",
+      "from_label": "Ancient medical practice",
+      "to": "generation",
+      "to_label": "Generations",
+      "verb": "passed down through",
+      "subtitle": "Ancient medical practice passed down through generations, maintaining continuity and evolving with new discoveries.",
+      "audio_clip": "audio_clips/edge_022.wav",
+      "audio_start": 181.98400000000007,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 23,
+      "from": "natural_source",
+      "from_label": "Natural sources",
+      "to": "plant_animal_mineral",
+      "to_label": "plants,animals,minerals",
+      "verb": "consists of",
+      "subtitle": "Natural sources consist of plants, animals, and minerals, serving as the primary components for Ayurvedic treatments.",
+      "audio_clip": "audio_clips/edge_023.wav",
+      "audio_start": 190.58666666666673,
+      "audio_duration": 8.602666666666666,
+      "image": null
+    },
+    {
+      "index": 24,
+      "from": "ayurvedic_evolution",
+      "from_label": "Ayurveda evolution",
+      "to": "contemporary_advancement",
+      "to_label": "contemporary advancements",
+      "verb": "benefits from",
+      "subtitle": "The evolution of Ayurveda benefits greatly from contemporary advancements, ensuring it remains relevant today.",
+      "audio_clip": "audio_clips/edge_024.wav",
+      "audio_start": 199.1893333333334,
+      "audio_duration": 8.133333333333333,
+      "image": null
+    },
+    {
+      "index": 25,
+      "from": "standard",
+      "from_label": "Standardization of quality and safety",
+      "to": "regulation",
+      "to_label": "Regulations",
+      "verb": "aim",
+      "subtitle": "Standardization efforts aim to regulate the quality and safety of Ayurvedic drugs and procedures through continuous research.",
+      "audio_clip": "audio_clips/edge_025.wav",
+      "audio_start": 207.32266666666672,
+      "audio_duration": 9.264,
+      "image": null
+    },
+    {
+      "index": 26,
+      "from": "rich_repository",
+      "from_label": "Rich repository of knowledge",
+      "to": "med_practice",
+      "to_label": "Ancient medical practice",
+      "verb": "inform",
+      "subtitle": "The rich repository of knowledge that informs ancient medical practice should not be confined solely to Sanskrit-speaking scholars.",
+      "audio_clip": "audio_clips/edge_026.wav",
+      "audio_start": 216.58666666666673,
+      "audio_duration": 9.605333333333334,
+      "image": null
+    },
+    {
+      "index": 27,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "traditional_knowledge",
+      "to_label": "Traditional Ayurvedic knowledge",
+      "verb": "requires",
+      "subtitle": "Systematic documentation requires the incorporation of traditional Ayurvedic knowledge to ensure its accuracy and relevance.",
+      "audio_clip": "audio_clips/edge_027.wav",
+      "audio_start": 226.19200000000006,
+      "audio_duration": 9.626666666666667,
+      "image": null
+    },
+    {
+      "index": 28,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "ayurvedic_principle",
+      "to_label": "Ayurvedic principles",
+      "verb": "operates on",
+      "subtitle": "and operates on the foundational principles of Ayurveda, guiding its continuous development.",
+      "audio_clip": "audio_clips/edge_028.wav",
+      "audio_start": 235.81866666666673,
+      "audio_duration": 7.066666666666666,
+      "image": null
+    },
+    {
+      "index": 29,
+      "from": "ayurvedic_medicine",
+      "from_label": "ayurvedic medicines",
+      "to": "ayurvedic_principle",
+      "to_label": "Ayurvedic principles",
+      "verb": "according to",
+      "subtitle": "Ayurvedic medicines adhere strictly to its principles, ensuring they remain true to their origins.",
+      "audio_clip": "audio_clips/edge_029.wav",
+      "audio_start": 242.8853333333334,
+      "audio_duration": 7.514666666666667,
+      "image": null
+    },
+    {
+      "index": 30,
+      "from": "scientific_evaluation",
+      "from_label": "Scientific evaluation of Ayurvedic practices and medicines",
+      "to": "rigor_testing_method",
+      "to_label": "Rigorous testing methods",
+      "verb": "consists of",
+      "subtitle": "Scientific evaluation of Ayurvedic practices and medicines includes rigorous testing methods to validate their efficacy.",
+      "audio_clip": "audio_clips/edge_030.wav",
+      "audio_start": 250.40000000000006,
+      "audio_duration": 9.157333333333334,
+      "image": null
+    },
+    {
+      "index": 31,
+      "from": "modern_method",
+      "from_label": "Modern evidence-based methods",
+      "to": "ayurvedic_evolution",
+      "to_label": "Ayurveda evolution",
+      "verb": "enables",
+      "subtitle": "Modern evidence-based methods enable Ayurveda to evolve, integrating traditional practices with contemporary science.",
+      "audio_clip": "audio_clips/edge_031.wav",
+      "audio_start": 259.5573333333334,
+      "audio_duration": 9.157333333333334,
+      "image": null
+    },
+    {
+      "index": 32,
+      "from": "approach",
+      "from_label": "Approach for validating Ayurveda",
+      "to": "rigor_evidence_based_research",
+      "to_label": "Rigorous evidence-based research",
+      "verb": "aims to",
+      "subtitle": "The approach for validating Ayurveda aims at conducting rigorous evidence-based research to establish its credibility.",
+      "audio_clip": "audio_clips/edge_032.wav",
+      "audio_start": 268.71466666666674,
+      "audio_duration": 8.794666666666666,
+      "image": null
+    },
+    {
+      "index": 33,
+      "from": "pppm_ayurveda_integration",
+      "from_label": "Integration of PPPM and Ayurveda",
+      "to": "ayurvedic_principle",
+      "to_label": "Ayurvedic principles",
+      "verb": "consists of",
+      "subtitle": "Integration of PPPM and Ayurveda consists of applying Ayurvedic principles to create a holistic healthcare model.",
+      "audio_clip": "audio_clips/edge_033.wav",
+      "audio_start": 277.5093333333334,
+      "audio_duration": 9.050666666666666,
+      "image": null
+    },
+    {
+      "index": 34,
+      "from": "basic_principle_ayurveda",
+      "from_label": "Basic principles of Ayurveda",
+      "to": "balance_mind_body_spirit",
+      "to_label": "Balance between mind, body, and spirit",
+      "verb": "consists of",
+      "subtitle": "Basic principles of Ayurveda consist of achieving balance between mind, body, and spirit, promoting overall well-being.",
+      "audio_clip": "audio_clips/edge_034.wav",
+      "audio_start": 286.56000000000006,
+      "audio_duration": 8.688,
+      "image": null
+    },
+    {
+      "index": 35,
+      "from": "validation_wisdom",
+      "from_label": "Validation of ancient wisdom of Ayurveda",
+      "to": "relevance_modern_healthcare",
+      "to_label": "Relevance in modern healthcare settings",
+      "verb": "achieves",
+      "subtitle": "Validation of the ancient wisdom of Ayurveda achieves relevance in modern healthcare settings by aligning traditional practices with current scientific understanding.",
+      "audio_clip": "audio_clips/edge_035.wav",
+      "audio_start": 295.24800000000005,
+      "audio_duration": 11.781333333333333,
+      "image": null
+    },
+    {
+      "index": 36,
+      "from": "tailored_healthcare",
+      "from_label": "tailored healthcare",
+      "to": "personal_constitution",
+      "to_label": "Personal constitution",
+      "verb": "consists of",
+      "subtitle": "Tailored healthcare focuses on an individual's personal constitution to ensure maximum therapeutic efficacy.",
+      "audio_clip": "audio_clips/edge_036.wav",
+      "audio_start": 307.0293333333334,
+      "audio_duration": 8.56,
+      "image": null
+    },
+    {
+      "index": 37,
+      "from": "personalized_recommendation",
+      "from_label": "Personalized health recommendations and treatments",
+      "to": "individual_need",
+      "to_label": "Individual needs",
+      "verb": "targets",
+      "subtitle": "Personalized health recommendations target the unique individual needs identified through Ayurvedic principles.",
+      "audio_clip": "audio_clips/edge_037.wav",
+      "audio_start": 315.5893333333334,
+      "audio_duration": 8.026666666666667,
+      "image": null
+    },
+    {
+      "index": 38,
+      "from": "person_centered_medicine",
+      "from_label": "person centered medicine",
+      "to": "unique_need",
+      "to_label": "Unique needs of individuals",
+      "verb": "focuses on",
+      "subtitle": "PCM emphasizes addressing the unique needs of each individual for effective treatment.",
+      "audio_clip": "audio_clips/edge_038.wav",
+      "audio_start": 323.61600000000004,
+      "audio_duration": 7.365333333333333,
+      "image": null
+    },
+    {
+      "index": 39,
+      "from": "foundation_of_ayurveda",
+      "from_label": "Foundation of Ayurveda",
+      "to": "theory",
+      "to_label": "theories",
+      "verb": "contains",
+      "subtitle": "The foundation of Ayurveda includes various theories that guide its practice and application.",
+      "audio_clip": "audio_clips/edge_039.wav",
+      "audio_start": 330.9813333333334,
+      "audio_duration": 7.045333333333334,
+      "image": null
+    },
+    {
+      "index": 40,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "contemporary_research_finding",
+      "to_label": "Contemporary research findings",
+      "verb": "requires",
+      "subtitle": "Systematic documentation necessitates incorporating contemporary research findings into its framework.",
+      "audio_clip": "audio_clips/edge_040.wav",
+      "audio_start": 338.02666666666676,
+      "audio_duration": 8.218666666666667,
+      "image": null
+    },
+    {
+      "index": 41,
+      "from": "med_practice",
+      "from_label": "Ancient medical practice",
+      "to": "core_principle",
+      "to_label": "Core principles and philosophies",
+      "verb": "maintains core principles",
+      "subtitle": "Ancient medical practices adhere to core principles and philosophies that underpin their efficacy.",
+      "audio_clip": "audio_clips/edge_041.wav",
+      "audio_start": 346.2453333333334,
+      "audio_duration": 7.578666666666667,
+      "image": null
+    },
+    {
+      "index": 42,
+      "from": "evidence_based_practice",
+      "from_label": "Evidence-based practices",
+      "to": "ayurvedic_principle",
+      "to_label": "Ayurvedic principles",
+      "verb": "connection",
+      "subtitle": "Evidence-based practices integrate Ayurvedic principles to enhance the quality of clinical interventions.",
+      "audio_clip": "audio_clips/edge_042.wav",
+      "audio_start": 353.82400000000007,
+      "audio_duration": 8.026666666666667,
+      "image": null
+    },
+    {
+      "index": 43,
+      "from": "ayurvedic_medicine",
+      "from_label": "ayurvedic medicines",
+      "to": "natural_source",
+      "to_label": "Natural sources",
+      "verb": "contains",
+      "subtitle": "Ayurvedic medicines are composed of natural sources, reflecting the holistic nature of these remedies.",
+      "audio_clip": "audio_clips/edge_043.wav",
+      "audio_start": 361.8506666666667,
+      "audio_duration": 7.92,
+      "image": null
+    },
+    {
+      "index": 44,
+      "from": "scientific_study",
+      "from_label": "Scientific study",
+      "to": "ayurvedic_practice",
+      "to_label": "Ayurvedic practice",
+      "verb": "contains",
+      "subtitle": "Scientific studies encompass various Ayurvedic practices, aiming to validate their effectiveness.",
+      "audio_clip": "audio_clips/edge_044.wav",
+      "audio_start": 369.7706666666667,
+      "audio_duration": 7.685333333333333,
+      "image": null
+    },
+    {
+      "index": 45,
+      "from": "clas_ayurvedic_text",
+      "from_label": "classical ayurvedic texts",
+      "to": "modern_practice_and_research",
+      "to_label": "Modern Ayurvedic practice and research",
+      "verb": "inform",
+      "subtitle": "Classical Ayurvedic texts provide insights that inform modern Ayurvedic practice and research.",
+      "audio_clip": "audio_clips/edge_045.wav",
+      "audio_start": 377.4560000000001,
+      "audio_duration": 7.493333333333333,
+      "image": null
+    },
+    {
+      "index": 46,
+      "from": "foundation_of_ayurveda",
+      "from_label": "Foundation of Ayurveda",
+      "to": "practice",
+      "to_label": "practices",
+      "verb": "contains",
+      "subtitle": "The foundation of Ayurveda includes a range of practices derived from traditional teachings.",
+      "audio_clip": "audio_clips/edge_046.wav",
+      "audio_start": 384.9493333333334,
+      "audio_duration": 7.258666666666667,
+      "image": null
+    },
+    {
+      "index": 47,
+      "from": "clas_ayurvedic_text",
+      "from_label": "classical ayurvedic texts",
+      "to": "foundation_of_ayurveda",
+      "to_label": "Foundation of Ayurveda",
+      "verb": "contains",
+      "subtitle": "These texts contain the foundational elements of Ayurveda, guiding its theoretical framework.",
+      "audio_clip": "audio_clips/edge_047.wav",
+      "audio_start": 392.2080000000001,
+      "audio_duration": 7.1306666666666665,
+      "image": null
+    },
+    {
+      "index": 48,
+      "from": "term_evidence",
+      "from_label": "Term 'evidence' in Ayurveda",
+      "to": "systematic_collection",
+      "to_label": "Systematic collection and analysis of data",
+      "verb": "consists of",
+      "subtitle": "The term 'evidence' in Ayurveda involves the systematic collection and analysis of data.",
+      "audio_clip": "audio_clips/edge_048.wav",
+      "audio_start": 399.33866666666677,
+      "audio_duration": 7.152,
+      "image": null
+    },
+    {
+      "index": 49,
+      "from": "respect_knowledge_system",
+      "from_label": "Respect for diverse knowledge systems",
+      "to": "robust_credential_evidence",
+      "to_label": "Robust and credible evidence",
+      "verb": "relates",
+      "subtitle": "Respecting diverse knowledge systems hinges on robust and credible evidence.",
+      "audio_clip": "audio_clips/edge_049.wav",
+      "audio_start": 406.49066666666675,
+      "audio_duration": 6.490666666666667,
+      "image": null
+    },
+    {
+      "index": 50,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "integration_advance",
+      "to_label": "Advancing integration",
+      "verb": "consists of",
+      "subtitle": "Systematic documentation advances the integration of Ayurveda with modern practices.",
+      "audio_clip": "audio_clips/edge_050.wav",
+      "audio_start": 412.9813333333334,
+      "audio_duration": 7.216,
+      "image": null
+    },
+    {
+      "index": 51,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "meticul_recording",
+      "to_label": "Meticulous recording",
+      "verb": "requires",
+      "subtitle": "It also necessitates meticulous recording for accuracy.",
+      "audio_clip": "audio_clips/edge_051.wav",
+      "audio_start": 420.1973333333334,
+      "audio_duration": 5.317333333333333,
+      "image": null
+    },
+    {
+      "index": 52,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "ensure_consistency",
+      "to_label": "ensure consistency",
+      "verb": "consists of",
+      "subtitle": "This ensures consistency is part of systematic documentation in Ayurveda.",
+      "audio_clip": "audio_clips/edge_052.wav",
+      "audio_start": 425.51466666666676,
+      "audio_duration": 6.576,
+      "image": null
+    },
+    {
+      "index": 53,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "ensure_reliability",
+      "to_label": "ensure reliability",
+      "verb": "consists of",
+      "subtitle": "And reliability is ensured through systematic documentation in Ayurveda.",
+      "audio_clip": "audio_clips/edge_053.wav",
+      "audio_start": 432.0906666666668,
+      "audio_duration": 6.277333333333333,
+      "image": null
+    },
+    {
+      "index": 54,
+      "from": "traditional_knowledge",
+      "from_label": "Traditional Ayurvedic knowledge",
+      "to": "regulation",
+      "to_label": "Regulations",
+      "verb": "preserve",
+      "subtitle": "Traditional Ayurvedic knowledge is preserved under current regulations.",
+      "audio_clip": "audio_clips/edge_054.wav",
+      "audio_start": 438.3680000000001,
+      "audio_duration": 5.872,
+      "image": null
+    },
+    {
+      "index": 55,
+      "from": "regulation",
+      "from_label": "Regulations",
+      "to": "standard_preservation",
+      "to_label": "standardization,preservation",
+      "verb": "consists of",
+      "subtitle": "Regulations encompass standardization and preservation in Ayurveda.",
+      "audio_clip": "audio_clips/edge_055.wav",
+      "audio_start": 444.2400000000001,
+      "audio_duration": 5.637333333333333,
+      "image": null
+    },
+    {
+      "index": 56,
+      "from": "ayurvedic_medicine",
+      "from_label": "ayurvedic medicines",
+      "to": "overall_health",
+      "to_label": "Overall health",
+      "verb": "achieves",
+      "subtitle": "Ayurvedic medicines contribute to achieving overall health.",
+      "audio_clip": "audio_clips/edge_056.wav",
+      "audio_start": 449.87733333333347,
+      "audio_duration": 4.997333333333334,
+      "image": null
+    },
+    {
+      "index": 57,
+      "from": "dietary_recommendation",
+      "from_label": "Dietary recommendations",
+      "to": "health_statu",
+      "to_label": "Current health status",
+      "verb": "depends on",
+      "subtitle": "Dietary recommendations are tailored according to an individual's current health status.",
+      "audio_clip": "audio_clips/edge_057.wav",
+      "audio_start": 454.8746666666668,
+      "audio_duration": 6.32,
+      "image": null
+    },
+    {
+      "index": 58,
+      "from": "evidence_based_method",
+      "from_label": "Evidence-based methods",
+      "to": "ayurvedic_practice",
+      "to_label": "Ayurvedic practice",
+      "verb": "incorporate",
+      "subtitle": "Evidence-based methods include Ayurvedic practices to enhance clinical effectiveness.",
+      "audio_clip": "audio_clips/edge_058.wav",
+      "audio_start": 461.1946666666668,
+      "audio_duration": 6.896,
+      "image": null
+    },
+    {
+      "index": 59,
+      "from": "modern_of_ayurveda",
+      "from_label": "modernization of ayurveda",
+      "to": "contemporary_scientific_method",
+      "to_label": "Contemporary scientific methods",
+      "verb": "consists of",
+      "subtitle": "Modernizing Ayurveda involves employing contemporary scientific methods.",
+      "audio_clip": "audio_clips/edge_059.wav",
+      "audio_start": 468.09066666666683,
+      "audio_duration": 6.298666666666667,
+      "image": null
+    },
+    {
+      "index": 60,
+      "from": "validation_wisdom",
+      "from_label": "Validation of ancient wisdom of Ayurveda",
+      "to": "contemporary_scientific_method",
+      "to_label": "Contemporary scientific methods",
+      "verb": "requires",
+      "subtitle": "Validation of ancient wisdom of Ayurveda requires contemporary scientific methods, as it lacks sufficient scientific evidence in quantity and quality of RCTs and systematic reviews.",
+      "audio_clip": "audio_clips/edge_060.wav",
+      "audio_start": 474.3893333333335,
+      "audio_duration": 13.594666666666667,
+      "image": null
+    },
+    {
+      "index": 61,
+      "from": "modern_of_ayurveda",
+      "from_label": "modernization of ayurveda",
+      "to": "traditional_ayurveda_practice",
+      "to_label": "Traditional Ayurvedic practices",
+      "verb": "consists of",
+      "subtitle": "Modernization of Ayurveda incorporates traditional practices through initiatives such as national programs on Ayurvedic biology and digital health support systems.",
+      "audio_clip": "audio_clips/edge_061.wav",
+      "audio_start": 487.9840000000002,
+      "audio_duration": 12.165333333333333,
+      "image": null
+    },
+    {
+      "index": 62,
+      "from": "bridging_ayurveda_title",
+      "from_label": "Bridging Ayurveda title",
+      "to": "traditional_ayurveda_practice",
+      "to_label": "Traditional Ayurvedic practices",
+      "verb": "connects",
+      "subtitle": "The title \"Bridging Ayurveda\" emphasizes connecting traditional Ayurvedic practices with modern methodologies, enhancing their integration and effectiveness.",
+      "audio_clip": "audio_clips/edge_062.wav",
+      "audio_start": 500.1493333333335,
+      "audio_duration": 11.589333333333334,
+      "image": null
+    },
+    {
+      "index": 63,
+      "from": "alternat_therapy",
+      "from_label": "Alternative and complementary therapy",
+      "to": "conventional_treat",
+      "to_label": "Conventional medical treatments",
+      "verb": "integrates with",
+      "subtitle": "Alternative and complementary therapies integrate with conventional medical treatments, aiming to develop robust clinical protocols for comparative effectiveness studies.",
+      "audio_clip": "audio_clips/edge_063.wav",
+      "audio_start": 511.73866666666686,
+      "audio_duration": 11.482666666666667,
+      "image": null
+    },
+    {
+      "index": 64,
+      "from": "modern_of_ayurveda",
+      "from_label": "modernization of ayurveda",
+      "to": "enhanced_effect",
+      "to_label": "Enhanced effectiveness",
+      "verb": "produces",
+      "subtitle": "Modernization of Ayurveda enhances the effectiveness of traditional practices, although many efforts have not yet produced significant impacts.",
+      "audio_clip": "audio_clips/edge_064.wav",
+      "audio_start": 523.2213333333335,
+      "audio_duration": 10.288,
+      "image": null
+    },
+    {
+      "index": 65,
+      "from": "modern_of_ayurveda",
+      "from_label": "modernization of ayurveda",
+      "to": "broader_application",
+      "to_label": "broader application",
+      "verb": "produces",
+      "subtitle": "and efforts to modernize it aim to broaden its applications within contemporary healthcare settings, seeking to improve patient outcomes.",
+      "audio_clip": "audio_clips/edge_065.wav",
+      "audio_start": 533.5093333333335,
+      "audio_duration": 9.818666666666667,
+      "image": null
+    },
+    {
+      "index": 66,
+      "from": "dietary_recommendation",
+      "from_label": "Dietary recommendations",
+      "to": "balance_harmony",
+      "to_label": "balance harmony",
+      "verb": "produces",
+      "subtitle": "Dietary recommendations in Ayurveda promote balance and harmony within the body, aligning with holistic health principles.",
+      "audio_clip": "audio_clips/edge_066.wav",
+      "audio_start": 543.3280000000002,
+      "audio_duration": 8.816,
+      "image": null
+    },
+    {
+      "index": 67,
+      "from": "ayurvedic_principle",
+      "from_label": "Ayurvedic principles",
+      "to": "modern_healthcare_framework",
+      "to_label": "Modern healthcare frameworks",
+      "verb": "fits into",
+      "subtitle": "Ayurvedic principles can be integrated into modern healthcare frameworks, fostering a collaborative environment between traditional and contemporary medical practices.",
+      "audio_clip": "audio_clips/edge_067.wav",
+      "audio_start": 552.1440000000002,
+      "audio_duration": 11.248,
+      "image": null
+    },
+    {
+      "index": 68,
+      "from": "ayurvedic_recognition",
+      "from_label": "Growing recognition of Ayurvedic medicine",
+      "to": "global_community",
+      "to_label": "Global healthcare community",
+      "verb": "improves",
+      "subtitle": "Growing recognition of Ayurvedic medicine positively influences the global healthcare community, promoting a more inclusive approach to healing.",
+      "audio_clip": "audio_clips/edge_068.wav",
+      "audio_start": 563.3920000000003,
+      "audio_duration": 10.074666666666667,
+      "image": null
+    },
+    {
+      "index": 69,
+      "from": "term_evidence",
+      "from_label": "Term 'evidence' in Ayurveda",
+      "to": "support_refute_claim",
+      "to_label": "support refute claims",
+      "verb": "consists of",
+      "subtitle": "The term 'evidence' in Ayurveda encompasses support and refutation of claims, reflecting the ongoing debate over its scientific validity.",
+      "audio_clip": "audio_clips/edge_069.wav",
+      "audio_start": 573.4666666666669,
+      "audio_duration": 9.861333333333333,
+      "image": null
+    },
+    {
+      "index": 70,
+      "from": "fundamental_principle",
+      "from_label": "Fundamental principle",
+      "to": "unique_characteristic",
+      "to_label": "Unique physical and psychological characteristics",
+      "verb": "operates on",
+      "subtitle": "Fundamental principles in Ayurveda operate based on unique physical and psychological characteristics, distinguishing individual health profiles.",
+      "audio_clip": "audio_clips/edge_070.wav",
+      "audio_start": 583.3280000000002,
+      "audio_duration": 10.288,
+      "image": null
+    },
+    {
+      "index": 71,
+      "from": "three_dosha",
+      "from_label": "Three doshas: Vata, Pitta, and Kapha",
+      "to": "energy_governing_function",
+      "to_label": "Energies governing the functions of the body",
+      "verb": "consists of",
+      "subtitle": "The three doshas—Vata, Pitta, and Kapha—are energetic forces governing various bodily functions, including metabolism and emotional responses.",
+      "audio_clip": "audio_clips/edge_071.wav",
+      "audio_start": 593.6160000000002,
+      "audio_duration": 11.269333333333334,
+      "image": null
+    },
+    {
+      "index": 72,
+      "from": "dietary_recommendation",
+      "from_label": "Dietary recommendations",
+      "to": "prakriti_type",
+      "to_label": "Prakriti type",
+      "verb": "depends on",
+      "subtitle": "Dietary recommendations depend on an individual's prakriti type, reflecting their unique body constitution.",
+      "audio_clip": "audio_clips/edge_072.wav",
+      "audio_start": 604.8853333333335,
+      "audio_duration": 8.282666666666668,
+      "image": null
+    },
+    {
+      "index": 73,
+      "from": "prakriti_approach",
+      "from_label": "Prakriti approach in Ayurveda",
+      "to": "fundamental_principle",
+      "to_label": "Fundamental principle",
+      "verb": "consists of",
+      "subtitle": "This principle underpins the prakriti approach in Ayurveda, guiding personalized health strategies.",
+      "audio_clip": "audio_clips/edge_073.wav",
+      "audio_start": 613.1680000000001,
+      "audio_duration": 7.493333333333333,
+      "image": null
+    },
+    {
+      "index": 74,
+      "from": "data_analytic",
+      "from_label": "Data and analytics",
+      "to": "predict_potential_issue",
+      "to_label": "Prediction of potential health issues",
+      "verb": "enables",
+      "subtitle": "Data analytics enables predicting potential health issues, aiding proactive care in Ayurvedic studies.",
+      "audio_clip": "audio_clips/edge_074.wav",
+      "audio_start": 620.6613333333335,
+      "audio_duration": 8.133333333333333,
+      "image": null
+    },
+    {
+      "index": 75,
+      "from": "data_analytic",
+      "from_label": "Data and analytics",
+      "to": "personalized_treatment",
+      "to_label": "personalized treatments",
+      "verb": "enables",
+      "subtitle": "and by analyzing data, tailored personalized treatments can be developed, addressing individual health needs.",
+      "audio_clip": "audio_clips/edge_075.wav",
+      "audio_start": 628.7946666666668,
+      "audio_duration": 8.090666666666667,
+      "image": null
+    },
+    {
+      "index": 76,
+      "from": "ayurvedic_practice",
+      "from_label": "Ayurvedic practice",
+      "to": "home_remedy",
+      "to_label": "home remedies",
+      "verb": "contains",
+      "subtitle": "Ayurvedic practices include home remedies, focusing on restoring overall health through natural means.",
+      "audio_clip": "audio_clips/edge_076.wav",
+      "audio_start": 636.8853333333335,
+      "audio_duration": 8.069333333333333,
+      "image": null
+    },
+    {
+      "index": 77,
+      "from": "data_analytic",
+      "from_label": "Data and analytics",
+      "to": "tailored_intervention",
+      "to_label": "Tailored interventions",
+      "verb": "enables",
+      "subtitle": "Data analytics supports the development of tailored interventions, enhancing the effectiveness of Ayurvedic care.",
+      "audio_clip": "audio_clips/edge_077.wav",
+      "audio_start": 644.9546666666669,
+      "audio_duration": 8.346666666666666,
+      "image": null
+    },
+    {
+      "index": 78,
+      "from": "home_remedy",
+      "from_label": "home remedies",
+      "to": "overall_health",
+      "to_label": "Overall health",
+      "verb": "maintains",
+      "subtitle": "Home remedies maintain overall health by addressing various aspects of well-being in an integrated manner.",
+      "audio_clip": "audio_clips/edge_078.wav",
+      "audio_start": 653.3013333333336,
+      "audio_duration": 7.664,
+      "image": null
+    },
+    {
+      "index": 79,
+      "from": "scientific_evaluation",
+      "from_label": "Scientific evaluation of Ayurvedic practices and medicines",
+      "to": "empir_evidence",
+      "to_label": "Empirical evidence",
+      "verb": "produces",
+      "subtitle": "Scientific evaluation of Ayurvedic practices yields empirical evidence, validating traditional medical knowledge.",
+      "audio_clip": "audio_clips/edge_079.wav",
+      "audio_start": 660.9653333333335,
+      "audio_duration": 9.050666666666666,
+      "image": null
+    },
+    {
+      "index": 80,
+      "from": "rigor_testing_method",
+      "from_label": "Rigorous testing methods",
+      "to": "efficacy_and_safety",
+      "to_label": "Efficacy and safety",
+      "verb": "achieves",
+      "subtitle": "Rigorous testing methods ensure the efficacy and safety of Ayurvedic medicines, enhancing patient trust.",
+      "audio_clip": "audio_clips/edge_080.wav",
+      "audio_start": 670.0160000000002,
+      "audio_duration": 8.197333333333333,
+      "image": null
+    },
+    {
+      "index": 81,
+      "from": "validate_treatment",
+      "from_label": "Validation of Ayurvedic treatments",
+      "to": "rigor_inquiry",
+      "to_label": "Rigorous scientific inquiry",
+      "verb": "relates",
+      "subtitle": "Rigorous scientific inquiry validates Ayurvedic treatments, ensuring they meet modern standards of effectiveness.",
+      "audio_clip": "audio_clips/edge_081.wav",
+      "audio_start": 678.2133333333335,
+      "audio_duration": 8.432,
+      "image": null
+    },
+    {
+      "index": 82,
+      "from": "bridging_ayurveda_title",
+      "from_label": "Bridging Ayurveda title",
+      "to": "modern_scientific_methodology",
+      "to_label": "Modern scientific methodologies",
+      "verb": "connects",
+      "subtitle": "Bridging Ayurveda with modern scientific methodologies fosters integration into global healthcare frameworks.",
+      "audio_clip": "audio_clips/edge_082.wav",
+      "audio_start": 686.6453333333335,
+      "audio_duration": 8.496,
+      "image": null
+    },
+    {
+      "index": 83,
+      "from": "systematic_documentation",
+      "from_label": "systematic documentation",
+      "to": "evidence_based_practice",
+      "to_label": "Evidence-based practices",
+      "verb": "contains",
+      "subtitle": "Systematic documentation includes evidence-based practices, advancing Ayurveda with robust scientific rigor.",
+      "audio_clip": "audio_clips/edge_083.wav",
+      "audio_start": 695.1413333333335,
+      "audio_duration": 8.901333333333334,
+      "image": null
+    },
+    {
+      "index": 84,
+      "from": "epistemologic_sensit_method",
+      "from_label": "Epistemologically sensitive methods",
+      "to": "ayurveda",
+      "to_label": "Ayurveda",
+      "verb": "relates",
+      "subtitle": "Epistemologically sensitive methods relate to Ayurveda by ensuring rigorous experimentation and adherence to good practices.",
+      "audio_clip": "audio_clips/edge_084.wav",
+      "audio_start": 704.0426666666668,
+      "audio_duration": 9.370666666666667,
+      "image": null
+    },
+    {
+      "index": 85,
+      "from": "integration_of_ayurveda",
+      "from_label": "Integration of Ayurveda with evidence-based practices",
+      "to": "contemporary_scientific_method",
+      "to_label": "Contemporary scientific methods",
+      "verb": "consists of",
+      "subtitle": "The integration of Ayurveda with contemporary scientific methods aims to align traditional practices with evidence-based standards.",
+      "audio_clip": "audio_clips/edge_085.wav",
+      "audio_start": 713.4133333333335,
+      "audio_duration": 9.733333333333333,
+      "image": null
+    },
+    {
+      "index": 86,
+      "from": "integration_of_ayurveda",
+      "from_label": "Integration of Ayurveda with evidence-based practices",
+      "to": "validate_and_enhance_effect",
+      "to_label": "validate and enhance effectiveness",
+      "verb": "achieves",
+      "subtitle": "and integrating Ayurveda with evidence-based practices validates and enhances the effectiveness of its treatments and drug qualities.",
+      "audio_clip": "audio_clips/edge_086.wav",
+      "audio_start": 723.1466666666669,
+      "audio_duration": 9.52,
+      "image": null
+    },
+    {
+      "index": 87,
+      "from": "effect",
+      "from_label": "effectiveness",
+      "to": "approach",
+      "to_label": "Approach for validating Ayurveda",
+      "verb": "enhance",
+      "subtitle": "Enhancing the approach for validating Ayurveda involves improving its effectiveness through modern scientific methods.",
+      "audio_clip": "audio_clips/edge_087.wav",
+      "audio_start": 732.6666666666669,
+      "audio_duration": 8.752,
+      "image": null
+    }
+  ],
+  "questions": []
+}

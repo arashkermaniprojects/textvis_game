@@ -1,0 +1,117 @@
+{
+  "metric": "label_proximity",
+  "threshold": 1.5,
+  "lectures": [
+    {
+      "basename": "alphafold_jumper_2021",
+      "num_nodes": 76,
+      "mean_nearest_neighbor_dist": 4.551,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "attention_is_all_you_need_vaswani_2017",
+      "num_nodes": 94,
+      "mean_nearest_neighbor_dist": 4.599,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "ayurvedic_medicine_epma_journal_2014",
+      "num_nodes": 105,
+      "mean_nearest_neighbor_dist": 1.387,
+      "pairs_within_threshold": 58,
+      "threshold": 1.5
+    },
+    {
+      "basename": "dna_structure_watson_crick_1953",
+      "num_nodes": 79,
+      "mean_nearest_neighbor_dist": 4.616,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "english_literature_critical_inquiry_2023",
+      "num_nodes": 69,
+      "mean_nearest_neighbor_dist": 5.107,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "fuzzy_logic_zadeh_1965_information_control",
+      "num_nodes": 36,
+      "mean_nearest_neighbor_dist": 1.05,
+      "pairs_within_threshold": 25,
+      "threshold": 1.5
+    },
+    {
+      "basename": "game_dev_pcg_survey_aiide_2024",
+      "num_nodes": 91,
+      "mean_nearest_neighbor_dist": 1.397,
+      "pairs_within_threshold": 45,
+      "threshold": 1.5
+    },
+    {
+      "basename": "gravitational_waves_ligo_2016",
+      "num_nodes": 61,
+      "mean_nearest_neighbor_dist": 1.455,
+      "pairs_within_threshold": 21,
+      "threshold": 1.5
+    },
+    {
+      "basename": "marketing_generative_ai_future_2024",
+      "num_nodes": 68,
+      "mean_nearest_neighbor_dist": 1.137,
+      "pairs_within_threshold": 77,
+      "threshold": 1.5
+    },
+    {
+      "basename": "mathematical_theory_communication_shannon_1948",
+      "num_nodes": 76,
+      "mean_nearest_neighbor_dist": 4.569,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "on_computable_numbers_turing_1936",
+      "num_nodes": 85,
+      "mean_nearest_neighbor_dist": 4.458,
+      "pairs_within_threshold": 0,
+      "threshold": 1.5
+    },
+    {
+      "basename": "price_optimization_algorithmic_pricing_nber_2024",
+      "num_nodes": 89,
+      "mean_nearest_neighbor_dist": 0.949,
+      "pairs_within_threshold": 196,
+      "threshold": 1.5
+    },
+    {
+      "basename": "prospect_theory_kahneman_tversky_1979",
+      "num_nodes": 74,
+      "mean_nearest_neighbor_dist": 1.086,
+      "pairs_within_threshold": 105,
+      "threshold": 1.5
+    },
+    {
+      "basename": "psychology_marketing_nudges_nature_2023",
+      "num_nodes": 97,
+      "mean_nearest_neighbor_dist": 1.477,
+      "pairs_within_threshold": 30,
+      "threshold": 1.5
+    },
+    {
+      "basename": "special_relativity_einstein_1905",
+      "num_nodes": 70,
+      "mean_nearest_neighbor_dist": 1.25,
+      "pairs_within_threshold": 46,
+      "threshold": 1.5
+    }
+  ],
+  "aggregate": {
+    "num_lectures": 15,
+    "total_nodes": 1170,
+    "mean_nearest_neighbor_dist": 2.605866666666666,
+    "total_close_pairs": 603
+  }
+}
